@@ -1,0 +1,4712 @@
+{
+    "turn": 0,
+    "year": 2023,
+    "historical_diplomacy": true,
+    "provinces": [
+        {
+            "population_limit": 71778.564453125,
+            "river": true,
+            "water": true,
+            "uuid": "28b26507-d57c-40d3-ac5b-f2bd97106523"
+        },
+        {
+            "population_limit": 47441.40625,
+            "resource_rule": [],
+            "uuid": "8403d018-6575-4eff-a70e-85913e9a39e3",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 50594.482421875,
+            "resource_rule": [],
+            "uuid": "a81c8348-ae01-48b1-83f5-9fd5cfc86d89",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 50264.892578125,
+            "resource_rule": [],
+            "uuid": "f3a57b91-1c83-42fa-aa7b-66f94853bf5c",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 72600.09765625,
+            "resource_rule": [],
+            "uuid": "3cb6fd9b-26e0-4974-a51c-3c11049a0196",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 55367.431640625,
+            "resource_rule": [],
+            "uuid": "c2762026-164e-4305-8f8a-21773fee6121",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 76312.255859375,
+            "resource_rule": [],
+            "uuid": "a3b9a35b-efd1-473f-b586-095ab5ee405a",
+            "owner": "civilization_31"
+        },
+        {
+            "population_limit": 50013.427734375,
+            "resource_rule": [],
+            "uuid": "3737daa9-8d0f-48aa-a1ee-84382c3d4e44",
+            "owner": "civilization_31"
+        },
+        {
+            "population_limit": 46475.830078125,
+            "resource_rule": [],
+            "uuid": "aa507fcc-b4fa-4916-b020-268da42cf5de",
+            "owner": "civilization_31"
+        },
+        {
+            "population_limit": 42889.404296875,
+            "resource_rule": [],
+            "uuid": "6a3b6173-63de-4cdf-aa4c-a60a51d9dee1",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 60755.615234375,
+            "resource_rule": [],
+            "uuid": "d743da67-14ba-4339-b780-2b2682a66f25",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 72303.466796875,
+            "resource_rule": [],
+            "uuid": "65b47bec-e083-4191-8376-8dc1638868d4",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 42827.1484375,
+            "resource_rule": [],
+            "uuid": "4671c149-4ee7-467c-8363-53849c9ba458",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 53939.208984375,
+            "resource_rule": [],
+            "uuid": "1f16ca09-71bd-4a92-b108-cba0fcf7f40e",
+            "owner": "civilization_25"
+        },
+        {
+            "population_limit": 58001.708984375,
+            "resource_rule": [],
+            "uuid": "30ace5d5-76ff-4679-aa2c-2171d1c117f2",
+            "owner": "civilization_25"
+        },
+        {
+            "population_limit": 57264.404296875,
+            "resource_rule": [],
+            "uuid": "256ec408-e5b4-4625-9d21-cc385bce12c5",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 74173.583984375,
+            "resource_rule": [],
+            "uuid": "40cd9eed-2816-4187-ba68-2e525a9f0894",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 52222.900390625,
+            "resource_rule": [],
+            "uuid": "d1347e3f-b46f-466c-9cb4-e8a488bca510",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 73128.662109375,
+            "resource_rule": [],
+            "uuid": "0f6ce11c-9574-4d88-ba41-20d73c1f7aeb",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 41087.646484375,
+            "resource_rule": [],
+            "uuid": "70728d10-c29f-480d-86a5-1f16e395a009",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 57664.794921875,
+            "resource_rule": [],
+            "uuid": "b339eb88-5821-4b2f-b2ee-d266cfa22e87",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 69130.859375,
+            "resource_rule": [],
+            "uuid": "df35fb9b-64eb-482d-9f1b-3f0d29a9aeaf",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 43470.458984375,
+            "resource_rule": [],
+            "uuid": "13b679fe-1319-4384-a736-fb55d02998d1",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 57264.404296875,
+            "resource_rule": [],
+            "uuid": "4f5331a6-b042-4b5d-997b-0fdce11b383b",
+            "owner": "civilization_27"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "0503229f-aedb-4fc4-b5ed-1305f49571ea",
+            "resource_rule": [],
+            "population_limit": 56365,
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 44855.95703125,
+            "resource_rule": [],
+            "uuid": "29ce1960-d128-4959-8fc9-f3a6b910c813",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 60258.7890625,
+            "resource_rule": [],
+            "uuid": "d2c8bb83-6eb5-4b7f-a16d-0a20605737b1",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 76643.06640625,
+            "resource_rule": [],
+            "uuid": "f49e0b06-5e4b-4b2a-adf1-ff89580557ec",
+            "owner": "civilization_27"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "000b6677-25b4-4eef-b6f7-e1d798798bf6",
+            "resource_rule": [],
+            "population_limit": 44073,
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 58969.7265625,
+            "resource_rule": [],
+            "uuid": "81f30709-99e7-48c1-9456-76bb5ebf4d1c",
+            "owner": "civilization_27"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 61915,
+            "resource_rule": [],
+            "uuid": "c25fbe22-a13e-4106-8947-707fbebbc1c3",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 52576.904296875,
+            "resource_rule": [],
+            "uuid": "3edee71d-0e0f-4e3d-92b6-6622b4d63698",
+            "owner": "civilization_27"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 74887,
+            "resource_rule": [],
+            "uuid": "9251975c-2188-4945-97cc-b910ab5dc53d",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 66689.453125,
+            "resource_rule": [],
+            "uuid": "016ff45e-1e45-4455-a592-406e2e5d03e3",
+            "owner": "civilization_27"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "103f3e58-b0c4-4e36-ad4d-13bb1d440d73",
+            "resource_rule": [],
+            "population_limit": 50222,
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 77393.798828125,
+            "resource_rule": [],
+            "uuid": "a30adea3-e9ba-4310-b25e-03229fd9f1ef",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 78802.490234375,
+            "resource_rule": [],
+            "uuid": "57d685f8-1d88-484f-8a65-19b597b30851",
+            "owner": "civilization_27"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "7978a31f-def6-4611-89d2-44f388f7d810",
+            "resource_rule": [],
+            "population_limit": 77114,
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 60643.310546875,
+            "resource_rule": [],
+            "uuid": "e53e8085-c956-4c17-ab61-accdc534da31",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 76439.208984375,
+            "resource_rule": [],
+            "uuid": "9b7f2425-5fb2-4aa2-8057-a2a067722654",
+            "owner": "civilization_27"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "a039723d-b3aa-43fa-a583-7258eef582ea",
+            "resource_rule": [],
+            "population_limit": 44565,
+            "owner": "civilization_27"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "dfd60dff-b1f8-4aab-99ba-f14ed0ae4e7e",
+            "resource_rule": [],
+            "population_limit": 49645,
+            "owner": "civilization_25"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "b62517e0-3c25-4a6c-b3e4-dbb65af13eda",
+            "resource_rule": [],
+            "population_limit": 58033,
+            "owner": "civilization_25"
+        },
+        {
+            "population_limit": 45954.58984375,
+            "resource_rule": [],
+            "uuid": "28721411-60b5-4d8c-a5f3-a3842c9151f4",
+            "owner": "civilization_25"
+        },
+        {
+            "population_limit": 51047.36328125,
+            "resource_rule": [],
+            "uuid": "cee48a00-c5b6-438d-824f-fff99b6c5ca0",
+            "owner": "civilization_25"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "90880f9e-1382-4876-9e19-9b6adbe4d723",
+            "resource_rule": [],
+            "population_limit": 44882,
+            "owner": "civilization_25"
+        },
+        {
+            "population_limit": 68980.712890625,
+            "resource_rule": [],
+            "uuid": "4c793e89-94a5-4cf2-b5f5-34be35d4b8b7",
+            "owner": "civilization_25"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "eb4b4160-9043-4845-b288-8f966605c464",
+            "resource_rule": [],
+            "population_limit": 61032,
+            "owner": "civilization_25"
+        },
+        {
+            "population_limit": 68378.90625,
+            "resource_rule": [],
+            "uuid": "e06c0cfb-a896-4c5f-bb44-e03350770dcc",
+            "owner": "civilization_25"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 66198,
+            "resource_rule": [],
+            "uuid": "b477ca18-e5bd-404f-82bc-c50a059bf917",
+            "owner": "civilization_25"
+        },
+        {
+            "population_limit": 42052.001953125,
+            "resource_rule": [],
+            "uuid": "e357648c-70b5-4b4a-b39a-c92e21300574",
+            "owner": "civilization_25"
+        },
+        {
+            "population_limit": 59901.123046875,
+            "resource_rule": [],
+            "uuid": "1bc17046-c4f6-4641-a430-12540e2c406e",
+            "owner": "civilization_25"
+        },
+        {
+            "population_limit": 70107.421875,
+            "resource_rule": [],
+            "uuid": "0e826734-4428-4e1b-8749-89c65b53eded",
+            "owner": "civilization_25"
+        },
+        {
+            "population_limit": 48287.353515625,
+            "resource_rule": [],
+            "uuid": "2b264bdc-1074-4a1f-ba85-bf77d8d5c443",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 67171.630859375,
+            "resource_rule": [],
+            "uuid": "e9a3258b-792b-44ba-ad14-ae56db3e2595",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 70775.146484375,
+            "resource_rule": [],
+            "uuid": "168c30af-8a61-4897-9437-d531a92ebdac",
+            "owner": "civilization_34"
+        },
+        {
+            "population_limit": 57611.083984375,
+            "resource_rule": [],
+            "uuid": "72f2c454-3e0d-4b15-91b3-ee89e61ecbe0",
+            "owner": "civilization_34"
+        },
+        {
+            "population_limit": 68903.80859375,
+            "resource_rule": [],
+            "uuid": "4dc666dc-b70b-4f55-b1a6-f60cef65298d",
+            "owner": "civilization_34"
+        },
+        {
+            "population_limit": 45388.18359375,
+            "resource_rule": [],
+            "uuid": "5fdc0beb-c703-4127-bf3d-98e42248a441",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 47558.59375,
+            "resource_rule": [],
+            "uuid": "3610b891-9108-4e00-9f8c-3c590046a9a0",
+            "owner": "civilization_34"
+        },
+        {
+            "population_limit": 58038.330078125,
+            "resource_rule": [],
+            "uuid": "d8160301-2e83-4030-a234-c3d919040e17",
+            "owner": "civilization_34"
+        },
+        {
+            "population_limit": 40063.4765625,
+            "resource_rule": [],
+            "uuid": "ab85161a-585d-4bca-960b-51ec19e3ba17",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 40291.748046875,
+            "resource_rule": [],
+            "uuid": "dec50a2e-7ef0-4f67-9ac9-94cb0de2b92e",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 60595.703125,
+            "resource_rule": [],
+            "uuid": "27917d02-f759-488b-8841-99ddcee07fa4",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 57005.615234375,
+            "resource_rule": [],
+            "uuid": "fabb7211-6992-48b8-8a5e-656d93eaac2d",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 74935.302734375,
+            "resource_rule": [],
+            "uuid": "f4762b6c-56d8-48e0-b355-c7b3da0ceeab",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 42310.791015625,
+            "resource_rule": [],
+            "uuid": "853a3320-6ecd-4a0c-a1c7-b8d5d0d9f24d",
+            "owner": "civilization_16"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "83036a0d-bcaa-4bba-8bd4-ece5d868b94a",
+            "resource_rule": [],
+            "population_limit": 48780,
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 47313.232421875,
+            "resource_rule": [],
+            "uuid": "b7047139-abde-4458-af8f-c8b98c8ad1ab",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 66700.439453125,
+            "resource_rule": [],
+            "uuid": "dd8554af-ce24-45ed-9987-00d3c07668ac",
+            "owner": "civilization_16"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "34627b0c-84f7-4832-8074-3de9f66bc747",
+            "resource_rule": [],
+            "population_limit": 57154,
+            "owner": "civilization_16"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "072ba2bb-8523-4d91-b380-edcd9f5b2b9c",
+            "resource_rule": [],
+            "population_limit": 79216,
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 74925.537109375,
+            "resource_rule": [],
+            "uuid": "8fc61f6a-88c6-4a7c-ad02-1993a003c940",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 75606.689453125,
+            "resource_rule": [],
+            "uuid": "68beba73-d252-4dbc-a00c-b1d87b21a863",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 49649.658203125,
+            "resource_rule": [],
+            "uuid": "cb7f7d55-42f2-460e-ab72-07d5849514e7",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 40728.759765625,
+            "resource_rule": [],
+            "uuid": "1261affe-d762-4d58-a6c1-379725fffff1",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 63474.12109375,
+            "resource_rule": [],
+            "uuid": "44bffdaa-ecf9-482b-8e7d-6099558a53cd",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 60474.853515625,
+            "resource_rule": [],
+            "uuid": "246c381c-03ac-4b46-89fc-5c68938f738d",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 54211.42578125,
+            "resource_rule": [],
+            "uuid": "0f151edc-5ae2-425f-9346-ccbcc0a239ec",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 77435.302734375,
+            "resource_rule": [],
+            "uuid": "b31f9093-7fa2-4ab6-bcc4-b86be427b3f2",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 58510.7421875,
+            "resource_rule": [],
+            "uuid": "46bdd27f-927f-4b70-a201-ec3058f529de",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 70913.0859375,
+            "resource_rule": [],
+            "uuid": "f539af8c-9f39-4f6c-a6e7-e77e70240104",
+            "owner": "civilization_16"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "2298147b-9940-4778-8aba-fde407985b4f",
+            "resource_rule": [],
+            "population_limit": 63206,
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 48658.447265625,
+            "resource_rule": [],
+            "uuid": "ad1ce2c7-5463-4eeb-95c8-e8d117a7bafe",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 72792.96875,
+            "resource_rule": [],
+            "uuid": "950a6ccc-aa7c-40c0-aea9-a29ce9649e0b",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 76480.712890625,
+            "resource_rule": [],
+            "uuid": "dd240937-8f53-4732-af16-3096372a5b13",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 44462.890625,
+            "resource_rule": [],
+            "uuid": "3e309f32-0abd-4bb7-9486-349cc020f072",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 41406.25,
+            "resource_rule": [],
+            "uuid": "deaf8a95-4d5b-4a6f-b572-d9b199fa3bc4",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 53826.904296875,
+            "resource_rule": [],
+            "uuid": "64ff7372-1b91-4765-857a-d9738c7b24f6",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 69056.396484375,
+            "resource_rule": [],
+            "uuid": "a2eeac5f-ea92-4085-8553-3d27789af8a0",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 59158.935546875,
+            "resource_rule": [],
+            "uuid": "fa79bcb0-ede5-4078-a4e8-1ea29be459bc",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 61693.115234375,
+            "resource_rule": [],
+            "uuid": "360ba6bd-af68-4980-939a-bd4c45128019",
+            "owner": "civilization_32"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "98d93ee9-f789-45df-a86a-ed56239201de",
+            "resource_rule": [],
+            "population_limit": 74924,
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 54659.423828125,
+            "resource_rule": [],
+            "uuid": "1a495748-bff7-4deb-907b-e29baeeebf26",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 71363.525390625,
+            "resource_rule": [],
+            "uuid": "91bb513f-60ea-4760-8074-89c840b5d710",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 50921.630859375,
+            "resource_rule": [],
+            "uuid": "b45b920d-6090-4151-b9e4-0d0039f43e7a",
+            "owner": "civilization_32"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 71030,
+            "resource_rule": [],
+            "uuid": "d2dace5b-fe55-40ed-97d1-5707d7ee5bee",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 50976.5625,
+            "resource_rule": [],
+            "uuid": "9eaf07c9-69c1-4e50-84e9-aa8de7b98bca",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 60463.8671875,
+            "resource_rule": [],
+            "uuid": "259cbb5c-1d9e-42db-853e-09e74d98e609",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 73612.060546875,
+            "resource_rule": [],
+            "uuid": "5363e560-dc57-4579-9f62-d5df52171bcb",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 60562.744140625,
+            "resource_rule": [],
+            "uuid": "f24c0087-659d-4e4a-94e0-d089ac00cfaa",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 66833.49609375,
+            "resource_rule": [],
+            "uuid": "23fea769-74a6-4dbe-b110-9c076ce3cd67",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 67729.4921875,
+            "resource_rule": [],
+            "uuid": "182fa775-fb51-4547-a98b-700c20d82f8f",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 62692.87109375,
+            "resource_rule": [],
+            "uuid": "03b5a3db-022a-4b25-a704-f4cd02083150",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 54519.04296875,
+            "resource_rule": [],
+            "uuid": "9da6f8d3-3009-47d1-a452-7942d8ae97c3",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 59884.033203125,
+            "resource_rule": [],
+            "uuid": "7ddddc94-e61a-4a03-9d54-309ced43ca59",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 68271.484375,
+            "resource_rule": [],
+            "uuid": "cb9f218c-685c-4c47-9456-561c6d5b6957",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 48630.37109375,
+            "resource_rule": [],
+            "uuid": "c42548d0-a4ed-4c01-8081-6c5f75cefac3",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 74099.12109375,
+            "resource_rule": [],
+            "uuid": "2355a1c0-9659-4029-a106-63fd16ed9878",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 48736.572265625,
+            "resource_rule": [],
+            "uuid": "1ffccdba-78d1-4291-9155-2a8c5b54c51b",
+            "owner": "civilization_32"
+        },
+        {
+            "population_limit": 59641.11328125,
+            "resource_rule": [],
+            "uuid": "0a34e472-7930-4793-91d8-f77036fa8f25",
+            "owner": "civilization_33"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 58630,
+            "resource_rule": [],
+            "uuid": "2b4f74ec-c420-40d7-b846-8781c1264640",
+            "owner": "civilization_33"
+        },
+        {
+            "population_limit": 78092.041015625,
+            "resource_rule": [],
+            "uuid": "a69e543a-c1c8-49d5-b5b8-f9aaf09412c3",
+            "owner": "civilization_33"
+        },
+        {
+            "population_limit": 55793.45703125,
+            "resource_rule": [],
+            "uuid": "d42341a2-76b6-4e48-8975-9de56f989413",
+            "owner": "civilization_33"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "c8405e2c-2ef7-4eab-80d8-87488fb864af",
+            "resource_rule": [],
+            "population_limit": 58321,
+            "owner": "civilization_33"
+        },
+        {
+            "population_limit": 52175.29296875,
+            "resource_rule": [],
+            "uuid": "0fea1dec-dcbf-45aa-8109-61b1f9a129a2",
+            "owner": "civilization_33"
+        },
+        {
+            "population_limit": 61278.076171875,
+            "resource_rule": [],
+            "uuid": "93d82b38-4c0c-4784-9a63-6c6195124d6c",
+            "owner": "civilization_33"
+        },
+        {
+            "population_limit": 57042.236328125,
+            "resource_rule": [],
+            "uuid": "7234a88a-671f-4290-8694-84e605f8d3b7",
+            "owner": "civilization_33"
+        },
+        {
+            "population_limit": 75354.00390625,
+            "resource_rule": [],
+            "uuid": "79e4f3e8-567a-4c5f-812b-10869749de09",
+            "owner": "undeveloped_land"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "62d0d014-34a5-42cd-866c-3d84744d687c",
+            "resource_rule": [],
+            "population_limit": 79127,
+            "owner": "civilization_31"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "0ba687d4-1101-433b-8fdb-399c47f4f643",
+            "resource_rule": [],
+            "population_limit": 45101,
+            "owner": "civilization_31"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "75e93729-ba3f-4814-8584-52fc556363c0",
+            "resource_rule": [],
+            "population_limit": 55048,
+            "owner": "civilization_31"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "8875801d-e21f-448b-b40e-4430b7ea4d75",
+            "resource_rule": [],
+            "population_limit": 42359,
+            "owner": "civilization_31"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 66673,
+            "resource_rule": [],
+            "uuid": "53a61573-e932-4c7d-add2-2a460d5f1505",
+            "owner": "civilization_31"
+        },
+        {
+            "population_limit": 61850.5859375,
+            "resource_rule": [],
+            "uuid": "70705424-c961-42e4-b4e9-a99909533159",
+            "owner": "civilization_31"
+        },
+        {
+            "population_limit": 51402.587890625,
+            "resource_rule": [],
+            "uuid": "d31e2e8c-56b3-4e92-9cb8-01261a86543a",
+            "owner": "civilization_31"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 79201,
+            "resource_rule": [],
+            "uuid": "64d29857-3eaf-4f86-a12b-5034371386fe",
+            "owner": "civilization_31"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 61339,
+            "resource_rule": [],
+            "uuid": "77bbfd5b-227e-44d3-b9e7-aaf9d2f97834",
+            "owner": "civilization_31"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "54a5143c-4241-4ed0-8843-a651977e41e7",
+            "resource_rule": [],
+            "population_limit": 53612,
+            "owner": "civilization_31"
+        },
+        {
+            "population_limit": 74862.060546875,
+            "resource_rule": [],
+            "uuid": "df88237f-358e-4ca9-9477-d900433d05d3",
+            "owner": "civilization_31"
+        },
+        {
+            "population_limit": 74536.1328125,
+            "resource_rule": [],
+            "uuid": "eea9c4bd-7908-4c13-a919-fe4aef943add",
+            "owner": "civilization_31"
+        },
+        {
+            "population_limit": 52330.322265625,
+            "resource_rule": [],
+            "uuid": "ddbf5337-52e4-40ce-a5a6-d393c7debf62",
+            "owner": "civilization_31"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "6f8499cb-3bef-45a8-b67d-b579ecf4b44b",
+            "resource_rule": [],
+            "population_limit": 67233,
+            "owner": "civilization_33"
+        },
+        {
+            "population_limit": 41468.505859375,
+            "resource_rule": [],
+            "uuid": "a26aa7e8-df53-4588-9424-1d59cabe2ad9",
+            "owner": "civilization_33"
+        },
+        {
+            "population_limit": 50502.9296875,
+            "resource_rule": [],
+            "uuid": "acc19d94-5f33-40b5-8299-f64f00dc9b9d",
+            "owner": "civilization_33"
+        },
+        {
+            "population_limit": 42463.37890625,
+            "resource_rule": [],
+            "uuid": "54ac1dd5-3dc6-4914-8e4f-afbde287b32a",
+            "owner": "civilization_33"
+        },
+        {
+            "population_limit": 66558.837890625,
+            "resource_rule": [],
+            "uuid": "28ebb598-53b9-404f-8804-2aa6654023ed",
+            "owner": "civilization_33"
+        },
+        {
+            "population_limit": 42839.35546875,
+            "resource_rule": [],
+            "uuid": "b7c7150b-02f0-48d2-b6df-c68655de532b",
+            "owner": "civilization_33"
+        },
+        {
+            "population_limit": 42813.720703125,
+            "resource_rule": [],
+            "uuid": "3bf099e0-d8c0-47ee-a7b9-251efa9e7203",
+            "owner": "civilization_33"
+        },
+        {
+            "population_limit": 52910.15625,
+            "resource_rule": [],
+            "uuid": "b3db8333-a49d-45c6-b523-bb83875ac261",
+            "owner": "civilization_33"
+        },
+        {
+            "population_limit": 63167.724609375,
+            "resource_rule": [],
+            "uuid": "5b73e8fb-db40-45a8-9e90-a8fdd770847a",
+            "owner": "civilization_33"
+        },
+        {
+            "population_limit": 78933.10546875,
+            "resource_rule": [],
+            "uuid": "8291a752-28e6-455d-b0cc-096847c6744d",
+            "owner": "civilization_31"
+        },
+        {
+            "population_limit": 47468.26171875,
+            "resource_rule": [],
+            "uuid": "8d1ffa23-51dc-4966-a7a3-f1dff5431c21",
+            "owner": "civilization_31"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 48027,
+            "resource_rule": [],
+            "uuid": "bc5f2bfe-9518-4991-b5be-1c9e976ba734",
+            "owner": "civilization_33"
+        },
+        {
+            "population_limit": 46899.4140625,
+            "resource_rule": [],
+            "uuid": "64c62050-e3cc-40fe-b48e-b0f72d7bd016",
+            "owner": "civilization_33"
+        },
+        {
+            "population_limit": 71511.23046875,
+            "resource_rule": [],
+            "uuid": "62483d08-0ee0-434f-b438-ff806da1dfa4",
+            "owner": "civilization_33"
+        },
+        {
+            "population_limit": 45375.9765625,
+            "resource_rule": [],
+            "uuid": "d580102f-48d2-4577-a60e-ca97f15cdd68",
+            "owner": "civilization_33"
+        },
+        {
+            "population_limit": 66516.11328125,
+            "resource_rule": [],
+            "uuid": "df3896be-974d-4c7a-b87a-a0881db7eb5f",
+            "owner": "civilization_33"
+        },
+        {
+            "population_limit": 57368.1640625,
+            "resource_rule": [],
+            "uuid": "05c6d873-3f71-4377-949c-f266be881919",
+            "owner": "civilization_31"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "bf5167b2-3869-4dc6-87e9-3e4991b4f398",
+            "resource_rule": [],
+            "population_limit": 54552,
+            "owner": "civilization_31"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 56105,
+            "resource_rule": [],
+            "uuid": "44e779cc-713c-4c77-8140-199e211fe4f7",
+            "owner": "civilization_31"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 65158,
+            "resource_rule": [],
+            "uuid": "bfe8093b-e599-4884-86ec-3dfdd310a2f2",
+            "owner": "civilization_31"
+        },
+        {
+            "population_limit": 77770.99609375,
+            "resource_rule": [],
+            "uuid": "83fb009e-ec70-440d-8424-8e77749945e6",
+            "owner": "civilization_31"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 57868,
+            "resource_rule": [],
+            "uuid": "3022499b-476d-4acf-b75b-d513aa3ffc9f",
+            "owner": "civilization_31"
+        },
+        {
+            "population_limit": 72033.69140625,
+            "resource_rule": [],
+            "uuid": "395423bb-2a8a-4567-9e51-baa0fec80df6",
+            "owner": "civilization_31"
+        },
+        {
+            "population_limit": 41376.953125,
+            "resource_rule": [],
+            "uuid": "cbb46f0b-7ea3-45b4-92ff-65d6ef3e4702",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 52185.05859375,
+            "resource_rule": [],
+            "uuid": "0afdf2f5-931d-4cd9-b5d2-8e9b7c5f5d2d",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 60181.884765625,
+            "resource_rule": [],
+            "uuid": "efc3f8b2-6673-4ab7-afdc-8eae84e4c426",
+            "owner": "civilization_16"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "a0ae2e27-9833-4e90-8cf0-a1394ab63554",
+            "resource_rule": [],
+            "population_limit": 64129,
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 60878.90625,
+            "resource_rule": [],
+            "uuid": "fd9b6aa4-207f-4151-b11a-239e5703847f",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 67651.3671875,
+            "resource_rule": [],
+            "uuid": "04ba0799-8d8b-421d-ba0d-3660cbde0236",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 47893.06640625,
+            "resource_rule": [],
+            "uuid": "b17fff8d-7e5c-46cf-95b9-21768cd5ff29",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 70629.8828125,
+            "resource_rule": [],
+            "uuid": "6117d7a2-a468-43cc-9f8c-a195ec32ab4a",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 76623.53515625,
+            "resource_rule": [],
+            "uuid": "6ce3966d-140e-4841-987d-4ff7499933d4",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 42258.30078125,
+            "resource_rule": [],
+            "uuid": "31c44893-0726-4d56-a815-4c0b4a6ff228",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 75809.326171875,
+            "resource_rule": [],
+            "uuid": "fa747987-44a5-413f-94a9-46e7e0445aaf",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 79860.83984375,
+            "resource_rule": [],
+            "uuid": "691b0fac-42e9-4dac-a295-c2fef92d6d52",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 45373.53515625,
+            "resource_rule": [],
+            "uuid": "6ec743d8-e2dd-4e61-ad52-20a7df3c16d0",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 40506.591796875,
+            "resource_rule": [],
+            "uuid": "e849eeb2-7101-473e-a652-6b38ee93abc4",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 46082.763671875,
+            "resource_rule": [],
+            "uuid": "e28abe26-85b9-40d1-b107-0a4f6037d1ba",
+            "owner": "civilization_17"
+        },
+        {
+            "population_limit": 78442.3828125,
+            "resource_rule": [],
+            "uuid": "1deb4e0b-cea9-409e-a6c3-0d69cc71122f",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 68068.84765625,
+            "resource_rule": [],
+            "uuid": "dd0141c9-8a3a-4b17-b913-ba0a08adace6",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 77174.072265625,
+            "resource_rule": [],
+            "uuid": "ca0f5bfc-dfef-41bc-999f-2e6945634a55",
+            "owner": "civilization_17"
+        },
+        {
+            "population_limit": 61582.03125,
+            "resource_rule": [],
+            "uuid": "d66cd949-5c61-4e4e-b74a-bb865464f502",
+            "owner": "civilization_17"
+        },
+        {
+            "population_limit": 56138.916015625,
+            "resource_rule": [],
+            "uuid": "ad9d67ef-c1ca-4d3f-a929-010dba7b9033",
+            "owner": "civilization_17"
+        },
+        {
+            "population_limit": 60281.982421875,
+            "resource_rule": [],
+            "uuid": "7d0e4cd9-4471-4621-a1eb-3b40516bd1e4",
+            "owner": "civilization_17"
+        },
+        {
+            "population_limit": 50957.03125,
+            "resource_rule": [],
+            "uuid": "557b77ff-1985-42be-ab86-ec51265b5199",
+            "owner": "civilization_17"
+        },
+        {
+            "population_limit": 69990.234375,
+            "resource_rule": [],
+            "uuid": "9537eca2-cd46-4534-bc0b-3a0a5b78b9bb",
+            "owner": "civilization_17"
+        },
+        {
+            "population_limit": 58597.412109375,
+            "resource_rule": [],
+            "uuid": "361068f4-a7d0-4a24-b6dc-82d25850d5da",
+            "owner": "civilization_17"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 78996,
+            "resource_rule": [],
+            "uuid": "57906329-8869-49bf-a48d-67dda77f61ee",
+            "owner": "civilization_16"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 69122,
+            "resource_rule": [],
+            "uuid": "b7cd499c-16c2-425d-bb49-8de80537c3c1",
+            "owner": "civilization_17"
+        },
+        {
+            "population_limit": 54838.8671875,
+            "resource_rule": [],
+            "uuid": "13410c89-8c7f-425f-8be6-4c4400ffad34",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 79227.294921875,
+            "resource_rule": [],
+            "uuid": "eec097bf-fbb2-4fe9-a527-6cf6bab33650",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 51971.435546875,
+            "resource_rule": [],
+            "uuid": "b471b087-f648-444e-9fa0-ca25e9ee0daa",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 44426.26953125,
+            "resource_rule": [],
+            "uuid": "6e5b7443-734e-4097-85b4-0d357fefcb7e",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 49752.197265625,
+            "resource_rule": [],
+            "uuid": "adf0d16c-7b5e-4194-a307-a98f1884e611",
+            "owner": "civilization_18"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "befd1730-12d5-46ca-b547-182097f8e256",
+            "resource_rule": [],
+            "population_limit": 41472,
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 75931.396484375,
+            "resource_rule": [],
+            "uuid": "96a22e5b-9890-4593-b045-47619a9c73d3",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 65549.31640625,
+            "resource_rule": [],
+            "uuid": "5383924e-ac54-4673-83f0-57d061389c45",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 72143.5546875,
+            "resource_rule": [],
+            "uuid": "ca0e88ee-3503-4d94-895b-bd0349012102",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 62717.28515625,
+            "resource_rule": [],
+            "uuid": "b91a6ec4-bb97-4982-9932-97efb2bc1960",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 69825.439453125,
+            "resource_rule": [],
+            "uuid": "60cb66d0-38a5-46e7-b026-cbbc1e7f5206",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 62297.36328125,
+            "resource_rule": [],
+            "uuid": "6edc7735-ca27-4595-9b24-1291d4854893",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 52614.74609375,
+            "resource_rule": [],
+            "uuid": "33141bbc-d20b-4ff1-b886-7a3c72afc45f",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 51098.6328125,
+            "resource_rule": [],
+            "uuid": "3b2d4830-c081-4a69-900f-ed589ff71b73",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 69431.15234375,
+            "resource_rule": [],
+            "uuid": "a2656bab-a166-4297-a37f-be35eb4cb2a3",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 66817.626953125,
+            "resource_rule": [],
+            "uuid": "300e50fa-b559-49a9-bfbf-695126c8d18d",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 56312.255859375,
+            "resource_rule": [],
+            "uuid": "1b23dbf2-7818-41d9-9fde-17516a2238a3",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 66435.546875,
+            "resource_rule": [],
+            "uuid": "0aa7c580-29a4-4e18-9ffa-bade228e9544",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 69519.04296875,
+            "resource_rule": [],
+            "uuid": "96fdc8c6-2905-4856-856c-c623eb041754",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 72077.63671875,
+            "resource_rule": [],
+            "uuid": "43c4766e-547a-4362-8887-55ea2c30bf98",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 72475.5859375,
+            "resource_rule": [],
+            "uuid": "c483e649-1e4d-4991-be80-065fcf1278a1",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 56573.486328125,
+            "resource_rule": [],
+            "uuid": "d4697aa9-ff1c-4a6d-a8d7-314c748c01cc",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 59860.83984375,
+            "resource_rule": [],
+            "uuid": "46c6c35b-fbba-4f7c-83d7-038130487062",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 68862.3046875,
+            "resource_rule": [],
+            "uuid": "028d327d-e44f-4320-9a87-e510a1a9025b",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 68452.1484375,
+            "resource_rule": [],
+            "uuid": "3705b0f2-1d1e-4354-94e2-c499f999db63",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 40351.5625,
+            "resource_rule": [],
+            "uuid": "c4c5db4f-4fc9-437a-b6b4-d1b8c9e23dd8",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 41303.7109375,
+            "resource_rule": [],
+            "uuid": "939f1d42-e38d-402b-987a-a42f4eec9f99",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 62542.724609375,
+            "resource_rule": [],
+            "uuid": "792e3288-303e-4314-ba14-e4bfec4340fd",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 64405.517578125,
+            "resource_rule": [],
+            "uuid": "64eb72b6-98cd-4c48-931a-122cbb745b46",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 68465.576171875,
+            "resource_rule": [],
+            "uuid": "dc827cb2-f91e-4f43-be32-9de6ca43da40",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 68178.7109375,
+            "resource_rule": [],
+            "uuid": "5909ade0-5db5-4db6-ba91-87911d28f669",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 50844.7265625,
+            "resource_rule": [],
+            "uuid": "3c076e67-a612-4633-9ebb-14ff40a30a5a",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 44984.130859375,
+            "resource_rule": [],
+            "uuid": "89022907-3f8f-423c-9147-5e86f9770045",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 73479.00390625,
+            "resource_rule": [],
+            "uuid": "d741e021-51fe-4783-bb8e-9f2f6bdf6a7e",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 63286.1328125,
+            "resource_rule": [],
+            "uuid": "75d1e4da-c6a1-4e9a-9f51-249dab63d95e",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 43902.587890625,
+            "resource_rule": [],
+            "uuid": "533fcae7-6588-47c2-892b-5e86fa10dbd5",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 64184.5703125,
+            "resource_rule": [],
+            "uuid": "f89341d2-ce3b-4611-80da-af7a747e9c61",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 60214.84375,
+            "resource_rule": [],
+            "uuid": "55fa4dc9-5295-4a35-9706-30798c10f47d",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 51711.42578125,
+            "resource_rule": [],
+            "uuid": "cc25043a-5d68-41b5-880e-4b1852dd0f9e",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 67810.05859375,
+            "resource_rule": [],
+            "uuid": "f275aa6c-9936-4f21-a6bc-fc660169d3a0",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 79676.513671875,
+            "resource_rule": [],
+            "uuid": "715b3f83-04c5-4b2e-a5c0-6aca5b13bb50",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 67789.306640625,
+            "resource_rule": [],
+            "uuid": "5951ff48-b805-4da5-a46e-911c42431268",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 79713.134765625,
+            "resource_rule": [],
+            "uuid": "078d0060-66e3-4292-9d53-8922ada4443b",
+            "owner": "civilization_16"
+        },
+        {
+            "population_limit": 72952.880859375,
+            "resource_rule": [],
+            "uuid": "38e54046-e88b-4215-80e7-3c2e2c808cc5",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 72829.58984375,
+            "resource_rule": [],
+            "uuid": "df30edcd-a122-4e2a-9ed6-1c54d14902df",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 74545.8984375,
+            "resource_rule": [],
+            "uuid": "d375a203-f024-4691-9ee7-e5548c715b97",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 64942.626953125,
+            "resource_rule": [],
+            "uuid": "0fdcb6cf-75a3-46ee-a01e-cbe7e0398272",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 48343.505859375,
+            "resource_rule": [],
+            "uuid": "bb1ba328-17cd-4b87-bf41-d61c251a1570",
+            "owner": "civilization_18"
+        },
+        {
+            "population_limit": 59818.115234375,
+            "water": true,
+            "uuid": "e1239755-6645-491a-b5b0-e06de0d5e292"
+        },
+        {
+            "population_limit": 77115.478515625,
+            "resource_rule": [],
+            "uuid": "b4cd660c-1c29-453e-b937-5f59c0ec35e2",
+            "owner": "civilization_10"
+        },
+        {
+            "population_limit": 44245.60546875,
+            "resource_rule": [],
+            "uuid": "eb5aa085-d08b-490c-b7be-42e0e51842c2",
+            "owner": "civilization_10"
+        },
+        {
+            "population_limit": 63232.421875,
+            "resource_rule": [],
+            "uuid": "5bdd5a3f-b88e-4109-bffd-d988efbe8fea",
+            "owner": "civilization_10"
+        },
+        {
+            "population_limit": 66131.591796875,
+            "resource_rule": [],
+            "uuid": "7e33b1d8-6787-41da-8607-7baf42677d53",
+            "owner": "civilization_10"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 74874,
+            "resource_rule": [],
+            "uuid": "4ccad24f-f427-47ba-b532-81c2f4659589",
+            "owner": "civilization_10"
+        },
+        {
+            "population_limit": 65286.865234375,
+            "resource_rule": [],
+            "uuid": "bfb484a6-0143-42e5-8310-597939d03f82",
+            "owner": "civilization_14"
+        },
+        {
+            "population_limit": 57226.5625,
+            "resource_rule": [],
+            "uuid": "d503c0bd-f3a7-4410-a9b6-2581d2a59a9b",
+            "owner": "civilization_14"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 52561,
+            "resource_rule": [],
+            "uuid": "0302319b-6eb9-48dc-a2c1-f6b09c6cbe86",
+            "owner": "civilization_14"
+        },
+        {
+            "population_limit": 71051.025390625,
+            "resource_rule": [],
+            "uuid": "bf496409-dec6-4b79-9f2a-bd473f425367",
+            "owner": "civilization_14"
+        },
+        {
+            "population_limit": 68251.953125,
+            "resource_rule": [],
+            "uuid": "b3d08a5b-a9cf-419e-b272-9406340dd7a5",
+            "owner": "civilization_13"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 60179,
+            "resource_rule": [],
+            "uuid": "6751dee4-6838-4570-89e5-be4fb49fb427",
+            "owner": "civilization_13"
+        },
+        {
+            "population_limit": 49180.908203125,
+            "resource_rule": [],
+            "uuid": "59743a29-1d71-45ee-91df-6fab443c9cbe",
+            "owner": "civilization_12"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "dc24d037-25f3-4f99-b97a-993137c91b36",
+            "resource_rule": [],
+            "population_limit": 61706,
+            "owner": "civilization_12"
+        },
+        {
+            "population_limit": 43878.173828125,
+            "resource_rule": [],
+            "uuid": "3e747dd0-b605-4399-9956-f7ca1387320b",
+            "owner": "civilization_12"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "0517bf78-3ea6-4722-abef-a5edd6085034",
+            "resource_rule": [],
+            "population_limit": 63093,
+            "owner": "civilization_12"
+        },
+        {
+            "population_limit": 53316.650390625,
+            "resource_rule": [],
+            "uuid": "c681cdf4-1d3b-4787-b661-8ac046feaba2",
+            "owner": "civilization_12"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 43869,
+            "resource_rule": [],
+            "uuid": "b43eef36-a2c2-48c2-8368-916236168a46",
+            "owner": "civilization_11"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "49a1e618-312f-4e7a-b8d4-256493811ba6",
+            "resource_rule": [],
+            "population_limit": 54074,
+            "owner": "civilization_11"
+        },
+        {
+            "population_limit": 61289.0625,
+            "resource_rule": [],
+            "uuid": "259eaeab-88cc-4fa6-b802-5d52149f216a",
+            "owner": "civilization_13"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 75902,
+            "resource_rule": [],
+            "uuid": "1b07f827-4e71-4fb0-90e4-60e30f7857db",
+            "owner": "civilization_13"
+        },
+        {
+            "population_limit": 54052.734375,
+            "resource_rule": [],
+            "uuid": "9418a464-fabc-411f-b2fa-f10c783cf47a",
+            "owner": "civilization_13"
+        },
+        {
+            "population_limit": 41346.435546875,
+            "resource_rule": [],
+            "uuid": "8cbc7321-5ffc-436d-b9b5-eec52b29b65e",
+            "owner": "civilization_13"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 51087,
+            "resource_rule": [],
+            "uuid": "593a2d22-657d-4567-9456-b250d713ab70",
+            "owner": "civilization_8"
+        },
+        {
+            "population_limit": 76427.001953125,
+            "resource_rule": [],
+            "uuid": "c6d9a90e-f95c-4a8b-a998-cbf95e2b9f19",
+            "owner": "civilization_8"
+        },
+        {
+            "population_limit": 78885.498046875,
+            "water": true,
+            "uuid": "b019cf24-3a9a-46b3-bfc5-8eec8932cd80"
+        },
+        {
+            "population_limit": 53322.75390625,
+            "resource_rule": [],
+            "uuid": "8fba05d6-864d-4786-b8ea-9608cdbd101b",
+            "owner": "civilization_8"
+        },
+        {
+            "population_limit": 61265.869140625,
+            "resource_rule": [],
+            "uuid": "0adfe4a8-7fed-472f-91dd-ca81e458a15d",
+            "owner": "civilization_8"
+        },
+        {
+            "population_limit": 73583.984375,
+            "resource_rule": [],
+            "uuid": "739b0f47-8a90-4f29-89a7-e0500b25b9e6",
+            "owner": "civilization_8"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 55826,
+            "resource_rule": [],
+            "uuid": "73a0296b-f48a-4c20-b829-1fd884db770d",
+            "owner": "civilization_7"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 48597,
+            "resource_rule": [],
+            "uuid": "79241365-8a36-448b-ae86-41c897dc06ea",
+            "owner": "civilization_7"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "67953601-c242-4cc8-845b-16b17b5f1670",
+            "resource_rule": [],
+            "population_limit": 40516,
+            "owner": "civilization_3"
+        },
+        {
+            "population_limit": 47873.53515625,
+            "resource_rule": [],
+            "uuid": "986d1a01-ee39-404e-9d65-3fa78bcf708a",
+            "owner": "civilization_3"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "e336ddb6-a74c-4d79-ba66-5919ac9e50bc",
+            "resource_rule": [],
+            "population_limit": 55031,
+            "owner": "civilization_11"
+        },
+        {
+            "population_limit": 70150.146484375,
+            "resource_rule": [],
+            "uuid": "e08be455-2611-4b1a-b2d2-31521400a618",
+            "owner": "civilization_11"
+        },
+        {
+            "population_limit": 42185.05859375,
+            "resource_rule": [],
+            "uuid": "cd61acc2-25a7-460f-b906-758bc4e8508e",
+            "owner": "civilization_5"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "b9c576c1-6ff6-4aea-b6b8-b17da045906e",
+            "resource_rule": [],
+            "population_limit": 72408,
+            "owner": "civilization_5"
+        },
+        {
+            "population_limit": 47259.521484375,
+            "resource_rule": [],
+            "uuid": "b0825cba-556d-4879-aca7-32c77ef682d0",
+            "owner": "civilization_5"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "906afa47-7af0-41bf-bed2-ef8ff5cef684",
+            "resource_rule": [],
+            "population_limit": 72598,
+            "owner": "civilization_3"
+        },
+        {
+            "population_limit": 47509.765625,
+            "resource_rule": [],
+            "uuid": "0e23aa16-e1cf-40ac-8f96-3b25edb3394e",
+            "owner": "civilization_3"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "f6140bc9-18b5-47c6-8636-7f42d3846f54",
+            "resource_rule": [],
+            "population_limit": 48175,
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 55437.01171875,
+            "resource_rule": [],
+            "uuid": "3bca8423-beb4-4630-bff1-d41f4e9f60c9",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 69532.470703125,
+            "resource_rule": [],
+            "uuid": "6e59ce9f-2390-4116-a805-b851613b9093",
+            "owner": "civilization_1"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 68643,
+            "resource_rule": [],
+            "uuid": "ec68e4d0-bf28-48c8-89eb-b4d075c71cb1",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 79989.013671875,
+            "resource_rule": [],
+            "uuid": "20fcda28-560b-439d-9e5c-04562bc56b3d",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 41301.26953125,
+            "resource_rule": [],
+            "uuid": "1f5a8c59-a517-4492-ad7c-be29e1c10a19",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 47160.64453125,
+            "resource_rule": [],
+            "uuid": "b209c0f3-a064-445b-a7d0-34ff1f8d2ce7",
+            "owner": "civilization_3"
+        },
+        {
+            "population_limit": 72674.560546875,
+            "resource_rule": [],
+            "uuid": "2d9863a4-4fac-4567-986a-6fa0633f2d9c",
+            "owner": "civilization_3"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "a245fe5c-4bc4-4158-96ad-643c3a782f74",
+            "resource_rule": [],
+            "population_limit": 69417,
+            "owner": "civilization_1"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "f1a048f2-e2cf-497c-854d-c1cd0733b56d",
+            "resource_rule": [],
+            "population_limit": 71658,
+            "owner": "civilization_1"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 70555,
+            "resource_rule": [],
+            "uuid": "d55df58d-2ea7-4ab1-ae80-9205cc91da95",
+            "owner": "civilization_1"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 47923,
+            "resource_rule": [],
+            "uuid": "216548e3-fd9a-4b20-8fd0-9d2e52d6c245",
+            "owner": "civilization_1"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 40892,
+            "resource_rule": [],
+            "uuid": "e8cb0468-c99a-4a28-a607-f3b6ef5e1d09",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 45026.85546875,
+            "resource_rule": [],
+            "uuid": "9183f612-14a9-4fef-ab13-032256d27690",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 68710.9375,
+            "resource_rule": [],
+            "uuid": "b9602188-c5b3-409f-9d15-a41775788539",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 73751.220703125,
+            "resource_rule": [],
+            "uuid": "8b010127-cf94-47ff-8f05-aa76e82095bb",
+            "owner": "civilization_1"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "9ca00b77-416e-4c8a-a057-6c28af97bcad",
+            "resource_rule": [],
+            "population_limit": 57285,
+            "owner": "civilization_1"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 49923,
+            "resource_rule": [],
+            "uuid": "7aa28955-e672-468a-b53c-1eddafbed099",
+            "owner": "civilization_1"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "3c8db839-f34b-4314-96e3-d234dde1e6af",
+            "resource_rule": [],
+            "population_limit": 44689,
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 75137.939453125,
+            "resource_rule": [],
+            "uuid": "04681036-1cd6-4bdc-9bec-d95aea1975bb",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 41176.7578125,
+            "resource_rule": [],
+            "uuid": "54edc64a-dad4-43fb-b703-d0a0661f0160",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 46042.48046875,
+            "resource_rule": [],
+            "uuid": "3c33475e-c1bc-4aa9-9d4e-e259a89cc999",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 77084.9609375,
+            "resource_rule": [],
+            "uuid": "9771a51a-f627-496d-8d2f-62889809cf4d",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 43270.263671875,
+            "resource_rule": [],
+            "uuid": "5866dfa7-c05f-41f3-b7d4-1baa1b7c40c4",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 78090.8203125,
+            "resource_rule": [],
+            "uuid": "89c3112a-e01e-429a-a809-c987f212fec1",
+            "owner": "civilization_1"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "0363f9aa-9faf-47cd-8152-6a9a5752f0bb",
+            "resource_rule": [],
+            "population_limit": 59571,
+            "owner": "civilization_1"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "75d15230-7918-420a-a4ae-72c9e46d019e",
+            "resource_rule": [],
+            "population_limit": 59075,
+            "owner": "civilization_4"
+        },
+        {
+            "population_limit": 43397.216796875,
+            "resource_rule": [],
+            "uuid": "93cdf604-9ff2-4588-9f9a-9f11c013b887",
+            "owner": "civilization_4"
+        },
+        {
+            "population_limit": 77921.142578125,
+            "resource_rule": [],
+            "uuid": "5649a411-f9bf-4308-b8c3-c52427088197",
+            "owner": "civilization_4"
+        },
+        {
+            "population_limit": 63896.484375,
+            "resource_rule": [],
+            "uuid": "4d8bca0c-b991-4877-ac46-7576fbd0032d",
+            "owner": "civilization_4"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "53c3731d-67bd-45c7-b92d-3d17aede0a02",
+            "resource_rule": [],
+            "population_limit": 61298,
+            "owner": "civilization_4"
+        },
+        {
+            "population_limit": 71208.49609375,
+            "resource_rule": [],
+            "uuid": "68bbe884-ec6b-4aae-8850-3a7898a4bed6",
+            "owner": "civilization_4"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 50812,
+            "resource_rule": [],
+            "uuid": "9fcf551e-2350-4243-865c-414e847d93f5",
+            "owner": "civilization_4"
+        },
+        {
+            "population_limit": 56956.787109375,
+            "resource_rule": [],
+            "uuid": "0b221a53-f5fe-4a79-8b7d-df39bcb4c59f",
+            "owner": "civilization_4"
+        },
+        {
+            "population_limit": 64805.908203125,
+            "resource_rule": [],
+            "uuid": "0bd7fd7d-aaa1-4a00-8b9a-e63ea50266ed",
+            "owner": "civilization_4"
+        },
+        {
+            "population_limit": 78961.181640625,
+            "resource_rule": [],
+            "uuid": "79845262-34e3-4b57-91f3-b05e315747e0",
+            "owner": "civilization_4"
+        },
+        {
+            "population_limit": 73754.8828125,
+            "resource_rule": [],
+            "uuid": "70b7201a-cb5c-48b2-8c37-16a97638e201",
+            "owner": "civilization_4"
+        },
+        {
+            "population_limit": 66478.271484375,
+            "resource_rule": [],
+            "uuid": "24934a42-f223-4fb0-91ae-41aa6da5e3c9",
+            "owner": "civilization_4"
+        },
+        {
+            "population_limit": 70339.35546875,
+            "resource_rule": [],
+            "uuid": "3aba684b-83a6-47f3-93b2-cfed38e68600",
+            "owner": "civilization_4"
+        },
+        {
+            "population_limit": 48901.3671875,
+            "water": true,
+            "uuid": "6fad5676-499f-4ce0-b277-b5381bbfe5df"
+        },
+        {
+            "population_limit": 44116.2109375,
+            "resource_rule": [],
+            "uuid": "a3d5820f-3631-4eac-862d-6c162455d05a",
+            "owner": "civilization_9"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 74356,
+            "resource_rule": [],
+            "uuid": "123813a1-7fe9-4657-a649-6969b4002402",
+            "owner": "civilization_9"
+        },
+        {
+            "population_limit": 50200.1953125,
+            "resource_rule": [],
+            "uuid": "a2a04f15-23c8-47d6-a0d8-198d36c76620",
+            "owner": "civilization_9"
+        },
+        {
+            "population_limit": 41392.822265625,
+            "resource_rule": [],
+            "uuid": "0ec12367-8495-4f00-b8a1-75e5f41ffd27",
+            "owner": "civilization_9"
+        },
+        {
+            "population_limit": 56391.6015625,
+            "resource_rule": [],
+            "uuid": "3a154d30-4199-42cc-b33b-dd0fcf38b222",
+            "owner": "civilization_9"
+        },
+        {
+            "population_limit": 71428.22265625,
+            "resource_rule": [],
+            "uuid": "18089c53-71e8-4cc6-931a-fb1bee62b954",
+            "owner": "civilization_9"
+        },
+        {
+            "population_limit": 68934.326171875,
+            "resource_rule": [],
+            "uuid": "e66bbd2d-71bc-477c-947b-9f762ac185d4",
+            "owner": "civilization_6"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 60419,
+            "resource_rule": [],
+            "uuid": "5db5dacc-0945-4c7f-a4b9-3f76f0e2a485",
+            "owner": "civilization_6"
+        },
+        {
+            "population_limit": 58393.5546875,
+            "resource_rule": [],
+            "uuid": "f3499732-1d4f-4e3a-bdd0-238e517ff01f",
+            "owner": "civilization_6"
+        },
+        {
+            "population_limit": 73879.39453125,
+            "resource_rule": [],
+            "uuid": "a59c979a-a8e0-44f2-8895-62cf5372136c",
+            "owner": "civilization_6"
+        },
+        {
+            "population_limit": 79095.458984375,
+            "resource_rule": [],
+            "uuid": "f0c277f7-ab69-46c1-9324-fab35c400edb",
+            "owner": "civilization_6"
+        },
+        {
+            "population_limit": 48719.482421875,
+            "resource_rule": [],
+            "uuid": "21f2c481-8980-4b9a-9d77-0c8b745698c4",
+            "owner": "civilization_6"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "6d10cd0f-010b-4804-bdd3-281db2b75c8f",
+            "resource_rule": {
+                "oil": "enabled"
+            },
+            "population_limit": 63157,
+            "owner": "civilization_25"
+        },
+        {
+            "true_owner": "undeveloped_land",
+            "infrastructure_level": 0,
+            "uuid": "a1745a65-1b68-45ec-88da-3b88a88d08b1",
+            "resource_rule": [],
+            "population_limit": 72548,
+            "owner": "civilization_25"
+        },
+        {
+            "true_owner": "undeveloped_land",
+            "infrastructure_level": 0,
+            "uuid": "33f5949d-ad8a-4370-a39e-f0ff6a8baa94",
+            "resource_rule": [],
+            "population_limit": 78344,
+            "owner": "civilization_25"
+        },
+        {
+            "true_owner": "undeveloped_land",
+            "infrastructure_level": 0,
+            "population_limit": 42784,
+            "resource_rule": [],
+            "uuid": "7cc9bc5d-8895-4a02-a838-6d6542e7d5c4",
+            "owner": "civilization_26"
+        },
+        {
+            "true_owner": "undeveloped_land",
+            "population_limit": 52791.748046875,
+            "resource_rule": [],
+            "uuid": "722a6f1a-9dec-4368-90fa-4a1ab8b48f83",
+            "owner": "civilization_25"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "2087d327-c3fa-412f-b442-7cfd26ec0be8",
+            "resource_rule": {
+                "oil": "enabled"
+            },
+            "population_limit": 66368,
+            "owner": "civilization_25"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "33837bdd-ab5b-41d5-9497-cb48948643f8",
+            "resource_rule": {
+                "oil": "enabled"
+            },
+            "population_limit": 54119,
+            "owner": "civilization_25"
+        },
+        {
+            "population_limit": 66861.572265625,
+            "water": true,
+            "uuid": "08051e59-5a4c-4ea0-86fe-8ff0e061104f"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "6ac1977f-7444-49a4-a460-f5deb848513f",
+            "resource_rule": {
+                "oil": "enabled"
+            },
+            "population_limit": 50528,
+            "owner": "civilization_25"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "17854c77-01cb-4ffe-8267-91a31d0aae78",
+            "resource_rule": {
+                "oil": "enabled"
+            },
+            "population_limit": 71199,
+            "owner": "civilization_21"
+        },
+        {
+            "population_limit": 42139.892578125,
+            "resource_rule": [],
+            "uuid": "59e940be-7aea-4a1d-ab6e-d2f390c0328a",
+            "owner": "civilization_21"
+        },
+        {
+            "population_limit": 66064.453125,
+            "resource_rule": [],
+            "uuid": "9ce80716-c259-4e02-87f2-5b7e92bdc530",
+            "owner": "civilization_21"
+        },
+        {
+            "population_limit": 57241.2109375,
+            "resource_rule": [],
+            "uuid": "3420b2ea-d758-435b-8386-68a31f0bfd04",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 55305.17578125,
+            "resource_rule": [],
+            "uuid": "3bba7fe8-65f5-4796-9c2a-daef6c984be0",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 44978.02734375,
+            "resource_rule": [],
+            "uuid": "4147839f-e62e-4a6a-8a7d-52f9d7423806",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 48406.982421875,
+            "resource_rule": [],
+            "uuid": "35a1d237-0c14-4055-8c71-ab76abfd189b",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 48651.123046875,
+            "resource_rule": [],
+            "uuid": "274d6d46-c832-4257-913f-5c87811d958f",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 52713.623046875,
+            "resource_rule": [],
+            "uuid": "3fa796df-cad3-49bd-b4b8-60f7d24f82f6",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 56977.5390625,
+            "resource_rule": [],
+            "uuid": "a8b275b7-0d7f-4cf0-812f-f006d5f064fe",
+            "owner": "civilization_1"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "fac61698-7275-4ef6-a9e1-5fb9849a4cf5",
+            "resource_rule": [],
+            "population_limit": 42310,
+            "owner": "civilization_1"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 49493,
+            "resource_rule": [],
+            "uuid": "0c640078-8fad-401f-bc45-5af38b9a802a",
+            "owner": "civilization_1"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "43576e94-82e2-4f27-a85a-c2f9a5180b05",
+            "resource_rule": [],
+            "population_limit": 45723,
+            "owner": "civilization_1"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "38be48fd-bc37-4508-88bf-374e92670f26",
+            "resource_rule": [],
+            "population_limit": 61729,
+            "owner": "civilization_1"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 45537,
+            "resource_rule": [],
+            "uuid": "da5dbe8f-2ac6-4de9-9559-0c2bf1bbd663",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 40885.009765625,
+            "resource_rule": [],
+            "uuid": "75c8f1f5-2c39-4bdf-b268-1cbc2f5c637c",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 67799.072265625,
+            "resource_rule": [],
+            "uuid": "713dbdc2-8d6a-4066-b3e1-36e1c9335310",
+            "owner": "civilization_27"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "a9cfae9b-b659-4372-8dfc-2b3d57154585",
+            "resource_rule": [],
+            "population_limit": 48392,
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 41961.669921875,
+            "resource_rule": [],
+            "uuid": "f0d1bedf-b2ed-4554-a5a9-f7d80c70a1b8",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 77145.99609375,
+            "resource_rule": [],
+            "uuid": "b74e722a-f6f4-402a-9573-0b5560e65c17",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 78109.130859375,
+            "resource_rule": [],
+            "uuid": "7bdb30d5-74b9-45b7-870b-9d658a942d6d",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 73074.951171875,
+            "resource_rule": [],
+            "uuid": "fc321013-1d04-4c50-8cc6-c30b3752aa59",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 42409.66796875,
+            "resource_rule": [],
+            "uuid": "bdaf6651-4657-4473-afd2-00184f38d643",
+            "owner": "civilization_27"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "bda8a2c6-9d46-4ea8-b138-c91f60569324",
+            "resource_rule": [],
+            "population_limit": 48326,
+            "owner": "civilization_27"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "8cfa372a-618c-4260-9bf4-be4dc5dd5895",
+            "resource_rule": [],
+            "population_limit": 58947,
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 51566.162109375,
+            "resource_rule": [],
+            "uuid": "fa3b06bc-ad0e-4629-a587-03188c486c78",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 51491.69921875,
+            "resource_rule": [],
+            "uuid": "a159b193-31d4-4a30-9686-8c8e2e433d4a",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 64677.734375,
+            "resource_rule": [],
+            "uuid": "bf736dea-6300-4959-a145-08e575ad29bd",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 47307.12890625,
+            "resource_rule": [],
+            "uuid": "87e64539-4ad9-4b22-a2b0-e9fe80bcd4fe",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 69628.90625,
+            "resource_rule": [],
+            "uuid": "c59bd190-9bcc-4ef9-b566-f3949d4542ec",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 41706.54296875,
+            "resource_rule": [],
+            "uuid": "8853790b-4874-4384-9b0c-120548d20ce4",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 59342.041015625,
+            "resource_rule": [],
+            "uuid": "514077b7-d7db-4dc0-a8b2-3a14e09483db",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 71835.9375,
+            "resource_rule": [],
+            "uuid": "42736624-6d5c-4c3a-acf9-ee36d0427d3d",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 57121.58203125,
+            "resource_rule": [],
+            "uuid": "528d1cac-7e63-45a1-a622-a55a94a04b38",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 76072.998046875,
+            "resource_rule": [],
+            "uuid": "acc026ca-7c33-4dd3-9172-66b8ad4f3446",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 65478.515625,
+            "resource_rule": [],
+            "uuid": "baeabfae-2961-424d-8634-3ef113620c6d",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 66431.884765625,
+            "resource_rule": [],
+            "uuid": "b7ade4bd-d117-4926-8d93-4b39e8a48847",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 52209.47265625,
+            "resource_rule": [],
+            "uuid": "fd2f8eed-0de5-4815-b3bd-6a473cc484ed",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 60505.37109375,
+            "resource_rule": [],
+            "uuid": "abe4e8b3-57c5-4ac7-8c33-2b004478ef70",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 44102.783203125,
+            "resource_rule": [],
+            "uuid": "66d5ddb8-875b-496d-99d8-294e7aacdf2f",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 51738.28125,
+            "resource_rule": [],
+            "uuid": "78f0df78-ab03-4bfa-afd2-58297416ee16",
+            "owner": "civilization_27"
+        },
+        {
+            "river": false,
+            "uuid": "badeb575-1128-45aa-a06e-ec8342f6716a",
+            "infrastructure_level": 0,
+            "population_limit": 59958,
+            "resource_rule": [],
+            "water": false,
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 67230.224609375,
+            "resource_rule": [],
+            "uuid": "fdf64518-ec43-4f2b-8c8f-deae66386db5",
+            "owner": "civilization_27"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "0155332c-7ad5-4732-a426-558253f01c13",
+            "resource_rule": [],
+            "population_limit": 78878,
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 55769.04296875,
+            "resource_rule": [],
+            "uuid": "60731320-f562-4264-85be-1c13205e097c",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 65115.966796875,
+            "resource_rule": [],
+            "uuid": "ec041689-941f-4fa1-a10c-71d9da28c565",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 70441.89453125,
+            "resource_rule": [],
+            "uuid": "7888871f-40c3-4954-8dfa-bd21e1ecd25c",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 54110.107421875,
+            "resource_rule": [],
+            "uuid": "ff87db60-7984-4a09-b23d-9f069f6eea3e",
+            "owner": "civilization_27"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "df852235-2166-4fa5-92c1-6c262d4bba13",
+            "resource_rule": [],
+            "population_limit": 64929,
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 44710.693359375,
+            "resource_rule": [],
+            "uuid": "ff7ca072-9a16-42cf-a25b-5cf96789225a",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 75496.826171875,
+            "resource_rule": [],
+            "uuid": "60dbff33-1739-435a-ad87-5a249fe72e54",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 72185.05859375,
+            "resource_rule": [],
+            "uuid": "180e096d-5a6e-415f-9fa2-99354ba19160",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 76682.12890625,
+            "resource_rule": [],
+            "uuid": "98fb94e3-d7e4-40e5-bcb8-e3be3a49eb6a",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 74409.1796875,
+            "resource_rule": [],
+            "uuid": "ad4d874b-4a18-40df-8386-17dc1e3bac0e",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 66748.046875,
+            "water": true,
+            "uuid": "55645380-8cd4-4c1d-9cf3-36b420ecbda7"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "f51da79b-11e7-4328-850f-eac86127690c",
+            "resource_rule": {
+                "oil": "enabled"
+            },
+            "population_limit": 46729,
+            "owner": "civilization_25"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "a766cb67-c6f0-4a25-85e0-f7e44a0c37d9",
+            "resource_rule": {
+                "oil": "enabled"
+            },
+            "population_limit": 65092,
+            "owner": "civilization_25"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "252eaf9f-760e-4ae4-990c-044b29b6e256",
+            "resource_rule": {
+                "oil": "enabled"
+            },
+            "population_limit": 67188,
+            "owner": "civilization_25"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "b31b8625-fee3-4495-b0b6-8384b39b542d",
+            "resource_rule": {
+                "oil": "enabled"
+            },
+            "population_limit": 68072,
+            "owner": "civilization_25"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "118719b7-89d0-49ff-a418-aba544d2ae76",
+            "resource_rule": {
+                "oil": "enabled"
+            },
+            "population_limit": 47707,
+            "owner": "civilization_25"
+        },
+        {
+            "population_limit": 50523.681640625,
+            "resource_rule": [],
+            "uuid": "ce624a03-e9bb-4da9-bcfa-84d30b0f2c1d",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 51196.2890625,
+            "resource_rule": [],
+            "uuid": "7e8494d9-586b-4068-8401-4b5bfe08ee39",
+            "owner": "civilization_28"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 58978,
+            "resource_rule": [],
+            "uuid": "d888f395-082f-43e3-b9b0-94d04d42a3ff",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 74724.12109375,
+            "resource_rule": [],
+            "uuid": "fcdf0fe3-78a2-45c0-93d6-710aa845f567",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 44720.458984375,
+            "resource_rule": [],
+            "uuid": "307dd943-ae36-4982-9643-4a8c0ef8dff1",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 59497.0703125,
+            "resource_rule": [],
+            "uuid": "442ce645-85e3-4ebc-9d80-5cc1ef5a19d0",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 51477.05078125,
+            "resource_rule": [],
+            "uuid": "fa8cc173-641d-4170-9ac0-e1397541dad6",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 74791.259765625,
+            "resource_rule": [],
+            "uuid": "4555b80d-7d14-40f1-b215-da65b383b61a",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 62532.958984375,
+            "resource_rule": [],
+            "uuid": "af4583a4-b0a5-4a69-a76f-5ab98251ff8e",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 59906.005859375,
+            "resource_rule": [],
+            "uuid": "9c383c1c-031e-4a43-891e-78b21e8a48df",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 45034.1796875,
+            "resource_rule": [],
+            "uuid": "136652a4-06bf-46b2-9748-3fb9a05b5cd0",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 40782.470703125,
+            "resource_rule": [],
+            "uuid": "a6e19d98-dd12-4764-bd89-a412f01da2a9",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 51529.541015625,
+            "resource_rule": [],
+            "uuid": "5620a120-8d0a-4f69-82b9-6b50b67b9712",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 51146.240234375,
+            "resource_rule": [],
+            "uuid": "1cbdac0e-7ed7-4e7f-b7e0-c32f23a048ca",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 59207.763671875,
+            "resource_rule": [],
+            "uuid": "e73a20f1-e1b6-46a4-af9c-903979a4c726",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 46853.02734375,
+            "resource_rule": [],
+            "uuid": "a8972a9b-0a0f-4e95-9297-908094ed6519",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 50751.953125,
+            "resource_rule": [],
+            "uuid": "2ffe5c90-a473-4595-a0e3-0fa4011edb7c",
+            "owner": "civilization_28"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 71577,
+            "resource_rule": [],
+            "uuid": "c0fe2a12-92e8-479f-a4f9-5e6cfd6269fa",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 52446.2890625,
+            "resource_rule": [],
+            "uuid": "183e8c47-b580-45fa-ad4c-966565b8005e",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 57052.001953125,
+            "resource_rule": [],
+            "uuid": "771a0308-6c96-4314-b67e-32464ea74062",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 69860.83984375,
+            "resource_rule": [],
+            "uuid": "2f82a7cd-4253-4211-82d2-203f480caaad",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 46768.798828125,
+            "resource_rule": [],
+            "uuid": "1e5c7405-b934-42c3-8efa-7cde87168911",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 44394.53125,
+            "resource_rule": [],
+            "uuid": "20f9bb62-03c4-46f2-8538-5950641957e6",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 43402.099609375,
+            "resource_rule": [],
+            "uuid": "d96909d9-172d-423d-a04b-594d3e86f9ea",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 79923.095703125,
+            "resource_rule": [],
+            "uuid": "2a66631a-07a6-4754-862c-0377002cd0e1",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 62133.7890625,
+            "resource_rule": [],
+            "uuid": "ec3da4bf-9340-4e31-abb3-c37ac412d146",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 42972.412109375,
+            "resource_rule": [],
+            "uuid": "73b31e86-fba7-460b-a6fe-ccbcd7d70fb9",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 49667.96875,
+            "resource_rule": [],
+            "uuid": "d6454aeb-17ed-4ccb-922f-5412b45e08c1",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 47087.40234375,
+            "resource_rule": [],
+            "uuid": "5025f2bf-9d03-4249-9085-c047c050b0d1",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 66903.076171875,
+            "resource_rule": [],
+            "uuid": "cbf5e265-3103-4b6e-9d59-3ef7a53831d1",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 77460.9375,
+            "resource_rule": [],
+            "uuid": "1ae48156-7ae2-4a2f-b064-e87541e3add3",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 57082.51953125,
+            "resource_rule": [],
+            "uuid": "0153e048-8981-4890-b4e9-d28aec5d96a7",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 40401.611328125,
+            "resource_rule": [],
+            "uuid": "39c8cda6-fa94-4218-9346-913cb3c259dc",
+            "owner": "civilization_28"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 75670,
+            "resource_rule": [],
+            "uuid": "451a9775-b266-46a2-a0ab-f7bf446a45c3",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 58862.3046875,
+            "resource_rule": [],
+            "uuid": "f03fc6b9-aa55-4356-893b-c77cb4fe1024",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 48286.1328125,
+            "resource_rule": [],
+            "uuid": "75b60e3c-9f7b-47e7-8752-33fc31770538",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 65020.751953125,
+            "resource_rule": [],
+            "uuid": "68424c54-1a49-4bb6-b908-afb93c14bed4",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 73768.310546875,
+            "resource_rule": [],
+            "uuid": "b37ca478-7444-4538-91e7-ffe85444e3ab",
+            "owner": "civilization_28"
+        },
+        {
+            "population_limit": 48773.193359375,
+            "resource_rule": [],
+            "uuid": "3ea21e21-e0d1-4e2a-879a-7122da59d347",
+            "owner": "civilization_29"
+        },
+        {
+            "population_limit": 45698.2421875,
+            "resource_rule": [],
+            "uuid": "1792a1e3-6cd0-441d-a026-bf5b8e713214",
+            "owner": "civilization_29"
+        },
+        {
+            "population_limit": 52056.884765625,
+            "resource_rule": [],
+            "uuid": "c1ef4273-7fa6-4165-8384-6ca691294abb",
+            "owner": "civilization_29"
+        },
+        {
+            "population_limit": 52728.271484375,
+            "resource_rule": [],
+            "uuid": "04a04d41-a070-4c99-b17c-18b36f1a7355",
+            "owner": "civilization_29"
+        },
+        {
+            "population_limit": 58016.357421875,
+            "resource_rule": [],
+            "uuid": "6422b1a2-ca63-4ddb-8635-99dc202e41d2",
+            "owner": "civilization_29"
+        },
+        {
+            "population_limit": 40615.234375,
+            "resource_rule": [],
+            "uuid": "2f907b82-3523-4e3d-9018-e0c1037509d4",
+            "owner": "civilization_29"
+        },
+        {
+            "population_limit": 56317.138671875,
+            "resource_rule": [],
+            "uuid": "aa35d319-36ca-42f7-9682-fd773cffe40b",
+            "owner": "civilization_29"
+        },
+        {
+            "population_limit": 62054.443359375,
+            "resource_rule": [],
+            "uuid": "989bcdab-e8d7-4a9d-8fad-b0e189b7b159",
+            "owner": "civilization_29"
+        },
+        {
+            "population_limit": 76301.26953125,
+            "resource_rule": [],
+            "uuid": "28133d54-464f-4819-b72e-723194f26066",
+            "owner": "civilization_29"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 69244,
+            "resource_rule": [],
+            "uuid": "91f15033-3c79-4ada-84d1-388f3b8a3110",
+            "owner": "civilization_29"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "05d868e7-ab20-4f51-a0f7-5813211cf970",
+            "resource_rule": [],
+            "population_limit": 53183,
+            "owner": "civilization_29"
+        },
+        {
+            "population_limit": 63586.42578125,
+            "resource_rule": [],
+            "uuid": "e9ed0b34-9fbf-42c7-bc77-3222f1977c67",
+            "owner": "civilization_29"
+        },
+        {
+            "population_limit": 54138.18359375,
+            "resource_rule": [],
+            "uuid": "bde6b3b8-c84e-4e0c-af20-ac2015724efb",
+            "owner": "civilization_29"
+        },
+        {
+            "population_limit": 71948.2421875,
+            "resource_rule": [],
+            "uuid": "ee85b1ba-2ef1-412e-8ff2-a05a760ced6e",
+            "owner": "civilization_29"
+        },
+        {
+            "population_limit": 65883.7890625,
+            "resource_rule": [],
+            "uuid": "5c53ec75-9aeb-4c14-86ff-3888b0d6e503",
+            "owner": "civilization_29"
+        },
+        {
+            "population_limit": 74692.3828125,
+            "resource_rule": [],
+            "uuid": "9d088ebe-bcc8-4f10-8019-d6ccda014b7a",
+            "owner": "civilization_29"
+        },
+        {
+            "population_limit": 58273.92578125,
+            "resource_rule": [],
+            "uuid": "c9e97b7c-da20-485f-8370-e262269bf441",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 47094.7265625,
+            "water": true,
+            "uuid": "05e8cfd6-d9c4-4d20-8133-8fb577da9188"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "88766d65-7cdd-4253-8b2a-a7ec7facedc4",
+            "resource_rule": [],
+            "population_limit": 54403,
+            "owner": "civilization_29"
+        },
+        {
+            "population_limit": 47017.822265625,
+            "water": true,
+            "uuid": "21e23e60-5a92-4b31-8a47-207a819455bd"
+        },
+        {
+            "population_limit": 41894.53125,
+            "resource_rule": [],
+            "uuid": "0c5c2ecf-fefb-4277-b8e4-26405f2ac6a2",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 69688.720703125,
+            "resource_rule": [],
+            "uuid": "a4f277c1-230c-4496-933e-5efc32094dde",
+            "owner": "civilization_22"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "0bbe22ce-3c40-4d3c-adc3-b58f1a49fae3",
+            "resource_rule": [],
+            "population_limit": 57286,
+            "owner": "civilization_22"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "f3be8388-f48d-4830-8765-3abafbd70c67",
+            "resource_rule": [],
+            "population_limit": 63645,
+            "owner": "civilization_22"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "569df499-a572-401f-8e44-d0ec25384121",
+            "resource_rule": [],
+            "population_limit": 50836,
+            "owner": "civilization_22"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "feaee333-86a1-462a-9ea8-39628c27852e",
+            "resource_rule": [],
+            "population_limit": 69261,
+            "owner": "civilization_22"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "eb1ecd89-fbd5-4f07-8079-e4de8915a84b",
+            "resource_rule": [],
+            "population_limit": 57575,
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 71143.798828125,
+            "resource_rule": [],
+            "uuid": "86ad3ced-ddfe-4c58-a7bc-401a835ccb3e",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 67071.533203125,
+            "resource_rule": [],
+            "uuid": "aa35ee41-5b9f-4336-a6e3-c12ba8a7e04a",
+            "owner": "civilization_22"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "1d4e7669-9c7a-4d48-a9c3-abb817765501",
+            "resource_rule": [],
+            "population_limit": 72888,
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 64151.611328125,
+            "resource_rule": [],
+            "uuid": "951e2d36-bec1-43ce-be3b-81558289fa23",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 75688.4765625,
+            "resource_rule": [],
+            "uuid": "663a1aa5-9426-415d-89d4-c7276db86066",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 70703.125,
+            "resource_rule": [],
+            "uuid": "066a1c0b-badc-4fa7-b991-abf2bfb07c54",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 59967.041015625,
+            "resource_rule": [],
+            "uuid": "9e0833ec-c68a-41e7-a887-ee0bb2cf4363",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 79699.70703125,
+            "resource_rule": [],
+            "uuid": "79d4505d-b370-4ded-a65c-96289725484f",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 66583.251953125,
+            "resource_rule": [],
+            "uuid": "c37a1104-1842-4226-b111-ef7aad352466",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 41728.515625,
+            "resource_rule": [],
+            "uuid": "2e5403cf-1658-4604-8ac3-4413c4d87d1a",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 66774.90234375,
+            "resource_rule": [],
+            "uuid": "5f72cd20-55b5-47a8-8133-1839d90ea909",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 46578.369140625,
+            "resource_rule": [],
+            "uuid": "39d51aca-70f0-4c22-b510-b2a157ed2950",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 43179.931640625,
+            "resource_rule": [],
+            "uuid": "082c7b40-af47-4f5d-8a39-dbbae67afc34",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 42817.3828125,
+            "resource_rule": [],
+            "uuid": "3ed0cab0-77d3-4098-82fe-d94cd14482c0",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 63134.765625,
+            "resource_rule": [],
+            "uuid": "76bbca51-2966-437a-a3ba-2b2cb6f8e1b4",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 41822.509765625,
+            "resource_rule": [],
+            "uuid": "0cdfb63e-79bf-498e-9638-f6ddd31a257c",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 74862.060546875,
+            "resource_rule": [],
+            "uuid": "6f060112-8b43-42f8-bb80-218e0df8efa6",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 64354.248046875,
+            "resource_rule": [],
+            "uuid": "32c3185b-8849-4d47-8b4b-eb02e1a6324a",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 62283.935546875,
+            "resource_rule": [],
+            "uuid": "5bbb85c1-2963-415e-91dc-c75c7f3a9311",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 52539.0625,
+            "resource_rule": [],
+            "uuid": "04913bd6-3593-4c69-86a4-921a2ad1d114",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 59858.3984375,
+            "resource_rule": [],
+            "uuid": "a0b339b0-104c-4531-a2a5-55cf8abe213a",
+            "owner": "civilization_22"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "b6015160-e891-4684-a20a-2bed5cca94ac",
+            "resource_rule": [],
+            "population_limit": 53004,
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 40192.87109375,
+            "resource_rule": [],
+            "uuid": "f2bd74b8-382c-4450-94a0-9d2c3561b067",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 42945.556640625,
+            "resource_rule": [],
+            "uuid": "85dab74f-4b0f-416b-b5b7-57cad4e64596",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 55050.048828125,
+            "water": true,
+            "uuid": "593292e3-f51e-46e1-8be4-bd3dcfd45cda"
+        },
+        {
+            "population_limit": 45028.076171875,
+            "resource_rule": [],
+            "uuid": "76e14cd7-78cb-4fd1-8271-23c4ed51c438",
+            "owner": "civilization_22"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "dfc7b055-0dcd-47da-a89e-820997805fff",
+            "resource_rule": [],
+            "population_limit": 60592,
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 44291.9921875,
+            "resource_rule": [],
+            "uuid": "fd596441-9641-40d2-877f-a832f8b3fcac",
+            "owner": "civilization_22"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 61610,
+            "resource_rule": [],
+            "uuid": "a517b765-1754-4f1c-94f6-304772564ac7",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 65632.32421875,
+            "resource_rule": [],
+            "uuid": "7044902d-14b6-4ca3-a9b1-fb41441e2b72",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 61947.021484375,
+            "resource_rule": [],
+            "uuid": "c296ec92-2b84-4632-a2b4-4dd82928b689",
+            "owner": "civilization_22"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "fe5daae5-5996-4bd0-9636-ed9fb255bcec",
+            "resource_rule": [],
+            "population_limit": 58931,
+            "owner": "civilization_2"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "b3f28eaa-3cad-44d5-8708-5f221f474963",
+            "resource_rule": [],
+            "population_limit": 56965,
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 75568.84765625,
+            "resource_rule": [],
+            "uuid": "9674fee7-f172-4a3e-bc97-f35b2de0107e",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 62642.822265625,
+            "resource_rule": [],
+            "uuid": "2a17d36d-14f6-4103-84f1-c72006236544",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 69779.052734375,
+            "resource_rule": [],
+            "uuid": "fd9c2686-19c0-4332-8dd6-c902b394dfa8",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 72257.080078125,
+            "resource_rule": [],
+            "uuid": "174100f3-26c0-4b37-825d-3678bea837b0",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 66262.20703125,
+            "resource_rule": [],
+            "uuid": "63ccc1cb-9087-459c-bde5-2ce276fa6dbe",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 40614.013671875,
+            "resource_rule": [],
+            "uuid": "dabaa3f9-ffeb-4d80-9fff-d22b9d37d4d6",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 66408.69140625,
+            "resource_rule": [],
+            "uuid": "4e11e05e-b00a-4da4-9fc7-150fe9923cbd",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 68629.150390625,
+            "resource_rule": [],
+            "uuid": "f1090d89-bd18-41e1-928b-0ba0c8a4075b",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 64696.044921875,
+            "resource_rule": [],
+            "uuid": "ab174e94-7d2b-48f8-9f99-fcad4b1d5332",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 55495.60546875,
+            "water": true,
+            "uuid": "f98af9a3-8028-4ebe-8f6a-4893f1cad27e"
+        },
+        {
+            "population_limit": 56682.12890625,
+            "water": true,
+            "uuid": "0f93249a-3614-4112-8fcf-4131da3cf312"
+        },
+        {
+            "population_limit": 54339.599609375,
+            "resource_rule": [],
+            "uuid": "2703cbbd-3202-42dc-b90a-b01663660a56",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 69311.5234375,
+            "resource_rule": [],
+            "uuid": "88520cb5-b0b4-4829-82eb-c7bb2e4cf3d5",
+            "owner": "civilization_1"
+        },
+        {
+            "population_limit": 66854.248046875,
+            "resource_rule": [],
+            "uuid": "771f9f5d-c4eb-4d89-9dae-51d4a8e3d9f3",
+            "owner": "civilization_22"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "0e82cf7f-32dc-43f8-a31f-2f12e704b835",
+            "resource_rule": [],
+            "population_limit": 71678,
+            "owner": "civilization_2"
+        },
+        {
+            "population_limit": 70377.197265625,
+            "resource_rule": [],
+            "uuid": "0fe10c2c-bfd4-4d62-87b3-0d439cba251b",
+            "owner": "civilization_2"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "81bdab5e-6327-41b8-a4f2-d485b7872f13",
+            "resource_rule": [],
+            "population_limit": 78184,
+            "owner": "civilization_22"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "4c2e26aa-eea4-4a23-8b0a-caac5e53df0b",
+            "resource_rule": [],
+            "population_limit": 52796,
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 45618.896484375,
+            "resource_rule": [],
+            "uuid": "90464fb3-d6f9-4394-b1e4-511b5b845598",
+            "owner": "civilization_2"
+        },
+        {
+            "population_limit": 44893.798828125,
+            "resource_rule": [],
+            "uuid": "9ad7533f-511f-4d46-b3af-44627c798377",
+            "owner": "civilization_2"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "dfb6b738-b86c-4fe5-9ed2-2aacab576afe",
+            "resource_rule": [],
+            "population_limit": 70704,
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 71801.7578125,
+            "resource_rule": [],
+            "uuid": "fc76cbc4-499f-4113-80ea-b44ec8239cec",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 44621.58203125,
+            "resource_rule": [],
+            "uuid": "5cc818dd-7072-4349-b05d-a5ae7f7812b1",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 62724.609375,
+            "resource_rule": [],
+            "uuid": "be0ca02a-3d05-4f13-9c5f-35b3e271beb0",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 64023.4375,
+            "resource_rule": [],
+            "uuid": "3f8492d2-b43a-4d31-abf8-cb1627d83455",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 77425.537109375,
+            "resource_rule": [],
+            "uuid": "33484236-9707-4426-a707-0a348dc7f468",
+            "owner": "civilization_15"
+        },
+        {
+            "population_limit": 52957.763671875,
+            "resource_rule": [],
+            "uuid": "ea4184a8-42a4-4d44-9f6e-e68ba4976269",
+            "owner": "civilization_15"
+        },
+        {
+            "population_limit": 56231.689453125,
+            "resource_rule": [],
+            "uuid": "305de49c-0893-4223-9f58-e76d0add3b06",
+            "owner": "civilization_15"
+        },
+        {
+            "population_limit": 65528.564453125,
+            "resource_rule": [],
+            "uuid": "53294919-31a8-4880-a5d6-5ce4db4d5fba",
+            "owner": "civilization_15"
+        },
+        {
+            "population_limit": 54094.23828125,
+            "resource_rule": [],
+            "uuid": "5019f03b-3d88-4425-804f-a589487be1d6",
+            "owner": "civilization_15"
+        },
+        {
+            "population_limit": 77603.759765625,
+            "resource_rule": [],
+            "uuid": "3986e5a4-6d31-405f-ac68-f5da08d8062d",
+            "owner": "civilization_15"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "5686e5bf-3bce-4f9f-a36a-328b09662c1d",
+            "resource_rule": [],
+            "population_limit": 63728,
+            "owner": "civilization_15"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 42565,
+            "resource_rule": [],
+            "uuid": "5ae26646-d124-4bb7-91b2-beb86bfdbbe2",
+            "owner": "civilization_15"
+        },
+        {
+            "population_limit": 72910.15625,
+            "resource_rule": [],
+            "uuid": "e4c5076a-84a7-4d25-8f01-15577cd85678",
+            "owner": "civilization_15"
+        },
+        {
+            "population_limit": 45820.3125,
+            "resource_rule": [],
+            "uuid": "9cc5895f-adce-4b00-bbf9-bbd5576a4dc9",
+            "owner": "civilization_15"
+        },
+        {
+            "population_limit": 77092.28515625,
+            "water": true,
+            "uuid": "5643162e-2b80-4e5c-9ad6-794289809739"
+        },
+        {
+            "population_limit": 69329.833984375,
+            "water": true,
+            "uuid": "7f60e7bd-266c-46c5-b40c-892c1c7bd5a6"
+        },
+        {
+            "population_limit": 56102.294921875,
+            "water": true,
+            "uuid": "907325ca-18a8-4e32-ae5c-a065dbea3ece"
+        },
+        {
+            "population_limit": 53668.212890625,
+            "water": true,
+            "uuid": "bf00fdce-1bee-478a-ae25-a4c8da465d41"
+        },
+        {
+            "population_limit": 62294.921875,
+            "water": true,
+            "uuid": "359e7bff-258b-44e5-8bb4-2c9ec3dec15c"
+        },
+        {
+            "population_limit": 67496.337890625,
+            "water": true,
+            "uuid": "bce74d4a-e9d5-4020-98d4-58776f525639"
+        },
+        {
+            "population_limit": 73475.341796875,
+            "water": true,
+            "uuid": "cbad8c24-2f9b-4c99-8ebf-529535e7644d"
+        },
+        {
+            "population_limit": 66317.138671875,
+            "water": true,
+            "uuid": "65955ea4-fdb4-47eb-8d8c-238c19ccbe81"
+        },
+        {
+            "population_limit": 48874.51171875,
+            "water": true,
+            "uuid": "2513ae61-7039-4130-9525-9070b2542180"
+        },
+        {
+            "population_limit": 57701.416015625,
+            "water": true,
+            "uuid": "93602fc0-c929-4c84-bd71-433fa76706e4"
+        },
+        {
+            "population_limit": 79981.689453125,
+            "resource_rule": [],
+            "uuid": "8fdb0419-1fb4-4d3a-826e-e65b8826f309",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 74012.451171875,
+            "resource_rule": [],
+            "uuid": "9640d754-e7dd-4a78-9754-252ccd251e91",
+            "owner": "civilization_27"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "27b874cf-bf93-4a38-92a5-2c5c277526d6",
+            "resource_rule": [],
+            "population_limit": 66351,
+            "owner": "civilization_27"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "531028a8-2e23-42d2-8db6-ac90094e79dd",
+            "resource_rule": [],
+            "population_limit": 56965,
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 49472.65625,
+            "resource_rule": [],
+            "uuid": "134a54f1-c0de-431c-b92e-d3a3a1a2d619",
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 77163.0859375,
+            "resource_rule": [],
+            "uuid": "d952788f-63b8-4f55-962b-4a2511ddceaa",
+            "owner": "civilization_23"
+        },
+        {
+            "population_limit": 63675.537109375,
+            "resource_rule": [],
+            "uuid": "a3056344-ce23-4f31-9fe3-f51fb374caef",
+            "owner": "civilization_23"
+        },
+        {
+            "population_limit": 59742.431640625,
+            "resource_rule": [],
+            "uuid": "1bb10340-f0e3-4221-b28f-69e2be510da0",
+            "owner": "civilization_23"
+        },
+        {
+            "population_limit": 51658.935546875,
+            "resource_rule": [],
+            "uuid": "cdefae05-a812-4d0b-b256-cedc98ed19f1",
+            "owner": "civilization_23"
+        },
+        {
+            "population_limit": 54753.41796875,
+            "resource_rule": [],
+            "uuid": "33f5d0f1-0a9b-4e60-b076-4bfd5b77945d",
+            "owner": "civilization_23"
+        },
+        {
+            "population_limit": 51337.890625,
+            "resource_rule": [],
+            "uuid": "05a3ca49-68b1-4ef9-848a-30c7a081550b",
+            "owner": "civilization_23"
+        },
+        {
+            "population_limit": 76779.78515625,
+            "resource_rule": [],
+            "uuid": "d5f5ade9-f34f-4a7c-9571-0a65f7ddeeea",
+            "owner": "civilization_23"
+        },
+        {
+            "population_limit": 76489.2578125,
+            "resource_rule": [],
+            "uuid": "ec52929c-a22f-4b75-b5a3-4112d8cbf0ce",
+            "owner": "civilization_23"
+        },
+        {
+            "population_limit": 64388.427734375,
+            "resource_rule": [],
+            "uuid": "fd642dd7-67c4-4363-8679-0bcaebdb3e34",
+            "owner": "civilization_23"
+        },
+        {
+            "population_limit": 74202.880859375,
+            "resource_rule": [],
+            "uuid": "134ec71f-1279-453f-ae0c-2cfeed878d99",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 60456.54296875,
+            "resource_rule": [],
+            "uuid": "8b728599-7b5c-413a-9cd9-5950c5079dfd",
+            "owner": "civilization_23"
+        },
+        {
+            "population_limit": 65909.423828125,
+            "resource_rule": [],
+            "uuid": "3211c653-2b33-4241-8dd8-2a34bfb8e9be",
+            "owner": "civilization_23"
+        },
+        {
+            "population_limit": 62976.07421875,
+            "resource_rule": [],
+            "uuid": "e9d37ee3-4963-4f17-9f1c-0e09e507c907",
+            "owner": "civilization_22"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "9bbbbdb9-079b-4a25-906c-a9745536942e",
+            "resource_rule": [],
+            "population_limit": 53280,
+            "owner": "civilization_22"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "3ffd4356-1fa4-4c1b-9566-6ddf77c851de",
+            "resource_rule": [],
+            "population_limit": 52526,
+            "owner": "civilization_23"
+        },
+        {
+            "population_limit": 60302.734375,
+            "resource_rule": [],
+            "uuid": "2d023861-e188-4d0e-9a3e-17ebe4a68745",
+            "owner": "civilization_23"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "a0527af3-8e1f-4bb0-8b9e-1fccbc6a87a4",
+            "resource_rule": [],
+            "population_limit": 52440,
+            "owner": "civilization_23"
+        },
+        {
+            "population_limit": 73602.294921875,
+            "resource_rule": [],
+            "uuid": "ed1798dd-abf8-46af-8c60-33eaa9ac40c8",
+            "owner": "civilization_23"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "e9aa3b9c-a1ff-4af5-a8a2-fdf16c16705a",
+            "resource_rule": [],
+            "population_limit": 65494,
+            "owner": "civilization_23"
+        },
+        {
+            "population_limit": 79365.234375,
+            "resource_rule": [],
+            "uuid": "4a8c77dc-e369-47b1-b339-f8effa8a0b8c",
+            "owner": "civilization_23"
+        },
+        {
+            "population_limit": 62065.4296875,
+            "resource_rule": [],
+            "uuid": "da78f108-787c-408c-82b7-2d34a9089414",
+            "owner": "civilization_23"
+        },
+        {
+            "population_limit": 42176.513671875,
+            "resource_rule": [],
+            "uuid": "5415df21-1239-4137-be15-ec92a5f03e64",
+            "owner": "civilization_23"
+        },
+        {
+            "population_limit": 53747.55859375,
+            "resource_rule": [],
+            "uuid": "80d43af5-5705-4bbf-8675-bc3faa65f898",
+            "owner": "civilization_24"
+        },
+        {
+            "population_limit": 53698.73046875,
+            "resource_rule": [],
+            "uuid": "770ae65a-ba27-4271-a161-af39ac24ed7c",
+            "owner": "civilization_24"
+        },
+        {
+            "population_limit": 58740.234375,
+            "resource_rule": [],
+            "uuid": "27260b5c-69a7-4542-9cb7-52464cc6f851",
+            "owner": "civilization_24"
+        },
+        {
+            "population_limit": 42266.845703125,
+            "resource_rule": [],
+            "uuid": "d82b5a83-3107-4de3-b7b8-ed4d5558fbc2",
+            "owner": "civilization_24"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "7d4ff561-ea90-4005-8d59-6858668264de",
+            "resource_rule": [],
+            "population_limit": 75715,
+            "owner": "civilization_24"
+        },
+        {
+            "population_limit": 63348.388671875,
+            "resource_rule": [],
+            "uuid": "cd8956a1-0f4a-4502-8897-651e5be729dc",
+            "owner": "civilization_24"
+        },
+        {
+            "population_limit": 56333.0078125,
+            "resource_rule": [],
+            "uuid": "87cde3ec-8647-46a9-89ee-372a7665c974",
+            "owner": "civilization_24"
+        },
+        {
+            "population_limit": 50255.126953125,
+            "resource_rule": [],
+            "uuid": "262d3c8d-a26b-4c64-80d9-c8e08725070b",
+            "owner": "civilization_23"
+        },
+        {
+            "population_limit": 48284.912109375,
+            "resource_rule": [],
+            "uuid": "bf01a58e-ee78-4492-8a7f-6050332a08ac",
+            "owner": "civilization_24"
+        },
+        {
+            "population_limit": 79547.119140625,
+            "resource_rule": [],
+            "uuid": "82a0ca98-f9b7-442d-adb3-6874a53c9321",
+            "owner": "civilization_21"
+        },
+        {
+            "population_limit": 75462.646484375,
+            "resource_rule": [],
+            "uuid": "8ed3f3e3-413f-4612-bde5-49c1fc6fc359",
+            "owner": "civilization_21"
+        },
+        {
+            "population_limit": 61330.56640625,
+            "resource_rule": [],
+            "uuid": "c99ae7ec-635e-4fbb-a510-1d042b96c508",
+            "owner": "civilization_21"
+        },
+        {
+            "population_limit": 74738.76953125,
+            "resource_rule": [],
+            "uuid": "c10ff8c0-a489-4fd1-9737-e5dda845ed62",
+            "owner": "civilization_21"
+        },
+        {
+            "population_limit": 65908.203125,
+            "resource_rule": [],
+            "uuid": "1c44183f-6b0c-4f9a-8067-27268a29d0fe",
+            "owner": "civilization_21"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "19cecb2a-f5c6-42ae-b8b2-2d876ecd42a6",
+            "resource_rule": [],
+            "population_limit": 64914,
+            "owner": "civilization_21"
+        },
+        {
+            "population_limit": 50256.34765625,
+            "resource_rule": [],
+            "uuid": "c42c93fc-138d-47ae-b5e7-a1e4de78d62f",
+            "owner": "civilization_21"
+        },
+        {
+            "population_limit": 67449.951171875,
+            "resource_rule": [],
+            "uuid": "d870e11b-4c4f-445f-ad70-7b84afd2b7f3",
+            "owner": "civilization_21"
+        },
+        {
+            "population_limit": 75332.03125,
+            "resource_rule": [],
+            "uuid": "00d0c9ca-1ec6-4ca6-9e48-ecf367547ef3",
+            "owner": "civilization_21"
+        },
+        {
+            "population_limit": 75936.279296875,
+            "resource_rule": [],
+            "uuid": "64853ed0-f703-47d9-8709-a1b57c7afae0",
+            "owner": "civilization_20"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 53460,
+            "resource_rule": [],
+            "uuid": "add487c1-ba70-4fdc-8dc2-1cd73a5da7d8",
+            "owner": "civilization_19"
+        },
+        {
+            "population_limit": 46600.341796875,
+            "resource_rule": [],
+            "uuid": "ac5d8674-6f4b-4f12-bf33-f6ce8085b4fd",
+            "owner": "civilization_19"
+        },
+        {
+            "population_limit": 78847.65625,
+            "resource_rule": [],
+            "uuid": "a506997c-a70e-4eae-80b2-11f3c8ff889e",
+            "owner": "civilization_19"
+        },
+        {
+            "population_limit": 40683.59375,
+            "resource_rule": [],
+            "uuid": "6e0eab90-500f-46bd-88c5-f4b0d1fe4f62",
+            "owner": "civilization_19"
+        },
+        {
+            "population_limit": 78715.8203125,
+            "resource_rule": [],
+            "uuid": "5ad4adc7-2eac-458b-9b12-000b758a3b17",
+            "owner": "civilization_19"
+        },
+        {
+            "population_limit": 76164.55078125,
+            "resource_rule": [],
+            "uuid": "c4ae6cae-d171-48fb-89be-d310486d5885",
+            "owner": "civilization_19"
+        },
+        {
+            "population_limit": 42680.6640625,
+            "resource_rule": [],
+            "uuid": "6de65409-55f9-49a3-9116-ba62ba7228fd",
+            "owner": "civilization_19"
+        },
+        {
+            "population_limit": 46054.6875,
+            "resource_rule": [],
+            "uuid": "49f82a1d-8142-4992-98ec-df26d8d8d1ec",
+            "owner": "civilization_19"
+        },
+        {
+            "population_limit": 48632.8125,
+            "resource_rule": [],
+            "uuid": "c21f2b1f-5f42-4fc2-8593-f955f4e7de0c",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 58404.541015625,
+            "resource_rule": [],
+            "uuid": "b50afaeb-9c77-4643-a3bd-67d5d3af6e30",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 69754.638671875,
+            "resource_rule": [],
+            "uuid": "7ce2efcd-c399-4c10-ad06-7e4aea4056c5",
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 54158.935546875,
+            "resource_rule": [],
+            "uuid": "07d62116-9b1e-4c79-9f9b-ed5e73c7c776",
+            "owner": "civilization_24"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "63b8a32a-1dd7-4d3c-8db8-59b506a79371",
+            "resource_rule": [],
+            "population_limit": 44244,
+            "owner": "civilization_22"
+        },
+        {
+            "population_limit": 68132.32421875,
+            "resource_rule": [],
+            "uuid": "8dbe708a-721f-4501-be26-443685a6df1c",
+            "owner": "civilization_24"
+        },
+        {
+            "population_limit": 41901.85546875,
+            "resource_rule": [],
+            "uuid": "acbf4c91-b339-444c-8230-8d9f640f79b3",
+            "owner": "civilization_24"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 40682,
+            "resource_rule": [],
+            "uuid": "c272c756-5d76-42ea-8162-9e30a67532d9",
+            "owner": "civilization_20"
+        },
+        {
+            "population_limit": 54912.109375,
+            "resource_rule": [],
+            "uuid": "d8cbc758-93f6-4da8-a68a-a0ed396ac6a9",
+            "owner": "civilization_24"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "ecec0406-f9b8-4986-9cbc-88bbb29e020a",
+            "resource_rule": [],
+            "population_limit": 47987,
+            "owner": "civilization_20"
+        },
+        {
+            "population_limit": 59034.423828125,
+            "resource_rule": [],
+            "uuid": "d6b6fd16-aa2d-49e9-bfbd-ba7ae89efe87",
+            "owner": "civilization_20"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "2236d100-4ff4-4485-9cd0-f79b1c51c505",
+            "resource_rule": [],
+            "population_limit": 62399,
+            "owner": "civilization_24"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 60808,
+            "resource_rule": [],
+            "uuid": "3fd453a6-6809-4f99-91b7-e0e1a4f73cdd",
+            "owner": "civilization_21"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "8c65393a-fae7-4f4d-aa46-e7122e3f19f8",
+            "resource_rule": [],
+            "population_limit": 65981,
+            "owner": "civilization_20"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "ff666b01-731a-4cbd-9b60-81986c8e2017",
+            "resource_rule": [],
+            "population_limit": 71507,
+            "owner": "civilization_20"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "ecde282d-704e-4bb2-a4b2-43a2575942d4",
+            "resource_rule": [],
+            "population_limit": 65058,
+            "owner": "civilization_20"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "b60c8b0e-24f2-4d32-b17a-e5386168a726",
+            "resource_rule": [],
+            "population_limit": 54235,
+            "owner": "civilization_19"
+        },
+        {
+            "population_limit": 76562.5,
+            "resource_rule": [],
+            "uuid": "605c18f6-165f-4e42-997b-58fc9834bf8d",
+            "owner": "civilization_19"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "8a6efda6-2150-4617-bb96-7be117e33040",
+            "resource_rule": [],
+            "population_limit": 41942,
+            "owner": "civilization_19"
+        },
+        {
+            "population_limit": 62924.8046875,
+            "resource_rule": [],
+            "uuid": "2c04e40a-8580-4d3f-a91a-800b6f6cf2b6",
+            "owner": "civilization_19"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 66013,
+            "resource_rule": [],
+            "uuid": "a518e31c-c605-44fd-bfa1-32b6ab194c99",
+            "owner": "civilization_20"
+        },
+        {
+            "population_limit": 66431.884765625,
+            "resource_rule": [],
+            "uuid": "8dcddd29-4eb4-4429-bceb-84421adb0920",
+            "owner": "civilization_20"
+        },
+        {
+            "population_limit": 72751.46484375,
+            "resource_rule": [],
+            "uuid": "d33b4ed7-407e-442c-8d68-50465eabb260",
+            "owner": "civilization_20"
+        },
+        {
+            "infrastructure_level": 0,
+            "uuid": "e67cb04a-7441-46ee-bacf-1ed431683fe5",
+            "resource_rule": [],
+            "population_limit": 61204,
+            "owner": "civilization_19"
+        },
+        {
+            "population_limit": 43197.021484375,
+            "resource_rule": [],
+            "uuid": "b9ff3286-a715-4868-a3e1-cde5de7d8e16",
+            "owner": "civilization_19"
+        },
+        {
+            "population_limit": 46389.16015625,
+            "resource_rule": [],
+            "uuid": "8c9e92fb-1a60-470c-8dda-673ef5205cc1",
+            "owner": "civilization_19"
+        },
+        {
+            "population_limit": 75612.79296875,
+            "resource_rule": [],
+            "uuid": "cb5254ef-6aa8-4d9c-84b9-594459f3b24b",
+            "owner": "civilization_19"
+        },
+        {
+            "population_limit": 72612.3046875,
+            "resource_rule": [],
+            "uuid": "f3a0cf03-1960-42c0-8803-7d3fe8acbf55",
+            "owner": "civilization_29"
+        },
+        {
+            "population_limit": 44381.103515625,
+            "resource_rule": [],
+            "uuid": "568adc14-e31f-4aa7-b50d-1673bc1083c6",
+            "owner": "civilization_29"
+        },
+        {
+            "population_limit": 50441.89453125,
+            "resource_rule": [],
+            "uuid": "aa1cd4d3-7b40-4152-bf3d-ce8684150b3c",
+            "owner": "civilization_29"
+        },
+        {
+            "population_limit": 59156.494140625,
+            "resource_rule": [],
+            "uuid": "73337771-45df-4e9f-bbfc-c09835ee3c30",
+            "owner": "civilization_29"
+        },
+        {
+            "population_limit": 79331.0546875,
+            "resource_rule": [],
+            "uuid": "bdf85673-ca89-4bec-8a2a-29a37bdb320a",
+            "owner": "civilization_29"
+        },
+        {
+            "population_limit": 62480.46875,
+            "water": true,
+            "uuid": "72ef287e-9c19-4666-8179-0cf54d78200e"
+        },
+        {
+            "population_limit": 72084.9609375,
+            "water": true,
+            "uuid": "2451e674-ff87-44bd-8a4f-1a46f06b0d19"
+        },
+        {
+            "population_limit": 78300.78125,
+            "water": true,
+            "uuid": "650ca813-a813-49fb-b64b-bf18d400c293"
+        },
+        {
+            "population_limit": 53994.140625,
+            "water": true,
+            "uuid": "096fef3e-52f7-4d39-befe-bc6c2f77d9d3"
+        },
+        {
+            "population_limit": 65595.703125,
+            "water": true,
+            "uuid": "f19459ec-fc8b-4988-9efb-4b3457833794"
+        },
+        {
+            "population_limit": 69648.4375,
+            "water": true,
+            "uuid": "25314665-5a4b-48e4-bea3-30cfddfc7cd6"
+        },
+        {
+            "population_limit": 76213.37890625,
+            "water": true,
+            "uuid": "8e3cf226-bcb3-4e1f-8588-24f214d210d3"
+        },
+        {
+            "population_limit": 54472.65625,
+            "water": true,
+            "uuid": "ea55cd2d-8261-4bf2-9f33-7ec2120f4e92"
+        },
+        {
+            "population_limit": 63470.458984375,
+            "water": true,
+            "uuid": "7cf1c681-2503-4845-b58f-6f1b91e67d5b"
+        },
+        {
+            "population_limit": 52236.328125,
+            "water": true,
+            "uuid": "45bac7fc-24f6-4c1f-96f5-4cc865bc7006"
+        },
+        {
+            "population_limit": 77388.916015625,
+            "water": true,
+            "uuid": "20a0cdd7-cf4b-4dc6-9003-1b6140f44726"
+        },
+        {
+            "population_limit": 51384.27734375,
+            "water": true,
+            "uuid": "ec83d432-7798-4c2c-a863-a0d77957eb17"
+        },
+        {
+            "population_limit": 49611.81640625,
+            "water": true,
+            "uuid": "5d1fd760-c4ef-4e94-8650-1213fa985d1b"
+        },
+        {
+            "population_limit": 68563.232421875,
+            "water": true,
+            "uuid": "5b467e91-a68e-41e1-a8d1-184d300dcadf"
+        },
+        {
+            "population_limit": 67976.07421875,
+            "water": true,
+            "uuid": "df006d9e-9fef-478c-910f-027487fc729b"
+        },
+        {
+            "population_limit": 69436.03515625,
+            "water": true,
+            "uuid": "bc032c22-ab13-48f1-8442-ec694a61e76d"
+        },
+        {
+            "population_limit": 60473.6328125,
+            "water": true,
+            "uuid": "e82af39e-ea4f-4a73-beed-0f81c2b68b29"
+        },
+        {
+            "population_limit": 57573.2421875,
+            "water": true,
+            "uuid": "2ed2fb6f-2c78-4d5b-9507-df0c98683bd1"
+        },
+        {
+            "population_limit": 66236.572265625,
+            "water": true,
+            "uuid": "72416ed4-0b42-45dd-98a5-40c785df900f"
+        },
+        {
+            "population_limit": 48546.142578125,
+            "water": true,
+            "uuid": "3402e7be-dc04-4a0d-8615-1530aa5483b1"
+        },
+        {
+            "population_limit": 72174.072265625,
+            "water": true,
+            "uuid": "f064f7f2-5685-4b89-b983-1584a1054e80"
+        },
+        {
+            "population_limit": 43273.92578125,
+            "water": true,
+            "uuid": "0bed3b48-248d-44be-ba8e-a9c3a5321073"
+        },
+        {
+            "population_limit": 43061.5234375,
+            "water": true,
+            "uuid": "cf644899-7055-4f5d-8775-6c3a314b3c30"
+        },
+        {
+            "river": false,
+            "uuid": "8724becd-74e3-4ab5-bac4-770bf8743262",
+            "infrastructure_level": 0,
+            "population_limit": 47312,
+            "resource_rule": [],
+            "water": false,
+            "owner": "civilization_27"
+        },
+        {
+            "population_limit": 43850.09765625,
+            "resource_rule": [],
+            "uuid": "251076be-f1a9-418a-a9ea-526fc38008fb",
+            "owner": "civilization_30"
+        },
+        {
+            "river": false,
+            "uuid": "ea814e38-18f1-4961-baf3-2d4b2ad6b805",
+            "population_limit": 55113.525390625,
+            "resource_rule": [],
+            "water": false,
+            "owner": "civilization_30"
+        },
+        {
+            "river": false,
+            "uuid": "b85ac1c3-310c-48f9-bbff-731bf796df07",
+            "population_limit": 55889.892578125,
+            "resource_rule": [],
+            "water": false,
+            "owner": "civilization_30"
+        },
+        {
+            "population_limit": 56896.97265625,
+            "resource_rule": [],
+            "uuid": "706f34e6-8318-4667-b68a-d9a4028adefd",
+            "owner": "civilization_30"
+        },
+        {
+            "river": false,
+            "uuid": "12a811e8-3e6e-4156-a3e2-14c8db9f0f27",
+            "population_limit": 63497.314453125,
+            "resource_rule": [],
+            "water": false,
+            "owner": "civilization_30"
+        },
+        {
+            "population_limit": 78571.77734375,
+            "resource_rule": [],
+            "uuid": "cbca04e8-b20e-447a-b3af-0aea90edb073",
+            "owner": "civilization_30"
+        },
+        {
+            "population_limit": 50091.552734375,
+            "resource_rule": [],
+            "uuid": "bc159931-d773-407f-a80a-7ad38d807be0",
+            "owner": "civilization_30"
+        },
+        {
+            "infrastructure_level": 0,
+            "population_limit": 61184,
+            "resource_rule": [],
+            "uuid": "53fe4ad4-cada-4653-8ed2-25f4db6b7f25",
+            "owner": "civilization_30"
+        },
+        {
+            "population_limit": 63422.8515625,
+            "water": true,
+            "uuid": "45fd4cf8-fa33-425c-b03b-166844297320"
+        },
+        {
+            "population_limit": 57727.05078125,
+            "water": true,
+            "uuid": "f2f8f090-b270-47d6-bfcd-a9edca3354e9"
+        },
+        {
+            "population_limit": 45599.365234375,
+            "water": true,
+            "uuid": "4c96ad26-fad8-4bd6-9ee9-aaccb74f5cf2"
+        },
+        {
+            "population_limit": 50543.212890625,
+            "water": true,
+            "uuid": "f7d3f8d2-13ae-4f09-b16c-8762ee0b35ed"
+        },
+        {
+            "population_limit": 67277.83203125,
+            "water": true,
+            "uuid": "d8a6d452-39a2-46d8-9ca2-7fb680086984"
+        },
+        {
+            "population_limit": 50634.765625,
+            "water": true,
+            "uuid": "d867240d-9e08-4f74-9b40-9a96f0a9915a"
+        },
+        {
+            "population_limit": 75098.876953125,
+            "water": true,
+            "uuid": "9980cedc-b58c-40e1-b0a7-d0fe161c9fb5"
+        },
+        {
+            "population_limit": 72458.49609375,
+            "water": true,
+            "uuid": "fad6b630-bedf-4156-b3ac-77d19d4a88e1"
+        },
+        {
+            "population_limit": 65058.59375,
+            "water": true,
+            "uuid": "89fe0340-50ab-481a-bc62-85a129f22523"
+        },
+        {
+            "population_limit": 42420.654296875,
+            "water": true,
+            "uuid": "f4c3289d-9002-49da-976b-a924170d7d9c"
+        },
+        {
+            "population_limit": 57243.65234375,
+            "water": true,
+            "uuid": "1690497c-4f47-4a37-bddc-6866eab24c31"
+        },
+        {
+            "population_limit": 74835.205078125,
+            "water": true,
+            "uuid": "10a093e4-226d-4098-a42d-badfd3e120f3"
+        },
+        {
+            "population_limit": 67501.220703125,
+            "water": true,
+            "uuid": "6214770f-38ea-4570-943d-9bd88cc6972e"
+        },
+        {
+            "population_limit": 78317.87109375,
+            "water": true,
+            "uuid": "e8afcfd3-8420-45f4-9281-a966d84299fa"
+        }
+    ],
+    "lands": {
+        "civilization_34": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Куба",
+            "guaranteed_by": [],
+            "color": [
+                181.49353027344,
+                137.71301269531,
+                45.569580078125
+            ]
+        },
+        "civilization_12": {
+            "capital_name": "Восточный и Западный Берлин",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Фашики",
+            "capital": 245,
+            "guaranteed_by": [],
+            "color": [
+                89,
+                89,
+                89
+            ]
+        },
+        "undeveloped_land": {
+            "capital_name": "",
+            "defeated": false,
+            "guaranteed": [],
+            "guaranteed_by": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "reforms": [],
+            "name": "undeveloped_land",
+            "vassals": [],
+            "color": [
+                96,
+                96,
+                96
+            ]
+        },
+        "civilization_23": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Люди, ездящие на крышах",
+            "guaranteed_by": [],
+            "color": [
+                52,
+                102,
+                176
+            ]
+        },
+        "civilization_28": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Кенгуру",
+            "guaranteed_by": [],
+            "color": [
+                80.64453125,
+                80.908203125,
+                46.858276367188
+            ]
+        },
+        "civilization_32": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Латиносы",
+            "guaranteed_by": [],
+            "color": [
+                55.3759765625,
+                169.48547363281,
+                125.99279785156
+            ]
+        },
+        "civilization_1": {
+            "capital_name": "Москва",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Великая Россия",
+            "capital": 273,
+            "guaranteed_by": [],
+            "color": [
+                46,
+                101,
+                157
+            ]
+        },
+        "civilization_15": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Белые Медведи",
+            "guaranteed_by": [],
+            "color": [
+                82.221069335938,
+                70.355834960938,
+                80.456665039063
+            ]
+        },
+        "civilization_7": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Цыгане",
+            "guaranteed_by": [],
+            "color": [
+                87.813110351563,
+                116.43798828125,
+                97.249267578125
+            ]
+        },
+        "civilization_17": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Аляска",
+            "guaranteed_by": [],
+            "color": [
+                187.0361328125,
+                29.354858398438,
+                40.213745117188
+            ]
+        },
+        "civilization_13": {
+            "capital_name": "Большой Ватикан",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Макароны и Пицца",
+            "capital": 250,
+            "guaranteed_by": [],
+            "color": [
+                76,
+                110,
+                67
+            ]
+        },
+        "civilization_16": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Пиндосы",
+            "capital": 209,
+            "guaranteed_by": [],
+            "color": [
+                52,
+                164,
+                176
+            ]
+        },
+        "civilization_26": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Евреи",
+            "guaranteed_by": [],
+            "color": [
+                154.40673828125,
+                129.85778808594,
+                39.449096679688
+            ]
+        },
+        "civilization_20": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Бедная Большая Степь",
+            "guaranteed_by": [],
+            "color": [
+                96.876831054688,
+                118.50341796875,
+                77.048706054688
+            ]
+        },
+        "civilization_14": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Лягушкоеды",
+            "capital": 238,
+            "guaranteed_by": [],
+            "color": [
+                52,
+                176,
+                151
+            ]
+        },
+        "civilization_18": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Бобры-Пиндосы",
+            "guaranteed_by": [],
+            "color": [
+                192.66662597656,
+                177.236328125,
+                29.304321289063
+            ]
+        },
+        "civilization_25": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Нефть",
+            "guaranteed_by": [],
+            "color": [
+                29.124145507813,
+                125.71044921875,
+                32.837524414063
+            ]
+        },
+        "civilization_9": {
+            "capital_name": "London is the capital of Greate Britain ",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Англия",
+            "capital": 311,
+            "guaranteed_by": [],
+            "color": [
+                186.27258300781,
+                31.766357421875,
+                72.424560546875
+            ]
+        },
+        "civilization_11": {
+            "capital_name": "Боброград",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Бобр Курва",
+            "capital": 247,
+            "guaranteed_by": [],
+            "color": [
+                119,
+                95,
+                58
+            ]
+        },
+        "civilization_8": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Балканы",
+            "guaranteed_by": [],
+            "color": [
+                154.3408203125,
+                28.355102539063,
+                104.34204101563
+            ]
+        },
+        "civilization_24": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Афган",
+            "guaranteed_by": [],
+            "color": [
+                138.740234375,
+                37.314453125,
+                98.419311523438
+            ]
+        },
+        "civilization_2": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Очень Большая Степь",
+            "guaranteed_by": [],
+            "color": [
+                199.87365722656,
+                163.76159667969,
+                52.955688476563
+            ]
+        },
+        "civilization_6": {
+            "capital_name": "Константинополь",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Ближний Курорт и Продавцы Обуви",
+            "capital": 317,
+            "guaranteed_by": [],
+            "color": [
+                165.27221679688,
+                20.730590820313,
+                70.921630859375
+            ]
+        },
+        "civilization_4": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Скандинавы",
+            "guaranteed_by": [],
+            "color": [
+                74.739379882813,
+                34.232788085938,
+                58.64111328125
+            ]
+        },
+        "civilization_10": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Испания",
+            "guaranteed_by": [],
+            "color": [
+                198.01147460938,
+                162.2509765625,
+                58.6279296875
+            ]
+        },
+        "civilization_19": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Большая Степь",
+            "guaranteed_by": [],
+            "color": [
+                175.52795410156,
+                174.33044433594,
+                116.90270996094
+            ]
+        },
+        "civilization_31": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Бразилия",
+            "guaranteed_by": [],
+            "color": [
+                40.841064453125,
+                179.46655273438,
+                22.468627929688
+            ]
+        },
+        "civilization_22": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Узкоглазые",
+            "guaranteed_by": [],
+            "color": [
+                172.03979492188,
+                50.73974609375,
+                85.459838867188
+            ]
+        },
+        "civilization_30": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Пингвины",
+            "guaranteed_by": [],
+            "color": [
+                153,
+                153,
+                153
+            ]
+        },
+        "civilization_21": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Производители Дронов",
+            "guaranteed_by": [],
+            "color": [
+                67.807006835938,
+                99.38720703125,
+                106.98205566406
+            ]
+        },
+        "civilization_5": {
+            "capital_name": "Минск",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Наши Братья",
+            "capital": 266,
+            "guaranteed_by": [],
+            "color": [
+                57.584228515625,
+                50.459594726563,
+                32.369506835938
+            ]
+        },
+        "civilization_3": {
+            "capital_name": "Киев",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Хохлы",
+            "capital": 269,
+            "guaranteed_by": [],
+            "color": [
+                202,
+                177,
+                78
+            ]
+        },
+        "civilization_29": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Острова",
+            "guaranteed_by": [],
+            "color": [
+                114.46594238281,
+                87.626342773438,
+                78.94384765625
+            ]
+        },
+        "civilization_27": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Негры",
+            "guaranteed_by": [],
+            "color": [
+                51,
+                51,
+                51
+            ]
+        },
+        "civilization_33": {
+            "capital_name": "",
+            "guaranteed": [],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Горные козлы и медведи",
+            "guaranteed_by": [],
+            "color": [
+                115.41625976563,
+                48.295288085938,
+                88.584350585938
+            ]
+        }
+    },
+    "player_land": "civilization_35",
+    "map_hash": 3869998253,
+    "technology_lvl": 3,
+    "custom_events": {},
+    "id": "WorldFromRussians_ru",
+    "num_of_provinces": 665,
+    "no_nuclear_weapon": "disabled",
+    "min_game_version": 1,
+    "historical_events": true,
+    "name": "Наши дни, 2026",
+    "resources_spawn": "standard",
+    "water_color": [
+        55,
+        112,
+        129
+    ],
+    "month": 1,
+    "bots_behavior": "standard",
+    "fog_of_war": "standard",
+    "last_turn": 100,
+    "no_initial_diplomacy": "disabled",
+    "play_after_last_turn": false,
+    "technologies_are_opened": "disabled",
+    "sandbox": "disabled",
+    "difficulty": "standard"
+}
