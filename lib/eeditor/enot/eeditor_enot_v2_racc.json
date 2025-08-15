@@ -1,0 +1,3379 @@
+{
+    "last_turn": 100,
+    "technologies_are_opened": "disabled",
+    "play_after_last_turn": false,
+    "water_color": [
+        55,
+        112,
+        129
+    ],
+    "historical_events": true,
+    "custom_events": {
+        "E001": {
+            "requirements": [
+                {
+                    "action": "more",
+                    "type": "turn",
+                    "value": 1
+                },
+                {
+                    "subtype": "",
+                    "action": "more",
+                    "type": "money",
+                    "value": 10
+                },
+                {
+                    "subtype": "E001",
+                    "action": "this",
+                    "type": "event_choice",
+                    "value": 1
+                }
+            ],
+            "requirements2": [],
+            "requirements3": [],
+            "unique_event_name": "",
+            "answer1": "Answer 1",
+            "answer2": "",
+            "answer2_is_disabled": true,
+            "answer3": "",
+            "answer3_is_disabled": true,
+            "auto_answer1_if_ignored": true,
+            "bonuses1": [
+                {
+                    "duration": "",
+                    "type": "change_country",
+                    "value": "civilization_24"
+                }
+            ],
+            "bonuses2": [],
+            "bonuses3": [],
+            "delete_after_turns": 1,
+            "description": "Description",
+            "group_name": "",
+            "description1": "Answer 1 text",
+            "requirements1": [
+                {
+                    "subtype": "this",
+                    "action": "equal",
+                    "type": "controls_capital",
+                    "value": "civilization_24"
+                }
+            ],
+            "description2": "",
+            "title": "New event",
+            "bonuses": [],
+            "id": "E001",
+            "image": "diplomacy",
+            "description3": "",
+            "lands": [],
+            "hide_later": false,
+            "icon": "diplomacy"
+        }
+    },
+    "min_game_version": 1,
+    "month": 1,
+    "turn": 0,
+    "year": 1914,
+    "map_hash": 1663913141,
+    "name": "!Wti 13042025",
+    "player_land": "civilization_20",
+    "num_of_provinces": 293,
+    "lands": {
+        "civilization_24": {
+            "guaranteed_by": [],
+            "name": "Estonia",
+            "banner": "estonia",
+            "capital": 116,
+            "color": [
+                84.915,
+                144.585,
+                126.684,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "provinces": [
+                            116,
+                            109,
+                            107,
+                            282
+                        ]
+                    },
+                    "name": "Livonia",
+                    "color": [
+                        74.46,
+                        129.54,
+                        113.016,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "political": "Theocracy",
+                        "provinces": [
+                            116,
+                            109,
+                            107,
+                            283,
+                            282,
+                            117,
+                            118
+                        ]
+                    },
+                    "name": "Livonian Order",
+                    "color": [
+                        60.69,
+                        117.81,
+                        100.674,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Tallinn",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_19": {
+            "guaranteed_by": [],
+            "name": "Ottoman Empire",
+            "banner": "ottoman_empire",
+            "capital": 173,
+            "color": [
+                108.528,
+                121.38,
+                57.12,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "political": "Democracy",
+                        "provinces": [
+                            173,
+                            174,
+                            175,
+                            190,
+                            176,
+                            188,
+                            189,
+                            267,
+                            187,
+                            178,
+                            177,
+                            182,
+                            179,
+                            181,
+                            183,
+                            186,
+                            184,
+                            180
+                        ]
+                    },
+                    "name": "Turkey",
+                    "color": [
+                        74.46,
+                        107.508,
+                        129.54,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "political": "Communism",
+                        "provinces": []
+                    },
+                    "name": "Soviet Turkey",
+                    "color": [
+                        97.155,
+                        59.976,
+                        55.845,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Istanbul",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_23": {
+            "guaranteed_by": [],
+            "name": "Finland",
+            "banner": "finland",
+            "capital": 234,
+            "color": [
+                84.915,
+                126.684,
+                144.585,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "provinces": [
+                            234,
+                            233,
+                            232,
+                            231,
+                            230,
+                            127,
+                            128,
+                            229,
+                            228,
+                            226,
+                            227,
+                            225,
+                            117
+                        ]
+                    },
+                    "name": "Finnish Empire",
+                    "color": [
+                        74.46,
+                        113.016,
+                        129.54,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Helsinki",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_1": {
+            "guaranteed_by": [],
+            "name": "Bulgaria",
+            "banner": "bulgaria",
+            "capital": 98,
+            "color": [
+                121.38,
+                57.12,
+                57.12,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "political": "Communism",
+                        "provinces": []
+                    },
+                    "name": "People's Republic of Bulgaria",
+                    "color": [
+                        89.505,
+                        66.096,
+                        63.495,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "political": "Trade Republic",
+                        "provinces": [
+                            164,
+                            163,
+                            98,
+                            97,
+                            165,
+                            173,
+                            166,
+                            168,
+                            293,
+                            264,
+                            87,
+                            94,
+                            108,
+                            96,
+                            95,
+                            86,
+                            81
+                        ]
+                    },
+                    "name": "Bulgarian Trade States",
+                    "color": [
+                        119.34,
+                        88.128,
+                        84.66,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "provinces": [
+                            164,
+                            165,
+                            166,
+                            293,
+                            168,
+                            98,
+                            97,
+                            163,
+                            96,
+                            108,
+                            106,
+                            94,
+                            93,
+                            95,
+                            81,
+                            87,
+                            86,
+                            83,
+                            79,
+                            78,
+                            71,
+                            82,
+                            66,
+                            80,
+                            85,
+                            84,
+                            264
+                        ]
+                    },
+                    "name": "Balkan Federation",
+                    "color": [
+                        129.54,
+                        74.46,
+                        74.46,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Sofia",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_15": {
+            "guaranteed_by": [],
+            "name": "Spain",
+            "banner": "spain",
+            "capital": 7,
+            "color": [
+                121.38,
+                95.676,
+                57.12,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "political": "Fascism",
+                        "provinces": []
+                    },
+                    "name": "Francoist Spain",
+                    "color": [
+                        89.505,
+                        79.101,
+                        63.495,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "political": "Democracy",
+                        "provinces": []
+                    },
+                    "name": "Spanish Republic",
+                    "color": [
+                        119.34,
+                        112.404,
+                        84.66,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "provinces": [
+                            15,
+                            274,
+                            292,
+                            46,
+                            13,
+                            14,
+                            11,
+                            9,
+                            10,
+                            12,
+                            6,
+                            5,
+                            2,
+                            3,
+                            7,
+                            273,
+                            47,
+                            45,
+                            44,
+                            43,
+                            285,
+                            55,
+                            50
+                        ]
+                    },
+                    "name": "Spanish Empire",
+                    "color": [
+                        119.34,
+                        115.872,
+                        84.66,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Madrid",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_7": {
+            "guaranteed_by": [],
+            "name": "Denmark",
+            "banner": "denmark",
+            "capital": 203,
+            "color": [
+                121.38,
+                108.528,
+                57.12,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "political": "Monarchy",
+                        "provinces": [
+                            291,
+                            203,
+                            277,
+                            215,
+                            216,
+                            194,
+                            278,
+                            220,
+                            218,
+                            217,
+                            219,
+                            224
+                        ]
+                    },
+                    "name": "Danish Empire",
+                    "color": [
+                        129.54,
+                        118.524,
+                        74.46,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "provinces": [
+                            194,
+                            291,
+                            250,
+                            277,
+                            203,
+                            216,
+                            215,
+                            217,
+                            218,
+                            278,
+                            220,
+                            224,
+                            219,
+                            227,
+                            228,
+                            229
+                        ]
+                    },
+                    "name": "Denmark-Norway",
+                    "color": [
+                        140,
+                        140,
+                        140
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Copenhagen",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_17": {
+            "guaranteed_by": [],
+            "name": "Sweden",
+            "banner": "sweden",
+            "capital": 213,
+            "color": [
+                52.785,
+                100.215,
+                76.5,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "provinces": [
+                            204,
+                            208,
+                            205,
+                            251,
+                            207,
+                            290,
+                            210,
+                            212,
+                            213,
+                            209,
+                            211,
+                            214,
+                            221,
+                            223,
+                            222,
+                            225,
+                            226,
+                            230,
+                            231,
+                            233,
+                            232,
+                            234
+                        ]
+                    },
+                    "name": "Swedish Empire",
+                    "color": [
+                        84.66,
+                        119.34,
+                        102,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "provinces": [
+                            204,
+                            205,
+                            251,
+                            208,
+                            207,
+                            290,
+                            210,
+                            212,
+                            209,
+                            211,
+                            213,
+                            218,
+                            278,
+                            215,
+                            216,
+                            217,
+                            219,
+                            224,
+                            220,
+                            214,
+                            223,
+                            222,
+                            221,
+                            225,
+                            227,
+                            226,
+                            228,
+                            229
+                        ]
+                    },
+                    "name": "Sweden-Norway",
+                    "color": [
+                        89.505,
+                        139.995,
+                        114.75,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Stockholm",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_13": {
+            "guaranteed_by": [],
+            "name": "Great Britain",
+            "banner": "union_jack",
+            "capital": 198,
+            "color": [
+                92.565,
+                82.926,
+                60.435,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "political": "Communism",
+                        "provinces": []
+                    },
+                    "name": "Communist Britain",
+                    "color": [
+                        117.81,
+                        66.402,
+                        60.69,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "political": "Fascism",
+                        "provinces": []
+                    },
+                    "name": "British Union",
+                    "color": [
+                        63.495,
+                        89.505,
+                        73.899,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "London",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_22": {
+            "guaranteed_by": [],
+            "name": "Russian Empire",
+            "banner": "russian_empire",
+            "group_name": "1",
+            "capital": 117,
+            "color": [
+                60.435,
+                82.926,
+                92.565,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "political": "Communism",
+                        "provinces": [
+                            161,
+                            162,
+                            126,
+                            159,
+                            152,
+                            1,
+                            160,
+                            158,
+                            157,
+                            156,
+                            153,
+                            149,
+                            281,
+                            125,
+                            151,
+                            124,
+                            123,
+                            112,
+                            113,
+                            120,
+                            110,
+                            119,
+                            118,
+                            117,
+                            133,
+                            127,
+                            128,
+                            129,
+                            131,
+                            130,
+                            136,
+                            132,
+                            144,
+                            145,
+                            147,
+                            155,
+                            154,
+                            146,
+                            139,
+                            137,
+                            138,
+                            140,
+                            134,
+                            135,
+                            141,
+                            143,
+                            148,
+                            142,
+                            121,
+                            150,
+                            122,
+                            111
+                        ]
+                    },
+                    "name": "Soviet Union",
+                    "color": [
+                        139.995,
+                        89.505,
+                        89.505,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "political": "Democracy",
+                        "provinces": []
+                    },
+                    "name": "Russian Republic",
+                    "color": [
+                        84.66,
+                        108.936,
+                        119.34,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Saint Petersburg",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_12": {
+            "guaranteed_by": [],
+            "name": "Poland",
+            "banner": "poland",
+            "capital": 89,
+            "color": [
+                133.62,
+                102,
+                70.38,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "provinces": [
+                            72,
+                            74,
+                            73,
+                            75,
+                            89,
+                            88,
+                            99,
+                            100,
+                            107,
+                            109,
+                            101,
+                            110,
+                            102,
+                            90,
+                            119,
+                            120,
+                            111,
+                            103,
+                            91,
+                            104,
+                            105,
+                            112,
+                            113,
+                            281,
+                            124,
+                            123,
+                            122,
+                            151,
+                            150,
+                            92,
+                            280
+                        ]
+                    },
+                    "name": "Polish-Lithuanian Commonwealth",
+                    "color": [
+                        97.155,
+                        80.631,
+                        55.845,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "political": "Fascism",
+                        "provinces": []
+                    },
+                    "name": "Polish Union",
+                    "color": [
+                        129.54,
+                        107.508,
+                        74.46,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Warsaw",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_20": {
+            "guaranteed_by": [],
+            "name": "Austria-Hungary",
+            "banner": "austria_hungary",
+            "capital": 70,
+            "color": [
+                121.38,
+                82.824,
+                57.12,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "political": "Monarchy",
+                        "provinces": []
+                    },
+                    "name": "Austrian Empire",
+                    "color": [
+                        89.505,
+                        76.5,
+                        63.495,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "provinces": [
+                            64,
+                            65,
+                            70,
+                            63,
+                            69,
+                            76,
+                            248,
+                            92,
+                            280,
+                            93,
+                            279,
+                            94,
+                            95,
+                            81,
+                            83,
+                            66,
+                            80,
+                            82,
+                            78,
+                            71,
+                            79,
+                            77,
+                            106,
+                            108,
+                            96,
+                            86,
+                            84,
+                            85,
+                            264,
+                            87,
+                            97,
+                            98,
+                            166,
+                            165,
+                            163,
+                            164,
+                            36,
+                            272,
+                            38,
+                            37,
+                            39,
+                            29,
+                            58,
+                            54,
+                            173,
+                            167,
+                            168,
+                            293,
+                            169,
+                            170,
+                            171
+                        ]
+                    },
+                    "name": "United Kingdoms of Europe",
+                    "color": [
+                        119.34,
+                        102,
+                        84.66,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "political": "Communism",
+                        "provinces": [
+                            76,
+                            92,
+                            280,
+                            79,
+                            248,
+                            70,
+                            77,
+                            63,
+                            69,
+                            64,
+                            66,
+                            65,
+                            272,
+                            38,
+                            82,
+                            80,
+                            84,
+                            83,
+                            81,
+                            86,
+                            87,
+                            95,
+                            94,
+                            93,
+                            279,
+                            78,
+                            71,
+                            106,
+                            108,
+                            96
+                        ]
+                    },
+                    "name": "Austrian Soviet Republics",
+                    "color": [
+                        129.54,
+                        96.492,
+                        74.46,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Vienna",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_14": {
+            "guaranteed_by": [],
+            "name": "Norway",
+            "banner": "norway",
+            "capital": 278,
+            "color": [
+                100.215,
+                52.785,
+                52.785,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "provinces": [
+                            278,
+                            217,
+                            216,
+                            215,
+                            220,
+                            224,
+                            219,
+                            218,
+                            205,
+                            209,
+                            204,
+                            208,
+                            207,
+                            251,
+                            206,
+                            290,
+                            213,
+                            210,
+                            212,
+                            211,
+                            221,
+                            214,
+                            223,
+                            222,
+                            225,
+                            227,
+                            226,
+                            228,
+                            229
+                        ]
+                    },
+                    "name": "Norway-Sweden",
+                    "color": [
+                        119.34,
+                        84.66,
+                        84.66,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Oslo",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_18": {
+            "guaranteed_by": [],
+            "name": "German Empire",
+            "banner": "german_empire",
+            "capital": 62,
+            "color": [
+                57.12,
+                121.38,
+                121.38,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "political": "Democracy",
+                        "provinces": []
+                    },
+                    "name": "Weimar Republic",
+                    "color": [
+                        63.495,
+                        68.697,
+                        89.505,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "political": "Fascism",
+                        "provinces": [
+                            52,
+                            54,
+                            58,
+                            57,
+                            60,
+                            59,
+                            56,
+                            277,
+                            61,
+                            275,
+                            68,
+                            276,
+                            62,
+                            67,
+                            73,
+                            72,
+                            74,
+                            88,
+                            99,
+                            64,
+                            65,
+                            70,
+                            63,
+                            69
+                        ]
+                    },
+                    "name": "Nazi Germany",
+                    "color": [
+                        140,
+                        140,
+                        140
+                    ]
+                },
+                {
+                    "requirements": {
+                        "political": "Communism",
+                        "provinces": []
+                    },
+                    "name": "Communist Germany",
+                    "color": [
+                        129.54,
+                        79.968,
+                        74.46,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "political": "Theocracy",
+                        "provinces": [
+                            116,
+                            282,
+                            109,
+                            107,
+                            99,
+                            88,
+                            74,
+                            72
+                        ]
+                    },
+                    "name": "Teutonic Order",
+                    "color": [
+                        79.101,
+                        63.495,
+                        89.505,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Berlin",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_27": {
+            "guaranteed_by": [],
+            "name": "Latvia",
+            "banner": "lithuania",
+            "capital": 107,
+            "color": [
+                57.12,
+                121.38,
+                82.824,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "provinces": [
+                            116,
+                            109,
+                            107,
+                            282
+                        ]
+                    },
+                    "name": "Livonia",
+                    "color": [
+                        74.46,
+                        129.54,
+                        96.492,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "political": "Democracy",
+                        "provinces": [
+                            116,
+                            109,
+                            282,
+                            234,
+                            233,
+                            107,
+                            100,
+                            101,
+                            117,
+                            118
+                        ]
+                    },
+                    "name": "Baltic States",
+                    "color": [
+                        63.495,
+                        89.505,
+                        76.5,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Riga",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_9": {
+            "guaranteed_by": [],
+            "name": "Serbia",
+            "banner": "serbia",
+            "capital": 86,
+            "color": [
+                114.852,
+                123.42,
+                80.58,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "provinces": [
+                            83,
+                            82,
+                            66,
+                            80,
+                            86,
+                            87,
+                            264,
+                            84,
+                            81
+                        ]
+                    },
+                    "name": "Yugoslavia",
+                    "color": [
+                        76.5,
+                        63.495,
+                        89.505,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Belgrade",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_11": {
+            "guaranteed_by": [],
+            "name": "Greece",
+            "banner": "greece",
+            "capital": 170,
+            "color": [
+                82.824,
+                121.38,
+                57.12,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "provinces": [
+                            173,
+                            174,
+                            175,
+                            170,
+                            169,
+                            171,
+                            172,
+                            176,
+                            190,
+                            189,
+                            168,
+                            85,
+                            166,
+                            98,
+                            264,
+                            293,
+                            165,
+                            178
+                        ]
+                    },
+                    "name": "Byzantine Empire",
+                    "color": [
+                        96.492,
+                        129.54,
+                        74.46,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "political": "Trade Republic",
+                        "provinces": [
+                            266,
+                            171,
+                            172,
+                            169,
+                            170,
+                            293,
+                            85,
+                            264,
+                            98,
+                            166,
+                            168,
+                            191
+                        ]
+                    },
+                    "name": "Greek Union",
+                    "color": [
+                        71.298,
+                        89.505,
+                        63.495,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Athens",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_8": {
+            "guaranteed_by": [],
+            "name": "Romania",
+            "banner": "romania",
+            "group_name": "1",
+            "capital": 96,
+            "color": [
+                60.435,
+                73.287,
+                92.565,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "provinces": [
+                            108,
+                            106,
+                            94,
+                            96,
+                            95,
+                            93,
+                            114,
+                            115
+                        ]
+                    },
+                    "name": "Greater Romania",
+                    "color": [
+                        60.69,
+                        89.25,
+                        117.81,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Bucharest",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_3": {
+            "guaranteed_by": [],
+            "name": "Albania",
+            "banner": "albania",
+            "capital": 85,
+            "color": [
+                60.435,
+                92.565,
+                70.074,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "provinces": [
+                            84,
+                            85,
+                            86,
+                            87,
+                            98,
+                            97,
+                            163,
+                            96,
+                            164,
+                            165,
+                            166,
+                            173,
+                            293,
+                            168,
+                            264,
+                            169,
+                            170,
+                            171,
+                            83,
+                            82
+                        ]
+                    },
+                    "name": "Albanian Empire",
+                    "color": [
+                        84.66,
+                        119.34,
+                        95.064,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "political": "Monarchy",
+                        "provinces": [
+                            264,
+                            87,
+                            84,
+                            86,
+                            85,
+                            169,
+                            83
+                        ]
+                    },
+                    "name": "Kingdom of Albania",
+                    "color": [
+                        60.69,
+                        117.81,
+                        72.114,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Tirana",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization": {
+            "guaranteed_by": [],
+            "name": "Montenegro",
+            "banner": "montenegro",
+            "capital": 84,
+            "color": [
+                121.38,
+                114.954,
+                57.12,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "political": "Theocracy",
+                        "provinces": []
+                    },
+                    "name": "Prince-Bishopric of Montenegro",
+                    "color": [
+                        89.505,
+                        89.505,
+                        63.495,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Cetinje",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_26": {
+            "guaranteed_by": [],
+            "name": "Ireland",
+            "banner": "ireland",
+            "capital": 284,
+            "color": [
+                76.398,
+                121.38,
+                57.12,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "provinces": [
+                            195,
+                            284,
+                            197,
+                            196
+                        ]
+                    },
+                    "name": "Kingdom of Ireland",
+                    "color": [
+                        90.984,
+                        129.54,
+                        74.46,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Dublin",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_5": {
+            "guaranteed_by": [],
+            "name": "Netherlands",
+            "banner": "netherlands",
+            "capital": 55,
+            "color": [
+                144.585,
+                102.816,
+                84.915,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "political": "Trade Republic",
+                        "provinces": []
+                    },
+                    "name": "Dutch Republic",
+                    "color": [
+                        129.54,
+                        90.984,
+                        74.46,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "political": "Democracy",
+                        "provinces": [
+                            55,
+                            50,
+                            51
+                        ]
+                    },
+                    "name": "Confederation of Low Countries",
+                    "color": [
+                        117.81,
+                        77.826,
+                        60.69,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Amsterdam",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_2": {
+            "guaranteed_by": [],
+            "name": "Luxembourg",
+            "banner": "luxembourg",
+            "capital": 51,
+            "color": [
+                70.38,
+                133.62,
+                120.972,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "political": "Monarchy",
+                        "provinces": [
+                            51,
+                            50,
+                            55,
+                            52,
+                            34,
+                            33,
+                            32,
+                            49,
+                            56,
+                            59,
+                            277,
+                            57
+                        ]
+                    },
+                    "name": "Empire of Luxembourg",
+                    "color": [
+                        74.46,
+                        129.54,
+                        129.54,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "provinces": [
+                            51,
+                            50,
+                            55
+                        ]
+                    },
+                    "name": "Benelux Federation",
+                    "color": [
+                        63.495,
+                        86.904,
+                        89.505,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Luxembourg",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_6": {
+            "guaranteed_by": [],
+            "name": "Belgium",
+            "banner": "belgium",
+            "capital": 50,
+            "color": [
+                144.585,
+                96.849,
+                84.915,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "provinces": [
+                            50,
+                            51,
+                            55
+                        ]
+                    },
+                    "name": "Benelux Federation",
+                    "color": [
+                        129.54,
+                        85.476,
+                        74.46,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "political": "Trade Republic",
+                        "provinces": []
+                    },
+                    "name": "Belgian Republic",
+                    "color": [
+                        97.155,
+                        64.107,
+                        55.845,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Brussel",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_21": {
+            "guaranteed_by": [],
+            "name": "France",
+            "banner": "france",
+            "capital": 31,
+            "color": [
+                114.954,
+                121.38,
+                57.12,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "provinces": [
+                            25,
+                            26,
+                            30,
+                            32,
+                            49,
+                            33,
+                            35,
+                            28,
+                            31,
+                            27,
+                            24,
+                            19,
+                            20,
+                            22,
+                            21,
+                            17,
+                            23,
+                            18,
+                            16,
+                            15,
+                            13,
+                            274,
+                            14,
+                            12,
+                            7,
+                            273,
+                            292,
+                            29,
+                            37,
+                            39,
+                            40,
+                            48,
+                            34,
+                            50,
+                            51,
+                            55,
+                            56,
+                            52,
+                            53,
+                            54,
+                            36,
+                            57
+                        ]
+                    },
+                    "name": "French Empire",
+                    "color": [
+                        124.032,
+                        129.54,
+                        74.46,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "provinces": [
+                            33,
+                            49,
+                            32,
+                            30,
+                            31,
+                            26,
+                            24,
+                            25,
+                            28,
+                            27,
+                            21,
+                            20,
+                            19,
+                            16,
+                            17,
+                            18,
+                            23,
+                            34,
+                            50,
+                            51,
+                            35,
+                            36,
+                            22,
+                            29,
+                            37,
+                            39,
+                            38,
+                            64,
+                            58,
+                            52,
+                            57,
+                            56,
+                            55,
+                            59,
+                            277,
+                            61,
+                            62,
+                            60,
+                            63,
+                            276,
+                            54,
+                            53,
+                            272,
+                            66,
+                            65,
+                            70,
+                            69,
+                            68,
+                            275,
+                            73,
+                            67,
+                            75,
+                            77,
+                            248,
+                            76,
+                            79,
+                            71,
+                            78,
+                            80,
+                            83,
+                            82
+                        ]
+                    },
+                    "name": "United States of Europe",
+                    "color": [
+                        134.946,
+                        139.995,
+                        89.505,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Paris",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_25": {
+            "guaranteed_by": [],
+            "name": "Czechoslovakia",
+            "banner": "czechoslovakia",
+            "capital": 63,
+            "color": [
+                84.915,
+                138.618,
+                144.585,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "political": "Communism",
+                        "provinces": []
+                    },
+                    "name": "Czechoslovak Socialist Republic",
+                    "color": [
+                        74.46,
+                        124.032,
+                        129.54,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "political": "Democracy",
+                        "provinces": []
+                    },
+                    "name": "Czechoslovak Republic",
+                    "color": [
+                        60.69,
+                        112.098,
+                        117.81,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Prague",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_10": {
+            "guaranteed_by": [],
+            "name": "Portugal",
+            "banner": "portugal",
+            "capital": 5,
+            "color": [
+                144.585,
+                126.684,
+                84.915,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "provinces": [
+                            5,
+                            2,
+                            9,
+                            10
+                        ]
+                    },
+                    "name": "Portuguese Empire",
+                    "color": [
+                        140,
+                        140,
+                        140
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Lisbon",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_4": {
+            "guaranteed_by": [],
+            "name": "Switzerland",
+            "banner": "switzerland",
+            "group_name": "",
+            "capital": 36,
+            "color": [
+                170.074,
+                160.435,
+                92.565,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "political": "Trade Republic",
+                        "provinces": []
+                    },
+                    "name": "Swiss Republic",
+                    "color": [
+                        189.505,
+                        199.603,
+                        139.995,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "provinces": [
+                            36,
+                            38,
+                            272,
+                            37,
+                            29,
+                            23,
+                            39,
+                            22
+                        ]
+                    },
+                    "name": "Swiss Empire",
+                    "color": [
+                        163.495,
+                        166.096,
+                        89.505,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Burgdorf",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "undeveloped_land": {
+            "guaranteed_by": [],
+            "name": "undeveloped_land",
+            "color": [
+                96,
+                96,
+                96
+            ],
+            "vassals": [],
+            "pacts": [],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "reforms": [],
+            "capital_name": "",
+            "defeated": false,
+            "guaranteed": []
+        },
+        "civilization_16": {
+            "guaranteed_by": [],
+            "name": "Italy",
+            "banner": "italy",
+            "capital": 41,
+            "color": [
+                144.585,
+                120.717,
+                84.915,
+                255
+            ],
+            "vassals": [],
+            "reforms": [
+                {
+                    "requirements": {
+                        "provinces": [
+                            259,
+                            45,
+                            285,
+                            43,
+                            44,
+                            41,
+                            42,
+                            40,
+                            39,
+                            29,
+                            272,
+                            38,
+                            37,
+                            47,
+                            48,
+                            46,
+                            193,
+                            192,
+                            8,
+                            4,
+                            3,
+                            7,
+                            5,
+                            2,
+                            6,
+                            9,
+                            10,
+                            11,
+                            12,
+                            14,
+                            274,
+                            13,
+                            292,
+                            273,
+                            15,
+                            23,
+                            22,
+                            18,
+                            17,
+                            16,
+                            19,
+                            20,
+                            21,
+                            27,
+                            24,
+                            25,
+                            26,
+                            30,
+                            31,
+                            33,
+                            28,
+                            35,
+                            32,
+                            49,
+                            50,
+                            51,
+                            52,
+                            54,
+                            36,
+                            34,
+                            58,
+                            53,
+                            286,
+                            198,
+                            288,
+                            201,
+                            289,
+                            240,
+                            241,
+                            287,
+                            172,
+                            263,
+                            191,
+                            187,
+                            186,
+                            184,
+                            180,
+                            179,
+                            181,
+                            183,
+                            182,
+                            267,
+                            178,
+                            188,
+                            175,
+                            176,
+                            190,
+                            189,
+                            174,
+                            177,
+                            173,
+                            165,
+                            65,
+                            64,
+                            66,
+                            82,
+                            80,
+                            83,
+                            86,
+                            84,
+                            85,
+                            87,
+                            264,
+                            169,
+                            170,
+                            171,
+                            168,
+                            166,
+                            98,
+                            293,
+                            164,
+                            163,
+                            97,
+                            96,
+                            95,
+                            71,
+                            70,
+                            81
+                        ]
+                    },
+                    "name": "Roman Empire",
+                    "color": [
+                        117.81,
+                        72.114,
+                        60.69,
+                        255
+                    ]
+                },
+                {
+                    "requirements": {
+                        "political": "Theocracy",
+                        "provinces": [
+                            41,
+                            42,
+                            39
+                        ]
+                    },
+                    "name": "Papal States",
+                    "color": [
+                        74.46,
+                        85.476,
+                        129.54,
+                        255
+                    ]
+                }
+            ],
+            "sanctions": [],
+            "allies": [],
+            "enemies": [],
+            "pacts": [],
+            "capital_name": "Rome",
+            "defeated": false,
+            "guaranteed": []
+        }
+    },
+    "id": "wti13042025",
+    "no_nuclear_weapon": "disabled",
+    "technology_lvl": 3,
+    "difficulty": "standard",
+    "sandbox": "disabled",
+    "provinces": [
+        {
+            "owner": "civilization_22",
+            "population_limit": 60052.490234375
+        },
+        {
+            "owner": "civilization_10",
+            "population_limit": 79071.044921875
+        },
+        {
+            "owner": "civilization_15",
+            "population_limit": 66728.515625
+        },
+        {
+            "owner": "undeveloped_land",
+            "population_limit": 55063.4765625
+        },
+        {
+            "owner": "civilization_10",
+            "population_limit": 79788.818359375
+        },
+        {
+            "owner": "civilization_15",
+            "population_limit": 45468.75
+        },
+        {
+            "owner": "civilization_15",
+            "population_limit": 61735.83984375
+        },
+        {
+            "population_limit": 74396.97265625,
+            "water": true
+        },
+        {
+            "owner": "civilization_10",
+            "population_limit": 67869.873046875
+        },
+        {
+            "owner": "civilization_10",
+            "population_limit": 45562.744140625
+        },
+        {
+            "owner": "civilization_15",
+            "population_limit": 60708.0078125
+        },
+        {
+            "owner": "civilization_15",
+            "population_limit": 42918.701171875
+        },
+        {
+            "owner": "civilization_15",
+            "population_limit": 56378.173828125
+        },
+        {
+            "owner": "civilization_15",
+            "population_limit": 66639.404296875
+        },
+        {
+            "owner": "civilization_15",
+            "population_limit": 71184.08203125
+        },
+        {
+            "owner": "civilization_21",
+            "population_limit": 49831.54296875
+        },
+        {
+            "owner": "civilization_21",
+            "population_limit": 62260.7421875
+        },
+        {
+            "owner": "civilization_21",
+            "population_limit": 64212.646484375
+        },
+        {
+            "owner": "civilization_21",
+            "population_limit": 67576.904296875
+        },
+        {
+            "owner": "civilization_21",
+            "population_limit": 69023.4375
+        },
+        {
+            "owner": "civilization_21",
+            "population_limit": 52462.158203125
+        },
+        {
+            "owner": "civilization_21",
+            "population_limit": 51600.341796875
+        },
+        {
+            "owner": "civilization_21",
+            "population_limit": 47449.951171875
+        },
+        {
+            "owner": "civilization_21",
+            "population_limit": 55247.802734375
+        },
+        {
+            "owner": "civilization_21",
+            "population_limit": 60402.83203125
+        },
+        {
+            "owner": "civilization_21",
+            "population_limit": 55517.578125
+        },
+        {
+            "owner": "civilization_21",
+            "population_limit": 49742.431640625
+        },
+        {
+            "owner": "civilization_21",
+            "population_limit": 74436.03515625
+        },
+        {
+            "owner": "civilization_16",
+            "population_limit": 40023.193359375
+        },
+        {
+            "owner": "civilization_21",
+            "population_limit": 58929.443359375
+        },
+        {
+            "owner": "civilization_21",
+            "population_limit": 51204.833984375
+        },
+        {
+            "owner": "civilization_21",
+            "population_limit": 79410.400390625
+        },
+        {
+            "owner": "civilization_21",
+            "population_limit": 63659.66796875
+        },
+        {
+            "owner": "civilization_21",
+            "population_limit": 72424.31640625
+        },
+        {
+            "owner": "civilization_21",
+            "population_limit": 77276.611328125
+        },
+        {
+            "owner": "civilization_4",
+            "population_limit": 42229.00390625
+        },
+        {
+            "owner": "civilization_16",
+            "population_limit": 49997.55859375
+        },
+        {
+            "owner": "civilization_16",
+            "population_limit": 55354.00390625
+        },
+        {
+            "owner": "civilization_16",
+            "population_limit": 43674.31640625
+        },
+        {
+            "owner": "civilization_16",
+            "population_limit": 54428.7109375
+        },
+        {
+            "owner": "civilization_16",
+            "population_limit": 68356.93359375
+        },
+        {
+            "owner": "civilization_16",
+            "population_limit": 67982.177734375
+        },
+        {
+            "owner": "civilization_16",
+            "population_limit": 64937.744140625
+        },
+        {
+            "owner": "civilization_16",
+            "population_limit": 66400.146484375
+        },
+        {
+            "owner": "civilization_16",
+            "population_limit": 45549.31640625
+        },
+        {
+            "owner": "civilization_15",
+            "population_limit": 55906.982421875
+        },
+        {
+            "owner": "civilization_16",
+            "population_limit": 66164.55078125
+        },
+        {
+            "owner": "civilization_21",
+            "population_limit": 77163.0859375
+        },
+        {
+            "owner": "civilization_21",
+            "population_limit": 41569.82421875
+        },
+        {
+            "owner": "civilization_6",
+            "population_limit": 47996.826171875
+        },
+        {
+            "owner": "civilization_2",
+            "population_limit": 74212.646484375
+        },
+        {
+            "owner": "civilization_18",
+            "population_limit": 45775.146484375
+        },
+        {
+            "owner": "civilization_18",
+            "population_limit": 40358.88671875
+        },
+        {
+            "owner": "civilization_18",
+            "population_limit": 49084.47265625
+        },
+        {
+            "owner": "civilization_5",
+            "population_limit": 64595.947265625
+        },
+        {
+            "owner": "civilization_18",
+            "population_limit": 55632.32421875
+        },
+        {
+            "owner": "civilization_18",
+            "population_limit": 61901.85546875
+        },
+        {
+            "owner": "civilization_18",
+            "population_limit": 48690.185546875
+        },
+        {
+            "owner": "civilization_18",
+            "population_limit": 60340.576171875
+        },
+        {
+            "owner": "civilization_18",
+            "population_limit": 42915.0390625
+        },
+        {
+            "owner": "civilization_18",
+            "river": false,
+            "population_limit": 61898.193359375,
+            "water": false
+        },
+        {
+            "owner": "civilization_18",
+            "population_limit": 66999.51171875
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 79036.865234375
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 60416.259765625
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 65264.892578125
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 59357.91015625
+        },
+        {
+            "owner": "civilization_18",
+            "population_limit": 64348.14453125
+        },
+        {
+            "owner": "civilization_18",
+            "population_limit": 68021.240234375
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 79715.576171875
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 40538.330078125
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 78228.759765625
+        },
+        {
+            "owner": "civilization_18",
+            "population_limit": 61066.89453125
+        },
+        {
+            "owner": "civilization_18",
+            "population_limit": 75664.0625
+        },
+        {
+            "owner": "civilization_18",
+            "population_limit": 50018.310546875
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 50079.345703125
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 47846.6796875
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 58714.599609375
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 79520.263671875
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 79124.755859375
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 47510.986328125
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 40972.900390625
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 64077.1484375
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 66225.5859375
+        },
+        {
+            "owner": "civilization",
+            "population_limit": 59595.947265625
+        },
+        {
+            "owner": "civilization_3",
+            "population_limit": 57437.744140625
+        },
+        {
+            "owner": "civilization_9",
+            "population_limit": 57850.341796875
+        },
+        {
+            "owner": "civilization_9",
+            "population_limit": 71413.57421875
+        },
+        {
+            "owner": "civilization_18",
+            "population_limit": 56456.298828125
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 73721.923828125
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 55979.00390625
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 53359.375
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 69831.54296875
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 51346.435546875
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 63676.7578125
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 67059.326171875
+        },
+        {
+            "owner": "civilization_8",
+            "population_limit": 62802.734375
+        },
+        {
+            "owner": "civilization_1",
+            "population_limit": 56872.55859375
+        },
+        {
+            "owner": "civilization_1",
+            "population_limit": 73864.74609375
+        },
+        {
+            "owner": "civilization_18",
+            "population_limit": 55964.35546875
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 58388.671875
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 41101.07421875
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 74548.33984375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 74821.77734375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 56040.0390625
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 54605.712890625
+        },
+        {
+            "owner": "civilization_8",
+            "population_limit": 67227.783203125
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 79464.111328125
+        },
+        {
+            "owner": "civilization_8",
+            "population_limit": 47269.287109375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 45844.7265625
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 57567.138671875
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 79799.8046875
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 61663.818359375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 48096.923828125
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 79571.533203125
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 72259.521484375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 74558.10546875
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 61481.93359375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 54548.33984375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 67951.66015625
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 67574.462890625
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 76301.26953125
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 66063.232421875
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 72755.126953125
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 73323.974609375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 63963.623046875
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 52176.513671875
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 55633.544921875
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 55484.619140625
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 61733.3984375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 56190.185546875
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 41390.380859375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 55527.34375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 57562.255859375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 77159.423828125
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 44128.41796875
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 57327.880859375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 41246.337890625
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 61419.677734375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 57672.119140625
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 40926.513671875
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 48160.400390625
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 76384.27734375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 59177.24609375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 76665.0390625
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 41820.068359375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 47851.5625
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 42207.03125
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 50983.88671875
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 61525.87890625
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 62078.857421875
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 75507.8125
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 75089.111328125
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 41331.787109375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 53875.732421875
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 43731.689453125
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 47773.4375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 46595.458984375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 41960.44921875
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 66372.0703125
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 63627.9296875
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 54349.365234375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 52828.369140625
+        },
+        {
+            "owner": "civilization_1",
+            "population_limit": 51143.798828125
+        },
+        {
+            "owner": "civilization_1",
+            "population_limit": 57884.521484375
+        },
+        {
+            "owner": "civilization_1",
+            "population_limit": 63757.32421875
+        },
+        {
+            "owner": "civilization_1",
+            "population_limit": 54395.751953125
+        },
+        {
+            "population_limit": 58072.509765625,
+            "water": true
+        },
+        {
+            "owner": "civilization_11",
+            "population_limit": 59157.71484375
+        },
+        {
+            "owner": "civilization_11",
+            "population_limit": 62901.611328125
+        },
+        {
+            "owner": "civilization_11",
+            "population_limit": 40649.4140625
+        },
+        {
+            "owner": "civilization_11",
+            "population_limit": 50532.2265625
+        },
+        {
+            "owner": "civilization_11",
+            "population_limit": 41328.125
+        },
+        {
+            "owner": "civilization_19",
+            "population_limit": 78132.32421875
+        },
+        {
+            "owner": "civilization_19",
+            "population_limit": 68562.01171875
+        },
+        {
+            "owner": "civilization_19",
+            "population_limit": 69492.1875
+        },
+        {
+            "owner": "civilization_19",
+            "population_limit": 65805.6640625
+        },
+        {
+            "owner": "civilization_19",
+            "population_limit": 72266.845703125
+        },
+        {
+            "owner": "civilization_19",
+            "population_limit": 68533.935546875
+        },
+        {
+            "owner": "civilization_19",
+            "population_limit": 47209.47265625
+        },
+        {
+            "owner": "civilization_19",
+            "population_limit": 65446.77734375
+        },
+        {
+            "owner": "civilization_19",
+            "population_limit": 77850.341796875
+        },
+        {
+            "owner": "civilization_19",
+            "population_limit": 69592.28515625
+        },
+        {
+            "owner": "civilization_19",
+            "population_limit": 56632.080078125
+        },
+        {
+            "owner": "civilization_19",
+            "population_limit": 41353.759765625
+        },
+        {
+            "population_limit": 51751.708984375,
+            "water": true
+        },
+        {
+            "owner": "civilization_19",
+            "population_limit": 60598.14453125
+        },
+        {
+            "owner": "civilization_19",
+            "population_limit": 52745.361328125
+        },
+        {
+            "owner": "civilization_19",
+            "population_limit": 63817.138671875
+        },
+        {
+            "owner": "civilization_19",
+            "population_limit": 77337.646484375
+        },
+        {
+            "owner": "civilization_19",
+            "population_limit": 48740.234375
+        },
+        {
+            "owner": "civilization_13",
+            "population_limit": 62136.23046875
+        },
+        {
+            "owner": "undeveloped_land",
+            "population_limit": 48648.681640625
+        },
+        {
+            "owner": "undeveloped_land",
+            "population_limit": 40471.19140625
+        },
+        {
+            "owner": "civilization_7",
+            "population_limit": 56523.4375
+        },
+        {
+            "owner": "civilization_13",
+            "population_limit": 76993.408203125
+        },
+        {
+            "owner": "civilization_13",
+            "population_limit": 60157.470703125
+        },
+        {
+            "owner": "civilization_13",
+            "population_limit": 45595.703125
+        },
+        {
+            "owner": "civilization_13",
+            "population_limit": 58535.15625
+        },
+        {
+            "population_limit": 49826.66015625,
+            "water": true
+        },
+        {
+            "population_limit": 72009.27734375,
+            "water": true
+        },
+        {
+            "owner": "civilization_13",
+            "population_limit": 58133.544921875
+        },
+        {
+            "owner": "civilization_13",
+            "population_limit": 79222.412109375
+        },
+        {
+            "owner": "civilization_7",
+            "population_limit": 45125.732421875
+        },
+        {
+            "owner": "civilization_17",
+            "population_limit": 57233.88671875
+        },
+        {
+            "owner": "civilization_17",
+            "population_limit": 79481.201171875
+        },
+        {
+            "population_limit": 52935.791015625,
+            "water": true
+        },
+        {
+            "owner": "civilization_17",
+            "population_limit": 64232.177734375
+        },
+        {
+            "owner": "civilization_17",
+            "population_limit": 58625.48828125
+        },
+        {
+            "owner": "civilization_17",
+            "population_limit": 60815.4296875
+        },
+        {
+            "owner": "civilization_17",
+            "population_limit": 67490.234375
+        },
+        {
+            "owner": "civilization_17",
+            "population_limit": 79660.64453125
+        },
+        {
+            "owner": "civilization_17",
+            "population_limit": 70767.822265625
+        },
+        {
+            "owner": "civilization_17",
+            "population_limit": 61989.74609375
+        },
+        {
+            "owner": "civilization_17",
+            "population_limit": 72487.79296875
+        },
+        {
+            "owner": "civilization_14",
+            "population_limit": 75122.0703125
+        },
+        {
+            "owner": "civilization_14",
+            "population_limit": 64971.923828125
+        },
+        {
+            "owner": "civilization_14",
+            "population_limit": 61750.48828125
+        },
+        {
+            "owner": "civilization_14",
+            "population_limit": 73662.109375
+        },
+        {
+            "owner": "civilization_14",
+            "population_limit": 67501.220703125
+        },
+        {
+            "owner": "civilization_14",
+            "population_limit": 68338.623046875
+        },
+        {
+            "owner": "civilization_17",
+            "population_limit": 45535.888671875
+        },
+        {
+            "owner": "civilization_17",
+            "population_limit": 54479.98046875
+        },
+        {
+            "owner": "civilization_17",
+            "population_limit": 67036.1328125
+        },
+        {
+            "owner": "civilization_14",
+            "population_limit": 68214.111328125
+        },
+        {
+            "owner": "civilization_17",
+            "population_limit": 57103.271484375
+        },
+        {
+            "owner": "civilization_17",
+            "population_limit": 46269.53125
+        },
+        {
+            "owner": "civilization_14",
+            "population_limit": 71956.787109375
+        },
+        {
+            "owner": "civilization_14",
+            "population_limit": 53294.677734375
+        },
+        {
+            "owner": "civilization_14",
+            "population_limit": 40233.154296875
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 68100.5859375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 53814.697265625
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 42608.642578125
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 76759.033203125
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 77696.533203125
+        },
+        {
+            "population_limit": 69781.494140625,
+            "water": true
+        },
+        {
+            "population_limit": 53654.78515625,
+            "water": true
+        },
+        {
+            "population_limit": 47177.734375,
+            "water": true
+        },
+        {
+            "population_limit": 54594.7265625,
+            "water": true
+        },
+        {
+            "population_limit": 58132.32421875,
+            "water": true
+        },
+        {
+            "owner": "civilization_13",
+            "population_limit": 60915.52734375
+        },
+        {
+            "owner": "civilization_13",
+            "population_limit": 40093.994140625
+        },
+        {
+            "population_limit": 76837.158203125,
+            "water": true
+        },
+        {
+            "population_limit": 53203.125,
+            "water": true
+        },
+        {
+            "population_limit": 56019.287109375,
+            "water": true
+        },
+        {
+            "population_limit": 56728.515625,
+            "water": true
+        },
+        {
+            "population_limit": 72416.9921875,
+            "water": true
+        },
+        {
+            "population_limit": 56027.83203125,
+            "water": true
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 60798.33984375
+        },
+        {
+            "population_limit": 56767.578125,
+            "water": true
+        },
+        {
+            "population_limit": 66748.046875,
+            "water": true
+        },
+        {
+            "owner": "civilization_17",
+            "population_limit": 56953.125
+        },
+        {
+            "population_limit": 44472.65625,
+            "water": true
+        },
+        {
+            "population_limit": 51785.888671875,
+            "water": true
+        },
+        {
+            "population_limit": 47392.578125,
+            "water": true
+        },
+        {
+            "population_limit": 46434.326171875,
+            "water": true
+        },
+        {
+            "population_limit": 76239.013671875,
+            "water": true
+        },
+        {
+            "population_limit": 52496.337890625,
+            "water": true
+        },
+        {
+            "population_limit": 67309.5703125,
+            "water": true
+        },
+        {
+            "population_limit": 70300.29296875,
+            "water": true
+        },
+        {
+            "population_limit": 64492.1875,
+            "water": true
+        },
+        {
+            "population_limit": 56080.322265625,
+            "water": true
+        },
+        {
+            "population_limit": 67868.65234375,
+            "water": true
+        },
+        {
+            "population_limit": 45711.669921875,
+            "water": true
+        },
+        {
+            "owner": "civilization_9",
+            "population_limit": 53936.767578125
+        },
+        {
+            "population_limit": 79840.087890625,
+            "water": true
+        },
+        {
+            "population_limit": 42878.41796875,
+            "water": true
+        },
+        {
+            "owner": "civilization_19",
+            "population_limit": 74080.810546875
+        },
+        {
+            "population_limit": 71849.365234375,
+            "water": true
+        },
+        {
+            "population_limit": 67442.626953125,
+            "water": true
+        },
+        {
+            "population_limit": 64876.708984375,
+            "water": true
+        },
+        {
+            "population_limit": 47180.17578125,
+            "water": true
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 54716.796875
+        },
+        {
+            "owner": "civilization_15",
+            "population_limit": 73977.05078125
+        },
+        {
+            "owner": "civilization_15",
+            "population_limit": 74945.068359375
+        },
+        {
+            "owner": "civilization_18",
+            "population_limit": 42728.271484375
+        },
+        {
+            "owner": "civilization_18",
+            "population_limit": 46524.658203125
+        },
+        {
+            "owner": "civilization_18",
+            "population_limit": 76097.412109375
+        },
+        {
+            "owner": "civilization_14",
+            "population_limit": 77280.2734375
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 65646.97265625
+        },
+        {
+            "owner": "civilization_20",
+            "population_limit": 79935.302734375
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 53492.431640625
+        },
+        {
+            "owner": "civilization_22",
+            "population_limit": 79788.818359375
+        },
+        {
+            "population_limit": 71306.15234375,
+            "water": true
+        },
+        {
+            "owner": "civilization_13",
+            "population_limit": 51605.224609375
+        },
+        {
+            "owner": "civilization_16",
+            "population_limit": 47934.5703125
+        },
+        {
+            "owner": "civilization_13",
+            "population_limit": 61940.91796875
+        },
+        {
+            "owner": "civilization_13",
+            "population_limit": 66940.91796875
+        },
+        {
+            "owner": "civilization_13",
+            "population_limit": 42890.625
+        },
+        {
+            "owner": "civilization_13",
+            "population_limit": 46153.564453125
+        },
+        {
+            "owner": "civilization_17",
+            "population_limit": 71138.916015625
+        },
+        {
+            "owner": "civilization_7",
+            "population_limit": 67542.724609375
+        },
+        {
+            "owner": "civilization_15",
+            "population_limit": 77197.265625
+        },
+        {
+            "owner": "civilization_1",
+            "population_limit": 72792.96875
+        }
+    ],
+    "bots_behavior": "standard",
+    "fog_of_war": "standard",
+    "resources_spawn": "standard",
+    "no_initial_diplomacy": "disabled"
+}
