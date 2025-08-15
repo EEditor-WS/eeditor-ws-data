@@ -1,1 +1,30 @@
-{"id":["eeditor","test","v1","two"],"title":"TEST TWO","author":["eenot","eeditor"],"year":"2025","languages":["uk"],"gameMode":"sandbox","publishDate":"2025-06-12","lastUpdate":"2025-06-24","hiddenScore":0,"type":"sandbox","period":"modern","economy":"none","population":"none","resources":"none","diplomacy":"none","revolts":"none","reforms":"none","events":0}
+{
+    "id": [
+        "eeditor",
+        "test",
+        "v1",
+        "two"
+    ],
+    "title": "TEST TWO",
+    "author": [
+        "eenot",
+        "eeditor"
+    ],
+    "year": "2025",
+    "languages": [
+        "uk"
+    ],
+    "gameMode": "sandbox",
+    "publishDate": "2025-06-12",
+    "lastUpdate": "2025-06-24",
+    "hiddenScore": 0,
+    "type": "sandbox",
+    "period": "modern",
+    "economy": "none",
+    "population": "none",
+    "resources": "none",
+    "diplomacy": "none",
+    "revolts": "none",
+    "reforms": "none",
+    "events": 0
+}
