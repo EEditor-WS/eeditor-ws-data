@@ -4,15 +4,17 @@
             "eeditor",
             "enot",
             "v2",
-            "racc"
+            "enotik"
         ],
-        "title": "sssss",
+        "title": "enotik",
         "author": [
             "eenot",
             "eeditor"
         ],
         "year": "2025",
         "languages": [
+            "en",
+            "ru",
             "uk"
         ],
         "gameMode": "sandbox",
