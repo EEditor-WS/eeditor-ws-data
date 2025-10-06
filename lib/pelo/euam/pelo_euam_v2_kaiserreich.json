@@ -8637,11 +8637,7 @@
                 255
             ],
             "capital": 685,
-            "vassals": {
-                "civilization_87": {
-                    "turn": 0
-                }
-            },
+            "vassals": [],
             "reforms": [
                 {
                     "banner": "russian_empire",
@@ -9488,6 +9484,23 @@
             "defeated": false,
             "group_name": "",
             "political": ""
+        },
+        "undeveloped_land": {
+            "vassals": [],
+            "reforms": [],
+            "color": [
+                96,
+                96,
+                96
+            ],
+            "allies": [],
+            "enemies": [],
+            "sanctions": [],
+            "defeated": false,
+            "guaranteed": [],
+            "guaranteed_by": [],
+            "pacts": [],
+            "name": ""
         },
         "civilization_21": {
             "guaranteed": {},
@@ -14172,11 +14185,7 @@
                 255
             ],
             "capital": 104,
-            "vassals": {
-                "civilization_4": {
-                    "turn": 0
-                }
-            },
+            "vassals": [],
             "reforms": [
                 {
                     "color": [
