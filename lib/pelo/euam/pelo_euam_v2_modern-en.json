@@ -1,70 +1,68 @@
 {
     "historical_events": true,
     "custom_events": {
-        "E001": {
+        "E1": {
+            "id": "E1",
+            "group_name": "",
             "unique_event_name": "",
-            "bonuses": [],
+            "title": "Starting resources",
+            "description": "",
+            "answer1": "ignore",
             "answer2": "",
-            "answer2_is_disabled": true,
             "answer3": "",
+            "description1": "",
+            "description2": "",
+            "description3": "",
+            "answer2_is_disabled": true,
             "answer3_is_disabled": true,
             "auto_answer1_if_ignored": true,
-            "bonuses1": [
-                {
-                    "value": 500,
-                    "type": "add_shock_infantry",
-                    "duration": ""
-                },
-                {
-                    "duration": "",
-                    "value": 200,
-                    "type": "add_resource",
-                    "subtype": "wood"
-                },
-                {
-                    "duration": "",
-                    "value": 100,
-                    "type": "add_resource",
-                    "subtype": "iron"
-                },
-                {
-                    "duration": "",
-                    "value": 50,
-                    "type": "add_resource",
-                    "subtype": "steel"
-                },
-                {
-                    "value": 0.1,
-                    "type": "building_cost",
-                    "duration": 3
-                },
-                {
-                    "value": -40,
-                    "type": "discontent_change",
-                    "duration": 3
-                }
-            ],
-            "lands": [],
-            "bonuses3": [],
             "delete_after_turns": 1,
-            "bonuses2": [],
-            "group_name": "",
-            "description2": "",
-            "requirements": [
-                {
-                    "action": "equal",
-                    "value": 1,
-                    "type": "turn"
-                }
-            ],
-            "description3": "",
             "hide_later": false,
             "image": "diplomacy",
-            "requirements3": [],
-            "requirements2": [],
+            "icon": "diplomacy",
+            "lands": [],
+            "bonuses": [],
+            "bonuses1": [
+                {
+                    "type": "add_shock_infantry",
+                    "value": 500,
+                    "duration": 3
+                },
+                {
+                    "type": "resource",
+                    "subtype": "wood",
+                    "value": "200",
+                    "duration": 3
+                },
+                {
+                    "type": "resource",
+                    "subtype": "iron",
+                    "value": "100",
+                    "duration": 3
+                },
+                {
+                    "type": "resource",
+                    "subtype": "steel",
+                    "value": "50",
+                    "duration": 3
+                },
+                {
+                    "type": "building_cost",
+                    "value": 0.1,
+                    "duration": 3
+                },
+                {
+                    "type": "discontent",
+                    "value": -40,
+                    "duration": 3
+                }
+            ],
+            "bonuses2": [],
+            "bonuses3": [],
+            "requirements": [],
             "requirements1": [],
-            "id": "E001",
-            "icon": "diplomacy"
+            "requirements2": [],
+            "requirements3": []
         }
     },
     "name": "Modern Day",
