@@ -5,7 +5,7 @@
             "id": "E1",
             "group_name": "",
             "unique_event_name": "",
-            "title": "Starting resources",
+            "title": "Starting Resources",
             "description": "",
             "answer1": "ignore",
             "answer2": "",
@@ -25,26 +25,22 @@
             "bonuses1": [
                 {
                     "type": "add_shock_infantry",
-                    "value": 500,
-                    "duration": 3
+                    "value": 500
                 },
                 {
-                    "type": "resource",
+                    "type": "add_resource",
                     "subtype": "wood",
-                    "value": "200",
-                    "duration": 3
+                    "value": 200
                 },
                 {
-                    "type": "resource",
+                    "type": "add_resource",
                     "subtype": "iron",
-                    "value": "100",
-                    "duration": 3
+                    "value": 100
                 },
                 {
-                    "type": "resource",
+                    "type": "add_resource",
                     "subtype": "steel",
-                    "value": "50",
-                    "duration": 3
+                    "value": 50
                 },
                 {
                     "type": "building_cost",
@@ -59,7 +55,13 @@
             ],
             "bonuses2": [],
             "bonuses3": [],
-            "requirements": [],
+            "requirements": [
+                {
+                    "type": "turn",
+                    "action": "equal",
+                    "value": 1
+                }
+            ],
             "requirements1": [],
             "requirements2": [],
             "requirements3": []
