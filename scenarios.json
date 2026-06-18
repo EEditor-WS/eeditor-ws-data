@@ -127,7 +127,7 @@
         "lastUpdate": "2024-11-17",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "ancient"
+        "period": "1444"
     },
     {
         "id": [
@@ -199,7 +199,7 @@
         "lastUpdate": "2025-04-07",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "alternative"
+        "period": "kaiserreich"
     },
     {
         "id": [
@@ -247,7 +247,7 @@
         "lastUpdate": "2024-12-17",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "alternative"
+        "period": "tno"
     },
     {
         "id": [
@@ -295,7 +295,7 @@
         "lastUpdate": "2024-12-23",
         "hiddenScore": 0,
         "type": "battle",
-        "period": ""
+        "period": "alternative"
     },
     {
         "id": [
@@ -319,7 +319,7 @@
         "lastUpdate": "2024-12-23",
         "hiddenScore": 0,
         "type": "battle",
-        "period": ""
+        "period": "alternative"
     },
     {
         "id": [
@@ -486,7 +486,7 @@
         "lastUpdate": "2025-03-07",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "ancient"
+        "period": "napoleon"
     },
     {
         "id": [
@@ -509,7 +509,7 @@
         "lastUpdate": "2025-03-07",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "ancient"
+        "period": "napoleon"
     },
     {
         "id": [
@@ -612,7 +612,7 @@
         ],
         "title": "Fall of Constantinople",
         "author": ["zachary"],
-        "year": "2077",
+        "year": "1452",
         "languages": ["EN"],
         "gameMode": "Sandbox",
         "map": {
@@ -624,7 +624,7 @@
         "lastUpdate": "2025-03-07",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "future"
+        "period": "anciaent"
     },
     {
         "id": [
@@ -658,7 +658,7 @@
         ],
         "title": "Napoleonic War",
         "author": ["zachary"],
-        "year": "2025",
+        "year": "1812",
         "languages": ["EN"],
         "gameMode": "Sandbox",
         "map": {
@@ -670,7 +670,7 @@
         "lastUpdate": "2025-03-07",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "alternative"
+        "period": "napoleon"
     },
     {
         "id": [
@@ -808,7 +808,7 @@
         "lastUpdate": "2025-02-02",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "ancient"
+        "period": "american_civil_war"
     },
     {
         "id": [
@@ -831,7 +831,7 @@
         "lastUpdate": "2025-01-23",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "modern"
+        "period": "alternative"
     },
     {
         "id": [
@@ -855,7 +855,7 @@
         "lastUpdate": "2025-04-14",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "alternative"
+        "period": "kaiserreich"
     },
     {
         "id": [
@@ -879,7 +879,7 @@
         "lastUpdate": "2025-04-14",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "alternative"
+        "period": "kaiserreich"
     },
     {
         "id": [
@@ -1263,7 +1263,7 @@
         "lastUpdate": "2025-04-30",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "ancient"
+        "period": "1444"
     },
     {
         "id": [
@@ -1311,7 +1311,7 @@
         "lastUpdate": "2025-04-30",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "ancient"
+        "period": "napoleon"
     },
     {
         "id": [
@@ -1322,7 +1322,7 @@
         ],
         "title": "1991",
         "author": ["atharva"],
-        "year": "2025",
+        "year": "1991",
         "languages": ["EN"],
         "gameMode": "Sandbox",
         "map": {
@@ -1567,7 +1567,7 @@
         "lastUpdate": "2025-05-14",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "ancient"
+        "period": "napoleon"
     },
     {
         "id": [
@@ -1828,7 +1828,7 @@
         "lastUpdate": "2024-02-04",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "modern"
+        "period": "alternative"
     },
     {
         "id": [
@@ -1868,7 +1868,7 @@
         "lastUpdate": "2024-02-24",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "ancient"
+        "period": "1444"
     },
     {
         "id": [
@@ -1888,7 +1888,7 @@
         "lastUpdate": "2024-02-23",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "ancient"
+        "period": "1444"
     },
     {
         "id": [
@@ -1908,7 +1908,7 @@
         "lastUpdate": "2024-03-19",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "ancient"
+        "period": "ww1"
     },
     {
         "id": [
@@ -1968,7 +1968,7 @@
         "lastUpdate": "2023-06-12",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "other"
+        "period": "alternative"
     },
     {
         "id": [
@@ -2048,7 +2048,7 @@
         "lastUpdate": "2024-03-27",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "ancient"
+        "period": "1444"
     },
     {
         "id": [
@@ -2088,7 +2088,7 @@
         "lastUpdate": "2024-03-27",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "alternative"
+        "period": "tno"
     },
     {
         "id": [
@@ -2125,30 +2125,10 @@
         "awards": [],
         
         "publishDate": "2024-03-27",
-        "lastUpdate": "2024-03-27",
-        "hiddenScore": 0,
-        "type": "sandbox",
-        "period": "alternative"
-    },
-    {
-        "id": [
-            "trid",
-            "eurosat",
-            "v5",
-            "kaizerreich"
-        ],
-        "title": "Kaizerreich",
-        "author": ["trid"],
-        "year": "1914",
-        "languages": ["RU"],
-        "gameMode": "Sandbox",
-        "awards": [],
-        
-        "publishDate": "2024-04-05",
         "lastUpdate": "2024-04-05",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "alternative"
+        "period": "kaiserreich"
     },
     {
         "id": [
@@ -2168,7 +2148,7 @@
         "lastUpdate": "2024-04-21",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "alternative"
+        "period": "tno"
     },
     {
         "id": [
@@ -2308,27 +2288,7 @@
         "lastUpdate": "2023-10-19",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "ancient"
-    },
-    {
-        "id": [
-            "jaba",
-            "america",
-            "vg",
-            "modern"
-        ],
-        "title": "Modern America",
-        "author": ["jaba"],
-        "year": "2023",
-        "languages": ["RU"],
-        "gameMode": "Sandbox",
-        "awards": [],
-        
-        "publishDate": "2023-10-19",
-        "lastUpdate": "2023-10-19",
-        "hiddenScore": 0,
-        "type": "sandbox",
-        "period": "modern"
+        "period": "american_civil_war"
     },
     {
         "id": [
@@ -2669,8 +2629,7 @@
         "hiddenScore": -50,
         "type": "sandbox",
         "period": "modern",
-        "status": "archived", 
-        "rights": true
+        "status": "archived"
     },
     {
         "id": [
@@ -2750,7 +2709,7 @@
         "lastUpdate": "2025-09-03",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "ancient"
+        "period": "napoleon"
     },
     {
         "id": [
@@ -2770,7 +2729,7 @@
         "lastUpdate": "2025-09-03",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "ancient"
+        "period": "napoleon"
     },
     {
         "id": [
@@ -2790,7 +2749,7 @@
         "lastUpdate": "2025-10-06",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "alternative"
+        "period": "kaiserreich"
     },
     {
         "id": [
@@ -2873,7 +2832,7 @@
         "lastUpdate": "2025-09-03",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "anciaent",
+        "period": "american_civil_war",
         "status": "complated"
     },
     {
@@ -2915,7 +2874,7 @@
         "lastUpdate": "2025-09-07",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "alternative",
+        "period": "kaiserreich",
         "status": "complated"
     },
     {
@@ -3001,7 +2960,7 @@
         "lastUpdate": "2025-10-17",
         "hiddenScore": 100,
         "type": "lore",
-        "period": "alternative",
+        "period": "kaiserreich",
         "status": "in_development"
     },
     {
@@ -3148,7 +3107,7 @@
         "lastUpdate": "2026-03-17",
         "hiddenScore": 100,
         "type": "sandbox",
-        "period": "alternative",
+        "period": "ironorder",
         "status": "complated"
     },
     {
@@ -3169,7 +3128,7 @@
         "lastUpdate": "2026-03-17",
         "hiddenScore": 100,
         "type": "sandbox",
-        "period": "ancient",
+        "period": "1444",
         "status": "complated"
     },
     {
@@ -3190,7 +3149,7 @@
         "lastUpdate": "2026-03-17",
         "hiddenScore": 100,
         "type": "sandbox",
-        "period": "alternative",
+        "period": "tno",
         "status": "complated"
     },
     {
@@ -3253,7 +3212,7 @@
         "lastUpdate": "2026-03-17",
         "hiddenScore": 100,
         "type": "sandbox",
-        "period": "alternative",
+        "period": "kaiserreich",
         "status": "complated"
     },
     {
