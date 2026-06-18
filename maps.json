@@ -515,7 +515,7 @@
     {
         "id": ["trid", "eurosat", "v5"],
         "versions": [
-            "v5",
+            "v5"
         ],
         "title": "EuroSat by Trid",
         "author": ["trid"],
@@ -584,7 +584,7 @@
         "versions": [
             "v1",
             "v2",
-            "v3",
+            "v3"
         ],
         "title": "Tigerland by Chuckcha",
         "author": ["chuckcha"],
