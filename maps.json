@@ -1,6 +1,9 @@
 [
     {
-        "id": ["eenot", "world", "v1"],
+        "id": ["eenot", "world"],
+        "versions": [
+            "v1"
+        ],
         "title": "World by ЕЕнот",
         "author": ["eenot"],
         "description": "The best world map for normal and low devices. Very optimized. By developer of EEditor",
@@ -12,11 +15,13 @@
         "publishDate": "2025-01-19",
         "lastUpdate": "2025-01-19",
         "load": "light",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["eenot", "moldavia", "v1"],
+        "id": ["eenot", "moldavia"],
+        "versions": [
+            "v1"
+        ],
         "title": "Moldavia by ЕЕнот",
         "author": ["eenot"],
         "description": "Map of Republic of Moldova, Pridnestrovian Moldavian Rupublic and Odesska Oblast of Ukraine",
@@ -28,11 +33,17 @@
         "publishDate": "2025-04-28",
         "lastUpdate": "2025-04-28",
         "load": "ultralight",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["bluepum", "enaatme", "v5"],
+        "id": ["bluepum", "enaatme"],
+        "versions": [
+            "v1",
+            "v2",
+            "v3",
+            "v4",
+            "v5"
+        ],
         "title": "Europe+ by Bluepum",
         "author": ["bluepum"],
         "description": "Map of Europe, North Africa and Middle East",
@@ -44,11 +55,13 @@
         "publishDate": "2025-04-26",
         "lastUpdate": "2025-05-14",
         "load": "light",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["bluepum", "germany", "v1"],
+        "id": ["bluepum", "germany"],
+        "versions": [
+            "v1"
+        ],
         "title": "Germany by Bluepum",
         "author": ["bluepum"],
         "description": "This is the administrative division of Germany",
@@ -60,11 +73,14 @@
         "publishDate": "2025-04-24",
         "lastUpdate": "2025-04-24",
         "load": "mobile",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["eenot", "arstotzka", "v2"],
+        "id": ["eenot", "arstotzka"],
+        "versions": [
+            "v1",
+            "v2"
+        ],
         "title": "Arstotzka World by ЕЕнот",
         "author": ["eenot"],
         "description": "Unofficial world map of Paper's Please world",
@@ -76,11 +92,13 @@
         "publishDate": "2025-04-21",
         "lastUpdate": "2025-04-21",
         "load": "mobile",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["zachary", "world-3ga", "v1"],
+        "id": ["zachary", "world-3ga"],
+        "versions": [
+            "v1"
+        ],
         "title": "World 3b years ago by Zachary",
         "author": ["zachary"],
         "description": "Unofficial world map of Paper's Please world",
@@ -92,11 +110,13 @@
         "publishDate": "2025-04-09",
         "lastUpdate": "2025-04-09",
         "load": "mobile",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["zachary", "authun", "v1"],
+        "id": ["zachary", "authun"],
+        "versions": [
+            "v1"
+        ],
         "title": "Austria-Hungaria by Zachary",
         "author": ["zachary"],
         "description": "Map of Austro-Hungarian Empire",
@@ -108,11 +128,13 @@
         "publishDate": "2025-01-31", 
         "lastUpdate": "2025-01-31",
         "load": "normal",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["zachary", "world-am", "v1"],
+        "id": ["zachary", "world-am"],
+        "versions": [
+            "v1"
+        ],
         "title": "World according to America",
         "author": ["zachary"],
         "description": "World according to America",
@@ -124,11 +146,13 @@
         "publishDate": "2025-01-28", 
         "lastUpdate": "2025-01-28",
         "load": "normal",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["zachary", "panem", "v2"],
+        "id": ["zachary", "panem"],
+        "versions": [
+            "v2"
+        ],
         "title": "Panem v2 by Zachary",
         "author": ["zachary"],
         "description": "Map of Panem from Hunger Games",
@@ -140,11 +164,13 @@
         "publishDate": "2025-01-27", 
         "lastUpdate": "2025-01-27",
         "load": "light",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["zachary", "eurasia", "v2"],
+        "id": ["zachary", "eurasia"],
+        "versions": [
+            "v2"
+        ],
         "title": "Terra Eurasia by Zachary",
         "author": ["zachary"],
         "description": "Big detalized map of Eurasia",
@@ -156,11 +182,13 @@
         "publishDate": "2024-11-29", 
         "lastUpdate": "2024-11-29",
         "load": "superheavy",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["zachary", "mars", "v1"],
+        "id": ["zachary", "mars"],
+        "versions": [
+            "v1"
+        ],
         "title": "Terraformed Mars by Zachary",
         "author": ["zachary"],
         "description": "Map of Mars with terraformed areas",
@@ -172,11 +200,13 @@
         "publishDate": "2025-01-20", 
         "lastUpdate": "2025-01-20",
         "load": "light",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["zachary", "florida", "v1"],
+        "id": ["zachary", "florida"],
+        "versions": [
+            "v1"
+        ],
         "title": "Florida by Zachary",
         "author": ["zachary"],
         "description": "Florida",
@@ -188,11 +218,14 @@
         "publishDate": "2024-10-31", 
         "lastUpdate": "2024-10-31",
         "load": "ultralight",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["zachary", "africa", "v3"],
+        "id": ["zachary", "africa"],
+        "versions": [
+            "v2",
+            "v3"
+        ],
         "title": "Terra Africa by Zachary",
         "author": ["zachary"],
         "description": "Welcome to Terra Africa! This map was built to be as big as possible which is why its my new highest province map",
@@ -204,11 +237,13 @@
         "publishDate": "2024-10-16", 
         "lastUpdate": "2024-10-29",
         "load": "normal",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["zachary", "australia", "v1"],
+        "id": ["zachary", "australia"],
+        "versions": [
+            "v1"
+        ],
         "title": "Terra Australis by Zachary",
         "author": ["zachary"],
         "description": "I guess i decided that my maps should follow a naming convention so... After Terra Novus we have Terra Australis! This is a map of south east Asia and Oceania!",
@@ -220,11 +255,14 @@
         "publishDate": "2024-10-07", 
         "lastUpdate": "2024-10-07",
         "load": "light",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["zachary", "america", "v2"],
+        "id": ["zachary", "america"],
+        "versions": [
+            "v1",
+            "v2"
+        ],
         "title": "Terra Novus by Zachary",
         "author": ["zachary"],
         "description": "This is meine magnum opus, the Americas! This is a remake of my previous map called the Americas, this one has 2x the detail and better provinces that allow more historical boundaries.",
@@ -237,11 +275,13 @@
         "lastUpdate": "2024-10-07",
         "load": "normal",
         "hiddenScore": 0,
-        "status": "archived",
-        "rights": true
+        "status": "archived"
     },
     {
-        "id": ["zachary", "europe1815", "v2"],
+        "id": ["zachary", "europe1815"],
+        "versions": [
+            "v2"
+        ],
         "title": "Europe 1815 by Zachary",
         "author": ["zachary"],
         "description": "Thankfully the German Confederation has much less chaos then the Holy Roman Empire. I hope its accurate.",
@@ -253,11 +293,13 @@
         "publishDate": "2024-07-26", 
         "lastUpdate": "2024-07-26",
         "load": "light",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["zachary", "usa", "v1"],
+        "id": ["zachary", "usa"],
+        "versions": [
+            "v1"
+        ],
         "title": "USA by Zachary",
         "author": ["zachary"],
         "description": "Three maps in 3 days.",
@@ -269,11 +311,13 @@
         "publishDate": "2025-01-21", 
         "lastUpdate": "2025-01-21",
         "load": "mobile",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["zachary", "deadhand", "v1"],
+        "id": ["zachary", "deadhand"],
+        "versions": [
+            "v1"
+        ],
         "title": "Dead Hand | Aftermath of WW3",
         "author": ["zachary"],
         "description": "The year is 2024, 60 years after nuclear bombs were detonated in WW3! Explore the post nuclear 'paradise' that has everything from Soviet warlords to Khagantes all in the good old USA, this has events and tons of lore.",
@@ -285,11 +329,13 @@
         "publishDate": "2025-05-07", 
         "lastUpdate": "2025-05-07",
         "load": "normal",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["pelo", "greece", "v1"],
+        "id": ["pelo", "greece"],
+        "versions": [
+            "v1"
+        ],
         "title": "Aegean Sea by Pelo",
         "author": ["pelo"],
         "description": "Thankfully the German Confederation has much less chaos then the Holy Roman Empire. I hope its accurate.",
@@ -301,8 +347,7 @@
         "publishDate": "2024-07-26", 
         "lastUpdate": "2024-07-26",
         "load": "light",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
         "id": ["jaba", "america", "vg"],
@@ -317,8 +362,7 @@
         "publishDate": "2023-08-12", 
         "lastUpdate": "2023-08-19",
         "load": "light",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
         "id": ["parkourcat", "euro4", "vg"],
@@ -333,11 +377,13 @@
         "publishDate": "2023-08-05", 
         "lastUpdate": "2023-08-05",
         "load": "light",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["zachary", "world", "v1"],
+        "id": ["zachary", "world"],
+        "versions": [
+            "v1"
+        ],
         "title": "World by Zachary",
         "author": ["zachary"],
         "description": "One of the bestest world maps",
@@ -349,8 +395,7 @@
         "publishDate": "2025-02-10", 
         "lastUpdate": "2025-02-10",
         "load": "normal",
-        "hiddenScore": 150,
-        "rights": true
+        "hiddenScore": 150
     },
     {
         "id": ["jalhund", "europe", "vg"],
@@ -365,11 +410,14 @@
         "publishDate": "1912-04-15",
         "lastUpdate": "2077-01-01",
         "load": "mobile",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["stewardconstruct", "europe", "v2"],
+        "id": ["stewardconstruct", "europe"],
+        "versions": [
+            "v1",
+            "v2"
+        ],
         "title": "Europe (Our Empire)",
         "author": ["stewardconstruct"],
         "description": "A map of Europe, north Africa and middle east, province map from game our empire with minor changes",
@@ -381,11 +429,13 @@
         "publishDate": "2025-05-05", 
         "lastUpdate": "2025-06-04",
         "load": "mobile",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["stewardconstruct", "serbia", "v1"],
+        "id": ["stewardconstruct", "serbia"],
+        "versions": [
+            "v1"
+        ],
         "title": "Serbia",
         "author": ["stewardconstruct"],
         "description": "",
@@ -397,11 +447,13 @@
         "publishDate": "2025-03-15", 
         "lastUpdate": "2025-03-15",
         "load": "mobile",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["stewardconstruct", "yugoslavia", "v1"],
+        "id": ["stewardconstruct", "yugoslavia"],
+        "versions": [
+            "v1"
+        ],
         "title": "Yugoslavia",
         "author": ["stewardconstruct"],
         "description": "",
@@ -413,11 +465,13 @@
         "publishDate": "2025-03-19", 
         "lastUpdate": "2025-03-19",
         "load": "light",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["trid", "archangelsk", "v1"],
+        "id": ["trid", "archangelsk"],
+        "versions": [
+            "v1"
+        ],
         "title": "Archangelsk",
         "author": ["trid"],
         "description": "",
@@ -429,12 +483,14 @@
         "publishDate": "2024-02-04", 
         "lastUpdate": "2024-02-04",
         "load": "ultralight",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["chuckcha", "europe", "v1"],
-        "title": "Crusader Kings 3 Europe, Africa and Middle East",
+        "id": ["chuckcha", "europe"],
+        "versions": [
+            "v1"
+        ],
+        "title": "Crusader Kings 3 Europe",
         "author": ["chuckcha"],
         "description": "",
         "type": "continent",
@@ -445,11 +501,13 @@
         "publishDate": "2023-01-29", 
         "lastUpdate": "2023-01-29",
         "load": "normal",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["jalhund", "euro5l", "v1"],
+        "id": ["jalhund", "euro5l"],
+        "versions": [
+            "v1"
+        ],
         "title": "Euro5 Lite by jalhund",
         "author": ["jalhund"],
         "description": "",
@@ -461,11 +519,13 @@
         "publishDate": "2024-03-16", 
         "lastUpdate": "2024-03-16",
         "load": "normal",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["jaba", "asia", "v1"],
+        "id": ["jaba", "asia"],
+        "versions": [
+            "v1"
+        ],
         "title": "Asia and Oceania EU4",
         "author": ["jaba"],
         "description": "",
@@ -477,11 +537,13 @@
         "publishDate": "2024-02-20", 
         "lastUpdate": "2024-02-20",
         "load": "normal",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["jaba", "world", "v1"],
+        "id": ["jaba", "world"],
+        "versions": [
+            "v1"
+        ],
         "title": "World EU4 by Jaba",
         "author": ["jaba"],
         "description": "",
@@ -493,11 +555,13 @@
         "publishDate": "2024-04-03", 
         "lastUpdate": "2024-04-03",
         "load": "superheavy",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["jalhund", "lp16", "v1"],
+        "id": ["jalhund", "lp16"],
+        "versions": [
+            "v1"
+        ],
         "title": "LP-16 by Jalhund",
         "author": ["jalhund"],
         "description": "",
@@ -509,11 +573,10 @@
         "publishDate": "2023-06-12", 
         "lastUpdate": "2023-06-12",
         "load": "ultralight",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["trid", "eurosat", "v5"],
+        "id": ["trid", "eurosat"],
         "versions": [
             "v5"
         ],
@@ -528,11 +591,13 @@
         "publishDate": "2024-02-12", 
         "lastUpdate": "2024-03-27",
         "load": "norlmal",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["trid", "euro5l+", "v1"],
+        "id": ["trid", "euro5l+"],
+        "versions": [
+            "v1"
+        ],
         "title": "Euro5 Lite+ by Trid",
         "author": ["trid"],
         "description": "",
@@ -544,11 +609,14 @@
         "publishDate": "2024-07-22", 
         "lastUpdate": "2024-07-22",
         "load": "norlmal",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["jaba", "korea", "v2"],
+        "id": ["jaba", "korea"],
+        "versions": [
+            "v1",
+            "v2"
+        ],
         "title": "Korea by Jaba",
         "author": ["jaba"],
         "description": "",
@@ -560,11 +628,14 @@
         "publishDate": "2023-09-26", 
         "lastUpdate": "2024-10-01",
         "load": "norlmal",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["trid", "ukraine", "v2"],
+        "id": ["trid", "ukraine"],
+        "versions": [
+            "v1",
+            "v2"
+        ],
         "title": "Ukraine by Trid",
         "author": ["trid"],
         "description": "",
@@ -576,11 +647,10 @@
         "publishDate": "2024-06-11", 
         "lastUpdate": "2024-09-15",
         "load": "norlmal",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["chuckcha", "tigerland", "v1"],
+        "id": ["chuckcha", "tigerland"],
         "versions": [
             "v1",
             "v2",
@@ -595,45 +665,15 @@
         "features": [],
         "status": "completed",
         "publishDate": "2024-06-11", 
-        "lastUpdate": "2024-09-15",
-        "load": "norlmal",
-        "hiddenScore": 0,
-        "rights": true
-    },
-    {
-        "id": ["chuckcha", "tigerland", "v2"],
-        "title": "Tigerland v2",
-        "author": ["jalhund"],
-        "description": "",
-        "type": "country",
-        "region": ["alternative"],
-        "provinces": 929,
-        "features": [],
-        "status": "completed",
-        "publishDate": "2024-06-11", 
         "lastUpdate": "2024-11-17",
         "load": "norlmal",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["chuckcha", "tigerland", "v3"],
-        "title": "Tigerland v3",
-        "author": ["jalhund"],
-        "description": "",
-        "type": "country",
-        "region": ["alternative"],
-        "provinces": 929,
-        "features": [],
-        "status": "completed",
-        "publishDate": "2024-06-11", 
-        "lastUpdate": "2024-11-17",
-        "load": "norlmal",
-        "hiddenScore": 0,
-        "rights": true
-    },
-    {
-        "id": ["mapmancer", "centaura", "v1"],
+        "id": ["mapmancer", "centaura"],
+        "versions": [
+            "v1"
+        ],
         "title": "Centaura by Mapmancer",
         "author": ["mapmancer"],
         "description": "",
@@ -645,11 +685,14 @@
         "publishDate": "2025-04-13", 
         "lastUpdate": "2025-04-13",
         "load": "norlmal",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["bluepum", "world", "v2"],
+        "id": ["bluepum", "world"],
+        "versions": [
+            "v1",
+            "v2"
+        ],
         "title": "Easy World by Bluepum",
         "author": ["bluepum"],
         "description": "World with «lost» continents",
@@ -661,11 +704,13 @@
         "publishDate": "2025-05-26", 
         "lastUpdate": "2025-05-27",
         "load": "mobile",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["bluepum", "atlantis", "v2"],
+        "id": ["bluepum", "atlantis"],
+        "versions": [
+            "v2"
+        ],
         "title": "Atlantis by Bluepum",
         "author": ["bluepum"],
         "description": "This is a map of the legendary mythical Atlantis!",
@@ -677,27 +722,14 @@
         "publishDate": "2025-05-27", 
         "lastUpdate": "2025-05-27",
         "load": "light",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["pelo", "euam", "v1"],
-        "title": "Europe and North America",
-        "author": ["pelo", "jaba"],
-        "description": "",
-        "type": "continent",
-        "region": ["europe", "america", "north_america"],
-        "provinces": 1091,
-        "features": [],
-        "status": "completed",
-        "publishDate": "2025-06-02", 
-        "lastUpdate": "2025-06-23",
-        "load": "mobile",
-        "hiddenScore": 0,
-        "rights": true
-    },
-    {
-        "id": ["pelo", "euam", "v2"],
+        "id": ["pelo", "euam"],
+        "versions": [
+            "v1",
+            "v2"
+        ],
         "title": "Europe and North America",
         "author": ["pelo", "jaba"],
         "description": "",
@@ -709,11 +741,14 @@
         "publishDate": "2025-06-02", 
         "lastUpdate": "2025-09-03",
         "load": "mobile",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["chitterss", "world", "v4"],
+        "id": ["chitterss", "world"],
+        "versions": [
+            "v3",
+            "v4"
+        ],
         "title": "World by chitterss",
         "author": ["chitterss"],
         "description": "",
@@ -725,11 +760,14 @@
         "publishDate": "2023-07-25", 
         "lastUpdate": "2025-09-19",
         "load": "hight",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["argentumm", "euromax", "v2"],
+        "id": ["argentumm", "euromax"],
+        "versions": [
+            "v1",
+            "v2"
+        ],
         "title": "Euromacks by Argentumm",
         "author": ["argentumm"],
         "description": "",
@@ -744,7 +782,10 @@
         "hiddenScore": 0
     },
     {
-        "id": ["astroja", "turkey", "v1"],
+        "id": ["astroja", "turkey"],
+        "versions": [
+            "v1"
+        ],
         "title": "Turkey by Astroja",
         "author": ["astroja"],
         "description": "",
@@ -759,7 +800,10 @@
         "hiddenScore": 0
     },
     {
-        "id": ["bluepum", "calradia", "v1"],
+        "id": ["bluepum", "calradia"],
+        "versions": [
+            "v1"
+        ],
         "title": "Calradia by Bluepum",
         "author": ["bluepum"],
         "description": "",
@@ -771,11 +815,13 @@
         "publishDate": "2025-06-09", 
         "lastUpdate": "2025-06-09",
         "load": "normal",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["bluepum", "oldcalradia", "v1"],
+        "id": ["bluepum", "oldcalradia"],
+        "versions": [
+            "v1"
+        ],
         "title": "Old Calradia by Bluepum",
         "author": ["bluepum"],
         "description": "",
@@ -787,11 +833,13 @@
         "publishDate": "2025-06-09", 
         "lastUpdate": "2025-06-09",
         "load": "normal",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["bluepum", "poland", "v1"],
+        "id": ["bluepum", "poland"],
+        "versions": [
+            "v1"
+        ],
         "title": "Poland by Bluepum",
         "author": ["bluepum"],
         "description": "",
@@ -803,11 +851,13 @@
         "publishDate": "2025-07-07", 
         "lastUpdate": "2025-07-07",
         "load": "normal",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["bluepum", "pvp", "v1"],
+        "id": ["bluepum", "pvp"],
+        "versions": [
+            "v1"
+        ],
         "title": "PVP by Bluepum",
         "author": ["bluepum"],
         "description": "",
@@ -819,11 +869,13 @@
         "publishDate": "2025-06-30", 
         "lastUpdate": "2025-06-30",
         "load": "normal",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["bluepum", "su", "v1"],
+        "id": ["bluepum", "su"],
+        "versions": [
+            "v1"
+        ],
         "title": "Soviet Union by Bluepum",
         "author": ["bluepum"],
         "description": "",
@@ -835,11 +887,13 @@
         "publishDate": "2025-06-14", 
         "lastUpdate": "2025-06-14",
         "load": "normal",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["bluepum", "tajikistan", "v1"],
+        "id": ["bluepum", "tajikistan"],
+        "versions": [
+            "v1"
+        ],
         "title": "Tajikistan by Bluepum",
         "author": ["bluepum"],
         "description": "",
@@ -851,11 +905,13 @@
         "publishDate": "2025-06-08", 
         "lastUpdate": "2025-06-08",
         "load": "ultralight",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["dener", "france", "v1"],
+        "id": ["dener", "france"],
+        "versions": [
+            "v1"
+        ],
         "title": "France by Dener",
         "author": ["dener"],
         "description": "",
@@ -870,7 +926,10 @@
         "hiddenScore": 0
     },
     {
-        "id": ["eleven", "east-asia", "v1"],
+        "id": ["eleven", "east-asia"],
+        "versions": [
+            "v1"
+        ],
         "title": "East Asia by Eleven",
         "author": ["eleven"],
         "description": "",
@@ -885,7 +944,10 @@
         "hiddenScore": 0
     },
     {
-        "id": ["eleven", "israel", "v1"],
+        "id": ["eleven", "israel"],
+        "versions": [
+            "v1"
+        ],
         "title": "Israel by Eleven",
         "author": ["eleven"],
         "description": "",
@@ -900,7 +962,10 @@
         "hiddenScore": 0
     },
     {
-        "id": ["eleven", "switzerland", "v1"],
+        "id": ["eleven", "switzerland"],
+        "versions": [
+            "v1"
+        ],
         "title": "Switzerland by Eleven",
         "author": ["eleven"],
         "description": "",
@@ -915,7 +980,10 @@
         "hiddenScore": 0
     },
     {
-        "id": ["enotochel", "malta", "v1"],
+        "id": ["enotochel", "malta"],
+        "versions": [
+            "v1"
+        ],
         "title": "Malta by Енотий",
         "author": ["enotochel", "joker"],
         "description": "",
@@ -930,7 +998,12 @@
         "hiddenScore": 0
     },
     {
-        "id": ["estebanf259", "balkans", "v3"],
+        "id": ["estebanf259", "balkans"],
+        "versions": [
+            "v1",
+            "v2",
+            "v3"
+        ],
         "title": "Balkans by Este",
         "author": ["estebanf259"],
         "description": "",
@@ -945,7 +1018,10 @@
         "hiddenScore": 0
     },
     {
-        "id": ["estebanf259", "british", "v1"],
+        "id": ["estebanf259", "british"],
+        "versions": [
+            "v1"
+        ],
         "title": "British Isles by Este",
         "author": ["estebanf259"],
         "description": "",
@@ -960,7 +1036,10 @@
         "hiddenScore": 0
     },
     {
-        "id": ["estebanf259", "chess", "v1"],
+        "id": ["estebanf259", "chess"],
+        "versions": [
+            "v1"
+        ],
         "title": "Chess by Este",
         "author": ["estebanf259"],
         "description": "",
@@ -975,9 +1054,12 @@
         "hiddenScore": 0
     },
     {
-        "id": ["zloyhoziain", "fareast", "v1"],
+        "id": ["zloy", "fareast"],
+        "versions": [
+            "v1"
+        ],
         "title": "Far East by Злой ХозяинЪ",
-        "author": ["zloyhoziain"],
+        "author": ["zloy"],
         "description": "",
         "type": "region",
         "region": [],
@@ -990,7 +1072,10 @@
         "hiddenScore": 0
     },
     {
-        "id": ["zachary", "americas-rem", "v2"],
+        "id": ["zachary", "americas-rem"],
+        "versions": [
+            "v2"
+        ],
         "title": "Americas Remastered by Zachary",
         "author": ["zachary"],
         "description": "",
@@ -1002,11 +1087,13 @@
         "publishDate": "2025-09-03", 
         "lastUpdate": "2025-09-03",
         "load": "normal",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["eenot", "metro2033", "v1"],
+        "id": ["eenot", "metro2033"],
+        "versions": [
+            "v1"
+        ],
         "title": "Metro 2033 by ЕЕнот",
         "author": ["eenot"],
         "description": "",
@@ -1018,11 +1105,13 @@
         "publishDate": "2025-09-19",
         "lastUpdate": "2025-09-26",
         "load": "normal",
-        "hiddenScore": 0,
-        "rights": true
+        "hiddenScore": 0
     },
     {
-        "id": ["estebanf259", "euromagnus", "v1"],
+        "id": ["estebanf259", "euromagnus"],
+        "versions": [
+            "v1"
+        ],
         "title": "Euromagnus by Esteban",
         "author": ["estebanf259"],
         "description": "",
@@ -1037,7 +1126,10 @@
         "hiddenScore": 0
     },
     {
-        "id": ["estebanf259", "world-redux", "v1"],
+        "id": ["estebanf259", "world-redux"],
+        "versions": [
+            "v1"
+        ],
         "title": "World Redux by Esteban",
         "author": ["estebanf259"],
         "description": "",
@@ -1052,7 +1144,11 @@
         "hiddenScore": 0
     },
     {
-        "id": ["gooby", "syria", "v2"],
+        "id": ["gooby", "syria"],
+        "versions": [
+            "v1",
+            "v2"
+        ],
         "title": "Syria by Gooby",
         "author": ["gooby", "zachary"],
         "description": "",
@@ -1067,7 +1163,10 @@
         "hiddenScore": 0
     },
     {
-        "id": ["shutkin", "dolina", "v1"],
+        "id": ["shutkin", "dolina"],
+        "versions": [
+            "v1"
+        ],
         "title": "Деймор - Долина",
         "author": ["shutkin"],
         "description": "",
@@ -1097,7 +1196,10 @@
         "hiddenScore": 0
     },
     {
-        "id": ["vova", "lifia", "v1"],
+        "id": ["vova", "lifia"],
+        "versions": [
+            "v1"
+        ],
         "title": "Lifia",
         "author": ["vova"],
         "description": "",
@@ -1112,7 +1214,10 @@
         "hiddenScore": 20
     },
     {
-        "id": ["eenot", "asia", "v1"],
+        "id": ["eenot", "asia"],
+        "versions": [
+            "v1"
+        ],
         "title": "Asia",
         "author": ["eenot"],
         "description": "The best map of Asia for Warnament. Detalied borders, many rivers, many provinces, good optimization.",
