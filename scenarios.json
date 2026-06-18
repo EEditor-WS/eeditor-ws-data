@@ -11,7 +11,6 @@
         "year": "2015",
         "languages": ["EN", "RU"],
         "gameMode": "Sandbox",
-        "tags": ["World", "For Phones", "Recommended", "without events", "without reforms", "Modern Day"],
         "awards": ["star", "enot"],
         
         "publishDate": "2025-01-19",
@@ -34,7 +33,6 @@
         "year": "2022",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": ["Europe", "For Phones", "Recommended", "without events", "without reforms", "Alternative History"],
         "map": {
             "name": "Standart Europe",
             "id": "jalhund_europe_vg"
@@ -61,7 +59,6 @@
         "year": "1936",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["World", "For Phones", "Recommended", "without events", "without reforms", "Historical", "WW2"],
         "awards": [],
         
         "publishDate": "2025-01-24",
@@ -83,7 +80,6 @@
         "year": "1965",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["World", "For Phones", "without events", "without reforms", "Historical", "Cold War"],
         "awards": [],
         
         "publishDate": "2025-01-24",
@@ -105,7 +101,6 @@
         "year": "1984",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["World", "For Phones", "Recommended", "without events", "without reforms", "Alternative History", "1984"],
         "awards": ["enot"],
         
         "publishDate": "2025-01-31",
@@ -127,7 +122,6 @@
         "year": "1444",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["Europe", "Historical", "Medieval", "without events", "without reforms"],
         "map": {
             "name": "EuroMagnus by Estebanf259",
             "id": "estebanf259_euromagnus_v1"
@@ -153,7 +147,6 @@
         "year": "1177",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["Europe", "Historical", "Roman Empire", "Ancient"],
         "map": {
             "name": "Euro4 Standart",
             "id": "parkourcat_euro4_vg"
@@ -179,7 +172,6 @@
         "year": "2000",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["World", "Alternative History", "Half-Life", "Post-apocalyptic"],
         "map": {
             "name": "World Plus",
             "id": "shahz0d_world_v1"
@@ -205,7 +197,6 @@
         "year": "1936",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["Eurasia", "Alternative History", "WW1", "Kaiserreich"],
         "map": {
             "name": "Eurasia by Zachary",
             "id": "zachary_eurasia_v1"
@@ -231,7 +222,6 @@
         "year": "2020",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["Eurasia", "Modern Day", "2020s"],
         "map": {
             "name": "Eurasia by Zachary",
             "id": "zachary_eurasia_v1"
@@ -257,7 +247,6 @@
         "year": "1962",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["Eurasia", "Alternative History", "WW2", "The New Order", "Cold War"],
         "map": {
             "name": "Eurasia by Zachary",
             "id": "zachary_eurasia_v1"
@@ -283,7 +272,6 @@
         "year": "1936",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["World", "Historical", "WW2", "1936"],
         "map": {
             "name": "World by Zachary",
             "id": "zachary_world_v1"
@@ -309,7 +297,6 @@
         "year": "0",
         "languages": ["EN"],
         "gameMode": "Battle",
-        "tags": ["PvP", "Battle", "1v1", "Competitive"],
         "map": {
             "name": "PvP map by Енотий",
             "id": "enotochel_pvp_v1"
@@ -335,7 +322,6 @@
         "year": "0",
         "languages": ["EN"],
         "gameMode": "Battle",
-        "tags": ["PvP", "Battle", "1v1", "Competitive", "Spectator"],
         "map": {
             "name": "PvP map by Енотий",
             "id": "enotochel_pvp_v1"
@@ -361,7 +347,6 @@
         "year": "1949",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["World", "Historical", "Cold War", "Redux"],
         "map": {
             "name": "World Map Redux",
             "id": "estebanf259_world-redux_v2"
@@ -387,7 +372,6 @@
         "year": "2000",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["World", "Modern Day", "Redux", "2000s"],
         "map": {
             "name": "World Map Redux",
             "id": "estebanf259_world-redux_v2"
@@ -413,7 +397,6 @@
         "year": "1936",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["World", "WW2", "Hearts of Iron", "Formable Nations", "Redux"],
         "map": {
             "name": "World Map Redux",
             "id": "estebanf259_world-redux_v2"
@@ -439,7 +422,6 @@
         "year": "1218",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["World", "Historical", "Medieval", "Redux", "13th Century"],
         "map": {
             "name": "World Map Redux",
             "id": "estebanf259_world-redux_v2"
@@ -465,7 +447,6 @@
         "year": "1756",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["World", "Historical", "18th Century", "Redux"],
         "map": {
             "name": "World Map Redux",
             "id": "estebanf259_world-redux_v2"
@@ -491,7 +472,6 @@
         "year": "-3000000000",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["World", "Historical", "Prehistoric", "Geology", "Continents"],
         "map": {
             "name": "World Map (3 billion years ago)",
             "id": "zachary_world-3ga_v1"
@@ -517,7 +497,6 @@
         "year": "1800",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["Eurasia", "Historical", "Napoleonic Era", "19th Century"],
         "map": {
             "name": "Eurasia by Zachary",
             "id": "zachary_eurasia_v2"
@@ -542,7 +521,6 @@
         "year": "1812",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["Eurasia", "Historical", "Napoleonic Wars", "19th Century"],
         "map": {
             "name": "Eurasia by Zachary",
             "id": "zachary_eurasia_v2"
@@ -567,7 +545,6 @@
         "year": "1939",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["Eurasia", "Historical", "WW2", "20th Century"],
         "map": {
             "name": "Eurasia by Zachary",
             "id": "zachary_eurasia_v2"
@@ -592,7 +569,6 @@
         "year": "2025",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["Eurasia", "Alternative History", "Future", "Episode 2"],
         "map": {
             "name": "Eurasia by Zachary",
             "id": "zachary_eurasia_v2"
@@ -617,7 +593,6 @@
         "year": "2025",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["Eurasia", "Alternative History", "Future", "Episode 3"],
         "map": {
             "name": "Eurasia by Zachary",
             "id": "zachary_eurasia_v2"
@@ -642,7 +617,6 @@
         "year": "2025",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["Eurasia", "Alternative History", "Future", "Episode 4"],
         "map": {
             "name": "Eurasia by Zachary",
             "id": "zachary_eurasia_v2"
@@ -667,7 +641,6 @@
         "year": "2077",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["Eurasia", "Post-apocalyptic", "Fallout", "Alternative History"],
         "map": {
             "name": "Eurasia by Zachary",
             "id": "zachary_eurasia_v2"
@@ -692,7 +665,6 @@
         "year": "1914",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["Eurasia", "Historical", "WW1", "20th Century"],
         "map": {
             "name": "Eurasia by Zachary",
             "id": "zachary_eurasia_v2"
@@ -717,7 +689,6 @@
         "year": "2025",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["Eurasia", "Alternative History", "Nuclear War", "Post-apocalyptic"],
         "map": {
             "name": "Eurasia by Zachary",
             "id": "zachary_eurasia_v2"
@@ -742,7 +713,6 @@
         "year": "632",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["World", "Historical", "Islam", "7th Century", "Medieval"],
         "map": {
             "name": "World by Zachary",
             "id": "zachary_world_v1"
@@ -767,7 +737,6 @@
         "year": "1776",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["World", "Historical", "American Revolution", "18th Century"],
         "map": {
             "name": "World by Zachary",
             "id": "zachary_world_v1"
@@ -792,7 +761,6 @@
         "year": "1914",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["World", "Historical", "WW1", "20th Century"],
         "map": {
             "name": "World by Zachary",
             "id": "zachary_world_v1"
@@ -817,7 +785,6 @@
         "year": "1936",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["World", "Alternative History", "WW2", "Zombies"],
         "map": {
             "name": "World by Zachary",
             "id": "zachary_world_v1"
@@ -842,7 +809,6 @@
         "year": "2025",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["USA", "Modern Day", "2025"],
         "map": {
             "name": "USA by Zachary",
             "id": "zachary_usa_v1"
@@ -867,7 +833,6 @@
         "year": "1861",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["USA", "Historical", "Civil War", "19th Century"],
         "map": {
             "name": "USA by Zachary",
             "id": "zachary_usa_v1"
@@ -892,7 +857,6 @@
         "year": "2020",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["USA", "Modern Day", "Ethnic Groups", "Demographics"],
         "map": {
             "name": "USA by Zachary",
             "id": "zachary_usa_v1"
@@ -917,7 +881,6 @@
         "year": "1936",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["World", "Alternative History", "Kaiserreich"],
         "map": {
             "name": "World by Zachary",
             "id": "zachary_world_v1"
@@ -943,7 +906,6 @@
         "year": "1948",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["World", "Alternative History", "Kalterkrieg"],
         "map": {
             "name": "World by Zachary",
             "id": "zachary_world_v1"
@@ -969,7 +931,6 @@
         "year": "1941",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": ["Europe", "Historical", "WW2", "1941"],
         "map": {
             "name": "Standart Europe",
             "id": "jalhund_europe_vg"
@@ -995,7 +956,6 @@
         "year": "2020",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": ["Europe", "Historical", "Modern", "2020"],
         "map": {
             "name": "Standart Europe",
             "id": "jalhund_europe_vg"
@@ -1021,7 +981,6 @@
         "year": "2020",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["Europe", "Historical", "Modern", "2020"],
         "map": {
             "name": "Standart Europe",
             "id": "jalhund_europe_vg"
@@ -1047,7 +1006,6 @@
         "year": "1985",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": ["Europe", "Historical"],
         "map": {
             "name": "Standart Europe",
             "id": "jalhund_europe_vg"
@@ -1073,7 +1031,6 @@
         "year": "1700",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": ["Europe", "Historical"],
         "map": {
             "name": "Standart Europe",
             "id": "jalhund_europe_vg"
@@ -1099,7 +1056,6 @@
         "year": "1700",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["Europe", "Historical"],
         "map": {
             "name": "Standart Europe",
             "id": "jalhund_europe_vg"
@@ -1125,7 +1081,6 @@
         "year": "-323",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": ["Europe", "Historical", "Ancient"],
         "map": {
             "name": "Euro4 Standart",
             "id": "parkourcat_euro4_vg"
@@ -1151,7 +1106,6 @@
         "year": "1996",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["World", "For Phones", "Recommended", "without events", "without reforms"],
         "map": {
             "name": "World by ЕЕнот",
             "id": "eenot_arstotzka_v2"
@@ -1177,7 +1131,6 @@
         "year": "2026",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["World", "For Phones", "without events", "without reforms"],
         "map": {
             "name": "World According to Americans",
             "id": "zachary_world-am_v1"
@@ -1203,7 +1156,6 @@
         "year": "2026",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": ["World", "For Phones", "without events", "without reforms"],
         "map": {
             "name": "World According to Americans",
             "id": "zachary_world-am_v1"
@@ -1229,7 +1181,6 @@
         "year": "1990",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": ["For Phones", "without events", "without reforms", "Modern Day"],
         "map": {
             "name": "Moldavia by ЕЕнот",
             "id": "eenot_moldavia_v1"
@@ -1256,7 +1207,6 @@
         "year": "2025",
         "languages": ["EN","RU"],
         "gameMode": "Sandbox",
-        "tags": ["For Phones", "without events", "without reforms", "Modern Day"],
         "map": {
             "name": "Moldavia by ЕЕнот",
             "id": "eenot_moldavia_v1"
@@ -1283,7 +1233,6 @@
         "year": "1941",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["For Phones", "without events", "without reforms", "World War 2"],
         "map": {
             "name": "Moldavia by ЕЕнот",
             "id": "eenot_moldavia_v1"
@@ -1310,7 +1259,6 @@
         "year": "1944",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": ["For Phones", "without events", "without reforms", "World War 2"],
         "map": {
             "name": "Moldavia by ЕЕнот",
             "id": "eenot_moldavia_v1"
@@ -1337,7 +1285,6 @@
         "year": "1914",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["World", "Historical", "WW1"],
         "awards": ["star","enot"],
         
         "publishDate": "2025-05-01",
@@ -1359,7 +1306,6 @@
         "year": "1444",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "map": {
             "name": "Europe+ by BluePum",
             "id": "bluepum_enaatme_v2"
@@ -1385,7 +1331,6 @@
         "year": "2025",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "map": {
             "name": "Europe+ by BluePum",
             "id": "bluepum_enaatme_v5"
@@ -1411,7 +1356,6 @@
         "year": "1792",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "map": {
             "name": "Europe+ by BluePum",
             "id": "bluepum_enaatme_v2"
@@ -1437,7 +1381,6 @@
         "year": "2025",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "map": {
             "name": "Europe+ by BluePum",
             "id": "bluepum_enaatme_v4"
@@ -1463,7 +1406,6 @@
         "year": "1914",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "map": {
             "name": "Europe+ by BluePum",
             "id": "bluepum_enaatme_v5"
@@ -1489,7 +1431,6 @@
         "year": "1936",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "map": {
             "name": "Europe+ by BluePum",
             "id": "bluepum_enaatme_v1"
@@ -1515,7 +1456,6 @@
         "year": "1964",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "map": {
             "name": "Europe+ by BluePum",
             "id": "bluepum_enaatme_v2"
@@ -1541,7 +1481,6 @@
         "year": "2022",
         "languages": ["EN"],
         "gameMode": "Historical",
-        "tags": [],
         "map": {
             "name": "Dead Hand by BluePum",
             "id": "zachary_deadhand_v1"
@@ -1567,7 +1506,6 @@
         "year": "1936",
         "languages": ["EN", "RU"],
         "gameMode": "Sandbox",
-        "tags": [],
         "map": {
             "name": "Europe+ by BluePum",
             "id": "bluepum_enaatme_v2"
@@ -1593,7 +1531,6 @@
         "year": "1683",
         "languages": ["EN", "RU"],
         "gameMode": "Sandbox",
-        "tags": [],
         "map": {
             "name": "Europe+ by BluePum",
             "id": "bluepum_enaatme_v5"
@@ -1619,7 +1556,6 @@
         "year": "1914",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2025-05-07",
@@ -1641,7 +1577,6 @@
         "year": "1914",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2025-06-05",
@@ -1663,7 +1598,6 @@
         "year": "1936",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "map": {
             "name": "Europe (Our Empire)",
             "id": "stewardconstruct_europe_v1"
@@ -1689,7 +1623,6 @@
         "year": "1812",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "map": {
             "name": "Europe (Our Empire)",
             "id": "stewardconstruct_europe_v1"
@@ -1715,7 +1648,6 @@
         "year": "2025",
         "languages": ["other"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2025-03-15",
@@ -1737,7 +1669,6 @@
         "year": "2025",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2025-03-19",
@@ -1760,7 +1691,6 @@
         "year": "-395",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": ["Europe", "Historical", "Ancient"],
         "awards": [],
         
         "publishDate": "2024-06-09",
@@ -1782,7 +1712,6 @@
         "year": "-395",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["Europe", "Historical", "Ancient"],
         "awards": [],
         
         "publishDate": "2024-06-09",
@@ -1804,7 +1733,6 @@
         "year": "-480",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": ["Europe", "Historical", "Ancient"],
         "awards": [],
         
         "publishDate": "2024-06-07",
@@ -1826,7 +1754,6 @@
         "year": "-480",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["Europe", "Historical", "Ancient"],
         "awards": [],
         
         "publishDate": "2024-06-07",
@@ -1848,7 +1775,6 @@
         "year": "-355",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": ["Europe", "Historical", "Ancient"],
         "awards": [],
         
         "publishDate": "2024-06-29",
@@ -1870,7 +1796,6 @@
         "year": "-355",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["Europe", "Historical", "Ancient"],
         "awards": [],
         
         "publishDate": "2024-06-29",
@@ -1892,7 +1817,6 @@
         "year": "-431",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": ["Europe", "Historical", "Ancient"],
         "awards": [],
         
         "publishDate": "2024-06-08",
@@ -1914,7 +1838,6 @@
         "year": "-431",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["Europe", "Historical", "Ancient"],
         "awards": [],
         
         "publishDate": "2024-06-08",
@@ -1936,7 +1859,6 @@
         "year": "1204",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["Europe", "Historical", "Ancient"],
         "awards": [],
         
         "publishDate": "2024-12-17",
@@ -1958,7 +1880,6 @@
         "year": "1204",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": ["Europe", "Historical", "Ancient"],
         "awards": [],
         
         "publishDate": "2024-12-17",
@@ -1980,7 +1901,6 @@
         "year": "2009",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": ["Russia", "Modern Day", "Archangelsk"],
         "awards": [],
         
         "publishDate": "2024-02-04",
@@ -2002,7 +1922,6 @@
         "year": "1328",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2023-11-21",
@@ -2024,7 +1943,6 @@
         "year": "1444",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2024-02-24",
@@ -2046,7 +1964,6 @@
         "year": "1444",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2024-02-23",
@@ -2068,7 +1985,6 @@
         "year": "1904",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2024-03-19",
@@ -2090,7 +2006,6 @@
         "year": "1945",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2024-03-19",
@@ -2112,7 +2027,6 @@
         "year": "1936",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2024-04-22",
@@ -2134,7 +2048,6 @@
         "year": "0",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2023-06-12",
@@ -2156,7 +2069,6 @@
         "year": "2023",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": ["enot", "star"],
         
         "publishDate": "2024-03-27",
@@ -2178,7 +2090,6 @@
         "year": "1914",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": ["enot", "star"],
         
         "publishDate": "2024-03-27",
@@ -2200,7 +2111,6 @@
         "year": "1936",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": ["enot", "star"],
         
         "publishDate": "2024-03-27",
@@ -2222,7 +2132,6 @@
         "year": "1444",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2024-03-27",
@@ -2244,7 +2153,6 @@
         "year": "1917",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2024-03-27",
@@ -2266,7 +2174,6 @@
         "year": "1950",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": ["enot"],
         
         "publishDate": "2024-03-27",
@@ -2288,7 +2195,6 @@
         "year": "1955",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2024-03-27",
@@ -2310,7 +2216,6 @@
         "year": "1914",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2024-03-27",
@@ -2332,7 +2237,6 @@
         "year": "1914",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2024-04-05",
@@ -2354,7 +2258,6 @@
         "year": "1959",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2024-04-21",
@@ -2376,7 +2279,6 @@
         "year": "1000",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2024-05-29",
@@ -2398,7 +2300,6 @@
         "year": "1950",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2023-03-29",
@@ -2420,7 +2321,6 @@
         "year": "1953",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2023-10-01",
@@ -2442,7 +2342,6 @@
         "year": "2021",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": ["star", "enot"],
         
         "publishDate": "2024-09-15",
@@ -2464,7 +2363,6 @@
         "year": "2024",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2024-09-15",
@@ -2486,7 +2384,6 @@
         "year": "2023",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": ["star", "enot"],
         
         "publishDate": "2024-12-04",
@@ -2508,7 +2405,6 @@
         "year": "1862",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2023-10-19",
@@ -2530,7 +2426,6 @@
         "year": "2023",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2023-10-19",
@@ -2552,7 +2447,6 @@
         "year": "2023",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2023-10-19",
@@ -2574,7 +2468,6 @@
         "year": "1492",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2023-10-19",
@@ -2596,7 +2489,6 @@
         "year": "2024",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2023-10-13",
@@ -2618,7 +2510,6 @@
         "year": "2024",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2023-10-13",
@@ -2640,7 +2531,6 @@
         "year": "2024",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2024-02-09",
@@ -2662,7 +2552,6 @@
         "year": "2024",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2024-02-10",
@@ -2684,7 +2573,6 @@
         "year": "2024",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2024-02-10",
@@ -2706,7 +2594,6 @@
         "year": "2024",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": [],
         
         "publishDate": "2024-02-10",
@@ -2728,7 +2615,6 @@
         "year": "2024",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [""],
         "awards": ["star", "enot"],
         
         "publishDate": "2024-02-10",
@@ -2750,7 +2636,6 @@
         "year": "2024",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": ["star", "enot"],
         
         "publishDate": "2025-01-17",
@@ -2772,7 +2657,6 @@
         "year": "1910",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2025-04-13",
@@ -2794,7 +2678,6 @@
         "year": "1994",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2025-04-13",
@@ -2816,7 +2699,6 @@
         "year": "0",
         "languages": ["EN", "RU"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2025-05-26", 
@@ -2838,7 +2720,6 @@
         "year": "2025",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2025-05-31", 
@@ -2860,7 +2741,6 @@
         "year": "1492",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": ["star"],
         
         "publishDate": "2025-06-02", 
@@ -2882,7 +2762,6 @@
         "year": "1492",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": ["star"],
         
         "publishDate": "2025-06-02", 
@@ -2904,7 +2783,6 @@
         "year": "2025",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": ["star"],
         
         "publishDate": "2025-06-12", 
@@ -2927,7 +2805,6 @@
         "year": "2025",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": ["star"],
         
         "publishDate": "2025-09-02", 
@@ -2949,7 +2826,6 @@
         "year": "2025",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": ["star"],
         
         "publishDate": "2025-09-02", 
@@ -2971,7 +2847,6 @@
         "year": "2025",
         "languages": ["UK"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2025-09-02", 
@@ -2993,7 +2868,6 @@
         "year": "1789",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2025-08-28", 
@@ -3014,7 +2888,6 @@
         "year": "1799",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2025-08-27", 
@@ -3036,7 +2909,6 @@
         "year": "1936",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2025-10-06", 
@@ -3058,7 +2930,6 @@
         "year": "1934",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": ["RECOMMENDATION: SET BOTS TO PEACEFUL"],
         "awards": ["only", "star", "enot"],
         
         "publishDate": "2025-06-14", 
@@ -3081,7 +2952,6 @@
         "year": "1919",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": ["only", "star", "enot"],
         
         "publishDate": "2024-01-11", 
@@ -3104,7 +2974,6 @@
         "year": "1919",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": ["only", "star", "enot"],
         
         "publishDate": "2024-01-11", 
@@ -3127,7 +2996,6 @@
         "year": "1861",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2025-09-03", 
@@ -3150,7 +3018,6 @@
         "year": "2033",
         "languages": ["EN", "RU"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2025-09-19",
@@ -3173,7 +3040,6 @@
         "year": "1936",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2024-12-16",
@@ -3195,7 +3061,6 @@
         "year": "1956",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2025-10-24",
@@ -3218,7 +3083,6 @@
         "year": "1851",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2025-06-30",
@@ -3242,7 +3106,6 @@
         "year": "1851",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2025-11-03",
@@ -3266,7 +3129,6 @@
         "year": "1936",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2025-10-17",
@@ -3288,7 +3150,6 @@
         "year": "1954",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2025-10-16",
@@ -3310,7 +3171,6 @@
         "year": "1954",
         "languages": ["EN"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2025-10-05",
@@ -3332,7 +3192,6 @@
         "year": "4356",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2023-08-10",
@@ -3354,7 +3213,6 @@
         "year": "4356",
         "languages": ["RU"],
         "gameMode": "Sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2025-06-21",
@@ -3376,7 +3234,6 @@
         "year": "1847",
         "languages": ["EN"],
         "gameMode": "lore",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2026-01-18",
@@ -3399,7 +3256,6 @@
         "year": "1847",
         "languages": ["RU"],
         "gameMode": "lore",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2026-01-18",
@@ -3422,7 +3278,6 @@
         "year": "1919",
         "languages": ["EN"],
         "gameMode": "sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2026-03-17",
@@ -3445,7 +3300,6 @@
         "year": "1444",
         "languages": ["EN"],
         "gameMode": "sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2026-03-17",
@@ -3468,7 +3322,6 @@
         "year": "1962",
         "languages": ["EN"],
         "gameMode": "sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2026-03-17",
@@ -3491,7 +3344,6 @@
         "year": "2010",
         "languages": ["EN"],
         "gameMode": "sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2026-03-18",
@@ -3514,7 +3366,6 @@
         "year": "1914",
         "languages": ["EN"],
         "gameMode": "sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2026-03-18",
@@ -3537,7 +3388,6 @@
         "year": "1936",
         "languages": ["EN"],
         "gameMode": "sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2026-03-17",
@@ -3560,7 +3410,6 @@
         "year": "1956",
         "languages": ["EN"],
         "gameMode": "sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2026-03-17",
@@ -3583,7 +3432,6 @@
         "year": "1279",
         "languages": ["EN"],
         "gameMode": "sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2026-04-06",
@@ -3606,7 +3454,6 @@
         "year": "1919",
         "languages": ["EN"],
         "gameMode": "sandbox",
-        "tags": [],
         "awards": [],
         
         "publishDate": "2026-04-06",
