@@ -1230,5 +1230,23 @@
         "lastUpdate": "2026-03-17",
         "load": "normal",
         "hiddenScore": 100
+    },
+    {
+        "id": ["eeditor", "blank"],
+        "versions": [
+            "v1"
+        ],
+        "title": "Test",
+        "author": ["eenot"],
+        "description": "Test.",
+        "type": "continent",
+        "region": [],
+        "provinces": 0,
+        "features": [],
+        "status": "completed",
+        "publishDate": "2026-06-19",
+        "lastUpdate": "2026-06-19",
+        "load": "normal",
+        "hiddenScore": -99999
     }
 ]

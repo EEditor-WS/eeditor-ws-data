@@ -3277,5 +3277,89 @@
         "type": "sandbox",
         "period": "interwar",
         "status": "in_development"
+    },
+    {
+        "id": [
+            "eeditor", 
+            "blank", 
+            "v1",
+            "!"
+        ],
+        "title": "Test",
+        "author": ["eeditor"],
+        "year": "0",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2026-06-19",
+        "lastUpdate": "2026-06-19",
+        "hiddenScore": -99999,
+        "type": "sandbox",
+        "period": "alternative",
+        "status": "in_development"
+    },
+    {
+        "id": [
+            "eeditor", 
+            "blank", 
+            "v1",
+            "wiki"
+        ],
+        "title": "Test Wiki",
+        "author": ["eeditor"],
+        "year": "0",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2026-06-19",
+        "lastUpdate": "2026-06-19",
+        "hiddenScore": -99999,
+        "type": "sandbox",
+        "period": "alternative",
+        "status": "in_development"
+    },
+    {
+        "id": [
+            "eeditor", 
+            "blank", 
+            "v1",
+            "eeditor"
+        ],
+        "title": "Test Iframe",
+        "author": ["eeditor"],
+        "year": "0",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2026-06-19",
+        "lastUpdate": "2026-06-19",
+        "hiddenScore": -99999,
+        "type": "sandbox",
+        "period": "alternative",
+        "status": "in_development"
+    },
+    {
+        "id": [
+            "eeditor", 
+            "blank", 
+            "v1",
+            "wiki2"
+        ],
+        "title": "Test Wiki 2",
+        "author": ["eeditor"],
+        "year": "0",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2026-06-19",
+        "lastUpdate": "2026-06-19",
+        "hiddenScore": -99999,
+        "type": "sandbox",
+        "period": "alternative",
+        "status": "in_development"
     }
 ]

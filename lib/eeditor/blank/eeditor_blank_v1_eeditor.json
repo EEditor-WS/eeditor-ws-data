@@ -1,0 +1,6 @@
+{
+  "eeditor": {
+    "allowHtml": true,
+    "description": "<iframe src='https://eeditor-ws.github.io/' width='600' height='400' frameborder='0'></iframe>"
+  }
+}
