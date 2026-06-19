@@ -1,0 +1,2086 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alternative War Archive · 1936–1950</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Courier+Prime:wght@400;700&family=IM+Fell+English:ital@0;1&display=swap');
+
+        :root {
+            --paper: #e8dcc0;
+            --paper-2: #d4c4a0;
+            --paper-3: #c4b089;
+            --ink: #2b2416;
+            --ink-2: #4a3f2a;
+            --ink-3: #6b5d42;
+            --red: #8b1a1a;
+            --red-2: #a52a2a;
+            --green: #3d4a2a;
+            --green-2: #556b3a;
+            --blue: #2a3d4a;
+            --gold: #8b6914;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body,
+        .archive {
+            font-family: 'IM Fell English', Georgia, serif;
+            background: var(--paper);
+            color: var(--ink);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .archive {
+            background-image:
+                radial-gradient(circle at 20% 30%, rgba(139, 26, 26, .03) 0%, transparent 50%),
+                radial-gradient(circle at 80% 70%, rgba(61, 74, 42, .04) 0%, transparent 50%),
+                repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(43, 36, 22, .015) 2px, rgba(43, 36, 22, .015) 4px);
+        }
+
+        .header {
+            background: var(--ink);
+            color: var(--paper);
+            padding: 20px 40px;
+            border-bottom: 4px double var(--red);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .3);
+        }
+
+        .header-inner {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .logo-mark {
+            width: 60px;
+            height: 60px;
+            border: 3px solid var(--red);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Courier Prime', monospace;
+            font-weight: 700;
+            font-size: 24px;
+            color: var(--red);
+            transform: rotate(-3deg);
+            background: rgba(139, 26, 26, .1);
+        }
+
+        .logo-text h1 {
+            font-family: 'Special Elite', monospace;
+            font-size: 22px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        .logo-text p {
+            font-size: 11px;
+            color: var(--paper-3);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .stamp-classified {
+            font-family: 'Special Elite', monospace;
+            color: var(--red);
+            border: 3px solid var(--red);
+            padding: 4px 12px;
+            transform: rotate(-8deg);
+            font-size: 14px;
+            letter-spacing: 3px;
+            font-weight: 700;
+            opacity: .85;
+        }
+
+        .nav {
+            background: var(--paper-2);
+            border-bottom: 2px solid var(--ink-3);
+            padding: 0 40px;
+            position: sticky;
+            top: 116px;
+            z-index: 40;
+        }
+
+        .nav-inner {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            gap: 4px;
+            flex-wrap: wrap;
+        }
+
+        .folder {
+            background: var(--paper-3);
+            border: 1px solid var(--ink-3);
+            border-bottom: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-family: 'Courier Prime', monospace;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: var(--ink-2);
+            transition: .2s;
+            position: relative;
+            clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+        }
+
+        .folder:hover {
+            background: var(--paper);
+            color: var(--ink);
+        }
+
+        .folder.act {
+            background: var(--paper);
+            color: var(--red);
+            border-color: var(--ink);
+        }
+
+        .folder::before {
+            content: '📁 ';
+            margin-right: 4px;
+        }
+
+        .main {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+
+        .dossier {
+            display: none;
+            animation: fade .5s;
+        }
+
+        .dossier.act {
+            display: block;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .doc-title {
+            font-family: 'Special Elite', monospace;
+            font-size: 42px;
+            color: var(--ink);
+            border-bottom: 3px double var(--ink);
+            padding-bottom: 16px;
+            margin-bottom: 24px;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+
+        .doc-sub {
+            font-family: 'Courier Prime', monospace;
+            font-size: 13px;
+            color: var(--ink-3);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 24px;
+            padding: 8px 12px;
+            background: var(--paper-2);
+            border-left: 4px solid var(--red);
+        }
+
+        .brief {
+            background: var(--paper-2);
+            border: 1px solid var(--ink-3);
+            padding: 24px;
+            margin-bottom: 32px;
+            position: relative;
+        }
+
+        .brief::before {
+            content: 'BRIEFING';
+            position: absolute;
+            top: -10px;
+            left: 20px;
+            background: var(--paper);
+            padding: 0 8px;
+            font-family: 'Special Elite', monospace;
+            color: var(--red);
+            letter-spacing: 3px;
+            font-size: 12px;
+        }
+
+        .brief p {
+            margin-bottom: 12px;
+            font-size: 16px;
+        }
+
+        .brief p:last-child {
+            margin-bottom: 0;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 20px;
+            margin: 24px 0;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 16px;
+            margin: 24px 0;
+        }
+
+        .file-card {
+            background: var(--paper-2);
+            border: 1px solid var(--ink-3);
+            padding: 16px;
+            cursor: pointer;
+            transition: .25s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .file-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(43, 36, 22, .25);
+            border-color: var(--red);
+        }
+
+        .file-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, transparent 50%, var(--paper-3) 50%);
+        }
+
+        .file-card .fid {
+            font-family: 'Courier Prime', monospace;
+            font-size: 11px;
+            color: var(--ink-3);
+            letter-spacing: 1px;
+            margin-bottom: 6px;
+        }
+
+        .file-card .fname {
+            font-family: 'Special Elite', monospace;
+            font-size: 18px;
+            color: var(--ink);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .file-card .fdesc {
+            font-size: 14px;
+            color: var(--ink-2);
+            line-height: 1.5;
+        }
+
+        .file-card .fmeta {
+            display: flex;
+            gap: 6px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 2px 8px;
+            font-family: 'Courier Prime', monospace;
+            font-size: 10px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            border: 1px solid var(--ink-3);
+            color: var(--ink-2);
+            background: var(--paper);
+        }
+
+        .tag.ax {
+            background: rgba(139, 26, 26, .15);
+            color: var(--red);
+            border-color: var(--red);
+        }
+        .tag.all {
+            background: rgba(42, 61, 74, .15);
+            color: var(--blue);
+            border-color: var(--blue);
+        }
+        .tag.neu {
+            background: rgba(139, 105, 20, .15);
+            color: var(--gold);
+            border-color: var(--gold);
+        }
+        .tag.sec {
+            background: rgba(61, 74, 42, .15);
+            color: var(--green);
+            border-color: var(--green);
+        }
+
+        .stamp {
+            position: absolute;
+            font-family: 'Special Elite', monospace;
+            color: var(--red);
+            border: 3px solid var(--red);
+            padding: 4px 10px;
+            font-size: 11px;
+            letter-spacing: 2px;
+            font-weight: 700;
+            opacity: .75;
+            pointer-events: none;
+        }
+
+        .stamp.tl {
+            top: 12px;
+            right: 12px;
+            transform: rotate(12deg);
+        }
+        .stamp.br {
+            bottom: 12px;
+            right: 12px;
+            transform: rotate(-6deg);
+        }
+        .stamp.bl {
+            bottom: 12px;
+            left: 12px;
+            transform: rotate(-12deg);
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 40px;
+            margin: 32px 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 12px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: repeating-linear-gradient(to bottom, var(--ink) 0, var(--ink) 8px, transparent 8px, transparent 16px);
+        }
+
+        .tl-entry {
+            position: relative;
+            margin-bottom: 24px;
+            padding: 16px 20px;
+            background: var(--paper-2);
+            border: 1px solid var(--ink-3);
+            border-left: 4px solid var(--red);
+        }
+
+        .tl-entry::before {
+            content: '';
+            position: absolute;
+            left: -34px;
+            top: 20px;
+            width: 14px;
+            height: 14px;
+            background: var(--red);
+            border: 3px solid var(--paper);
+            border-radius: 50%;
+        }
+
+        .tl-date {
+            font-family: 'Courier Prime', monospace;
+            font-size: 12px;
+            color: var(--red);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 4px;
+            font-weight: 700;
+        }
+
+        .tl-title {
+            font-family: 'Special Elite', monospace;
+            font-size: 18px;
+            color: var(--ink);
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .tl-body {
+            font-size: 14px;
+            color: var(--ink-2);
+            line-height: 1.6;
+        }
+
+        .tl-target {
+            font-family: 'Courier Prime', monospace;
+            font-size: 11px;
+            color: var(--ink-3);
+            margin-top: 8px;
+            letter-spacing: 1px;
+        }
+
+        .ideology-card {
+            background: var(--paper-2);
+            border: 2px solid var(--ink-3);
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .ideology-card::after {
+            content: attr(data-sym);
+            position: absolute;
+            right: -10px;
+            bottom: -30px;
+            font-size: 120px;
+            opacity: .08;
+            font-family: 'Special Elite', monospace;
+        }
+
+        .ideology-card h3 {
+            font-family: 'Special Elite', monospace;
+            font-size: 22px;
+            color: var(--ink);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid var(--ink-3);
+            padding-bottom: 8px;
+        }
+
+        .ideology-card p {
+            font-size: 14px;
+            color: var(--ink-2);
+            line-height: 1.6;
+        }
+
+        .op-card {
+            background: var(--paper-2);
+            border: 1px solid var(--ink-3);
+            padding: 18px;
+            position: relative;
+            border-left: 6px solid var(--green);
+        }
+
+        .op-card h3 {
+            font-family: 'Special Elite', monospace;
+            font-size: 18px;
+            color: var(--green);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 8px;
+        }
+
+        .op-card .op-code {
+            font-family: 'Courier Prime', monospace;
+            font-size: 11px;
+            color: var(--red);
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        .op-card p {
+            font-size: 14px;
+            color: var(--ink-2);
+            line-height: 1.6;
+        }
+
+        .search-bar {
+            width: 100%;
+            padding: 12px 16px;
+            background: var(--paper);
+            border: 2px solid var(--ink-3);
+            font-family: 'Courier Prime', monospace;
+            font-size: 14px;
+            color: var(--ink);
+            margin-bottom: 20px;
+        }
+
+        .search-bar:focus {
+            outline: none;
+            border-color: var(--red);
+        }
+
+        .filter-row {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .fbtn {
+            padding: 6px 14px;
+            background: var(--paper);
+            border: 1px solid var(--ink-3);
+            font-family: 'Courier Prime', monospace;
+            font-size: 12px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: var(--ink-2);
+            cursor: pointer;
+            transition: .2s;
+        }
+
+        .fbtn:hover {
+            border-color: var(--red);
+            color: var(--red);
+        }
+
+        .fbtn.act {
+            background: var(--ink);
+            color: var(--paper);
+            border-color: var(--ink);
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(43, 36, 22, .85);
+            z-index: 200;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .modal.open {
+            display: flex;
+        }
+
+        .modal-doc {
+            background: var(--paper);
+            border: 3px double var(--ink);
+            max-width: 700px;
+            width: 100%;
+            max-height: 85vh;
+            overflow-y: auto;
+            padding: 32px;
+            position: relative;
+            background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(43, 36, 22, .02) 2px, rgba(43, 36, 22, .02) 4px);
+        }
+
+        .modal-doc::before {
+            content: 'TOP SECRET';
+            position: absolute;
+            top: 20px;
+            right: -10px;
+            font-family: 'Special Elite', monospace;
+            color: var(--red);
+            border: 3px solid var(--red);
+            padding: 4px 16px;
+            transform: rotate(15deg);
+            letter-spacing: 3px;
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            background: var(--red);
+            color: var(--paper);
+            border: none;
+            width: 32px;
+            height: 32px;
+            cursor: pointer;
+            font-family: 'Courier Prime', monospace;
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+        .modal-doc h2 {
+            font-family: 'Special Elite', monospace;
+            font-size: 28px;
+            color: var(--ink);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 8px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--ink);
+        }
+
+        .modal-doc .mid {
+            font-family: 'Courier Prime', monospace;
+            font-size: 12px;
+            color: var(--red);
+            letter-spacing: 2px;
+            margin-bottom: 16px;
+        }
+
+        .modal-doc p {
+            margin-bottom: 12px;
+            font-size: 15px;
+            color: var(--ink-2);
+            line-height: 1.7;
+        }
+
+        .modal-doc h4 {
+            font-family: 'Special Elite', monospace;
+            color: var(--red);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 16px 0 8px;
+            font-size: 14px;
+        }
+
+        .footer {
+            background: var(--ink);
+            color: var(--paper-3);
+            padding: 24px 40px;
+            text-align: center;
+            font-family: 'Courier Prime', monospace;
+            font-size: 12px;
+            letter-spacing: 2px;
+            margin-top: 60px;
+            border-top: 4px double var(--red);
+        }
+
+        .redact {
+            background: var(--ink);
+            color: var(--ink);
+            padding: 0 4px;
+            cursor: pointer;
+            user-select: none;
+            transition: .3s;
+        }
+
+        .redact.rev {
+            background: rgba(139, 26, 26, .15);
+            color: var(--red);
+        }
+
+        blockquote {
+            border-left: 4px solid var(--red);
+            padding: 10px 16px;
+            margin: 16px 0;
+            background: var(--paper-2);
+            font-style: italic;
+            color: var(--ink-2);
+        }
+
+        @media(max-width:768px) {
+            .header-inner {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .nav {
+                top: auto;
+                position: relative;
+            }
+            .main {
+                padding: 20px;
+            }
+            .doc-title {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="archive">
+
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header-inner">
+                <div class="logo">
+                    <div class="logo-mark">AW</div>
+                    <div class="logo-text">
+                        <h1>Alternative War Archive</h1>
+                        <p>Central Archive · History Division · 1936–1950</p>
+                    </div>
+                </div>
+                <div class="stamp-classified">TOP SECRET</div>
+            </div>
+        </header>
+
+        <!-- NAV -->
+        <nav class="nav">
+            <div class="nav-inner">
+                <button class="folder act" data-d="home">Main Dossier</button>
+                <button class="folder" data-d="powers">Great Powers</button>
+                <button class="folder" data-d="timeline">Conflict Chronicle</button>
+                <button class="folder" data-d="ops">Covert Operations</button>
+                <button class="folder" data-d="ideo">Ideologies</button>
+                <button class="folder" data-d="alliances">Alliances &amp; Blocs</button>
+                <button class="folder" data-d="files">All Files</button>
+            </div>
+        </nav>
+
+        <!-- MAIN -->
+        <main class="main">
+
+            <!-- HOME -->
+            <section class="dossier act" id="d-home">
+                <h1 class="doc-title">Main Dossier</h1>
+                <div class="doc-sub">Overview Brief · Declassified · Category I</div>
+                <div class="brief">
+                    <p><b>A world on the brink.</b> Fifteen years have passed since the end of the Great War, yet peace remains elusive. Radical regimes have risen in the heart of Europe, a communist giant solidifies in the east, and old empires cling desperately to their colonies.</p>
+                    <p>In <b>1936</b>, the world enters a new phase of global conflict. The German Reich builds the <span class="tag ax">VECTOR</span> alliance, the USSR forms the <span class="tag all">COMINTERN</span>, and the Japanese Empire ignites war in Asia. The fate of civilisation hangs by a thread.</p>
+                    <p>This is the archive of the Second Alternative World War — its events, its powers, and its operations. Every dossier is declassified. Every operation documented. Read at your own risk.</p>
+                </div>
+
+                <h2 class="doc-title" style="font-size:24px">Key Actors</h2>
+                <div class="grid-3">
+                    <div class="file-card" data-c="civilization_7">
+                        <div class="fid">DOSSIER #007</div>
+                        <div class="fname">German Reich</div>
+                        <div class="fdesc">Radical regime at the heart of Europe. Founder of the Vector alliance. Goal — the Thousand-Year Reich and a new world order.</div>
+                        <div class="fmeta"><span class="tag ax">AXIS</span><span class="tag sec">VECTOR</span></div>
+                        <div class="stamp tl">TOP SECRET</div>
+                    </div>
+                    <div class="file-card" data-c="civilization_139">
+                        <div class="fid">DOSSIER #139</div>
+                        <div class="fname">Soviet Union</div>
+                        <div class="fdesc">The communist giant of the east. After Lenin's death — an internal power struggle. Leader of the Comintern.</div>
+                        <div class="fmeta"><span class="tag all">COMINTERN</span></div>
+                        <div class="stamp tl">CLASSIFIED</div>
+                    </div>
+                    <div class="file-card" data-c="civilization_23">
+                        <div class="fid">DOSSIER #023</div>
+                        <div class="fname">United Kingdom</div>
+                        <div class="fdesc">Mistress of the seas, losing her grip. India demands independence, colonies flare up one after another.</div>
+                        <div class="fmeta"><span class="tag all">ALLIES</span></div>
+                        <div class="stamp tl">RESTRICTED</div>
+                    </div>
+                    <div class="file-card" data-c="civilization">
+                        <div class="fid">DOSSIER #FRA</div>
+                        <div class="fname">France</div>
+                        <div class="fdesc">Torn between democracy, monarchy, and socialism. The Strasbourg Line — the last hope against the Reich.</div>
+                        <div class="fmeta"><span class="tag all">ALLIES</span></div>
+                        <div class="stamp tl">RESTRICTED</div>
+                    </div>
+                    <div class="file-card" data-c="civilization_132">
+                        <div class="fid">DOSSIER #132</div>
+                        <div class="fname">Japanese Empire</div>
+                        <div class="fdesc">The Rising Sun. Operations "Beach", "Trees", "Pacific". Goal — dominance in the Pacific and Asia.</div>
+                        <div class="fmeta"><span class="tag ax">AXIS</span></div>
+                        <div class="stamp tl">TOP SECRET</div>
+                    </div>
+                    <div class="file-card" data-c="civilization_43">
+                        <div class="fid">DOSSIER #043</div>
+                        <div class="fname">Kingdom of Italy</div>
+                        <div class="fdesc">Heirs of Rome. Operations "Ledge", "Sauce". Dream of a Mediterranean empire.</div>
+                        <div class="fmeta"><span class="tag ax">AXIS</span></div>
+                        <div class="stamp tl">CLASSIFIED</div>
+                    </div>
+                    <div class="file-card" data-c="civilization_126">
+                        <div class="fid">DOSSIER #126</div>
+                        <div class="fname">American Confederacy</div>
+                        <div class="fdesc">The southern states of the USA. "Alabama" terror, war with Mexico, Pacific operations against the Russian State.</div>
+                        <div class="fmeta"><span class="tag neu">NEUTRAL?</span></div>
+                        <div class="stamp tl">RESTRICTED</div>
+                    </div>
+                    <div class="file-card" data-c="civilization_305">
+                        <div class="fid">DOSSIER #305</div>
+                        <div class="fname">Russian State</div>
+                        <div class="fdesc">White Russia in the east. Capital — Novo-Arkhangelsk. At war with the USSR and the AC.</div>
+                        <div class="fmeta"><span class="tag neu">WHITE</span></div>
+                        <div class="stamp tl">TOP SECRET</div>
+                    </div>
+                </div>
+
+                <h2 class="doc-title" style="font-size:24px;margin-top:40px">Front Summary</h2>
+                <div class="grid-2">
+                    <div class="op-card">
+                        <h3>European Theatre</h3>
+                        <div class="op-code">STATUS: ACTIVE CONFLICT</div>
+                        <p>The Reich absorbs Austria, Czechoslovakia, Poland, the Netherlands, Denmark, Norway, Belgium. France has fallen. Britain holds. The USSR enters the war after the Reich's invasion.</p>
+                    </div>
+                    <div class="op-card">
+                        <h3>Pacific Theatre</h3>
+                        <div class="op-code">STATUS: EXPANDING</div>
+                        <p>Japan seizes Malaysia, Vietnam, Manchuria. Conflict with the USA and Chinese factions. Operations "Pacific" and "Trees" are underway.</p>
+                    </div>
+                    <div class="op-card">
+                        <h3>American Theatre</h3>
+                        <div class="op-code">STATUS: VARIOUS CONFLICTS</div>
+                        <p>AC vs Mexico over Texas. Russian State vs AC ("Pacific Operation"). Brazil ablaze with civil war.</p>
+                    </div>
+                    <div class="op-card">
+                        <h3>African Theatre</h3>
+                        <div class="op-code">STATUS: COLONIAL WARS</div>
+                        <p>Italy invades Ethiopia. Spain vs Morocco. British and French colonies erupt.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- POWERS -->
+            <section class="dossier" id="d-powers">
+                <h1 class="doc-title">Great Powers</h1>
+                <div class="doc-sub">Dossiers on key global actors · 1936</div>
+                <input type="text" class="search-bar" id="pSrch" placeholder="🔍 Search dossiers...">
+                <div class="filter-row" id="pFilt">
+                    <button class="fbtn act" data-f="all">All</button>
+                    <button class="fbtn" data-f="axis">Axis</button>
+                    <button class="fbtn" data-f="allies">Allies</button>
+                    <button class="fbtn" data-f="comintern">Comintern</button>
+                    <button class="fbtn" data-f="major">Great</button>
+                    <button class="fbtn" data-f="minor">Minor</button>
+                    <button class="fbtn" data-f="rebel">Rebels</button>
+                </div>
+                <div class="grid-3" id="pGrid"></div>
+            </section>
+
+            <!-- TIMELINE -->
+            <section class="dossier" id="d-timeline">
+                <h1 class="doc-title">Conflict Chronicle</h1>
+                <div class="doc-sub">Sequence of key events · 1936–1950</div>
+                <div class="timeline" id="tl"></div>
+            </section>
+
+            <!-- OPERATIONS -->
+            <section class="dossier" id="d-ops">
+                <h1 class="doc-title">Covert Operations</h1>
+                <div class="doc-sub">Declassified general staff plans</div>
+                <div class="grid-2">
+                    <div class="op-card">
+                        <h3>Operation "Cut"</h3>
+                        <div class="op-code">EXECUTOR: GERMANY + SWEDEN</div>
+                        <p>Joint invasion of Norway and Denmark. Division of northern spheres: Germany takes Denmark, Sweden takes Norway.</p>
+                    </div>
+                    <div class="op-card">
+                        <h3>Operation "White"</h3>
+                        <div class="op-code">EXECUTOR: SWEDEN</div>
+                        <p>Northern offensive. Goal — creation of a unified Scandinavian bloc under Swedish protectorate.</p>
+                    </div>
+                    <div class="op-card">
+                        <h3>Operation "Beach"</h3>
+                        <div class="op-code">EXECUTOR: JAPANESE EMPIRE</div>
+                        <p>Seizure of Malaysia to dominate the Pacific. Utilises Japanese naval superiority.</p>
+                    </div>
+                    <div class="op-card">
+                        <h3>Operation "Trees"</h3>
+                        <div class="op-code">EXECUTOR: JAPANESE EMPIRE</div>
+                        <p>Military operation in Vietnam after France's withdrawal. Supported by Germany.</p>
+                    </div>
+                    <div class="op-card">
+                        <h3>Operation "Pacific"</h3>
+                        <div class="op-code">EXECUTOR: AMERICAN CONFEDERACY</div>
+                        <p>AC war against the Russian State. Pacific theatre. Goal — southern territories.</p>
+                    </div>
+                    <div class="op-card">
+                        <h3>Operation "Sauce"</h3>
+                        <div class="op-code">EXECUTOR: ITALY</div>
+                        <p>Landing on the Iberian Peninsula. Full preparation complete.</p>
+                    </div>
+                    <div class="op-card">
+                        <h3>Operation "Ledge"</h3>
+                        <div class="op-code">EXECUTOR: ITALY</div>
+                        <p>Capture of Tunisia — "an integral part of the Roman State". Without Tunisia, there is no Empire.</p>
+                    </div>
+                    <div class="op-card">
+                        <h3>Operation "Desert"</h3>
+                        <div class="op-code">EXECUTOR: SPAIN</div>
+                        <p>Military operation against Morocco over trade disputes. Morocco refuses friendship — Spain acts.</p>
+                    </div>
+                    <div class="op-card">
+                        <h3>Operation "Taiga"</h3>
+                        <div class="op-code">EXECUTOR: USSR</div>
+                        <p>Offensive against Finland. The time has come. Finnish forest ambush tactics — the main threat.</p>
+                    </div>
+                    <div class="op-card">
+                        <h3>Operation "Overblu"</h3>
+                        <div class="op-code">EXECUTOR: EMPIRE OF NORTHERN ALESKAN</div>
+                        <p>Strike by loyal imperial divisions against the Blue Column rebels in the south. Breaking through defences.</p>
+                    </div>
+                    <div class="op-card">
+                        <h3>Plan "Red Claw"</h3>
+                        <div class="op-code">EXECUTOR: ASR / USRB</div>
+                        <p>Northern offensive, rapid breakthrough through defence lines, capture of the capital. War begins 3 months after activation.</p>
+                    </div>
+                    <div class="op-card">
+                        <h3>Plan "Renyatom"</h3>
+                        <div class="op-code">EXECUTOR: ORDENSTEIN</div>
+                        <p><span class="redact" onclick="this.classList.toggle('rev')">Classified nuclear weapons project. Goal — strengthen the state and continue the elimination of "inferior" peoples.</span></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- IDEOLOGIES -->
+            <section class="dossier" id="d-ideo">
+                <h1 class="doc-title">Ideologies</h1>
+                <div class="doc-sub">Political doctrines of the era</div>
+                <div class="grid-2">
+                    <div class="ideology-card" data-sym="☭">
+                        <h3>Communism</h3>
+                        <p>Dictatorship of the proletariat, planned economy, international revolution. Leader of the global movement — the USSR. The Comintern unites France, Great Britain, and the Union into a single red bloc.</p>
+                    </div>
+                    <div class="ideology-card" data-sym="⚡">
+                        <h3>Fascism</h3>
+                        <p>Radical nationalism, totalitarianism, cult of the leader. The Reich, Italy, Japan. Vector — a military alliance of fascist powers aimed at redrawing the world.</p>
+                    </div>
+                    <div class="ideology-card" data-sym="♛">
+                        <h3>Monarchy</h3>
+                        <p>Traditional dynastic rule. Empire of Northern Aleskan (Kirill VII), Order of Salvation of Bavaria (Holy Regent), Japanese Empire. Many regimes balance between absolutism and constitutionalism.</p>
+                    </div>
+                    <div class="ideology-card" data-sym="✝">
+                        <h3>Theocracy</h3>
+                        <p>Power from God. Strengthening the role of religion in the state: Catholicism, Orthodoxy, Protestantism, Islam, Judaism, Buddhism — each faith builds its own "sacred" state.</p>
+                    </div>
+                    <div class="ideology-card" data-sym="☥">
+                        <h3>Democracy</h3>
+                        <p>Popular sovereignty, parliament, elections. Old democracies (Britain, France, USA) under pressure from totalitarian regimes. Social democracy as a compromise.</p>
+                    </div>
+                    <div class="ideology-card" data-sym="₽">
+                        <h3>Trade Republic</h3>
+                        <p>Rule by merchants and corporations. Free trade as the foundation of the state. Gallic SDR, some city-states. Profit above ideology.</p>
+                    </div>
+                    <div class="ideology-card" data-sym="＄">
+                        <h3>Oligarchy</h3>
+                        <p>Concentration of power in the hands of the wealthy. Brazilian junta, some Latin American regimes. Capital rules.</p>
+                    </div>
+                    <div class="ideology-card" data-sym="☮">
+                        <h3>Neutrality</h3>
+                        <p>Non-intervention policy. Switzerland, some minor powers. "We are outside the game." But how long will this peace last?</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ALLIANCES -->
+            <section class="dossier" id="d-alliances">
+                <h1 class="doc-title">Alliances &amp; Blocs</h1>
+                <div class="doc-sub">Military-political coalitions of the era</div>
+                <div class="grid-2">
+                    <div class="op-card" style="border-left-color:var(--red)">
+                        <h3 style="color:var(--red)">VECTOR</h3>
+                        <div class="op-code">FOUNDER: GERMAN REICH</div>
+                        <p>"New World Order". A military alliance created by Germany to reshape the world. Members: Italy, Turkey, Bulgaria, Hungary, Romania (attempted), Japan, Iran (attempted), Confederates (attempted), Russian State (attempted). Goal — destruction of the Comintern and old democracies.</p>
+                    </div>
+                    <div class="op-card" style="border-left-color:var(--red);background:rgba(139,26,26,.05)">
+                        <h3 style="color:var(--red)">COMINTERN</h3>
+                        <div class="op-code">FOUNDER: USSR</div>
+                        <p>"The Great and Mighty Alliance". Unites communist countries: France (after revolution), Great Britain (after protests), USSR. Goal — saving the world from capitalism. A worthy opponent of Vector.</p>
+                    </div>
+                    <div class="op-card" style="border-left-color:var(--blue)">
+                        <h3 style="color:var(--blue)">ALLIES (ANTANTÉ)</h3>
+                        <div class="op-code">TRADITIONAL BLOC</div>
+                        <p>Great Britain, France (until its fall), their dominions and colonies. After France fell, the bloc effectively dissolved, but resistance continues.</p>
+                    </div>
+                    <div class="op-card" style="border-left-color:var(--gold)">
+                        <h3 style="color:var(--gold)">ANTI-SOVIET ALLIANCE</h3>
+                        <div class="op-code">POLAND + GERMANY (proposed)</div>
+                        <p>Germany's proposal to Poland for joint military action against the USSR. Alternative history: Poland may accept or decline.</p>
+                    </div>
+                    <div class="op-card" style="border-left-color:var(--green)">
+                        <h3 style="color:var(--green)">BERLIN–MOSCOW</h3>
+                        <div class="op-code">REICH–USSR PACT</div>
+                        <p>"Now we have no equals. Victory is unavoidable." A temporary alliance of two totalitarian giants before inevitable betrayal.</p>
+                    </div>
+                    <div class="op-card" style="border-left-color:var(--ink-3)">
+                        <h3>SCANDINAVIAN UNION</h3>
+                        <div class="op-code">SWEDEN + FINLAND</div>
+                        <p>Unification of the northern peoples. Sweden proposes an alliance, Finland accepts. Goal — peace and enlightenment across all of Scandinavia.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ALL FILES -->
+            <section class="dossier" id="d-files">
+                <h1 class="doc-title">All Dossiers</h1>
+                <div class="doc-sub">Complete catalogue of declassified files</div>
+                <input type="text" class="search-bar" id="fSrch" placeholder="🔍 Search all dossiers...">
+                <div class="grid-3" id="fGrid"></div>
+            </section>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            ALTERNATIVE WAR ARCHIVE · DECLASSIFIED · 1936–1950 · ALL FILES PROPERTY OF CENTRAL INTELLIGENCE
+        </footer>
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal" id="modal">
+        <div class="modal-doc">
+            <button class="modal-close" onclick="document.getElementById('modal').classList.remove('open')">×</button>
+            <div id="mBody"></div>
+        </div>
+    </div>
+
+    <script>
+        (function() {
+            const P = [
+                { i: 'civilization_7', n: 'German Reich', g: 'axis', d: 'Radical regime at the heart of Europe. Founder of Vector. Goal — the Thousand-Year Reich. Absorbs Austria, Czechoslovakia, Poland, the Netherlands, Denmark, Norway, Belgium, France.',
+                    t: ['ax', 'sec'] },
+                { i: 'civilization_139', n: 'Soviet Union', g: 'comintern', d: 'The communist giant. After Lenin\'s death — power struggle (Kirov, Trotsky, Voroshilov). Industrialisation, Holodomor, repression. Leader of the Comintern.',
+                    t: ['all'] },
+                { i: 'civilization_23', n: 'United Kingdom', g: 'allies', d: 'Mistress of the seas. Losing India, colonies flare up. Protests in London, Scotland wants independence. Economic crisis after the Great War.',
+                    t: ['all'] },
+                { i: 'civilization', n: 'France', g: 'allies', d: 'Torn between democracy, monarchy, socialism. The Strasbourg Line. After the fall — government in Africa. Socialism arrived in France.',
+                    t: ['all'] },
+                { i: 'civilization_132', n: 'Japanese Empire', g: 'axis', d: 'The Rising Sun. Operations Beach, Trees, Pacific. Seizure of Malaysia, Vietnam, Manchuria. Conflict with the USA and China. The Shibuya Incident.',
+                    t: ['ax'] },
+                { i: 'civilization_43', n: 'Kingdom of Italy', g: 'axis', d: 'Heirs of Rome. "All roads lead to Rome." Operations Ledge, Sauce. Capture of Albania, Ethiopia, Tunisia. War with Greece and Yugoslavia.',
+                    t: ['ax'] },
+                { i: 'civilization_126', n: 'American Confederacy', g: 'major', d: 'The southern states of the USA. "Alabama" terror, war with Mexico over Texas. Pacific operation against the Russian State. Capital — Washington.',
+                    t: ['neu'] },
+                { i: 'civilization_305', n: 'Russian State', g: 'major', d: 'White Russia. Capital — Novo-Arkhangelsk. War with the USSR and AC. Construction of the Alaska–California highway. Colonial diseases, fires, floods.',
+                    t: ['neu'] },
+                { i: 'civilization_40', n: 'Iran', g: 'major', d: 'Persia. Pact with the "northern neighbour" (USSR). Severe drought, 55°C. Attempted to join Vector. Occupation of Iraq.',
+                    t: ['neu'] },
+                { i: 'civilization_35', n: 'Turkey', g: 'major', d: 'Heir of the Ottomans. Major modernisation. Kurdish nationalists, conservatives. Civil war. Attempted to join Vector.',
+                    t: ['neu'] },
+                { i: 'civilization_45', n: 'Austria-Hungary', g: 'major', d: '"Former greatness." A fragment of the empire. Under German pressure. Heavy desertion, national minorities.',
+                    t: ['ax'] },
+                { i: 'civilization_17', n: 'Poland', g: 'allies', d: 'Between two fires. Mass shootings of Germans. Proposal of an anti-Soviet alliance with Germany. Fall of Warsaw.',
+                    t: ['all'] },
+                { i: 'civilization_5', n: 'Empire of Barborrosia', g: 'major', d: 'Stock market crash triggered a global crisis. Colonial holdings. Eastern Barborrosia consumed by uprisings.',
+                    t: ['neu'] },
+                { i: 'civilization_1', n: 'Empire of Endersk', g: 'major', d: 'Largest empire of the old world. Controls Vosend — a trading hub. Sanctions against Metta.',
+                    t: ['all'] },
+                { i: 'civilization_56', n: 'Empire of Northern Aleskan', g: 'major', d: 'Aleskan dynasty. Emperor Kirill VII. Assassination attempt on the emperor. Operation Overblu against the Blue Column.',
+                    t: ['all'] },
+                { i: 'civilization_2', n: 'Second Republic of Metta', g: 'major', d: 'A lost state. Under Endersk sanctions, blockade of Methenia. President Hekovsk. Victory in war, unification with Valteria.',
+                    t: ['neu'] },
+                { i: 'civilization_3', n: 'Republic of Greater Gondricia', g: 'major', d: '"Great economy of the old world." Assassination of dictator Fengon. Civil war. Capital vs Kurh.',
+                    t: ['neu'] },
+                { i: 'civilization_26', n: 'Ordenstein Mettenberg', g: 'axis', d: 'Radical nationalism. Leader Henrenn. Slaves, nuclear project Renyatom. Destruction of the identity of other peoples.',
+                    t: ['ax', 'sec'] },
+                { i: 'civilization_61', n: 'Order of Salvation of Bavaria', g: 'allies', d: 'Legitimate government of Bavaria. Holy Regent. Fonren. Reunification of Bavaria. Fight against pirates.',
+                    t: ['all'] },
+                { i: 'civilization_54', n: 'ECAB', g: 'comintern', d: 'Eastern Communist Army of Bavaria. Plan "Voston": electrification → industrialisation → supply of the people.',
+                    t: ['all'] },
+                { i: 'civilization_49', n: 'ASR / USRB', g: 'comintern', d: 'Aleskan Socialist Republic. Leader Lirnoriy. Plan "Red Claw". March on the Republic.',
+                    t: ['all'] },
+                { i: 'civilization_51', n: 'Blue Column', g: 'rebel', d: 'Democratic faction. Fights the imperial Aleskans. "Too peaceful for this world." Struggle for influence.',
+                    t: ['neu'] },
+                { i: 'civilization_52', n: 'Free Army of Bavaria', g: 'rebel', d: 'South-eastern division. Settled in Voston. Passed through the Bagor sectarians. Struggle for influence.',
+                    t: ['neu'] },
+                { i: 'civilization_50', n: 'League Government', g: 'rebel', d: '"The Great Idea" — unification of the world under the banners of the League. Division "League" — elite. The people are not initiated.',
+                    t: ['neu'] },
+                { i: 'civilization_134', n: 'China (RPC)', g: 'comintern', d: 'Communist China. Civil war. Aid from the USSR. Communist victory. Uyghurs return.',
+                    t: ['all'] },
+                { i: 'civilization_127', n: 'China (ROC)', g: 'allies', d: 'Republic of China. Civil war. Capital Shanghai. Fall. The Shibuya Incident.',
+                    t: ['all'] },
+                { i: 'civilization_162', n: 'Brazil', g: 'major', d: 'Dictatorship of Getúlio Vargas. Revolutionary ideas. Civil war. Junta, Republic, Communists.',
+                    t: ['neu'] },
+                { i: 'civilization_44', n: 'Spain', g: 'axis', d: 'Conflicts with Morocco, Portugal. Cuban separatists. War with France. Operation Desert.',
+                    t: ['ax'] },
+                { i: 'civilization_190', n: 'Mexico', g: 'major', d: 'War with the AC over Texas. Treaty of San Antonio. The Texas question. Mexican aggression.',
+                    t: ['neu'] },
+                { i: 'civilization_11', n: 'Ukraine', g: 'allies', d: 'Independence from the USSR. Aid to Moldova. Peace with Romania. Demand for Western Ukraine.',
+                    t: ['all'] },
+                { i: 'civilization_46', n: 'Romania', g: 'axis', d: 'Attempted to join Germany. The Moldovan question. Humiliation of the Bulgarians. Peace with Ukraine.',
+                    t: ['ax'] },
+                { i: 'civilization_25', n: 'Kingdom of South Slavs', g: 'allies', d: 'Yugoslavia. Betrayal of Serbian communists. Problems in Croatia. Peace with Italy.',
+                    t: ['all'] },
+                { i: 'civilization_42', n: 'Czechoslovakia', g: 'allies', d: 'German minority in danger. Alliance with the USSR. German ultimatum. Fall of Prague.',
+                    t: ['all'] },
+                { i: 'civilization_47', n: 'Netherlands', g: 'allies', d: 'German ultimatum. Cultural ties with the Reich. Accept or decline. Fall.',
+                    t: ['all'] },
+                { i: 'civilization_32', n: 'Denmark', g: 'allies', d: 'German ultimatum. Sanctions from Norway. Fall of Copenhagen. Double offensive.',
+                    t: ['all'] },
+                { i: 'civilization_2', n: 'Sweden', g: 'allies', d: 'Alliance with Finland. Operations Cut and White. Division of influence with Germany in the north.',
+                    t: ['all'] },
+                { i: 'civilization_5', n: 'Finland', g: 'allies', d: '10 years of independence. Soviet–Finnish war. Forest ambush tactics. Peace with the USSR.',
+                    t: ['all'] },
+                { i: 'civilization_6', n: 'Norway', g: 'allies', d: 'Capitulation. Oslo taken. Closure of Swedish schools. Sanctions. Division with Germany.',
+                    t: ['all'] },
+                { i: 'civilization_26', n: 'Bulgaria', g: 'axis', d: 'Betrayal by allies (Italy and Turkey invade). Dobruja. Anti-monarchist sentiment.',
+                    t: ['ax'] },
+                { i: 'civilization_41', n: 'Croatia', g: 'rebel', d: 'Independence from Yugoslavia. Zagreb seized by administrative buildings.',
+                    t: ['neu'] },
+                { i: 'civilization_36', n: 'Albania', g: 'rebel', d: 'Italian ultimatum. "They want our lands." Accept or refuse.',
+                    t: ['neu'] },
+                { i: 'civilization_14', n: 'Greece', g: 'allies', d: 'War with Italy. Athens in flames. Division between Italy and Turkey. Demand for Macedonia.',
+                    t: ['all'] },
+                { i: 'civilization_31', n: 'Hungary', g: 'axis', d: 'Protests in Budapest. Demand for independence from Austria. Fall of Budapest.',
+                    t: ['ax'] },
+                { i: 'civilization_29', n: 'Switzerland', g: 'minor', d: '"It\'s over." Neutrality in question. German ultimatum. Annexation to the Reich.',
+                    t: ['neu'] },
+                { i: 'civilization_4', n: 'Lithuania', g: 'allies', d: 'Soviet attack. Baltic–Soviet war. German ultimatum. Fall.',
+                    t: ['all'] },
+                { i: 'civilization_10', n: 'Latvia', g: 'allies', d: 'Soviet attack. German ultimatum. Fall.',
+                    t: ['all'] },
+                { i: 'civilization_8', n: 'Estonia', g: 'allies', d: 'Soviet attack. German ultimatum. Fall.',
+                    t: ['all'] },
+                { i: 'civilization_21', n: 'Belarus', g: 'comintern', d: 'Independence from the USSR in a moment of weakness. Fall of Minsk.',
+                    t: ['all'] },
+                { i: 'civilization_33', n: 'Moldova', g: 'rebel', d: 'Independence. Referendum on joining the USSR. National enmity with Romania.',
+                    t: ['neu'] },
+                { i: 'civilization_13', n: 'Egypt', g: 'minor', d: 'Suez Canal — source of income. Colonial legacy.',
+                    t: ['neu'] },
+                { i: 'civilization_64', n: 'Iraq', g: 'minor', d: 'Iranian intervention. Humiliation by the police. Liberation from occupation.',
+                    t: ['neu'] },
+                { i: 'civilization_16', n: 'South Sudan', g: 'minor', d: 'Independence. Liberation from colonialism.',
+                    t: ['neu'] },
+                { i: 'civilization_22', n: 'Algeria', g: 'minor', d: 'Independence from France in a moment of weakness.',
+                    t: ['neu'] },
+                { i: 'civilization_18', n: 'Morocco', g: 'minor', d: 'Problems with Spain. Agadir under siege. Ban on commercial transport.',
+                    t: ['neu'] },
+                { i: 'civilization_19', n: 'ISIS', g: 'rebel', d: 'Terrorist group. Active in the Middle East.',
+                    t: ['sec'] },
+                { i: 'civilization_63', n: 'Al-Nusra', g: 'rebel', d: 'Terrorist group. Syrian branch of Al-Qaeda.',
+                    t: ['sec'] },
+                { i: 'civilization_213', n: 'Houthis', g: 'rebel', d: 'Rebels in Yemen. Iranian support.',
+                    t: ['sec'] },
+                { i: 'civilization_214', n: 'Al-Qaeda', g: 'rebel', d: 'International terrorist network. Osama bin Laden.',
+                    t: ['sec'] },
+                { i: 'civilization_245', n: 'Taliban', g: 'rebel', d: 'Afghan Taliban. Control over most of the country.',
+                    t: ['sec'] },
+                { i: 'civilization_51', n: 'Afghanistan', g: 'minor', d: 'Under Taliban control. Soviet intervention.',
+                    t: ['neu'] },
+                { i: 'civilization_34', n: 'Libya', g: 'minor', d: 'Civil war. Libyan National Army vs Government of National Accord.',
+                    t: ['sec'] },
+                { i: 'civilization_252', n: 'Libyan National Army', g: 'rebel', d: 'Khalifa Haftar. Fight for control of Libya.',
+                    t: ['sec'] },
+                { i: 'civilization_251', n: 'Gov. of National Accord', g: 'rebel', d: 'UN-recognised government of Libya.',
+                    t: ['sec'] },
+                { i: 'civilization_250', n: 'Shield of Libya', g: 'rebel', d: 'Paramilitary group.',
+                    t: ['sec'] },
+                { i: 'civilization_248', n: 'Tuareg', g: 'rebel', d: 'Sahara nomads. Rebel movement.',
+                    t: ['sec'] },
+                { i: 'civilization_74', n: 'Mali', g: 'minor', d: 'Islamic State of Azawad in the north.',
+                    t: ['neu'] },
+                { i: 'civilization_257', n: 'Islamic State of Azawad', g: 'rebel', d: 'Terrorist entity in northern Mali.',
+                    t: ['sec'] },
+                { i: 'civilization_69', n: 'Burkina Faso', g: 'minor', d: 'Instability. Islamist underground.',
+                    t: ['neu'] },
+                { i: 'civilization_65', n: 'Chad', g: 'minor', d: 'Conflict with Sudan. Refugees.',
+                    t: ['neu'] },
+                { i: 'civilization_15', n: 'Sudan', g: 'minor', d: 'Darfur conflict. South Sudan seceded.',
+                    t: ['neu'] },
+                { i: 'civilization_73', n: 'Eritrea', g: 'minor', d: 'Authoritarian regime. Conflict with Ethiopia.',
+                    t: ['neu'] },
+                { i: 'civilization_75', n: 'Ethiopia', g: 'minor', d: 'Italo-Ethiopian war. "Isolation operation." Resistance to Italian invasion.',
+                    t: ['all'] },
+                { i: 'civilization_72', n: 'Djibouti', g: 'minor', d: 'Small ally of Ethiopia. Destroyed by tornadoes.',
+                    t: ['neu'] },
+                { i: 'civilization_62', n: 'Niger', g: 'minor', d: 'Instability. Islamist underground.',
+                    t: ['neu'] },
+                { i: 'civilization_87', n: 'Nigeria', g: 'minor', d: 'Movement for the Liberation of the Niger Delta.',
+                    t: ['neu'] },
+                { i: 'civilization_242', n: 'MEND', g: 'rebel', d: 'Movement for the Emancipation of the Niger Delta. Rebels.',
+                    t: ['sec'] },
+                { i: 'civilization_89', n: 'Ghana', g: 'minor', d: 'Stable West African country.',
+                    t: ['neu'] },
+                { i: 'civilization_60', n: 'Benin', g: 'minor', d: 'Small West African country.',
+                    t: ['neu'] },
+                { i: 'civilization_76', n: 'Guinea', g: 'minor', d: 'Instability.',
+                    t: ['neu'] },
+                { i: 'civilization_79', n: 'Guinea-Bissau', g: 'minor', d: 'Small West African country.',
+                    t: ['neu'] },
+                { i: 'civilization_71', n: 'Ivory Coast', g: 'minor', d: 'French colony. Instability.',
+                    t: ['neu'] },
+                { i: 'civilization_109', n: 'Senegal', g: 'minor', d: 'French colony.',
+                    t: ['neu'] },
+                { i: 'civilization_86', n: 'Mauritania', g: 'minor', d: 'Desert country. Instability.',
+                    t: ['neu'] },
+                { i: 'civilization_111', n: 'Sierra Leone', g: 'minor', d: 'Aftermath of civil war.',
+                    t: ['neu'] },
+                { i: 'civilization_105', n: 'Liberia', g: 'minor', d: 'Vargas fled here.',
+                    t: ['neu'] },
+                { i: 'civilization_93', n: 'Gabon', g: 'minor', d: 'French colony.',
+                    t: ['neu'] },
+                { i: 'civilization_67', n: 'CAR', g: 'minor', d: 'Civil war. Society for Revival.',
+                    t: ['sec'] },
+                { i: 'civilization_255', n: 'Society for Revival CAR', g: 'rebel', d: 'Rebel group.',
+                    t: ['sec'] },
+                { i: 'civilization_256', n: '3R', g: 'rebel', d: 'Rebels in CAR.',
+                    t: ['sec'] },
+                { i: 'civilization_254', n: 'Movement for Peace', g: 'rebel', d: 'Rebels in CAR.',
+                    t: ['sec'] },
+                { i: 'civilization_94', n: 'DR Congo', g: 'minor', d: 'Instability. Resources.',
+                    t: ['neu'] },
+                { i: 'civilization_88', n: 'Congo', g: 'minor', d: 'Instability.',
+                    t: ['neu'] },
+                { i: 'civilization_68', n: 'Malawi', g: 'minor', d: 'Small southern African country.',
+                    t: ['neu'] },
+                { i: 'civilization_85', n: 'Botswana', g: 'minor', d: 'Stable southern African country.',
+                    t: ['neu'] },
+                { i: 'civilization_66', n: 'Namibia', g: 'minor', d: 'Former German colony.',
+                    t: ['neu'] },
+                { i: 'civilization_100', n: 'Lesotho', g: 'minor', d: 'Enclave in South Africa.',
+                    t: ['neu'] },
+                { i: 'civilization_96', n: 'Eswatini', g: 'minor', d: 'Absolute monarchy.',
+                    t: ['neu'] },
+                { i: 'civilization_108', n: 'South Africa', g: 'minor', d: 'Largest economy in Africa.',
+                    t: ['neu'] },
+                { i: 'civilization_82', n: 'Tanzania', g: 'minor', d: 'East African country.',
+                    t: ['neu'] },
+                { i: 'civilization_112', n: 'Uganda', g: 'minor', d: 'Instability.',
+                    t: ['neu'] },
+                { i: 'civilization_104', n: 'Rwanda', g: 'minor', d: 'Aftermath of genocide.',
+                    t: ['neu'] },
+                { i: 'civilization_102', n: 'Kenya', g: 'minor', d: 'East African country.',
+                    t: ['neu'] },
+                { i: 'civilization_59', n: 'Burundi', g: 'minor', d: 'Instability.',
+                    t: ['neu'] },
+                { i: 'civilization_52', n: 'Angola', g: 'minor', d: 'Aftermath of civil war.',
+                    t: ['neu'] },
+                { i: 'civilization_53', n: 'Mozambique', g: 'minor', d: 'Portuguese colony.',
+                    t: ['neu'] },
+                { i: 'civilization_84', n: 'Zambia', g: 'minor', d: 'Southern African country.',
+                    t: ['neu'] },
+                { i: 'civilization_78', n: 'Zimbabwe', g: 'minor', d: 'Instability.',
+                    t: ['neu'] },
+                { i: 'civilization_81', n: 'Madagascar', g: 'minor', d: 'Island nation. Refugees from around the world.',
+                    t: ['neu'] },
+                { i: 'civilization_238', n: 'Somaliland', g: 'rebel', d: 'Unrecognised state in northern Somalia.',
+                    t: ['sec'] },
+                { i: 'civilization_239', n: 'Puntland', g: 'rebel', d: 'Autonomous region in Somalia.',
+                    t: ['sec'] },
+                { i: 'civilization_61', n: 'Somalia', g: 'minor', d: 'Failed state. Piracy.',
+                    t: ['sec'] },
+                { i: 'civilization_240', n: 'Al-Shabaab', g: 'rebel', d: 'Somali terrorist group.',
+                    t: ['sec'] },
+                { i: 'civilization_243', n: 'Boko Haram', g: 'rebel', d: 'Nigerian terrorist group.',
+                    t: ['sec'] },
+                { i: 'civilization_244', n: 'SPLM', g: 'rebel', d: 'Sudan People\'s Liberation Movement.',
+                    t: ['sec'] },
+                { i: 'civilization_186', n: 'Mauritius', g: 'minor', d: 'Island nation.',
+                    t: ['neu'] },
+                { i: 'civilization_187', n: 'São Tomé and Príncipe', g: 'minor', d: 'Island nation.',
+                    t: ['neu'] },
+                { i: 'civilization_172', n: 'Comoros', g: 'minor', d: 'Island nation.',
+                    t: ['neu'] },
+                { i: 'civilization_173', n: 'Seychelles', g: 'minor', d: 'Island nation.',
+                    t: ['neu'] },
+                { i: 'civilization_181', n: 'Nagorno-Karabakh', g: 'rebel', d: 'Unrecognised state.',
+                    t: ['sec'] },
+                { i: 'civilization_56', n: 'Azerbaijan', g: 'minor', d: 'Conflict over Karabakh.',
+                    t: ['neu'] },
+                { i: 'civilization_55', n: 'Armenia', g: 'minor', d: 'Conflict over Karabakh.',
+                    t: ['neu'] },
+                { i: 'civilization_57', n: 'Georgia', g: 'minor', d: 'Independence from the USSR.',
+                    t: ['neu'] },
+                { i: 'civilization_212', n: 'Abkhazia', g: 'rebel', d: 'Unrecognised state.',
+                    t: ['sec'] },
+                { i: 'civilization_193', n: 'South Ossetia', g: 'rebel', d: 'Unrecognised state.',
+                    t: ['sec'] },
+                { i: 'civilization_99', n: 'Rojava', g: 'rebel', d: 'Kurdish autonomous region in Syria.',
+                    t: ['sec'] },
+                { i: 'civilization_138', n: 'Kurdistan', g: 'rebel', d: 'Kurdish national movement.',
+                    t: ['sec'] },
+                { i: 'civilization_281', n: 'Uyghuria', g: 'rebel', d: 'Returned to China after the civil war.',
+                    t: ['sec'] },
+                { i: 'civilization_259', n: 'Tibet', g: 'rebel', d: 'Unrecognised state.',
+                    t: ['sec'] },
+                { i: 'civilization_258', n: 'Manchuria', g: 'minor', d: 'Japanese puppet state. Mukden Railway. War with Japan.',
+                    t: ['ax'] },
+                { i: 'civilization_319', n: 'Korea', g: 'minor', d: 'Japanese colony.',
+                    t: ['ax'] },
+                { i: 'civilization_311', n: 'Taiwan', g: 'minor', d: 'ROC claims Taipei.',
+                    t: ['neu'] },
+                { i: 'civilization_127', n: 'ROC', g: 'allies', d: 'Republic of China. Civil war. Fall of Shanghai.',
+                    t: ['all'] },
+                { i: 'civilization_134', n: 'RPC', g: 'comintern', d: 'Communist China. Victory in the civil war.',
+                    t: ['all'] },
+                { i: 'civilization_151', n: 'Vietnam', g: 'minor', d: 'French colony. Japanese operation "Trees". France granted independence.',
+                    t: ['neu'] },
+                { i: 'civilization_159', n: 'Malaysia', g: 'minor', d: 'British colony. Japanese operation "Beach".',
+                    t: ['all'] },
+                { i: 'civilization_147', n: 'Indonesia', g: 'minor', d: 'Dutch colony. Fall of Jakarta.',
+                    t: ['neu'] },
+                { i: 'civilization_144', n: 'Philippines', g: 'minor', d: 'American colony.',
+                    t: ['all'] },
+                { i: 'civilization_142', n: 'Sri Lanka', g: 'minor', d: 'British colony.',
+                    t: ['all'] },
+                { i: 'civilization_90', n: 'Nepal', g: 'minor', d: 'Himalayan kingdom.',
+                    t: ['neu'] },
+                { i: 'civilization_145', n: 'Bhutan', g: 'minor', d: 'Himalayan kingdom.',
+                    t: ['neu'] },
+                { i: 'civilization_101', n: 'India', g: 'allies', d: 'British colony. Protests for independence. "Britain\'s great loss."',
+                    t: ['all'] },
+                { i: 'civilization_116', n: 'Pakistan', g: 'minor', d: 'Secession from India.',
+                    t: ['neu'] },
+                { i: 'civilization_149', n: 'Bangladesh', g: 'minor', d: 'Secession from Pakistan.',
+                    t: ['neu'] },
+                { i: 'civilization_119', n: 'Tajikistan', g: 'comintern', d: 'Soviet republic.',
+                    t: ['all'] },
+                { i: 'civilization_106', n: 'Uzbekistan', g: 'comintern', d: 'Independence from the USSR.',
+                    t: ['all'] },
+                { i: 'civilization_103', n: 'Turkmenistan', g: 'comintern', d: 'Soviet republic.',
+                    t: ['all'] },
+                { i: 'civilization_80', n: 'Kyrgyzstan', g: 'comintern', d: 'Soviet republic.',
+                    t: ['all'] },
+                { i: 'civilization_270', n: 'Buryatia', g: 'rebel', d: 'Independence from the USSR.',
+                    t: ['sec'] },
+                { i: 'civilization_272', n: 'Yakutia', g: 'rebel', d: 'Independence from the USSR.',
+                    t: ['sec'] },
+                { i: 'civilization_273', n: 'Bashkortostan', g: 'rebel', d: 'Independence from the USSR.',
+                    t: ['sec'] },
+                { i: 'civilization_274', n: 'Chuvashia', g: 'rebel', d: 'Independence from the USSR. Uprising.',
+                    t: ['sec'] },
+                { i: 'civilization_275', n: 'Mordovia', g: 'rebel', d: 'Independence from the USSR.',
+                    t: ['sec'] },
+                { i: 'civilization_276', n: 'Dagestan', g: 'rebel', d: 'Independence from the USSR.',
+                    t: ['sec'] },
+                { i: 'civilization_277', n: 'Udmurtia', g: 'rebel', d: 'Independence from the USSR.',
+                    t: ['sec'] },
+                { i: 'civilization_269', n: 'Mari El', g: 'rebel', d: 'Independence from the USSR.',
+                    t: ['sec'] },
+                { i: 'civilization_271', n: 'Tatarstan', g: 'rebel', d: 'Independence from the USSR.',
+                    t: ['sec'] },
+                { i: 'civilization_278', n: 'Kalmykia', g: 'rebel', d: 'Independence from the USSR.',
+                    t: ['sec'] },
+                { i: 'civilization_279', n: 'Khakassia', g: 'rebel', d: 'Independence from the USSR.',
+                    t: ['sec'] },
+                { i: 'civilization_268', n: 'Tuva', g: 'comintern', d: 'Desire to join the USSR.',
+                    t: ['all'] },
+                { i: 'civilization_312', n: 'Altai', g: 'rebel', d: 'Independence from the USSR.',
+                    t: ['sec'] },
+                { i: 'civilization_280', n: 'Chukotka', g: 'rebel', d: 'Independence from the USSR.',
+                    t: ['sec'] },
+                { i: 'civilization_261', n: 'Karelia', g: 'rebel', d: 'Independence from the USSR.',
+                    t: ['sec'] },
+                { i: 'civilization_313', n: 'Adygea', g: 'rebel', d: 'Independence from the USSR.',
+                    t: ['sec'] },
+                { i: 'civilization_292', n: 'Komi', g: 'rebel', d: 'Independence from the USSR.',
+                    t: ['sec'] },
+                { i: 'civilization_302', n: 'Karakalpakstan', g: 'rebel', d: 'Independence from the USSR.',
+                    t: ['sec'] },
+                { i: 'civilization_301', n: 'Free Kazbeks', g: 'rebel', d: 'Independence from the USSR.',
+                    t: ['sec'] },
+                { i: 'civilization_300', n: 'Saamostan', g: 'rebel', d: 'Independence from the USSR.',
+                    t: ['sec'] },
+                { i: 'civilization_299', n: 'WUPR', g: 'rebel', d: 'Independence from the USSR.',
+                    t: ['sec'] },
+                { i: 'civilization_295', n: 'Veishnoria', g: 'rebel', d: 'Independence from the USSR.',
+                    t: ['sec'] },
+                { i: 'civilization_286', n: 'Lemko-Russia', g: 'rebel', d: 'Independence from the USSR.',
+                    t: ['sec'] },
+                { i: 'civilization_139', n: 'USSR', g: 'comintern', d: 'The communist giant. Power struggle after Lenin. Industrialisation. Holodomor. War with the Reich.',
+                    t: ['all'] },
+                { i: 'civilization_314', n: 'RSFSR', g: 'rebel', d: 'Civil war in the USSR. Fall of Leningrad.',
+                    t: ['sec'] },
+                { i: 'civilization_305', n: 'Russian State', g: 'major', d: 'White Russia. Novo-Arkhangelsk. War with the USSR and AC.',
+                    t: ['neu'] },
+                { i: 'civilization_316', n: 'Germany', g: 'axis', d: 'After the fall of the Reich. Civil war.',
+                    t: ['ax'] },
+                { i: 'civilization_315', n: 'Free France', g: 'allies', d: 'Civil war in France.',
+                    t: ['all'] },
+                { i: 'civilization_322', n: 'Brazilian Republic', g: 'rebel', d: 'Bourgeois tobacco growers in Rio.',
+                    t: ['sec'] },
+                { i: 'civilization_321', n: 'Brazilian Junta', g: 'rebel', d: 'Bandits in the Amazon jungle.',
+                    t: ['sec'] },
+                { i: 'civilization_320', n: 'People\'s Republic of Brazil', g: 'comintern', d: 'Communist uprising. "Down with Vargas!"',
+                    t: ['all'] },
+                { i: 'civilization_318', n: 'American Republic', g: 'rebel', d: 'Civil war in the AC.',
+                    t: ['sec'] },
+                { i: 'civilization_308', n: 'England', g: 'allies', d: 'After the fall of Britain. "We are in power!"',
+                    t: ['all'] },
+                { i: 'civilization_265', n: 'Scotland', g: 'rebel', d: 'Discontent. Exit from the UK.',
+                    t: ['sec'] },
+                { i: 'civilization_264', n: 'Wales', g: 'rebel', d: 'Independence from the UK.',
+                    t: ['sec'] },
+                { i: 'civilization_266', n: 'Catalonia', g: 'rebel', d: 'Independence from Spain.',
+                    t: ['sec'] },
+                { i: 'civilization_298', n: 'Galicia', g: 'rebel', d: 'Independence from Spain.',
+                    t: ['sec'] },
+                { i: 'civilization_290', n: 'Normandy', g: 'rebel', d: 'Independence from France.',
+                    t: ['sec'] },
+                { i: 'civilization_263', n: 'Occitania', g: 'rebel', d: 'Independence from France.',
+                    t: ['sec'] },
+                { i: 'civilization_247', n: 'Sicily', g: 'rebel', d: 'Independence from Italy.',
+                    t: ['sec'] },
+                { i: 'civilization_284', n: 'Saxony', g: 'rebel', d: 'Independence from Germany.',
+                    t: ['sec'] },
+                { i: 'civilization_285', n: 'Rhineland', g: 'rebel', d: 'Independence from Germany.',
+                    t: ['sec'] },
+                { i: 'civilization_297', n: 'Silesia', g: 'rebel', d: 'Independence from Germany.',
+                    t: ['sec'] },
+                { i: 'civilization_283', n: 'Bavaria', g: 'rebel', d: 'Independence from Germany.',
+                    t: ['sec'] },
+                { i: 'civilization_310', n: 'Dobruja', g: 'rebel', d: 'Disputed territory.',
+                    t: ['sec'] },
+                { i: 'civilization_303', n: 'Herzegovina', g: 'rebel', d: 'Independence from Yugoslavia.',
+                    t: ['sec'] },
+                { i: 'civilization_262', n: 'Transylvania', g: 'rebel', d: 'Independence from Romania.',
+                    t: ['sec'] },
+                { i: 'civilization_267', n: 'Transcarpathia', g: 'rebel', d: 'Independence from Ukraine.',
+                    t: ['sec'] },
+                { i: 'civilization_294', n: 'Crimea', g: 'rebel', d: 'Disputed territory.',
+                    t: ['sec'] },
+                { i: 'civilization_146', n: 'Donbass', g: 'rebel', d: 'Separatists.',
+                    t: ['sec'] },
+                { i: 'civilization_156', n: 'Chechnya', g: 'rebel', d: 'Separatists.',
+                    t: ['sec'] },
+                { i: 'civilization_246', n: 'Kosovo', g: 'rebel', d: 'Separatists.',
+                    t: ['sec'] },
+                { i: 'civilization_309', n: 'Serbia', g: 'allies', d: '"The moment has come. Time to overthrow the king."',
+                    t: ['all'] },
+                { i: 'civilization_304', n: 'Antarctica', g: 'minor', d: 'Research stations.',
+                    t: ['neu'] },
+                { i: 'civilization_296', n: 'Greenland', g: 'minor', d: 'Danish colony.',
+                    t: ['all'] },
+                { i: 'civilization_260', n: 'Alaska', g: 'minor', d: 'Part of the Russian State. Fires, floods.',
+                    t: ['neu'] },
+                { i: 'civilization_287', n: 'California', g: 'minor', d: 'Part of the Russian State.',
+                    t: ['neu'] },
+                { i: 'civilization_288', n: 'Texas', g: 'minor', d: 'Disputed territory between AC and Mexico.',
+                    t: ['sec'] },
+                { i: 'civilization_307', n: 'Native American Uprising', g: 'rebel', d: 'Alabama terrorists in Denver.',
+                    t: ['sec'] },
+                { i: 'civilization_289', n: 'Emo-State', g: 'rebel', d: '???',
+                    t: ['sec'] },
+                { i: 'civilization_306', n: 'Xyu', g: 'rebel', d: '"In China everyone has long forgotten tradition. But not us!" Fall of Chengdu.',
+                    t: ['sec'] },
+                { i: 'civilization_317', n: '!', g: 'rebel', d: '???',
+                    t: ['sec'] },
+                { i: 'civilization_126', n: 'AC', g: 'major', d: 'American Confederacy. Alabama terror. War with Mexico. Pacific operation.',
+                    t: ['neu'] },
+                { i: 'civilization_125', n: 'Peru', g: 'minor', d: 'Creating its own alliance.',
+                    t: ['neu'] },
+                { i: 'civilization_137', n: 'Argentina', g: 'minor', d: 'Fall of Buenos Aires.',
+                    t: ['neu'] },
+                { i: 'civilization_195', n: 'Venezuela', g: 'minor', d: 'South American country.',
+                    t: ['neu'] },
+                { i: 'civilization_201', n: 'Colombia', g: 'minor', d: 'FARC, Clan del Golfo, Los Setas.',
+                    t: ['sec'] },
+                { i: 'civilization_228', n: 'FARC', g: 'rebel', d: 'Colombian rebels.',
+                    t: ['sec'] },
+                { i: 'civilization_218', n: 'Clan del Golfo', g: 'rebel', d: 'Colombian cartel.',
+                    t: ['sec'] },
+                { i: 'civilization_235', n: 'Los Setas', g: 'rebel', d: 'Mexican cartel.',
+                    t: ['sec'] },
+                { i: 'civilization_229', n: 'Tijuana Cartel', g: 'rebel', d: 'Mexican cartel.',
+                    t: ['sec'] },
+                { i: 'civilization_232', n: 'Gulf Cartel', g: 'rebel', d: 'Mexican cartel.',
+                    t: ['sec'] },
+                { i: 'civilization_233', n: 'Juárez Cartel', g: 'rebel', d: 'Mexican cartel.',
+                    t: ['sec'] },
+                { i: 'civilization_234', n: 'Beltrán-Leyva Cartel', g: 'rebel', d: 'Mexican cartel.',
+                    t: ['sec'] },
+                { i: 'civilization_231', n: 'La Familia Cartel', g: 'rebel', d: 'Mexican cartel.',
+                    t: ['sec'] },
+                { i: 'civilization_237', n: 'Pacific Cartel', g: 'rebel', d: 'Mexican cartel.',
+                    t: ['sec'] },
+                { i: 'civilization_222', n: 'Los Chuckys', g: 'rebel', d: 'Mexican cartel.',
+                    t: ['sec'] },
+                { i: 'civilization_220', n: 'Los Caqueteños', g: 'rebel', d: 'Colombian cartel.',
+                    t: ['sec'] },
+                { i: 'civilization_221', n: 'Los Costeños', g: 'rebel', d: 'Colombian cartel.',
+                    t: ['sec'] },
+                { i: 'civilization_223', n: 'Los Puntilleros', g: 'rebel', d: 'Colombian cartel.',
+                    t: ['sec'] },
+                { i: 'civilization_224', n: 'La Oficina', g: 'rebel', d: 'Colombian cartel.',
+                    t: ['sec'] },
+                { i: 'civilization_225', n: 'La Cordillera', g: 'rebel', d: 'Colombian cartel.',
+                    t: ['sec'] },
+                { i: 'civilization_226', n: 'La Clan Alianza', g: 'rebel', d: 'Colombian cartel.',
+                    t: ['sec'] },
+                { i: 'civilization_230', n: 'Edgar Valdés Faction', g: 'rebel', d: 'Mexican cartel.',
+                    t: ['sec'] },
+                { i: 'civilization_196', n: 'Bolivia', g: 'minor', d: 'South American country.',
+                    t: ['neu'] },
+                { i: 'civilization_199', n: 'Chile', g: 'minor', d: 'South American country.',
+                    t: ['neu'] },
+                { i: 'civilization_189', n: 'Ecuador', g: 'minor', d: 'South American country.',
+                    t: ['neu'] },
+                { i: 'civilization_178', n: 'Uruguay', g: 'minor', d: 'South American country.',
+                    t: ['neu'] },
+                { i: 'civilization_197', n: 'Suriname', g: 'minor', d: 'South American country.',
+                    t: ['neu'] },
+                { i: 'civilization_170', n: 'Guyana', g: 'minor', d: 'South American country.',
+                    t: ['neu'] },
+                { i: 'civilization_191', n: 'Belize', g: 'minor', d: 'Central American country.',
+                    t: ['neu'] },
+                { i: 'civilization_194', n: 'Honduras', g: 'minor', d: 'Central American country.',
+                    t: ['neu'] },
+                { i: 'civilization_133', n: 'El Salvador', g: 'minor', d: 'Central American country.',
+                    t: ['neu'] },
+                { i: 'civilization_114', n: 'Guatemala', g: 'minor', d: 'Central American country.',
+                    t: ['neu'] },
+                { i: 'civilization_120', n: 'Costa Rica', g: 'minor', d: 'Central American country.',
+                    t: ['neu'] },
+                { i: 'civilization_177', n: 'Panama', g: 'minor', d: 'Panama Canal — source of income.',
+                    t: ['neu'] },
+                { i: 'civilization_129', n: 'Nicaragua', g: 'minor', d: 'Central American country.',
+                    t: ['neu'] },
+                { i: 'civilization_188', n: 'Cuba', g: 'minor', d: 'Uprising against Spain. Aid from the AC. "Grace" — peace and prosperity.',
+                    t: ['neu'] },
+                { i: 'civilization_293', n: 'Cuba (alt.)', g: 'rebel', d: 'Alternative Cuba.',
+                    t: ['sec'] },
+                { i: 'civilization_184', n: 'Jamaica', g: 'minor', d: 'Caribbean nation.',
+                    t: ['neu'] },
+                { i: 'civilization_160', n: 'Haiti', g: 'minor', d: 'Caribbean nation.',
+                    t: ['neu'] },
+                { i: 'civilization_209', n: 'Dominica', g: 'minor', d: 'Caribbean nation.',
+                    t: ['neu'] },
+                { i: 'civilization_204', n: 'Dominica (alt.)', g: 'minor', d: 'Caribbean nation.',
+                    t: ['neu'] },
+                { i: 'civilization_206', n: 'Saint Lucia', g: 'minor', d: 'Caribbean nation.',
+                    t: ['neu'] },
+                { i: 'civilization_183', n: 'Saint Kitts and Nevis', g: 'minor', d: 'Caribbean nation.',
+                    t: ['neu'] },
+                { i: 'civilization_185', n: 'Antigua and Barbuda', g: 'minor', d: 'Caribbean nation.',
+                    t: ['neu'] },
+                { i: 'civilization_205', n: 'Saint Vincent and the Grenadines', g: 'minor', d: 'Caribbean nation.',
+                    t: ['neu'] },
+                { i: 'civilization_202', n: 'Grenada', g: 'minor', d: 'Caribbean nation.',
+                    t: ['neu'] },
+                { i: 'civilization_200', n: 'Barbados', g: 'minor', d: 'Caribbean nation.',
+                    t: ['neu'] },
+                { i: 'civilization_203', n: 'Trinidad and Tobago', g: 'minor', d: 'Caribbean nation.',
+                    t: ['neu'] },
+                { i: 'civilization_208', n: 'Martinique', g: 'minor', d: 'French colony.',
+                    t: ['all'] },
+                { i: 'civilization_210', n: 'Guadeloupe', g: 'minor', d: 'French colony.',
+                    t: ['all'] },
+                { i: 'civilization_167', n: 'New Caledonia', g: 'minor', d: 'French colony.',
+                    t: ['all'] },
+                { i: 'civilization_182', n: 'Bahamas', g: 'minor', d: 'Caribbean nation.',
+                    t: ['neu'] },
+                { i: 'civilization_122', n: 'Macau', g: 'minor', d: 'Portuguese colony.',
+                    t: ['neu'] },
+                { i: 'civilization_152', n: 'Hong Kong', g: 'minor', d: 'British colony.',
+                    t: ['all'] },
+                { i: 'civilization_128', n: 'Gaza Strip', g: 'rebel', d: 'Palestinian territory.',
+                    t: ['sec'] },
+                { i: 'civilization_215', n: 'Palestinian National Council', g: 'rebel', d: 'Palestinian movement. "The Great Jewish Uprising."',
+                    t: ['sec'] },
+                { i: 'civilization_92', n: 'Israel', g: 'minor', d: '"Holy day. We finally gained independence from the evil Palestinian hands."',
+                    t: ['neu'] },
+                { i: 'civilization_107', n: 'Jordan', g: 'minor', d: 'Middle Eastern state.',
+                    t: ['neu'] },
+                { i: 'civilization_97', n: 'Lebanon', g: 'minor', d: 'Middle Eastern state.',
+                    t: ['neu'] },
+                { i: 'civilization_37', n: 'Syria', g: 'minor', d: 'Independence from France. Opposition.',
+                    t: ['neu'] },
+                { i: 'civilization_169', n: 'Syrian Opposition', g: 'rebel', d: 'Rebels in Syria.',
+                    t: ['sec'] },
+                { i: 'civilization_39', n: 'Yemen', g: 'minor', d: 'Houthis. North Yemen.',
+                    t: ['neu'] },
+                { i: 'civilization_1', n: 'Oman', g: 'minor', d: 'Middle Eastern state.',
+                    t: ['neu'] },
+                { i: 'civilization_150', n: 'Qatar', g: 'minor', d: 'Middle Eastern state.',
+                    t: ['neu'] },
+                { i: 'civilization_211', n: 'Bahrain', g: 'minor', d: 'Middle Eastern state.',
+                    t: ['neu'] },
+                { i: 'civilization_165', n: 'UAE', g: 'minor', d: 'Middle Eastern state.',
+                    t: ['neu'] },
+                { i: 'civilization_58', n: 'Kuwait', g: 'minor', d: 'Middle Eastern state.',
+                    t: ['neu'] },
+                { i: 'civilization_110', n: 'Cyprus', g: 'minor', d: 'Island nation.',
+                    t: ['neu'] },
+                { i: 'civilization_168', n: 'Andorra', g: 'minor', d: 'Microstate.',
+                    t: ['neu'] },
+                { i: 'civilization_158', n: 'San Marino', g: 'minor', d: 'Microstate.',
+                    t: ['neu'] },
+                { i: 'civilization_155', n: 'Monaco', g: 'minor', d: 'Microstate. "The Order of Malta insulted us."',
+                    t: ['neu'] },
+                { i: 'civilization_130', n: 'Vatican City', g: 'minor', d: 'Theocracy. The Pope.',
+                    t: ['neu'] },
+                { i: 'civilization_148', n: 'Liechtenstein', g: 'minor', d: 'Microstate.',
+                    t: ['neu'] },
+                { i: 'civilization_157', n: 'Malta', g: 'minor', d: 'Island nation. "The Order of Malta insulted us."',
+                    t: ['neu'] },
+                { i: 'civilization_166', n: 'Iceland', g: 'minor', d: 'Island nation.',
+                    t: ['neu'] },
+                { i: 'civilization_2', n: 'Sweden', g: 'allies', d: 'Scandinavian power. Alliance with Finland.',
+                    t: ['all'] },
+                { i: 'civilization_6', n: 'Norway', g: 'allies', d: 'Scandinavian power. Capitulation.',
+                    t: ['all'] },
+                { i: 'civilization_32', n: 'Denmark', g: 'allies', d: 'Scandinavian power. German ultimatum.',
+                    t: ['all'] },
+                { i: 'civilization_5', n: 'Finland', g: 'allies', d: 'Scandinavian power. Soviet–Finnish war.',
+                    t: ['all'] },
+                { i: 'civilization_28', n: 'Ireland', g: 'minor', d: 'Independence from Britain. Massive rallies in the UK.',
+                    t: ['all'] },
+                { i: 'civilization_48', n: 'Luxembourg', g: 'minor', d: 'Microstate.',
+                    t: ['neu'] },
+                { i: 'civilization_38', n: 'Belgium', g: 'allies', d: 'Independence from Germany in a moment of weakness.',
+                    t: ['all'] },
+                { i: 'civilization_27', n: 'Montenegro', g: 'minor', d: 'Balkan state.',
+                    t: ['neu'] },
+                { i: 'civilization_24', n: 'Bosnia', g: 'minor', d: 'Balkan state.',
+                    t: ['neu'] },
+                { i: 'civilization_12', n: 'Slovenia', g: 'minor', d: 'Balkan state.',
+                    t: ['neu'] },
+                { i: 'civilization_41', n: 'Croatia', g: 'rebel', d: 'Balkan state. Independence from Yugoslavia.',
+                    t: ['sec'] },
+                { i: 'civilization_30', n: 'North Macedonia', g: 'minor', d: 'Balkan state.',
+                    t: ['neu'] },
+                { i: 'civilization_36', n: 'Albania', g: 'rebel', d: 'Balkan state. Italian ultimatum.',
+                    t: ['sec'] },
+                { i: 'civilization_33', n: 'Moldova', g: 'rebel', d: 'Balkan state. Referendum.',
+                    t: ['sec'] },
+                { i: 'civilization_46', n: 'Romania', g: 'axis', d: 'Balkan state. Attempted to join Germany.',
+                    t: ['ax'] },
+                { i: 'civilization_26', n: 'Bulgaria', g: 'axis', d: 'Balkan state. Betrayal by allies.',
+                    t: ['ax'] },
+                { i: 'civilization_31', n: 'Hungary', g: 'axis', d: 'Balkan state. Protests in Budapest.',
+                    t: ['ax'] },
+                { i: 'civilization_42', n: 'Czechoslovakia', g: 'allies', d: 'Central European state. German ultimatum.',
+                    t: ['all'] },
+                { i: 'civilization_45', n: 'Austria-Hungary', g: 'major', d: 'Central European state. "Former greatness."',
+                    t: ['ax'] },
+                { i: 'civilization_17', n: 'Poland', g: 'allies', d: 'Central European state. Mass shootings.',
+                    t: ['all'] },
+                { i: 'civilization_29', n: 'Switzerland', g: 'minor', d: 'Central European state. Neutrality.',
+                    t: ['neu'] },
+                { i: 'civilization_7', n: 'German Empire', g: 'axis', d: 'Central European power. The Reich.',
+                    t: ['ax'] },
+                { i: 'civilization', n: 'France', g: 'allies', d: 'Western European power. Torn between ideologies.',
+                    t: ['all'] },
+                { i: 'civilization_44', n: 'Spain', g: 'axis', d: 'Western European power. Conflicts with Morocco.',
+                    t: ['ax'] },
+                { i: 'civilization_20', n: 'Portugal', g: 'minor', d: 'Western European power.',
+                    t: ['neu'] },
+                { i: 'civilization_23', n: 'United Kingdom', g: 'allies', d: 'Western European power. Losing colonial empire.',
+                    t: ['all'] },
+                { i: 'civilization_14', n: 'Greece', g: 'allies', d: 'Southern European power. War with Italy.',
+                    t: ['all'] },
+                { i: 'civilization_43', n: 'Italy', g: 'axis', d: 'Southern European power. Heirs of Rome.',
+                    t: ['ax'] },
+                { i: 'civilization_35', n: 'Turkey', g: 'major', d: 'Eurasian power. Heir of the Ottomans.',
+                    t: ['neu'] },
+                { i: 'civilization_139', n: 'USSR', g: 'comintern', d: 'Eurasian power. Communist giant.',
+                    t: ['all'] },
+                { i: 'civilization_132', n: 'Japanese Empire', g: 'axis', d: 'Asian power. The Rising Sun.',
+                    t: ['ax'] },
+                { i: 'civilization_134', n: 'China (RPC)', g: 'comintern', d: 'Asian power. Communist China.',
+                    t: ['all'] },
+                { i: 'civilization_127', n: 'China (ROC)', g: 'allies', d: 'Asian power. Republican China.',
+                    t: ['all'] },
+                { i: 'civilization_101', n: 'India', g: 'allies', d: 'Asian power. British colony.',
+                    t: ['all'] },
+                { i: 'civilization_116', n: 'Pakistan', g: 'minor', d: 'Asian power.',
+                    t: ['neu'] },
+                { i: 'civilization_147', n: 'Indonesia', g: 'minor', d: 'Asian power. Dutch colony.',
+                    t: ['neu'] },
+                { i: 'civilization_151', n: 'Vietnam', g: 'minor', d: 'Asian power. French colony.',
+                    t: ['neu'] },
+                { i: 'civilization_159', n: 'Malaysia', g: 'minor', d: 'Asian power. British colony.',
+                    t: ['all'] },
+                { i: 'civilization_140', n: 'Thailand', g: 'minor', d: 'Asian power.',
+                    t: ['neu'] },
+                { i: 'civilization_144', n: 'Philippines', g: 'minor', d: 'Asian power. American colony.',
+                    t: ['all'] },
+                { i: 'civilization_121', n: 'Burma', g: 'minor', d: 'Asian power. British colony.',
+                    t: ['all'] },
+                { i: 'civilization_142', n: 'Sri Lanka', g: 'minor', d: 'Asian power. British colony.',
+                    t: ['all'] },
+                { i: 'civilization_90', n: 'Nepal', g: 'minor', d: 'Asian power.',
+                    t: ['neu'] },
+                { i: 'civilization_145', n: 'Bhutan', g: 'minor', d: 'Asian power.',
+                    t: ['neu'] },
+                { i: 'civilization_118', n: 'East Timor', g: 'minor', d: 'Asian power.',
+                    t: ['neu'] },
+                { i: 'civilization_154', n: 'Cambodia', g: 'minor', d: 'Asian power.',
+                    t: ['neu'] },
+                { i: 'civilization_113', n: 'Singapore', g: 'minor', d: 'Asian power.',
+                    t: ['neu'] },
+                { i: 'civilization_98', n: 'Brunei', g: 'minor', d: 'Asian power.',
+                    t: ['neu'] },
+                { i: 'civilization_126', n: 'AC', g: 'major', d: 'North American power. The southern states.',
+                    t: ['neu'] },
+                { i: 'civilization_190', n: 'Mexico', g: 'major', d: 'North American power.',
+                    t: ['neu'] },
+                { i: 'civilization_164', n: 'Canada', g: 'allies', d: 'North American power. British dominion.',
+                    t: ['all'] },
+                { i: 'civilization_305', n: 'Russian State', g: 'major', d: 'North American power. White Russia on Alaska.',
+                    t: ['neu'] },
+                { i: 'civilization_260', n: 'Alaska', g: 'minor', d: 'North American territory.',
+                    t: ['neu'] },
+                { i: 'civilization_287', n: 'California', g: 'minor', d: 'North American territory.',
+                    t: ['neu'] },
+                { i: 'civilization_288', n: 'Texas', g: 'minor', d: 'North American territory. Disputed.',
+                    t: ['sec'] },
+                { i: 'civilization_162', n: 'Brazil', g: 'major', d: 'South American power. Vargas dictatorship.',
+                    t: ['neu'] },
+                { i: 'civilization_137', n: 'Argentina', g: 'minor', d: 'South American power.',
+                    t: ['neu'] },
+                { i: 'civilization_195', n: 'Venezuela', g: 'minor', d: 'South American power.',
+                    t: ['neu'] },
+                { i: 'civilization_201', n: 'Colombia', g: 'minor', d: 'South American power.',
+                    t: ['neu'] },
+                { i: 'civilization_125', n: 'Peru', g: 'minor', d: 'South American power.',
+                    t: ['neu'] },
+                { i: 'civilization_196', n: 'Bolivia', g: 'minor', d: 'South American power.',
+                    t: ['neu'] },
+                { i: 'civilization_199', n: 'Chile', g: 'minor', d: 'South American power.',
+                    t: ['neu'] },
+                { i: 'civilization_124', n: 'New Zealand', g: 'allies', d: 'Oceanian power. British dominion.',
+                    t: ['all'] },
+                { i: 'civilization_83', n: 'Australia', g: 'allies', d: 'Oceanian power. British dominion.',
+                    t: ['all'] },
+                { i: 'civilization_176', n: 'Papua New Guinea', g: 'minor', d: 'Oceanian power.',
+                    t: ['neu'] },
+                { i: 'civilization_115', n: 'Fiji', g: 'minor', d: 'Oceanian power.',
+                    t: ['neu'] },
+                { i: 'civilization_175', n: 'Samoa', g: 'minor', d: 'Oceanian power.',
+                    t: ['neu'] },
+                { i: 'civilization_174', n: 'Nauru', g: 'minor', d: 'Oceanian power.',
+                    t: ['neu'] },
+                { i: 'civilization_171', n: 'Solomon Islands', g: 'minor', d: 'Oceanian power.',
+                    t: ['neu'] },
+                { i: 'civilization_179', n: 'Tonga', g: 'minor', d: 'Oceanian power.',
+                    t: ['neu'] },
+                { i: 'civilization_161', n: 'Tuvalu', g: 'minor', d: 'Oceanian power.',
+                    t: ['neu'] },
+                { i: 'civilization_180', n: 'Niue', g: 'minor', d: 'Oceanian power.',
+                    t: ['neu'] },
+                { i: 'civilization_153', n: 'Palau', g: 'minor', d: 'Oceanian power.',
+                    t: ['neu'] },
+                { i: 'civilization_143', n: 'Marshall Islands', g: 'minor', d: 'Oceanian power.',
+                    t: ['neu'] },
+                { i: 'civilization_141', n: 'Kiribati', g: 'minor', d: 'Oceanian power.',
+                    t: ['neu'] },
+                { i: 'civilization_135', n: 'Cook Islands', g: 'minor', d: 'Oceanian power.',
+                    t: ['neu'] },
+                { i: 'civilization_123', n: 'FSM', g: 'minor', d: 'Oceanian power.',
+                    t: ['neu'] },
+                { i: 'civilization_172', n: 'Comoros', g: 'minor', d: 'African island power.',
+                    t: ['neu'] },
+                { i: 'civilization_173', n: 'Seychelles', g: 'minor', d: 'African island power.',
+                    t: ['neu'] },
+                { i: 'civilization_186', n: 'Mauritius', g: 'minor', d: 'African island power.',
+                    t: ['neu'] },
+                { i: 'civilization_187', n: 'São Tomé and Príncipe', g: 'minor', d: 'African island power.',
+                    t: ['neu'] },
+                { i: 'civilization_163', n: 'Maldives', g: 'minor', d: 'Asian island power.',
+                    t: ['neu'] },
+                { i: 'civilization_122', n: 'Macau', g: 'minor', d: 'Asian island power.',
+                    t: ['neu'] },
+                { i: 'civilization_152', n: 'Hong Kong', g: 'minor', d: 'Asian island power.',
+                    t: ['neu'] },
+                { i: 'civilization_110', n: 'Cyprus', g: 'minor', d: 'Mediterranean island power.',
+                    t: ['neu'] },
+                { i: 'civilization_157', n: 'Malta', g: 'minor', d: 'Mediterranean island power.',
+                    t: ['neu'] },
+                { i: 'civilization_166', n: 'Iceland', g: 'minor', d: 'North Atlantic island power.',
+                    t: ['neu'] },
+                { i: 'civilization_296', n: 'Greenland', g: 'minor', d: 'North Atlantic island power.',
+                    t: ['neu'] },
+                { i: 'civilization_131', n: 'Laos', g: 'minor', d: 'Southeast Asia.',
+                    t: ['neu'] },
+                { i: 'civilization_136', n: 'North Korea', g: 'comintern', d: 'East Asia.',
+                    t: ['all'] },
+                { i: 'civilization_70', n: 'South Korea', g: 'allies', d: 'East Asia.',
+                    t: ['all'] },
+                { i: 'civilization_192', n: 'Mongolia', g: 'comintern', d: 'Wants to join the USSR. RPC disapproves.',
+                    t: ['all'] },
+                { i: 'civilization_258', n: 'Manchuria', g: 'minor', d: 'Japanese puppet. War with Japan.',
+                    t: ['ax'] },
+                { i: 'civilization_311', n: 'Taiwan', g: 'minor', d: 'East Asia.',
+                    t: ['neu'] },
+                { i: 'civilization_259', n: 'Tibet', g: 'rebel', d: 'Central Asia.',
+                    t: ['sec'] },
+                { i: 'civilization_281', n: 'Uyghuria', g: 'rebel', d: 'Central Asia.',
+                    t: ['sec'] },
+                { i: 'civilization_306', n: 'Xyu', g: 'rebel', d: 'Central Asia.',
+                    t: ['sec'] },
+                { i: 'civilization_138', n: 'Kurdistan', g: 'rebel', d: 'Middle East.',
+                    t: ['sec'] },
+                { i: 'civilization_99', n: 'Rojava', g: 'rebel', d: 'Middle East.',
+                    t: ['sec'] },
+                { i: 'civilization_215', n: 'Palestinian National Council', g: 'rebel', d: 'Middle East.',
+                    t: ['sec'] },
+                { i: 'civilization_92', n: 'Israel', g: 'minor', d: 'Middle East.',
+                    t: ['neu'] },
+                { i: 'civilization_128', n: 'Gaza Strip', g: 'rebel', d: 'Middle East.',
+                    t: ['sec'] },
+                { i: 'civilization_107', n: 'Jordan', g: 'minor', d: 'Middle East.',
+                    t: ['neu'] },
+                { i: 'civilization_97', n: 'Lebanon', g: 'minor', d: 'Middle East.',
+                    t: ['neu'] },
+                { i: 'civilization_37', n: 'Syria', g: 'minor', d: 'Middle East.',
+                    t: ['neu'] },
+                { i: 'civilization_169', n: 'Syrian Opposition', g: 'rebel', d: 'Middle East.',
+                    t: ['sec'] },
+                { i: 'civilization_39', n: 'Yemen', g: 'minor', d: 'Middle East.',
+                    t: ['neu'] },
+                { i: 'civilization_213', n: 'Houthis', g: 'rebel', d: 'Middle East.',
+                    t: ['sec'] },
+                { i: 'civilization_1', n: 'Oman', g: 'minor', d: 'Middle East.',
+                    t: ['neu'] },
+                { i: 'civilization_150', n: 'Qatar', g: 'minor', d: 'Middle East.',
+                    t: ['neu'] },
+                { i: 'civilization_211', n: 'Bahrain', g: 'minor', d: 'Middle East.',
+                    t: ['neu'] },
+                { i: 'civilization_165', n: 'UAE', g: 'minor', d: 'Middle East.',
+                    t: ['neu'] },
+                { i: 'civilization_58', n: 'Kuwait', g: 'minor', d: 'Middle East.',
+                    t: ['neu'] },
+                { i: 'civilization_64', n: 'Iraq', g: 'minor', d: 'Middle East. Iranian intervention.',
+                    t: ['neu'] },
+                { i: 'civilization_40', n: 'Iran', g: 'major', d: 'Middle East. Pact with the USSR.',
+                    t: ['neu'] },
+                { i: 'civilization_19', n: 'ISIS', g: 'rebel', d: 'Middle East.',
+                    t: ['sec'] },
+                { i: 'civilization_63', n: 'Al-Nusra', g: 'rebel', d: 'Middle East.',
+                    t: ['sec'] },
+                { i: 'civilization_214', n: 'Al-Qaeda', g: 'rebel', d: 'Middle East.',
+                    t: ['sec'] },
+                { i: 'civilization_245', n: 'Taliban', g: 'rebel', d: 'Central Asia.',
+                    t: ['sec'] },
+                { i: 'civilization_51', n: 'Afghanistan', g: 'minor', d: 'Central Asia.',
+                    t: ['neu'] },
+                { i: 'civilization_116', n: 'Pakistan', g: 'minor', d: 'South Asia.',
+                    t: ['neu'] },
+                { i: 'civilization_101', n: 'India', g: 'allies', d: 'South Asia.',
+                    t: ['all'] },
+                { i: 'civilization_149', n: 'Bangladesh', g: 'minor', d: 'South Asia.',
+                    t: ['neu'] },
+                { i: 'civilization_142', n: 'Sri Lanka', g: 'minor', d: 'South Asia.',
+                    t: ['neu'] },
+                { i: 'civilization_90', n: 'Nepal', g: 'minor', d: 'South Asia.',
+                    t: ['neu'] },
+                { i: 'civilization_145', n: 'Bhutan', g: 'minor', d: 'South Asia.',
+                    t: ['neu'] },
+                { i: 'civilization_151', n: 'Vietnam', g: 'minor', d: 'Southeast Asia.',
+                    t: ['neu'] },
+                { i: 'civilization_159', n: 'Malaysia', g: 'minor', d: 'Southeast Asia.',
+                    t: ['neu'] },
+                { i: 'civilization_147', n: 'Indonesia', g: 'minor', d: 'Southeast Asia.',
+                    t: ['neu'] },
+                { i: 'civilization_144', n: 'Philippines', g: 'minor', d: 'Southeast Asia.',
+                    t: ['neu'] },
+                { i: 'civilization_121', n: 'Burma', g: 'minor', d: 'Southeast Asia.',
+                    t: ['neu'] },
+                { i: 'civilization_131', n: 'Laos', g: 'minor', d: 'Southeast Asia.',
+                    t: ['neu'] },
+                { i: 'civilization_118', n: 'East Timor', g: 'minor', d: 'Southeast Asia.',
+                    t: ['neu'] },
+                { i: 'civilization_154', n: 'Cambodia', g: 'minor', d: 'Southeast Asia.',
+                    t: ['neu'] },
+                { i: 'civilization_113', n: 'Singapore', g: 'minor', d: 'Southeast Asia.',
+                    t: ['neu'] },
+                { i: 'civilization_98', n: 'Brunei', g: 'minor', d: 'Southeast Asia.',
+                    t: ['neu'] },
+                { i: 'civilization_140', n: 'Thailand', g: 'minor', d: 'Southeast Asia.',
+                    t: ['neu'] },
+                { i: 'civilization_134', n: 'China (RPC)', g: 'comintern', d: 'East Asia.',
+                    t: ['all'] },
+                { i: 'civilization_127', n: 'China (ROC)', g: 'allies', d: 'East Asia.',
+                    t: ['all'] },
+                { i: 'civilization_132', n: 'Japanese Empire', g: 'axis', d: 'East Asia.',
+                    t: ['ax'] },
+                { i: 'civilization_136', n: 'North Korea', g: 'comintern', d: 'East Asia.',
+                    t: ['all'] },
+                { i: 'civilization_70', n: 'South Korea', g: 'allies', d: 'East Asia.',
+                    t: ['all'] },
+                { i: 'civilization_192', n: 'Mongolia', g: 'comintern', d: 'East Asia.',
+                    t: ['all'] },
+                { i: 'civilization_258', n: 'Manchuria', g: 'minor', d: 'East Asia.',
+                    t: ['ax'] },
+                { i: 'civilization_311', n: 'Taiwan', g: 'minor', d: 'East Asia.',
+                    t: ['neu'] },
+                { i: 'civilization_259', n: 'Tibet', g: 'rebel', d: 'Central Asia.',
+                    t: ['sec'] },
+                { i: 'civilization_281', n: 'Uyghuria', g: 'rebel', d: 'Central Asia.',
+                    t: ['sec'] },
+                { i: 'civilization_306', n: 'Xyu', g: 'rebel', d: 'Central Asia.',
+                    t: ['sec'] }
+            ];
+
+            const T = [
+                { d: '1936', t: 'Radicals Seize Power in Germany', b: 'National Socialists storm the Reichstag. A new era begins. "The fall of the monarchy. In whose hands is Germany now?"' },
+                { d: '1936', t: 'Baltic–Soviet War', b: 'The USSR attacks Lithuania, Latvia, and Estonia over their "hostile rhetoric." The world shudders.' },
+                { d: '1936', t: 'German Ultimatum to the Netherlands', b: '"The Netherlands are part of German culture. Time to come home." Ultimatum accepted. Their lands are now ours.' },
+                { d: '1937', t: 'Mukden Railway Incident', b: 'Japan blocks the railway to the USSR. The Manchurian government protests. "Audacity!"' },
+                { d: '1937', t: 'Japanese–Manchurian War', b: 'Japan attacks Manchuria over the railway blockade. The great Asian war begins.' },
+                { d: '1937', t: 'Chinese Civil War', b: 'China fractures. RPC vs ROC. "Total chaos reigns in China."' },
+                { d: '1937', t: 'Italo–Ethiopian War', b: '"Isolation operation." Italy invades Ethiopia. "A noble cause" — Britain considers intervention.' },
+                { d: '1938', t: 'Anschluss of Austria', b: '"Austrians are Germans too. Time to include them in our federal system." One nation war begins.' },
+                { d: '1938', t: 'Munich Agreement — Czechoslovakia', b: 'Germany attacks Czechoslovakia. Official reason — USSR\'s proposal of a military alliance. "Disruption of the contract."' },
+                { d: '1938', t: 'Italian Ultimatum to Albania', b: '"They want our lands." Albania agrees. The start of Roman expansion.' },
+                { d: '1939', t: 'Fall of Poland', b: '"We took Warsaw. They can\'t fight anymore." Mass shootings of Germans.' },
+                { d: '1939', t: 'Operation "Cut"', b: 'Germany and Sweden attack Norway and Denmark. Division of northern spheres of influence.' },
+                { d: '1939', t: 'Fall of France', b: '"We took Paris." France retreats to Africa. "France has lost." End of the Third Republic.' },
+                { d: '1939', t: 'Battle of Britain', b: '"The UK is fighting back strongly. We can\'t land on their island. We need a strong new ally."' },
+                { d: '1940', t: 'Operation "Beach"', b: 'Japan seizes Malaysia. "For greater dominance in the Pacific Ocean."' },
+                { d: '1940', t: 'Operation "Trees"', b: 'Japan invades Vietnam. "Vietnam has lost its owner, France."' },
+                { d: '1940', t: 'AC–Mexican War', b: '"Today shots were fired at the American–Mexican border. Texas in flames." War over Texas begins.' },
+                { d: '1941', t: 'Operation "Taiga"', b: 'The USSR attacks Finland. "The time for the invasion of Finland has come."' },
+                { d: '1941', t: 'Battle of Moscow', b: '"The enemy is already at the capital. We need to spend a lot of money to save the capital."' },
+                { d: '1941', t: 'Pearl Harbor & Pacific War', b: 'Japan attacks. The USA enters the war. AC–Russian war begins.' },
+                { d: '1942', t: 'Battle of Stalingrad', b: '"Supply has been restored. Thanks to the capture of Stalingrad, our ammunition has been fully restored. We crossed the Volga."' },
+                { d: '1942', t: 'Operation "Ledge"', b: 'Italy captures Tunisia. "Tunisia is an integral part of the Roman State."' },
+                { d: '1942', t: 'Operation "Sauce"', b: 'Italian landing on the Iberian Peninsula. "We are fully prepared to land."' },
+                { d: '1943', t: 'Kursk Salient', b: '"The main line is hit. The Arkhangelsk–Astrakhan line has already been overtaken by enemy tanks."' },
+                { d: '1943', t: 'Fall of Italy', b: '"We took Rome. They can\'t fight anymore." End of Mussolini.' },
+                { d: '1944', t: 'Normandy Landings', b: 'The Allies return to Europe. "D-Day."' },
+                { d: '1944', t: 'Operation "Bagration"', b: 'The USSR liberates Belarus. "Belarus declared independence. They used our weakness."' },
+                { d: '1944', t: 'Operation "Pacific"', b: 'The AC attacks the Russian State. "Pacific operation." Pacific theatre.' },
+                { d: '1945', t: 'Fall of Berlin', b: '"We took Berlin. They can\'t fight anymore." End of the Reich.' },
+                { d: '1945', t: 'Fall of Moscow', b: '"We took Moscow. They can\'t fight anymore." End of the USSR.' },
+                { d: '1945', t: 'Atomic Bombings', b: '"A new deadly weapon has appeared. Scientists have created nukes based on uranium. Is it the end of all wars?"' },
+                { d: '1945', t: 'Fall of Japan', b: '"We took Tokyo. They can\'t fight anymore." End of the Japanese Empire.' },
+                { d: '1945', t: 'End of World War II', b: '"New World Order. Your policy led your state to world domination. Glory to YOU!"' },
+                { d: '1946', t: 'Nuremberg Trials', b: 'Trial of Nazi criminals. "Pathetic traitors were terminated."' },
+                { d: '1947', t: 'Cold War Begins', b: '"The war of Opposites. One of the strangest wars ever started. Soviet Union against Russian State."' },
+                { d: '1948', t: 'Brazilian Civil War', b: '"Due to the policies of Brazilian dictator Julio Vargas, a civil war broke out." Junta, Republic, Communists.' },
+                { d: '1949', t: 'Creation of the UN', b: '"Cooperation of peoples. The Soviet Union offers cooperation in all areas."' },
+                { d: '1950', t: 'Korean War', b: 'North vs South. "Korea is capitulated. We took..."'
+                }
+            ];
+
+            const D = {
+                'civilization_7': 'German Reich — radical regime at the heart of Europe. Founder of the Vector alliance. Goal — the Thousand-Year Reich and a new world order. Absorbs Austria, Czechoslovakia, Poland, the Netherlands, Denmark, Norway, Belgium, France. The Strasbourg Line — France\'s last hope. "Finishing. The Greater German Thousand-Year Reich is almost ready." Fall of Berlin in 1945.',
+                'civilization_139': 'Soviet Union — the communist giant of the east. After Lenin\'s death — internal power struggle: Kirov (socialism), Trotsky (permanent revolution), Voroshilov (military communism). Industrialisation, Holodomor, repression. Leader of the Comintern. Battle of Moscow, Stalingrad. Fall in 1945.',
+                'civilization_23': 'United Kingdom — mistress of the seas, losing her grip. India demands independence, colonies flare up one after another. Protests in London, Scotland wants independence. Economic crisis after the Great War. "Unprecedented happiness. Britain is losing its power. India no longer obeys them."',
+                'civilization': 'France — torn between democracy, monarchy, socialism. The Strasbourg Line. After the fall — government in Africa. "Socialism has arrived in France" — after the revolution. "France has returned to the old way" — after the restoration of the monarchy.',
+                'civilization_132': 'Japanese Empire — the Rising Sun. Operations Beach (Malaysia), Trees (Vietnam), Pacific. Capture of Manchuria after the Mukden Railway incident. Conflict with the USA and China. The Shibuya Incident. Fall of Tokyo in 1945.',
+                'civilization_43': 'Kingdom of Italy — heirs of Rome. "All roads lead to Rome." Operations Ledge (Tunisia), Sauce (Iberia). Capture of Albania, Ethiopia. War with Greece and Yugoslavia. "The War of the Two Rimes." Fall of Rome in 1943.',
+                'civilization_126': 'American Confederacy — southern states of the USA. "Alabama" terror (explosions in Norfolk, Frankfurt, Lincoln, Lansing). War with Mexico over Texas. Pacific operation against the Russian State. Capital — Washington. "AC is capitulated. We took Washington."',
+                'civilization_305': 'Russian State — White Russia in the east. Capital — Novo-Arkhangelsk. War with the USSR and AC. Construction of the Alaska–California highway. Colonial diseases, fires, floods. "The construction is completed. People praise you for such a masterpiece." Peace with AC — loss of California.',
+                'civilization_40': 'Iran — Persia. Pact with the "northern neighbour" (USSR). Severe drought, 55°C. Attempted to join Vector. Occupation of Iraq. "Intervention in Iraq. Iran began the occupation of Iraq."',
+                'civilization_35': 'Turkey — heir of the Ottomans. Major modernisation. Kurdish nationalists, conservatives. Civil war. Attempted to join Vector. "Turkey wants to join Vector. Will we accept them?"',
+                'civilization_45': 'Austria-Hungary — "Former greatness." A fragment of the empire. Under German pressure. Heavy desertion, national minorities. "Heavy desertion. Most soldiers think they are actually German and the Austrian nation does not exist."',
+                'civilization_17': 'Poland — between two fires. Mass shootings of Germans. Proposal of an anti-Soviet alliance with Germany. Fall of Warsaw. "Poland is capitulated. We took Warsaw."',
+                'civilization_56': 'Empire of Northern Aleskan — Aleskan dynasty. Emperor Kirill VII. Assassination attempt on the emperor (3 shots, 1 in the arm). Operation Overblu against the Blue Column. "The last Aleskans. We are the last bastion of lands under the control of the dynasty."',
+                'civilization_26': 'Ordenstein Mettenberg — radical nationalism. Leader Henrenn. Slaves, nuclear project Renyatom. Destruction of the identity of other peoples. "No Metta. Metta never existed, it\'s just a lie."',
+                'civilization_61': 'Order of Salvation of Bavaria — legitimate government of Bavaria. Holy Regent. Fonren. Reunification of Bavaria. Fight against pirates. Assassination attempt on the Regent in Ozersk. "I will save Bavaria for the Emperor."',
+                'civilization_54': 'ECAB — Eastern Communist Army of Bavaria. Plan "Voston": electrification → industrialisation → supply of the people. Districts: Voston, Antast, Fonreal.',
+                'civilization_49': 'ASR / USRB — Aleskan Socialist Republic. Leader Lirnoriy. Plan "Red Claw." March on the Republic. "The end of the ASR. We will partially change course to the economy."',
+                'civilization_134': 'China (RPC) — Communist China. Civil war. Aid from the USSR. Communist victory. Uyghurs return. "Victory of the communists. China is united again."',
+                'civilization_127': 'China (ROC) — Republican China. Civil war. Capital Shanghai. Fall. The Shibuya Incident. "Our best general is dead. He did not survive the shelling."',
+                'civilization_162': 'Brazil — dictatorship of Getúlio Vargas. Revolutionary ideas. Civil war. Junta, Republic, Communists. "Vargas has escaped to Liberia. He could not stand the anger of the people."',
+                'civilization_44': 'Spain — conflicts with Morocco, Portugal. Cuban separatists. War with France. Operation Desert. "Unrest in Cuba. The Cuban rebels have launched a full-scale uprising."',
+                'civilization_190': 'Mexico — war with the AC over Texas. Treaty of San Antonio. The Texas question. "Mexico asks for peace. They\'re ready to recognise Texas as ours."',
+                'civilization_11': 'Ukraine — independence from the USSR. Aid to Moldova. Peace with Romania. Demand for Western Ukraine. "Ukraine declared independence. They used our weakness."',
+                'civilization_46': 'Romania — attempted to join Germany. The Moldovan question. Humiliation of the Bulgarians. Peace with Ukraine. "Romania wants to comply. The Romanian authorities suggested that we take them into our state."',
+                'civilization_25': 'Kingdom of South Slavs — Yugoslavia. Betrayal of Serbian communists. Problems in Croatia. Peace with Italy. "You deceived the people. You said you would leave and bring democracy."',
+                'civilization_42': 'Czechoslovakia — German minority in danger. Alliance with the USSR. German ultimatum. Fall of Prague. "Czechia is capitulated. We took Prague."',
+                'civilization_47': 'Netherlands — German ultimatum. Cultural ties with the Reich. Accept or decline. Fall. "Netherlands accepted our terms. Now their lands are ours!"',
+                'civilization_32': 'Denmark — German ultimatum. Sanctions from Norway. Fall of Copenhagen. Double offensive. "Denmark gave up. They admitted our power."',
+                'civilization_2': 'Sweden — alliance with Finland. Operations Cut and White. Division of influence with Germany in the north. "Sweden propose a union. Their authorities have stated that they see us as a powerful and loyal ally."',
+                'civilization_5': 'Finland — 10 years of independence. Soviet–Finnish war. Forest ambush tactics. Peace with the USSR. "The Northern War. We were attacked by a red bear."',
+                'civilization_6': 'Norway — capitulation. Oslo taken. Closure of Swedish schools. Sanctions. Division with Germany. "Norway is capitulated. We took Oslo."',
+                'civilization_26': 'Bulgaria — betrayal by allies (Italy and Turkey invade). Dobruja. Anti-monarchist sentiment. "Bulgaria has been betrayed by its allies. Chaos has erupted within the Vector Alliance."',
+                'civilization_41': 'Croatia — independence from Yugoslavia. Zagreb seized by administrative buildings. "Problems in Croatia. The Croats seized the administrative building of Zagreb."',
+                'civilization_36': 'Albania — Italian ultimatum. "They want to get Albanian lands." Accept or refuse. "Albania agreed. They obeyed us."',
+                'civilization_14': 'Greece — war with Italy. Athens in flames. Division between Italy and Turkey. Demand for Macedonia. "Greece is capitulated. We took Athens."',
+                'civilization_31': 'Hungary — protests in Budapest. Demand for independence from Austria. Fall of Budapest. "Hungary is capitulated. We took Budapest."',
+                'civilization_29': 'Switzerland — "It\'s over." Neutrality in question. German ultimatum. Annexation to the Reich. "Finishing. The Greater German Thousand-Year Reich is almost ready. All the pieces are in place, except one."'
+            };
+
+            const pg = document.getElementById('pGrid'),
+                fg = document.getElementById('fGrid');
+
+            function rp(f = 'all', s = '') {
+                pg.innerHTML = '';
+                const fl = P.filter(c => {
+                    if (f !== 'all' && c.g !== f) return false;
+                    if (s && !c.n.toLowerCase().includes(s) && !c.d.toLowerCase().includes(s)) return false;
+                    return true;
+                });
+                if (!fl.length) { pg.innerHTML =
+                        '<p style="color:var(--ink-3);grid-column:1/-1;text-align:center;padding:40px;font-family:\'Courier Prime\',monospace;letter-spacing:2px">DOSSIERS NOT FOUND</p>';
+                    return; }
+                fl.forEach(c => {
+                    const d = document.createElement('div');
+                    d.className = 'file-card';
+                    const tagHtml = c.t.map(t => '<span class="tag ' + t + '">' + t.toUpperCase() + '</span>').join(
+                    '');
+                    const stamps = ['TOP SECRET', 'CLASSIFIED', 'RESTRICTED'];
+                    const stamp = stamps[Math.floor(Math.random() * stamps.length)];
+                    d.innerHTML = '<div class="fid">DOSSIER #' + c.i.replace('civilization_', '').padStart(3, '0') +
+                        '</div><div class="fname">' + c.n + '</div><div class="fdesc">' + c.d +
+                        '</div><div class="fmeta">' + tagHtml + '</div><div class="stamp tl">' + stamp +
+                    '</div>';
+                    d.onclick = () => om(c);
+                    pg.appendChild(d);
+                });
+            }
+
+            function rf(s = '') {
+                fg.innerHTML = '';
+                const fl = P.filter(c => !s || c.n.toLowerCase().includes(s) || c.d.toLowerCase().includes(s));
+                if (!fl.length) { fg.innerHTML =
+                        '<p style="color:var(--ink-3);grid-column:1/-1;text-align:center;padding:40px;font-family:\'Courier Prime\',monospace;letter-spacing:2px">DOSSIERS NOT FOUND</p>';
+                    return; }
+                fl.forEach(c => {
+                    const d = document.createElement('div');
+                    d.className = 'file-card';
+                    const tagHtml = c.t.map(t => '<span class="tag ' + t + '">' + t.toUpperCase() + '</span>').join(
+                    '');
+                    d.innerHTML = '<div class="fid">' + c.i + '</div><div class="fname">' + c.n +
+                        '</div><div class="fdesc">' + c.d + '</div><div class="fmeta">' + tagHtml + '</div>';
+                    d.onclick = () => om(c);
+                    fg.appendChild(d);
+                });
+            }
+
+            function om(c) {
+                const m = document.getElementById('modal'),
+                    b = document.getElementById('mBody');
+                const ex = D[c.i] || '';
+                b.innerHTML = '<h2>' + c.n + '</h2><div class="mid">FILE: ' + c.i +
+                    ' · DECLASSIFIED</div><p>' + c.d + '</p>' + (ex ? '<h4>Extended Dossier</h4><p>' + ex + '</p>' :
+                        '') +
+                    '<h4>Classification</h4><div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:8px">' + c.t.map(
+                        t => '<span class="tag ' + t + '">' + t.toUpperCase() + '</span>').join('') + '</div>';
+                m.classList.add('open');
+            }
+
+            rp();
+            rf();
+
+            const tl = document.getElementById('tl');
+            T.forEach(e => {
+                const d = document.createElement('div');
+                d.className = 'tl-entry';
+                d.innerHTML = '<div class="tl-date">' + e.d + '</div><div class="tl-title">' + e.t +
+                    '</div><div class="tl-body">' + e.b + '</div>';
+                tl.appendChild(d);
+            });
+
+            document.querySelectorAll('.folder').forEach(b => {
+                b.onclick = () => {
+                    document.querySelectorAll('.folder').forEach(x => x.classList.remove('act'));
+                    b.classList.add('act');
+                    document.querySelectorAll('.dossier').forEach(p => p.classList.remove('act'));
+                    document.getElementById('d-' + b.dataset.d).classList.add('act');
+                    window.scrollTo(0, 0);
+                };
+            });
+
+            document.querySelectorAll('#pFilt .fbtn').forEach(b => {
+                b.onclick = () => {
+                    document.querySelectorAll('#pFilt .fbtn').forEach(x => x.classList.remove('act'));
+                    b.classList.add('act');
+                    rp(b.dataset.f, document.getElementById('pSrch').value.toLowerCase());
+                };
+            });
+
+            document.getElementById('pSrch').oninput = e => {
+                const af = document.querySelector('#pFilt .fbtn.act').dataset.f;
+                rp(af, e.target.value.toLowerCase());
+            };
+
+            document.getElementById('fSrch').oninput = e => rf(e.target.value.toLowerCase());
+
+            document.getElementById('modal').onclick = e => {
+                if (e.target.id === 'modal') e.target.classList.remove('open');
+            };
+
+            document.querySelectorAll('.file-card[data-c]').forEach(c => {
+                c.onclick = () => {
+                    const p = P.find(x => x.i === c.dataset.c);
+                    if (p) om(p);
+                };
+            });
+        })();
+    </script>
+</body>
+</html>

@@ -3361,5 +3361,26 @@
         "type": "sandbox",
         "period": "alternative",
         "status": "in_development"
+    },
+    {
+        "id": [
+            "eeditor", 
+            "blank", 
+            "v1",
+            "wiki3"
+        ],
+        "title": "Test Wiki 3",
+        "author": ["eeditor"],
+        "year": "0",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2026-06-19",
+        "lastUpdate": "2026-06-19",
+        "hiddenScore": -99999,
+        "type": "sandbox",
+        "period": "alternative",
+        "status": "in_development"
     }
 ]
