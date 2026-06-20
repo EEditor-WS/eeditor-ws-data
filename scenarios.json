@@ -624,7 +624,7 @@
         "lastUpdate": "2025-03-07",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "anciaent"
+        "period": "ancient"
     },
     {
         "id": [
@@ -3382,5 +3382,25 @@
         "type": "sandbox",
         "period": "alternative",
         "status": "in_development"
+    },
+    {
+        "id": [
+            "eenot", 
+            "asia", 
+            "v1",
+            "1815"
+        ],
+        "title": "1815",
+        "author": ["greg"],
+        "year": "1815",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2026-06-20",
+        "lastUpdate": "2026-06-20",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "ancient"
     }
 ]
