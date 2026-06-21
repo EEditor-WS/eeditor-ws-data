@@ -252,7 +252,7 @@
     {
         "id": [
             "zachary",
-            "world",
+            "world-old",
             "v1",
             "ww2"
         ],
@@ -675,7 +675,7 @@
     {
         "id": [
             "zachary",
-            "world",
+            "world-old",
             "v1",
             "islam"
         ],
@@ -698,7 +698,7 @@
     {
         "id": [
             "zachary",
-            "world",
+            "world-old",
             "v1",
             "revolutionary-war"
         ],
@@ -721,7 +721,7 @@
     {
         "id": [
             "zachary",
-            "world",
+            "world-old",
             "v1",
             "ww1"
         ],
@@ -744,7 +744,7 @@
     {
         "id": [
             "zachary",
-            "world",
+            "world-old",
             "v1",
             "ww2z"
         ],
@@ -836,7 +836,7 @@
     {
         "id": [
             "zachary",
-            "world",
+            "world-old",
             "v1",
             "kaiserreich"
         ],
@@ -860,7 +860,7 @@
     {
         "id": [
             "zachary",
-            "world",
+            "world-old",
             "v1",
             "kalterkrieg"
         ],
@@ -3091,6 +3091,90 @@
     },
     {
         "id": [
+            "vova", 
+            "lifia", 
+            "v015",
+            "1444"
+        ],
+        "title": "Лифия 1444",
+        "author": ["vova"],
+        "year": "1444",
+        "languages": ["RU"],
+        "gameMode": "lore",
+        "awards": [],
+        
+        "publishDate": "2026-06-21",
+        "lastUpdate": "2026-06-21",
+        "hiddenScore": 100,
+        "type": "lore",
+        "period": "alternative",
+        "status": "in_development"
+    },
+    {
+        "id": [
+            "vova", 
+            "lifia", 
+            "v015",
+            "1712"
+        ],
+        "title": "Лифия 1712",
+        "author": ["vova"],
+        "year": "1444",
+        "languages": ["RU"],
+        "gameMode": "lore",
+        "awards": [],
+        
+        "publishDate": "2026-06-21",
+        "lastUpdate": "2026-06-21",
+        "hiddenScore": 100,
+        "type": "lore",
+        "period": "alternative",
+        "status": "in_development"
+    },
+    {
+        "id": [
+            "vova", 
+            "lifia", 
+            "v015",
+            "1809"
+        ],
+        "title": "Лифия 1809",
+        "author": ["vova"],
+        "year": "1809",
+        "languages": ["RU"],
+        "gameMode": "lore",
+        "awards": [],
+        
+        "publishDate": "2026-06-21",
+        "lastUpdate": "2026-06-21",
+        "hiddenScore": 100,
+        "type": "lore",
+        "period": "alternative",
+        "status": "in_development"
+    },
+    {
+        "id": [
+            "vova", 
+            "lifia", 
+            "v015",
+            "1826"
+        ],
+        "title": "Лифия 1826",
+        "author": ["vova"],
+        "year": "1826",
+        "languages": ["RU"],
+        "gameMode": "lore",
+        "awards": [],
+        
+        "publishDate": "2026-06-21",
+        "lastUpdate": "2026-06-21",
+        "hiddenScore": 100,
+        "type": "lore",
+        "period": "alternative",
+        "status": "in_development"
+    },
+    {
+        "id": [
             "eenot", 
             "asia", 
             "v1",
@@ -3402,5 +3486,425 @@
         "hiddenScore": 0,
         "type": "sandbox",
         "period": "ancient"
+    },
+    {
+        "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "ww1"
+        ],
+        "title": "The Great War",
+        "author": ["zachary"],
+        "year": "1914",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-06-21",
+        "lastUpdate": "2025-06-21",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "ww1"
+    },
+    {
+        "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "turkishwar"
+        ],
+        "title": "The Great Turkish War",
+        "author": ["bluepum"],
+        "year": "1683",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-06-26",
+        "lastUpdate": "2025-06-26",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "ancient"
+    },
+    {
+        "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "napoleon"
+        ],
+        "title": "Napoleonic Wars",
+        "author": ["stewardconstruct"],
+        "year": "1803",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-06-28",
+        "lastUpdate": "2025-06-28",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "napoleon"
+    },
+    {
+        "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "ww2"
+        ],
+        "title": "World War 2",
+        "author": ["zachary"],
+        "year": "1936",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-07-01",
+        "lastUpdate": "2025-07-01",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "ww2"
+    },
+    {
+        "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "modern"
+        ],
+        "title": "Modern",
+        "author": ["zachary"],
+        "year": "2025",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-07-01",
+        "lastUpdate": "2025-07-01",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "modern"
+    },
+    {
+        "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "cw"
+        ],
+        "title": "Cold War",
+        "author": ["manstein"],
+        "year": "1975",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-07-13",
+        "lastUpdate": "2025-07-13",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "cw"
+    },
+    {
+        "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "1861"
+        ],
+        "title": "Civil Wars 1861",
+        "author": ["author"],
+        "year": "1861",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-07-23",
+        "lastUpdate": "2025-07-23",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "ancient"
+    },
+    {
+        "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "ww1-better"
+        ],
+        "title": "Better WW1",
+        "author": ["theHardEngineer"],
+        "year": "1914",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-08-07",
+        "lastUpdate": "2025-08-13",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "www1"
+    },
+    {
+        "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "modern-events"
+        ],
+        "title": "Modern (EVENTS)",
+        "author": ["hamod"],
+        "year": "2025",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-08-17",
+        "lastUpdate": "2025-06-21",
+        "hiddenScore": 0,
+        "type": "historical",
+        "period": "modern"
+    },
+    {
+        "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "1870"
+        ],
+        "title": "1870",
+        "author": ["theHardEngineer"],
+        "year": "1870",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-08-22",
+        "lastUpdate": "2025-08-22",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "ancient"
+    },
+    {
+        "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "warnamine"
+        ],
+        "title": "Warnamine",
+        "author": ["zachary"],
+        "year": "0",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-08-24",
+        "lastUpdate": "2025-08-24",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "alternative"
+    },
+    {
+        "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "1836"
+        ],
+        "title": "Victorian Era (1836)",
+        "author": ["theHardEngineer"],
+        "year": "1836",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-09-19",
+        "lastUpdate": "2025-09-20",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "ancient"
+    },
+    {
+        "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "krasnacht"
+        ],
+        "title": "Krasnacht",
+        "author": ["nghe"],
+        "year": "1950",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-10-02",
+        "lastUpdate": "2025-10-02",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "kaiserreich"
+    },
+    {
+        "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "2000"
+        ],
+        "title": "Millenium",
+        "author": ["mooned"],
+        "year": "2000",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-10-02",
+        "lastUpdate": "2025-10-02",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "modern"
+    },
+    {
+        "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "tno"
+        ],
+        "title": "The New Order",
+        "author": ["kaschby"],
+        "year": "1936",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-10-09",
+        "lastUpdate": "2025-10-09",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "tno"
+    },
+    {
+        "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "redworld"
+        ],
+        "title": "Red World",
+        "author": ["inka"],
+        "year": "2010",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-12-26",
+        "lastUpdate": "2025-12-26",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "alternative"
+    },
+    {
+        "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "firststellarwar"
+        ],
+        "title": "First Stellar War",
+        "author": ["dairygal"],
+        "year": "2475",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-12-29",
+        "lastUpdate": "2025-12-29",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "alternative"
+    },
+    {
+        "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "2013"
+        ],
+        "title": "2013",
+        "author": ["blasha"],
+        "year": "2013",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": ["star", "enot"],
+        
+        "publishDate": "2025-12-30",
+        "lastUpdate": "2026-01-01",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "modern"
+    },
+    {
+        "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "trs"
+        ],
+        "title": "The Red Storm (EVENTS)",
+        "author": ["preferablynothing"],
+        "year": "1954",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2026-04-09",
+        "lastUpdate": "2026-04-11",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "alternative"
+    },
+    {
+        "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "continents"
+        ],
+        "title": "Continents",
+        "author": ["paris06779"],
+        "year": "2026",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2026-06-07",
+        "lastUpdate": "2026-06-07",
+        "hiddenScore": -25,
+        "type": "sandbox",
+        "period": "alternative"
+    },
+    {
+        "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "ourworld"
+        ],
+        "title": "Our World",
+        "author": ["stanczyk"],
+        "year": "1936",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2026-01-05",
+        "lastUpdate": "2026-01-05",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "alternative"
     }
 ]
