@@ -3906,5 +3906,25 @@
         "hiddenScore": 0,
         "type": "sandbox",
         "period": "alternative"
+    },
+    {
+        "id": [
+            "jaba", 
+            "eu4", 
+            "v1",
+            "1444"
+        ],
+        "title": "1444",
+        "author": ["stanczyk"],
+        "year": "1444",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2026-06-21",
+        "lastUpdate": "2026-06-21",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "1444"
     }
 ]

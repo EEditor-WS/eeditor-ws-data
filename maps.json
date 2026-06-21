@@ -558,6 +558,24 @@
         "hiddenScore": 0
     },
     {
+        "id": ["jaba", "eu4"],
+        "versions": [
+            "v1"
+        ],
+        "title": "Europe EU4",
+        "author": ["jaba"],
+        "description": "This map is for scenarios from 1444 to 1821, do not make scenarios that are not included in this time period. Эта карта предназначена для сценариев с 1444 года до 1821 года, не делайте сценарии, которые не входят в данный промежуток времени",
+        "type": "continent",
+        "region": [],
+        "provinces": 1559,
+        "features": [],
+        "status": "completed",
+        "publishDate": "2025-06-08", 
+        "lastUpdate": "2025-06-08",
+        "load": "normal",
+        "hiddenScore": 0
+    },
+    {
         "id": ["jaba", "world"],
         "versions": [
             "v1"
