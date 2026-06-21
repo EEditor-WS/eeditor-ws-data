@@ -237,7 +237,7 @@
         "publishDate": "2024-10-16", 
         "lastUpdate": "2024-10-29",
         "load": "normal",
-        "hiddenScore": 0
+        "hiddenScore": 50
     },
     {
         "id": ["zachary", "australia"],
@@ -255,7 +255,7 @@
         "publishDate": "2024-10-07", 
         "lastUpdate": "2024-10-07",
         "load": "light",
-        "hiddenScore": 0
+        "hiddenScore": 50
     },
     {
         "id": ["zachary", "america"],
@@ -358,7 +358,7 @@
         "region": ["america", "north_america", "south_america", "central_america"],
         "provinces": 430,
         "features": [],
-        "status": "completed",
+        "status": "INGAME",
         "publishDate": "2023-08-12", 
         "lastUpdate": "2023-08-19",
         "load": "light",
@@ -373,18 +373,18 @@
         "region": ["europe", "north_africa", "middle_east"],
         "provinces": 430,
         "features": [],
-        "status": "completed",
+        "status": "INGAME",
         "publishDate": "2023-08-05", 
         "lastUpdate": "2023-08-05",
         "load": "light",
-        "hiddenScore": 0
+        "hiddenScore": 100
     },
     {
-        "id": ["zachary", "world"],
+        "id": ["zachary", "world-old"],
         "versions": [
             "v1"
         ],
-        "title": "World by Zachary",
+        "title": "World by Zachary (old)",
         "author": ["zachary"],
         "description": "One of the bestest world maps",
         "type": "world",
@@ -394,6 +394,24 @@
         "status": "completed",
         "publishDate": "2025-02-10", 
         "lastUpdate": "2025-02-10",
+        "load": "normal",
+        "hiddenScore": 25
+    },
+    {
+        "id": ["zachary", "world"],
+        "versions": [
+            "vg"
+        ],
+        "title": "World by Zachary",
+        "author": ["zachary"],
+        "description": "Ingame world maps",
+        "type": "world",
+        "region": ["water_provinces", "islands", "straits", "rivers", "shores"],
+        "provinces": 2889,
+        "features": ["water_provinces", "islands", "straits", "rivers"],
+        "status": "INGAME",
+        "publishDate": "2025-02-10", 
+        "lastUpdate": "2025-06-21",
         "load": "normal",
         "hiddenScore": 150
     },
@@ -406,7 +424,7 @@
         "region": ["europe"],
         "provinces": 293,
         "features": ["water_provinces", "islands"],
-        "status": "completed",
+        "status": "INGAME",
         "publishDate": "1912-04-15",
         "lastUpdate": "2077-01-01",
         "load": "mobile",
@@ -461,11 +479,11 @@
         "region": ["europe", "balcans"],
         "provinces": 604,
         "features": [],
-        "status": "completed",
+        "status": "discontinued",
         "publishDate": "2025-03-19", 
         "lastUpdate": "2025-03-19",
         "load": "light",
-        "hiddenScore": 0
+        "hiddenScore": -100
     },
     {
         "id": ["trid", "archangelsk"],
@@ -591,7 +609,7 @@
         "publishDate": "2024-02-12", 
         "lastUpdate": "2024-03-27",
         "load": "norlmal",
-        "hiddenScore": 0
+        "hiddenScore": 50
     },
     {
         "id": ["trid", "euro5l+"],
@@ -647,7 +665,7 @@
         "publishDate": "2024-06-11", 
         "lastUpdate": "2024-09-15",
         "load": "norlmal",
-        "hiddenScore": 0
+        "hiddenScore": 50
     },
     {
         "id": ["chuckcha", "tigerland"],
@@ -667,7 +685,7 @@
         "publishDate": "2024-06-11", 
         "lastUpdate": "2024-11-17",
         "load": "norlmal",
-        "hiddenScore": 0
+        "hiddenScore": 25
     },
     {
         "id": ["mapmancer", "centaura"],
@@ -1198,7 +1216,8 @@
     {
         "id": ["vova", "lifia"],
         "versions": [
-            "v1"
+            "v1",
+            "v015"
         ],
         "title": "Lifia",
         "author": ["vova"],
@@ -1209,7 +1228,7 @@
         "features": [],
         "status": "completed",
         "publishDate": "2026-01-18",
-        "lastUpdate": "2026-01-18",
+        "lastUpdate": "2026-06-21",
         "load": "normal",
         "hiddenScore": 20
     },
@@ -1229,7 +1248,7 @@
         "publishDate": "2026-03-17",
         "lastUpdate": "2026-03-17",
         "load": "normal",
-        "hiddenScore": 100
+        "hiddenScore": 150
     },
     {
         "id": ["eeditor", "blank"],
