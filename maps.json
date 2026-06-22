@@ -350,7 +350,11 @@
         "hiddenScore": 0
     },
     {
-        "id": ["jaba", "america", "vg"],
+        "id": ["jaba", "america"],
+        "versions": [
+            "v3",
+            "vg"
+        ],
         "title": "America standart",
         "author": ["jaba"],
         "description": "Standart map of America",

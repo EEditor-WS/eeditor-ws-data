@@ -9,7 +9,7 @@
         "title": "Modern World",
         "author": ["eenot"],
         "year": "2015",
-        "languages": ["EN", "RU"],
+        "languages": ["EN"],
         "gameMode": "Sandbox",
         "awards": ["star", "enot"],
         
@@ -1443,7 +1443,7 @@
         "title": "World War 2",
         "author": ["bluepum"],
         "year": "1936",
-        "languages": ["EN", "RU"],
+        "languages": ["EN"],
         "gameMode": "Sandbox",
         "map": {
             "name": "Europe+ by BluePum",
@@ -1467,7 +1467,7 @@
         "title": "Great Turkish War",
         "author": ["bluepum"],
         "year": "1683",
-        "languages": ["EN", "RU"],
+        "languages": ["EN"],
         "gameMode": "Sandbox",
         "map": {
             "name": "Europe+ by BluePum",
@@ -2275,12 +2275,12 @@
             "jaba",
             "america",
             "vg",
-            "1862"
+            "civilwar"
         ],
-        "title": "1862 America",
+        "title": "American Civil War",
         "author": ["jaba"],
         "year": "1862",
-        "languages": ["RU"],
+        "languages": ["RU", "EN"],
         "gameMode": "Sandbox",
         "awards": [],
         
@@ -2300,7 +2300,7 @@
         "title": "Modern America",
         "author": ["jaba"],
         "year": "2023",
-        "languages": ["RU"],
+        "languages": ["RU", "EN"],
         "gameMode": "Sandbox",
         "awards": [],
         
@@ -2317,15 +2317,55 @@
             "vg",
             "1492"
         ],
-        "title": "1492 America",
+        "title": "Discovery of America",
         "author": ["jaba"],
         "year": "1492",
-        "languages": ["RU"],
+        "languages": ["RU", "EN"],
         "gameMode": "Sandbox",
         "awards": [],
         
         "publishDate": "2023-10-19",
         "lastUpdate": "2023-10-19",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "ancient"
+    },
+    {
+        "id": [
+            "jaba",
+            "america",
+            "vg",
+            "civilwar-fix"
+        ],
+        "title": "American Civil War (Fixed)",
+        "author": ["jaba", "zachary"],
+        "year": "1862",
+        "languages": ["EN"],
+        "gameMode": "Sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-06-29",
+        "lastUpdate": "2025-06-29",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "american_civil_war"
+    },
+    {
+        "id": [
+            "jaba",
+            "america",
+            "vg",
+            "1899"
+        ],
+        "title": "New Century",
+        "author": ["zloy"],
+        "year": "1899",
+        "languages": ["RU"],
+        "gameMode": "Sandbox",
+        "awards": [],
+        
+        "publishDate": "2023-10-27",
+        "lastUpdate": "2023-10-27",
         "hiddenScore": 0,
         "type": "sandbox",
         "period": "ancient"
@@ -2540,7 +2580,7 @@
         "title": "World with Lost Continents",
         "author": ["bluepum"],
         "year": "0",
-        "languages": ["EN", "RU"],
+        "languages": ["EN"],
         "gameMode": "Sandbox",
         "awards": [],
         
@@ -2845,7 +2885,7 @@
         "title": "Metro 2033",
         "author": ["eenot"],
         "year": "2033",
-        "languages": ["EN", "RU"],
+        "languages": ["EN"],
         "gameMode": "Sandbox",
         "awards": [],
         
@@ -3052,33 +3092,12 @@
             "vova", 
             "lifia", 
             "v1",
-            "1847-en"
+            "1847"
         ],
         "title": "Lifia (EVENTS)",
         "author": ["vova"],
         "year": "1847",
-        "languages": ["EN"],
-        "gameMode": "lore",
-        "awards": [],
-        
-        "publishDate": "2026-01-18",
-        "lastUpdate": "2026-03-07",
-        "hiddenScore": 100,
-        "type": "lore",
-        "period": "alternative",
-        "status": "in_development"
-    },
-    {
-        "id": [
-            "vova", 
-            "lifia", 
-            "v1",
-            "1847-ru"
-        ],
-        "title": "Лифия (ИВЕНТЫ)",
-        "author": ["vova"],
-        "year": "1847",
-        "languages": ["RU"],
+        "languages": ["EN", "RU"],
         "gameMode": "lore",
         "awards": [],
         
@@ -3645,7 +3664,7 @@
         "lastUpdate": "2025-08-13",
         "hiddenScore": 0,
         "type": "sandbox",
-        "period": "www1"
+        "period": "ww1"
     },
     {
         "id": [
@@ -3926,5 +3945,65 @@
         "hiddenScore": 0,
         "type": "sandbox",
         "period": "1444"
+    },
+    {
+        "id": [
+            "zachary", 
+            "africa", 
+            "v3",
+            "tno"
+        ],
+        "title": "The New Order Africa",
+        "author": ["titanium"],
+        "year": "1962",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-06-19",
+        "lastUpdate": "2025-06-19",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "tno"
+    },
+    {
+        "id": [
+            "zachary", 
+            "africa", 
+            "v3",
+            "modern"
+        ],
+        "title": "Modern Africa",
+        "author": ["titanium"],
+        "year": "2024",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2024-10-30",
+        "lastUpdate": "2024-10-30",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "modern"
+    },
+    {
+        "id": [
+            "zachary", 
+            "africa", 
+            "v3",
+            "ww1"
+        ],
+        "title": "World War 1 Africa",
+        "author": ["zachary", "grim"],
+        "year": "1914",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2024-10-16",
+        "lastUpdate": "2025-01-19",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "ww1"
     }
 ]
