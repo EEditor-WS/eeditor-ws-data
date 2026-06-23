@@ -2,7 +2,7 @@
     {
         "id": ["eenot", "world"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "World by ЕЕнот",
         "author": ["eenot"],
@@ -20,7 +20,7 @@
     {
         "id": ["eenot", "moldavia"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Moldavia by ЕЕнот",
         "author": ["eenot"],
@@ -33,16 +33,16 @@
         "publishDate": "2025-04-28",
         "lastUpdate": "2025-04-28",
         "load": "ultralight",
-        "hiddenScore": 0
+        "hiddenScore": -5
     },
     {
         "id": ["bluepum", "enaatme"],
         "versions": [
-            "v1",
-            "v2",
-            "v3",
-            "v4",
-            "v5"
+            ["v1"],
+            ["v2"],
+            ["v3"],
+            ["v4"],
+            ["v5"]
         ],
         "title": "Europe+ by Bluepum",
         "author": ["bluepum"],
@@ -60,7 +60,7 @@
     {
         "id": ["bluepum", "germany"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Germany by Bluepum",
         "author": ["bluepum"],
@@ -78,8 +78,8 @@
     {
         "id": ["eenot", "arstotzka"],
         "versions": [
-            "v1",
-            "v2"
+            ["v1"],
+            ["v2"]
         ],
         "title": "Arstotzka World by ЕЕнот",
         "author": ["eenot"],
@@ -97,7 +97,7 @@
     {
         "id": ["zachary", "world-3ga"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "World 3b years ago by Zachary",
         "author": ["zachary"],
@@ -115,7 +115,7 @@
     {
         "id": ["zachary", "authun"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Austria-Hungaria by Zachary",
         "author": ["zachary"],
@@ -133,7 +133,7 @@
     {
         "id": ["zachary", "world-am"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "World according to America",
         "author": ["zachary"],
@@ -151,7 +151,7 @@
     {
         "id": ["zachary", "panem"],
         "versions": [
-            "v2"
+            ["v2"]
         ],
         "title": "Panem v2 by Zachary",
         "author": ["zachary"],
@@ -169,7 +169,7 @@
     {
         "id": ["zachary", "eurasia"],
         "versions": [
-            "v2"
+            ["v2"]
         ],
         "title": "Terra Eurasia by Zachary",
         "author": ["zachary"],
@@ -187,7 +187,7 @@
     {
         "id": ["zachary", "mars"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Terraformed Mars by Zachary",
         "author": ["zachary"],
@@ -205,7 +205,7 @@
     {
         "id": ["zachary", "florida"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Florida by Zachary",
         "author": ["zachary"],
@@ -223,8 +223,8 @@
     {
         "id": ["zachary", "africa"],
         "versions": [
-            "v2",
-            "v3"
+            ["v2"],
+            ["v3", 3645654176]
         ],
         "title": "Terra Africa by Zachary",
         "author": ["zachary"],
@@ -242,7 +242,7 @@
     {
         "id": ["zachary", "australia"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Terra Australis by Zachary",
         "author": ["zachary"],
@@ -260,8 +260,8 @@
     {
         "id": ["zachary", "america"],
         "versions": [
-            "v1",
-            "v2"
+            ["v1"],
+            ["v2"]
         ],
         "title": "Terra Novus by Zachary",
         "author": ["zachary"],
@@ -270,17 +270,16 @@
         "region": ["americas", "north_america", "south_america", "central_america"],
         "provinces": 1822,
         "features": [],
-        "status": "completed",
         "publishDate": "2024-08-22", 
         "lastUpdate": "2024-10-07",
         "load": "normal",
-        "hiddenScore": 0,
+        "hiddenScore": -10,
         "status": "archived"
     },
     {
         "id": ["zachary", "europe1815"],
         "versions": [
-            "v2"
+            ["v2"]
         ],
         "title": "Europe 1815 by Zachary",
         "author": ["zachary"],
@@ -298,7 +297,7 @@
     {
         "id": ["zachary", "usa"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "USA by Zachary",
         "author": ["zachary"],
@@ -316,7 +315,7 @@
     {
         "id": ["zachary", "deadhand"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Dead Hand | Aftermath of WW3",
         "author": ["zachary"],
@@ -334,7 +333,7 @@
     {
         "id": ["pelo", "greece"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Aegean Sea by Pelo",
         "author": ["pelo"],
@@ -352,8 +351,8 @@
     {
         "id": ["jaba", "america"],
         "versions": [
-            "v3",
-            "vg"
+            ["v3"],
+            ["vg"]
         ],
         "title": "America standart",
         "author": ["jaba"],
@@ -381,12 +380,13 @@
         "publishDate": "2023-08-05", 
         "lastUpdate": "2023-08-05",
         "load": "light",
-        "hiddenScore": 100
+        "hiddenScore": 100,
+        "hash": 2563703365
     },
     {
         "id": ["zachary", "world-old"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "World by Zachary (old)",
         "author": ["zachary"],
@@ -404,7 +404,7 @@
     {
         "id": ["zachary", "world"],
         "versions": [
-            "vg"
+            ["vg", 2535764560]
         ],
         "title": "World by Zachary",
         "author": ["zachary"],
@@ -432,13 +432,14 @@
         "publishDate": "1912-04-15",
         "lastUpdate": "2077-01-01",
         "load": "mobile",
-        "hiddenScore": 0
+        "hiddenScore": 0,
+        "hash": 1663913141
     },
     {
         "id": ["stewardconstruct", "europe"],
         "versions": [
-            "v1",
-            "v2"
+            ["v1"],
+            ["v2"]
         ],
         "title": "Europe (Our Empire)",
         "author": ["stewardconstruct"],
@@ -456,7 +457,7 @@
     {
         "id": ["stewardconstruct", "serbia"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Serbia",
         "author": ["stewardconstruct"],
@@ -474,7 +475,7 @@
     {
         "id": ["stewardconstruct", "yugoslavia"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Yugoslavia",
         "author": ["stewardconstruct"],
@@ -492,7 +493,7 @@
     {
         "id": ["trid", "archangelsk"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Archangelsk",
         "author": ["trid"],
@@ -510,7 +511,7 @@
     {
         "id": ["chuckcha", "europe"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Crusader Kings 3 Europe",
         "author": ["chuckcha"],
@@ -528,7 +529,7 @@
     {
         "id": ["jalhund", "euro5l"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Euro5 Lite by jalhund",
         "author": ["jalhund"],
@@ -546,7 +547,7 @@
     {
         "id": ["jaba", "asia"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Asia and Oceania EU4",
         "author": ["jaba"],
@@ -564,7 +565,7 @@
     {
         "id": ["jaba", "eu4"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Europe EU4",
         "author": ["jaba"],
@@ -582,7 +583,7 @@
     {
         "id": ["jaba", "world"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "World EU4 by Jaba",
         "author": ["jaba"],
@@ -600,7 +601,7 @@
     {
         "id": ["jalhund", "lp16"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "LP-16 by Jalhund",
         "author": ["jalhund"],
@@ -618,7 +619,7 @@
     {
         "id": ["trid", "eurosat"],
         "versions": [
-            "v5"
+            ["v5"]
         ],
         "title": "EuroSat by Trid",
         "author": ["trid"],
@@ -636,7 +637,7 @@
     {
         "id": ["trid", "euro5l+"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Euro5 Lite+ by Trid",
         "author": ["trid"],
@@ -654,8 +655,8 @@
     {
         "id": ["jaba", "korea"],
         "versions": [
-            "v1",
-            "v2"
+            ["v1"],
+            ["v2"]
         ],
         "title": "Korea by Jaba",
         "author": ["jaba"],
@@ -673,8 +674,8 @@
     {
         "id": ["trid", "ukraine"],
         "versions": [
-            "v1",
-            "v2"
+            ["v1"],
+            ["v2"]
         ],
         "title": "Ukraine by Trid",
         "author": ["trid"],
@@ -692,9 +693,9 @@
     {
         "id": ["chuckcha", "tigerland"],
         "versions": [
-            "v1",
-            "v2",
-            "v3"
+            ["v1"],
+            ["v2"],
+            ["v3"]
         ],
         "title": "Tigerland by Chuckcha",
         "author": ["chuckcha"],
@@ -712,7 +713,7 @@
     {
         "id": ["mapmancer", "centaura"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Centaura by Mapmancer",
         "author": ["mapmancer"],
@@ -730,8 +731,8 @@
     {
         "id": ["bluepum", "world"],
         "versions": [
-            "v1",
-            "v2"
+            ["v1"],
+            ["v2"]
         ],
         "title": "Easy World by Bluepum",
         "author": ["bluepum"],
@@ -749,7 +750,7 @@
     {
         "id": ["bluepum", "atlantis"],
         "versions": [
-            "v2"
+            ["v2"]
         ],
         "title": "Atlantis by Bluepum",
         "author": ["bluepum"],
@@ -767,8 +768,8 @@
     {
         "id": ["pelo", "euam"],
         "versions": [
-            "v1",
-            "v2"
+            ["v1"],
+            ["v2"]
         ],
         "title": "Europe and North America",
         "author": ["pelo", "jaba"],
@@ -786,8 +787,8 @@
     {
         "id": ["chitterss", "world"],
         "versions": [
-            "v3",
-            "v4"
+            ["v3"],
+            ["v4"]
         ],
         "title": "World by chitterss",
         "author": ["chitterss"],
@@ -805,8 +806,8 @@
     {
         "id": ["argentumm", "euromax"],
         "versions": [
-            "v1",
-            "v2"
+            ["v1"],
+            ["v2"]
         ],
         "title": "Euromacks by Argentumm",
         "author": ["argentumm"],
@@ -824,7 +825,7 @@
     {
         "id": ["astroja", "turkey"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Turkey by Astroja",
         "author": ["astroja"],
@@ -842,7 +843,7 @@
     {
         "id": ["bluepum", "calradia"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Calradia by Bluepum",
         "author": ["bluepum"],
@@ -860,7 +861,7 @@
     {
         "id": ["bluepum", "oldcalradia"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Old Calradia by Bluepum",
         "author": ["bluepum"],
@@ -878,7 +879,7 @@
     {
         "id": ["bluepum", "poland"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Poland by Bluepum",
         "author": ["bluepum"],
@@ -896,7 +897,7 @@
     {
         "id": ["bluepum", "pvp"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "PVP by Bluepum",
         "author": ["bluepum"],
@@ -914,7 +915,7 @@
     {
         "id": ["bluepum", "su"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Soviet Union by Bluepum",
         "author": ["bluepum"],
@@ -932,7 +933,7 @@
     {
         "id": ["bluepum", "tajikistan"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Tajikistan by Bluepum",
         "author": ["bluepum"],
@@ -950,7 +951,7 @@
     {
         "id": ["dener", "france"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "France by Dener",
         "author": ["dener"],
@@ -968,7 +969,7 @@
     {
         "id": ["eleven", "east-asia"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "East Asia by Eleven",
         "author": ["eleven"],
@@ -986,7 +987,7 @@
     {
         "id": ["eleven", "israel"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Israel by Eleven",
         "author": ["eleven"],
@@ -1004,7 +1005,7 @@
     {
         "id": ["eleven", "switzerland"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Switzerland by Eleven",
         "author": ["eleven"],
@@ -1022,7 +1023,7 @@
     {
         "id": ["enotochel", "malta"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Malta by Енотий",
         "author": ["enotochel", "joker"],
@@ -1040,9 +1041,9 @@
     {
         "id": ["estebanf259", "balkans"],
         "versions": [
-            "v1",
-            "v2",
-            "v3"
+            ["v1"],
+            ["v2"],
+            ["v3"]
         ],
         "title": "Balkans by Este",
         "author": ["estebanf259"],
@@ -1060,7 +1061,7 @@
     {
         "id": ["estebanf259", "british"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "British Isles by Este",
         "author": ["estebanf259"],
@@ -1078,7 +1079,7 @@
     {
         "id": ["estebanf259", "chess"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Chess by Este",
         "author": ["estebanf259"],
@@ -1096,7 +1097,7 @@
     {
         "id": ["zloy", "fareast"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Far East by Злой ХозяинЪ",
         "author": ["zloy"],
@@ -1109,12 +1110,13 @@
         "publishDate": "2025-08-22", 
         "lastUpdate": "2025-08-22",
         "load": "normal",
-        "hiddenScore": 0
+        "hiddenScore": 5,
+        "hash": 2100739511
     },
     {
         "id": ["zachary", "americas-rem"],
         "versions": [
-            "v2"
+            ["v2"]
         ],
         "title": "Americas Remastered by Zachary",
         "author": ["zachary"],
@@ -1132,7 +1134,7 @@
     {
         "id": ["eenot", "metro2033"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Metro 2033 by ЕЕнот",
         "author": ["eenot"],
@@ -1150,7 +1152,7 @@
     {
         "id": ["estebanf259", "euromagnus"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Euromagnus by Esteban",
         "author": ["estebanf259"],
@@ -1168,7 +1170,7 @@
     {
         "id": ["estebanf259", "world-redux"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "World Redux by Esteban",
         "author": ["estebanf259"],
@@ -1186,8 +1188,8 @@
     {
         "id": ["gooby", "syria"],
         "versions": [
-            "v1",
-            "v2"
+            ["v1"],
+            ["v2"]
         ],
         "title": "Syria by Gooby",
         "author": ["gooby", "zachary"],
@@ -1205,7 +1207,7 @@
     {
         "id": ["shutkin", "dolina"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Деймор - Долина",
         "author": ["shutkin"],
@@ -1238,8 +1240,8 @@
     {
         "id": ["vova", "lifia"],
         "versions": [
-            "v1",
-            "v015"
+            ["v1"],
+            ["v015"]
         ],
         "title": "Lifia",
         "author": ["vova"],
@@ -1257,7 +1259,7 @@
     {
         "id": ["eenot", "asia"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Asia",
         "author": ["eenot"],
@@ -1275,7 +1277,7 @@
     {
         "id": ["eeditor", "blank"],
         "versions": [
-            "v1"
+            ["v1"]
         ],
         "title": "Test",
         "author": ["eenot"],

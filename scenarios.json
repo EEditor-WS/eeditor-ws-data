@@ -3928,6 +3928,26 @@
     },
     {
         "id": [
+            "zachary", 
+            "world", 
+            "vg",
+            "interwar"
+        ],
+        "title": "After Great War",
+        "author": ["stanczyk"],
+        "year": "1919",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2026-06-23",
+        "lastUpdate": "2026-06-23",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "interwar"
+    },
+    {
+        "id": [
             "jaba", 
             "eu4", 
             "v1",
@@ -4003,6 +4023,47 @@
         "publishDate": "2024-10-16",
         "lastUpdate": "2025-01-19",
         "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "ww1"
+    },
+
+    {
+        "id": [
+            "zloy", 
+            "fareast", 
+            "v1",
+            "interwar"
+        ],
+        "title": "Far East Interwar",
+        "author": ["zloy"],
+        "year": "1919",
+        "languages": ["EN", "RU"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-08-22",
+        "lastUpdate": "2026-01-28",
+        "hiddenScore": 10,
+        "type": "sandbox",
+        "period": "interwar"
+    },
+    {
+        "id": [
+            "zloy", 
+            "fareast", 
+            "v1",
+            "ww1"
+        ],
+        "title": "Far East Great War",
+        "author": ["zloy"],
+        "year": "1914",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-08-22",
+        "lastUpdate": "2025-08-22",
+        "hiddenScore": 10,
         "type": "sandbox",
         "period": "ww1"
     }
