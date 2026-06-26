@@ -1275,6 +1275,42 @@
         "hiddenScore": 150
     },
     {
+        "id": ["youmix", "russia"],
+        "versions": [
+            ["v1"]
+        ],
+        "title": "Russia",
+        "author": ["youmix"],
+        "description": "Моя первая карта, так что не судите строго. Есть небольшие проблемы с провками, но они не мешают игре. И я был бы признателен, если бы кто-нибудь сделал сценарий на карту).",
+        "type": "country",
+        "region": [],
+        "provinces": 387,
+        "features": [],
+        "status": "completed",
+        "publishDate": "2023-09-15",
+        "lastUpdate": "2023-09-15",
+        "load": "normal",
+        "hiddenScore": 0
+    },
+    {
+        "id": ["youmix", "russia"],
+        "versions": [
+            ["v1"]
+        ],
+        "title": "World by Hitaroko",
+        "author": ["hitaroko"],
+        "description": "",
+        "type": "world",
+        "region": [],
+        "provinces": 2240,
+        "features": [],
+        "status": "completed",
+        "publishDate": "2023-06-25",
+        "lastUpdate": "2023-06-25",
+        "load": "normal",
+        "hiddenScore": 0
+    },
+    {
         "id": ["eeditor", "blank"],
         "versions": [
             ["v1"]

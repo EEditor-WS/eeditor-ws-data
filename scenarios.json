@@ -1778,7 +1778,7 @@
             "latins"
         ],
         "title": "Rule of Latins",
-        "author": ["grimreaper"],
+        "author": ["grim"],
         "year": "1204",
         "languages": ["EN"],
         "gameMode": "Sandbox",
@@ -4023,5 +4023,225 @@
         "hiddenScore": 10,
         "type": "sandbox",
         "period": "ww1"
+    },
+    {
+        "id": [
+            "youmix", 
+            "russia", 
+            "v1",
+            "okrugs"
+        ],
+        "title": "Округа России",
+        "author": ["jaba"],
+        "year": "2023",
+        "languages": ["RU"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2023-09-16",
+        "lastUpdate": "2023-09-16",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "alternative"
+    },
+    {
+        "id": [
+            "youmix", 
+            "russia", 
+            "v1",
+            "regions"
+        ],
+        "title": "Регионы России",
+        "author": ["pinguenis"],
+        "year": "2023",
+        "languages": ["RU"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2023-09-18",
+        "lastUpdate": "2023-09-18",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "alternative"
+    },
+    {
+        "id": [
+            "youmix", 
+            "russia", 
+            "v1",
+            "lizardwar1"
+        ],
+        "title": "Русо-Ящерская Война",
+        "author": ["lizardmaker"],
+        "year": "1005",
+        "languages": ["RU"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2023-09-18",
+        "lastUpdate": "2023-09-18",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "lizardwar"
+    },
+    {
+        "id": [
+            "youmix", 
+            "russia", 
+            "v1",
+            "lizardwar2"
+        ],
+        "title": "Продолжение Русо-Ящерской Войны",
+        "author": ["lizardmaker"],
+        "year": "1055",
+        "languages": ["RU"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2023-09-18",
+        "lastUpdate": "2023-09-18",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "lizardwar"
+    },
+    {
+        "id": [
+            "youmix", 
+            "russia", 
+            "v1",
+            "lizardwar3"
+        ],
+        "title": "Окончание Русо-Ящерской Войны",
+        "author": ["lizardmaker"],
+        "year": "1099",
+        "languages": ["RU"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2023-09-19",
+        "lastUpdate": "2023-09-19",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "lizardwar"
+    },
+    {
+        "id": [
+            "youmix", 
+            "russia", 
+            "v1",
+            "newhole"
+        ],
+        "title": "Россия в Огне",
+        "author": ["kolkhoznik"],
+        "year": "1994",
+        "languages": ["RU"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2023-09-19",
+        "lastUpdate": "2023-12-11",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "alternative"
+    },
+    {
+        "id": [
+            "youmix", 
+            "russia", 
+            "v1",
+            "tno-jaba"
+        ],
+        "title": "TNO by Jaba",
+        "author": ["jaba"],
+        "year": "2023",
+        "languages": ["RU"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2023-09-25",
+        "lastUpdate": "2023-09-25",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "tno"
+    },
+    {
+        "id": [
+            "youmix", 
+            "russia", 
+            "v1",
+            "tno"
+        ],
+        "title": "The New Order Russia",
+        "author": ["trid"],
+        "year": "1962",
+        "languages": ["EN", "RU"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2024-01-15",
+        "lastUpdate": "2026-04-12",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "tno"
+    },
+    {
+        "id": [
+            "youmix", 
+            "russia", 
+            "v1",
+            "kursk2024"
+        ],
+        "title": "Курск 2024",
+        "author": ["shine"],
+        "year": "2024",
+        "languages": ["RU"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2024-09-31",
+        "lastUpdate": "2024-09-31",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "alternative"
+    },
+    {
+        "id": [
+            "youmix", 
+            "russia", 
+            "v1",
+            "tno-carolus"
+        ],
+        "title": "TNO by Carolus",
+        "author": ["carolus"],
+        "year": "1962",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-03-23",
+        "lastUpdate": "2025-03-23",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "tno"
+    },
+    {
+        "id": [
+            "youmix", 
+            "russia", 
+            "v1",
+            "tno-aftermidnight"
+        ],
+        "title": "TNO After Midnight",
+        "author": ["carolus"],
+        "year": "1962",
+        "languages": ["EN"],
+        "gameMode": "sandbox",
+        "awards": [],
+        
+        "publishDate": "2025-03-23",
+        "lastUpdate": "2025-03-23",
+        "hiddenScore": 0,
+        "type": "sandbox",
+        "period": "tno"
     }
 ]
