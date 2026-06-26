@@ -371,7 +371,7 @@
         "id": ["parkourcat", "euro4", "vg"],
         "title": "Euro4 standart",
         "author": ["parkourcat"],
-        "description": "Standart map of America",
+        "description": "Standart map of Europe",
         "type": "continent",
         "region": ["europe", "north_africa", "middle_east"],
         "provinces": 430,

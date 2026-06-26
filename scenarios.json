@@ -2819,31 +2819,10 @@
             "vg",
             "interwar"
         ],
-        "title": "Интербеллум (ИВЕНТЫ)",
-        "author": ["pelo"],
-        "year": "1919",
-        "languages": ["RU"],
-        "gameMode": "Sandbox",
-        "awards": ["only", "star", "enot"],
-        
-        "publishDate": "2024-01-11", 
-        "lastUpdate": "2025-07-31",
-        "hiddenScore": 250,
-        "type": "historical",
-        "period": "interwar",
-        "status": "in_development"
-    },
-    {
-        "id": [
-            "parkourcat", 
-            "euro4", 
-            "vg",
-            "interwar"
-        ],
         "title": "Interwar (EVENTS)",
         "author": ["pelo"],
         "year": "1919",
-        "languages": ["EN"],
+        "languages": ["EN", "RU"],
         "gameMode": "Sandbox",
         "awards": ["only", "star", "enot"],
         
@@ -2945,36 +2924,14 @@
             "v1",
             "aotsm"
         ],
-        "title": "AotSM (ИВЕНТЫ)",
+        "title": "AotSM (EVENTS)",
         "author": ["vova"],
         "year": "1851",
-        "languages": ["RU"],
+        "languages": ["EN", "RU"],
         "gameMode": "Sandbox",
         "awards": [],
         
         "publishDate": "2025-06-30",
-        "lastUpdate": "2025-11-01",
-        "hiddenScore": 125,
-        "type": "lore",
-        "period": "alternative",
-        "status": "in_development",
-        "img_special_styles": "height: 100%;"
-    },
-    {
-        "id": [
-            "estebanf259", 
-            "euromagnus", 
-            "v1",
-            "aotsm-en"
-        ],
-        "title": "AotSM (EVENTS)",
-        "author": ["vova", "eenot"],
-        "year": "1851",
-        "languages": ["EN"],
-        "gameMode": "Sandbox",
-        "awards": [],
-        
-        "publishDate": "2025-11-03",
         "lastUpdate": "2025-11-03",
         "hiddenScore": 125,
         "type": "lore",
