@@ -171,7 +171,7 @@
         "versions": [
             ["v2"]
         ],
-        "title": "Terra Eurasia by Zachary",
+        "title": "Terra Eurasia",
         "author": ["zachary"],
         "description": "Big detalized map of Eurasia",
         "type": "continent",
@@ -189,7 +189,7 @@
         "versions": [
             ["v1"]
         ],
-        "title": "Terraformed Mars by Zachary",
+        "title": "Terraformed Mars",
         "author": ["zachary"],
         "description": "Map of Mars with terraformed areas",
         "type": "world",
@@ -226,7 +226,7 @@
             ["v2"],
             ["v3", 3645654176]
         ],
-        "title": "Terra Africa by Zachary",
+        "title": "Terra Africa",
         "author": ["zachary"],
         "description": "Welcome to Terra Africa! This map was built to be as big as possible which is why its my new highest province map",
         "type": "continent",
@@ -244,7 +244,7 @@
         "versions": [
             ["v1"]
         ],
-        "title": "Terra Australis by Zachary",
+        "title": "Terra Australis",
         "author": ["zachary"],
         "description": "I guess i decided that my maps should follow a naming convention so... After Terra Novus we have Terra Australis! This is a map of south east Asia and Oceania!",
         "type": "continent",
@@ -263,7 +263,7 @@
             ["v1"],
             ["v2"]
         ],
-        "title": "Terra Novus by Zachary",
+        "title": "Terra Novus",
         "author": ["zachary"],
         "description": "This is meine magnum opus, the Americas! This is a remake of my previous map called the Americas, this one has 2x the detail and better provinces that allow more historical boundaries.",
         "type": "continent",
@@ -354,7 +354,7 @@
             ["v3"],
             ["vg"]
         ],
-        "title": "America standart",
+        "title": "America",
         "author": ["jaba"],
         "description": "Standart map of America",
         "type": "continent",
@@ -369,7 +369,7 @@
     },
     {
         "id": ["parkourcat", "euro4", "vg"],
-        "title": "Euro4 standart",
+        "title": "Euro4",
         "author": ["parkourcat"],
         "description": "Standart map of Europe",
         "type": "continent",
@@ -421,7 +421,7 @@
     },
     {
         "id": ["jalhund", "europe", "vg"],
-        "title": "Europe Standart",
+        "title": "Europe",
         "author": ["jalhund"],
         "description": "Builded-in map of Europe by game developer",
         "type": "continent",
@@ -1293,20 +1293,24 @@
         "hiddenScore": 0
     },
     {
-        "id": ["youmix", "russia"],
+        "id": ["hitaroko", "world"],
         "versions": [
-            ["v1"]
+            [
+                "v1",
+                "v2",
+                "v3"
+            ]
         ],
         "title": "World by Hitaroko",
         "author": ["hitaroko"],
-        "description": "",
+        "description": "Этот форум скорее всего удалю, когда сделаю карту мира в 8к с пятю квинтилионами островов, 150к вершин и возможно добавлю пару провок...\nТак что если кто-то делает сценарии то пока что лучше этого не делать\nСпасибо за непонимание :otdihayu:\nНу и ещё нужна фотография, эта карта мира ни одного лайка не собрала",
         "type": "world",
         "region": [],
         "provinces": 2240,
         "features": [],
         "status": "completed",
-        "publishDate": "2023-06-25",
-        "lastUpdate": "2023-06-25",
+        "publishDate": "2023-07-25",
+        "lastUpdate": "2023-07-30",
         "load": "normal",
         "hiddenScore": 0
     },
