@@ -352,7 +352,7 @@
         "id": ["jaba", "america"],
         "versions": [
             ["v3"],
-            ["vg"]
+            ["vg", 1137721913]
         ],
         "title": "America",
         "author": ["jaba"],
@@ -368,7 +368,10 @@
         "hiddenScore": 0
     },
     {
-        "id": ["parkourcat", "euro4", "vg"],
+        "id": ["parkourcat", "euro4"],
+        "versions": [
+            ["vg", 2563703365]
+        ],
         "title": "Euro4",
         "author": ["parkourcat"],
         "description": "Standart map of Europe",
@@ -380,8 +383,7 @@
         "publishDate": "2023-08-05", 
         "lastUpdate": "2023-08-05",
         "load": "light",
-        "hiddenScore": 100,
-        "hash": 2563703365
+        "hiddenScore": 100
     },
     {
         "id": ["zachary", "world-old"],
@@ -420,7 +422,10 @@
         "hiddenScore": 150
     },
     {
-        "id": ["jalhund", "europe", "vg"],
+        "id": ["jalhund", "europe"],
+        "versions": [
+            ["vg", 1663913141]
+        ],
         "title": "Europe",
         "author": ["jalhund"],
         "description": "Builded-in map of Europe by game developer",
@@ -432,8 +437,7 @@
         "publishDate": "1912-04-15",
         "lastUpdate": "2077-01-01",
         "load": "mobile",
-        "hiddenScore": 0,
-        "hash": 1663913141
+        "hiddenScore": 0
     },
     {
         "id": ["stewardconstruct", "europe"],
@@ -527,11 +531,29 @@
         "hiddenScore": 0
     },
     {
+        "id": ["parkourcat", "euro5"],
+        "versions": [
+            ["v1", 1068059657]
+        ],
+        "title": "Euro5",
+        "author": ["parkourcat"],
+        "description": "",
+        "type": "continent",
+        "region": ["europe", "africa", "middle_east"],
+        "provinces": 880,
+        "features": [],
+        "status": "completed",
+        "publishDate": "2023-12-31", 
+        "lastUpdate": "2023-12-31",
+        "load": "normal",
+        "hiddenScore": 0
+    },
+    {
         "id": ["jalhund", "euro5l"],
         "versions": [
             ["v1"]
         ],
-        "title": "Euro5 Lite by jalhund",
+        "title": "Euro5 Lite",
         "author": ["jalhund"],
         "description": "",
         "type": "continent",
@@ -619,7 +641,7 @@
     {
         "id": ["trid", "eurosat"],
         "versions": [
-            ["v5"]
+            ["v5", 1084947126]
         ],
         "title": "EuroSat by Trid",
         "author": ["trid"],
@@ -787,8 +809,8 @@
     {
         "id": ["chitterss", "world"],
         "versions": [
-            ["v3"],
-            ["v4"]
+            ["v3", 606149942],
+            ["v4", 2410364009]
         ],
         "title": "World by chitterss",
         "author": ["chitterss"],
@@ -1111,7 +1133,7 @@
         "lastUpdate": "2025-08-22",
         "load": "normal",
         "hiddenScore": 5,
-        "hash": 2100739511
+        "hash": 3489518319
     },
     {
         "id": ["zachary", "americas-rem"],
@@ -1152,7 +1174,7 @@
     {
         "id": ["estebanf259", "euromagnus"],
         "versions": [
-            ["v1"]
+            ["v1", 3420758125]
         ],
         "title": "Euromagnus by Esteban",
         "author": ["estebanf259"],
@@ -1170,7 +1192,8 @@
     {
         "id": ["estebanf259", "world-redux"],
         "versions": [
-            ["v1"]
+            ["v1", 560737022],
+            ["v2", 1004032377]
         ],
         "title": "World Redux by Esteban",
         "author": ["estebanf259"],
@@ -1240,8 +1263,8 @@
     {
         "id": ["vova", "lifia"],
         "versions": [
-            ["v1"],
-            ["v015"]
+            ["v1", 1105583654],
+            ["v015", 1597558931]
         ],
         "title": "Lifia",
         "author": ["vova"],
@@ -1259,7 +1282,7 @@
     {
         "id": ["eenot", "asia"],
         "versions": [
-            ["v1"]
+            ["v1", 1995397268]
         ],
         "title": "Asia",
         "author": ["eenot"],
@@ -1330,6 +1353,25 @@
         "publishDate": "2026-06-19",
         "lastUpdate": "2026-06-19",
         "load": "normal",
-        "hiddenScore": -99999
+        "hiddenScore": -99999,
+        "hidden": true
+    },
+    {
+        "id": ["heresyrussian", "europe"],
+        "versions": [
+            ["v1", 3113261488]
+        ],
+        "title": "European History",
+        "author": ["heresyrussian"],
+        "description": "Добавил озера и реки, которые соответствуют размеру карты. Делал провинции с исторической и экономической точки зрения. Также делал эти территории более адекватными, поэтому присутствуют погрешности (5-10%) на исторических границах.",
+        "type": "continent",
+        "region": [],
+        "provinces": 1095,
+        "features": [],
+        "status": "completed",
+        "publishDate": "2023-11-26",
+        "lastUpdate": "2023-11-26",
+        "load": "normal",
+        "hiddenScore": 0
     }
 ]
