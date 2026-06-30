@@ -1119,7 +1119,7 @@
     {
         "id": ["zloy", "fareast"],
         "versions": [
-            ["v1"]
+            ["v1", 2100739511]
         ],
         "title": "Far East by Злой ХозяинЪ",
         "author": ["zloy"],
@@ -1132,8 +1132,7 @@
         "publishDate": "2025-08-22", 
         "lastUpdate": "2025-08-22",
         "load": "normal",
-        "hiddenScore": 5,
-        "hash": 3489518319
+        "hiddenScore": 5
     },
     {
         "id": ["zachary", "americas-rem"],
@@ -1156,9 +1155,9 @@
     {
         "id": ["eenot", "metro2033"],
         "versions": [
-            ["v1"]
+            ["v1", 1892508075]
         ],
-        "title": "Metro 2033 by ЕЕнот",
+        "title": "Metro 2033",
         "author": ["eenot"],
         "description": "",
         "type": "city",
@@ -1300,7 +1299,7 @@
     {
         "id": ["youmix", "russia"],
         "versions": [
-            ["v1"]
+            ["v1", 3489518319]
         ],
         "title": "Russia",
         "author": ["youmix"],
