@@ -2,7 +2,6 @@
     {
         "id": "EuropeHistory",
         "author": "aresrussian",
-        "description": "",
         "provinces": 1024,
         "publishDate": "2024-01-01",
         "type": "continent",
@@ -11,7 +10,6 @@
     {
         "id": "Ukraine",
         "author": "swissmapp",
-        "description": "",
         "provinces": 0,
         "publishDate": "2024-01-03",
         "type": "country",
@@ -20,7 +18,6 @@
     {
         "id": "Pridnestrovie",
         "author": "swissmapp",
-        "description": "",
         "provinces": 0,
         "publishDate": "2025-01-19",
         "type": "country",
@@ -29,7 +26,6 @@
     {
         "id": "Balkans_LK",
         "author": "likot",
-        "description": "",
         "provinces": 0,
         "publishDate": "2025-01-19",
         "type": "region",
@@ -38,7 +34,6 @@
     {
         "id": "RUSSIA_REM_YM",
         "author": "youmix",
-        "description": "",
         "provinces": 0,
         "publishDate": "2023-12-08",
         "type": "country",
@@ -47,7 +42,6 @@
     {
         "id": "Eurasia_YM",
         "author": "youmix",
-        "description": "",
         "provinces": 0,
         "publishDate": "2023-12-08",
         "type": "continent",
@@ -56,10 +50,25 @@
     {
         "id": "metro",
         "author": "shell",
-        "description": "",
         "provinces": 0,
         "publishDate": "2024-07-26",
         "type": "other",
         "hiddenScore": 2
+    },
+    {
+        "id": "Middle East",
+        "author": "strorew",
+        "provinces": 0,
+        "publishDate": "2023-12-27",
+        "type": "region",
+        "hiddenScore": 0
+    },
+    {
+        "id": "SimpleMiddleEast0.1",
+        "author": "tapner",
+        "provinces": 0,
+        "publishDate": "2025-01-13",
+        "type": "region",
+        "hiddenScore": 0
     }
 ]
