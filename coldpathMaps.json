@@ -1,0 +1,65 @@
+[
+    {
+        "id": "EuropeHistory",
+        "author": "aresrussian",
+        "description": "",
+        "provinces": 1024,
+        "publishDate": "2024-01-01",
+        "type": "continent",
+        "hiddenScore": 3
+    },
+    {
+        "id": "Ukraine",
+        "author": "swissmapp",
+        "description": "",
+        "provinces": 0,
+        "publishDate": "2024-01-03",
+        "type": "country",
+        "hiddenScore": 3
+    },
+    {
+        "id": "Pridnestrovie",
+        "author": "swissmapp",
+        "description": "",
+        "provinces": 0,
+        "publishDate": "2025-01-19",
+        "type": "country",
+        "hiddenScore": 1
+    },
+    {
+        "id": "Balkans_LK",
+        "author": "likot",
+        "description": "",
+        "provinces": 0,
+        "publishDate": "2025-01-19",
+        "type": "region",
+        "hiddenScore": 2
+    },
+    {
+        "id": "RUSSIA_REM_YM",
+        "author": "youmix",
+        "description": "",
+        "provinces": 0,
+        "publishDate": "2023-12-08",
+        "type": "country",
+        "hiddenScore": 1
+    },
+    {
+        "id": "Eurasia_YM",
+        "author": "youmix",
+        "description": "",
+        "provinces": 0,
+        "publishDate": "2023-12-08",
+        "type": "continent",
+        "hiddenScore": 3
+    },
+    {
+        "id": "metro",
+        "author": "shell",
+        "description": "",
+        "provinces": 0,
+        "publishDate": "2024-07-26",
+        "type": "other",
+        "hiddenScore": 2
+    }
+]
