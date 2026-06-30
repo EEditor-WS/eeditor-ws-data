@@ -70,5 +70,141 @@
         "publishDate": "2025-01-13",
         "type": "region",
         "hiddenScore": 0
+    },
+    {
+        "id": "Japan_and_Korea",
+        "author": "berg",
+        "provinces": 0,
+        "publishDate": "2023-12-24",
+        "type": "country",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Japan, Korea and China",
+        "author": "vatrushka",
+        "provinces": 0,
+        "publishDate": "2025-01-10",
+        "type": "country",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Moscow",
+        "author": "youmix",
+        "provinces": 0,
+        "publishDate": "2023-12-20",
+        "type": "city",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Moscow Oblast",
+        "author": "vatrushka",
+        "provinces": 0,
+        "publishDate": "2024-05-03",
+        "type": "city",
+        "hiddenScore": 0
+    },
+    {
+        "id": "NorthRus0.2",
+        "author": "tapner",
+        "provinces": 0,
+        "publishDate": "2025-01-16",
+        "type": "oblast",
+        "hiddenScore": 0
+    },
+    {
+        "id": "North and Central America",
+        "author": "sunflower",
+        "provinces": 0,
+        "publishDate": "2024-01-19",
+        "type": "continent",
+        "hiddenScore": 0
+    },
+    {
+        "id": "The Americas",
+        "author": "quebyn",
+        "provinces": 0,
+        "publishDate": "2025-01-19",
+        "type": "continent",
+        "hiddenScore": 0
+    },
+    {
+        "id": "centramerica",
+        "author": "waffle",
+        "provinces": 817,
+        "publishDate": "2024-04-20",
+        "type": "region",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Africa Europe and The Americas",
+        "author": "waffle",
+        "provinces": 681,
+        "publishDate": "2024-02-04",
+        "type": "continent",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Europe and America",
+        "author": "timka3310",
+        "provinces": 0,
+        "publishDate": "2023-12-31",
+        "type": "continent",
+        "hiddenScore": 0
+    },
+    {
+        "id": "AMERICA_YM",
+        "author": "youmix",
+        "provinces": 0,
+        "publishDate": "2023-12-31",
+        "type": "continent",
+        "hiddenScore": 0
+    },
+    {
+        "id": "America_D",
+        "author": "shutkin",
+        "provinces": 0,
+        "publishDate": "2023-12-08",
+        "type": "continent",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Atlanta",
+        "author": "ando",
+        "provinces": 872,
+        "publishDate": "2026-03-07",
+        "type": "continent",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Ukraine_by_Lobsterk",
+        "author": "lobsterk",
+        "provinces": 0,
+        "publishDate": "2024-02-24",
+        "type": "country",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Africa",
+        "author": "quebyn",
+        "provinces": 0,
+        "publishDate": "2026-02-26",
+        "type": "continent",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Japan",
+        "author": "zakharov",
+        "provinces": 0,
+        "publishDate": "2025-01-16",
+        "type": "country",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Indostan",
+        "author": "waffle",
+        "provinces": 0,
+        "publishDate": "2025-01-14",
+        "type": "region",
+        "hiddenScore": 0
     }
 ]
