@@ -197,7 +197,7 @@
         "provinces": 0,
         "publishDate": "2025-01-16",
         "type": "country",
-        "hiddenScore": 0
+        "hiddenScore": 3
     },
     {
         "id": "Indostan",
@@ -206,5 +206,325 @@
         "publishDate": "2025-01-14",
         "type": "region",
         "hiddenScore": 0
+    },
+    {
+        "id": "Intermountain",
+        "author": "deleted",
+        "provinces": 0,
+        "publishDate": "2023-12-18",
+        "type": "region",
+        "hiddenScore": 0
+    },
+    {
+        "id": "African Horn",
+        "author": "vatrushka",
+        "provinces": 0,
+        "publishDate": "2024-01-27",
+        "type": "region",
+        "hiddenScore": 2
+    },
+    {
+        "id": "Asia-N",
+        "author": "neojid",
+        "provinces": 0,
+        "publishDate": "2024-10-20",
+        "type": "continent",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Central Asia",
+        "author": "tapner",
+        "provinces": 0,
+        "publishDate": "2024-05-08",
+        "type": "region",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Caucasus",
+        "author": "hinginmarat",
+        "provinces": 0,
+        "publishDate": "2023-12-15",
+        "type": "region",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Arasia2.2",
+        "author": "neojid",
+        "provinces": 0,
+        "publishDate": "2024-01-27",
+        "type": "region",
+        "hiddenScore": 0
+    },
+    {
+        "id": "AFRICA_YOUMIX_LOL",
+        "author": "youmix",
+        "provinces": 0,
+        "publishDate": "2023-12-08",
+        "type": "continent",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Serbia_LK",
+        "author": "likot",
+        "provinces": 0,
+        "publishDate": "2023-12-06",
+        "type": "country",
+        "hiddenScore": 0
+    },
+    {
+        "id": "PvP update",
+        "author": "enotochel",
+        "provinces": 0,
+        "publishDate": "2024-01-02",
+        "type": "other",
+        "hiddenScore": 2
+    },
+    {
+        "id": "Peru",
+        "author": "topkatop",
+        "provinces": 0,
+        "publishDate": "2024-02-01",
+        "type": "country",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Atlantica+",
+        "author": "waffle",
+        "provinces": 0,
+        "publishDate": "2023-12-10",
+        "type": "region",
+        "hiddenScore": -1
+    },
+    {
+        "id": "Europe R",
+        "author": "ra",
+        "provinces": 0,
+        "publishDate": "2023-12-22",
+        "type": "continent",
+        "hiddenScore": 2
+    },
+    {
+        "id": "Mesopotamia",
+        "author": "deleted",
+        "provinces": 0,
+        "publishDate": "2023-12-20",
+        "type": "region",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Mediterranean Sea Pirozhok",
+        "author": "waffle",
+        "provinces": 0,
+        "publishDate": "2024-01-14",
+        "type": "region",
+        "hiddenScore": 0
+    },
+    {
+        "id": "PapersPleaseMap",
+        "author": "nagibatorchikc",
+        "provinces": 0,
+        "publishDate": "2024-05-08",
+        "type": "other",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Sun Path",
+        "author": "ra",
+        "provinces": 0,
+        "publishDate": "2023-12-23",
+        "type": "other",
+        "hiddenScore": 1
+    },
+    {
+        "id": "North_Eurasia",
+        "author": "waffle",
+        "provinces": 0,
+        "publishDate": "2023-12-19",
+        "type": "region",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Zaporizhia",
+        "author": "waffle",
+        "provinces": 0,
+        "publishDate": "2024-11-16",
+        "type": "country",
+        "hiddenScore": 0
+    },
+    {
+        "id": "USA MR",
+        "author": "deleted",
+        "provinces": 0,
+        "publishDate": "2023-12-21",
+        "type": "country",
+        "hiddenScore": 0
+    },
+    {
+        "id": "VanillaEurope3.0",
+        "author": "vatrushka",
+        "provinces": 0,
+        "publishDate": "2024-03-05",
+        "type": "continent",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Vostochnaya_Evropa_Pirozok",
+        "author": "vatrushka",
+        "provinces": 0,
+        "publishDate": "2023-12-10",
+        "type": "region",
+        "hiddenScore": 0
+    },
+    {
+        "id": "EuropHistory2",
+        "author": "rokforr",
+        "provinces": 0,
+        "publishDate": "2023-12-26",
+        "type": "continent",
+        "hiddenScore": 0
+    },
+    {
+        "id": "EUROPE_YM",
+        "author": "youmix",
+        "provinces": 0,
+        "publishDate": "2023-12-24",
+        "type": "continent",
+        "hiddenScore": 1
+    },
+    {
+        "id": "Europe by mir4ik",
+        "author": "mir4ik",
+        "provinces": 0,
+        "publishDate": "2023-12-22",
+        "type": "continent",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Europe_Version",
+        "author": "deleted",
+        "provinces": 0,
+        "publishDate": "2023-12-20",
+        "type": "continent",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Bosnia",
+        "author": "ra",
+        "provinces": 0,
+        "publishDate": "2023-12-24",
+        "type": "country",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Bosphorus",
+        "author": "waffle",
+        "provinces": 0,
+        "publishDate": "2024-02-10",
+        "type": "oblast",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Europe by Elrond",
+        "author": "elrond",
+        "provinces": 0,
+        "publishDate": "2024-05-08",
+        "type": "continent",
+        "hiddenScore": 1
+    },
+    {
+        "id": "Oceania",
+        "author": "sunflower",
+        "provinces": 0,
+        "publishDate": "2024-01-05",
+        "type": "continent",
+        "hiddenScore": 2
+    },
+    {
+        "id": "OHIO_YM",
+        "author": "youmix",
+        "provinces": 0,
+        "publishDate": "2023-12-24",
+        "type": "continent",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Hoi_4_Map",
+        "author": "nagibatorchikc",
+        "provinces": 0,
+        "publishDate": "2024-05-17",
+        "type": "world",
+        "hiddenScore": 2
+    },
+    {
+        "id": "A map of Pacific ocean",
+        "author": "waffle",
+        "provinces": 0,
+        "publishDate": "2025-01-01",
+        "type": "world",
+        "hiddenScore": 2
+    },
+    {
+        "id": "Eurafrica",
+        "author": "kent52",
+        "provinces": 0,
+        "publishDate": "2024-10-04",
+        "type": "continent",
+        "hiddenScore": 1
+    },
+    {
+        "id": "Switzerland",
+        "author": "maximov",
+        "provinces": 0,
+        "publishDate": "2023-12-20",
+        "type": "country",
+        "hiddenScore": 1
+    },
+    {
+        "id": "Strangereal",
+        "author": "deleted",
+        "provinces": 0,
+        "publishDate": "2025-01-19",
+        "type": "other",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Pangea",
+        "author": "youmix",
+        "provinces": 0,
+        "publishDate": "2023-12-24",
+        "type": "other",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Europe_mrgutentag",
+        "author": "mrgutentag",
+        "provinces": 0,
+        "publishDate": "2023-12-21",
+        "type": "continent",
+        "hiddenScore": 2
+    },
+    {
+        "id": "Gojda",
+        "author": "neojid",
+        "provinces": 0,
+        "publishDate": "2024-08-24",
+        "type": "continent",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Middle Earth",
+        "author": "deleted",
+        "provinces": 0,
+        "publishDate": "2024-02-02",
+        "type": "other",
+        "hiddenScore": 0
+    },
+    {
+        "id": "hiearth",
+        "author": "hitaroko",
+        "provinces": 0,
+        "publishDate": "2024-01-07",
+        "type": "world",
+        "hiddenScore": 3
     }
 ]
