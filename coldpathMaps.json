@@ -526,5 +526,13 @@
         "publishDate": "2024-01-07",
         "type": "world",
         "hiddenScore": 3
+    },
+    {
+        "id": "Euro+++",
+        "author": "ra",
+        "provinces": 0,
+        "publishDate": "2023-03-24",
+        "type": "continent",
+        "hiddenScore": 2
     }
 ]
