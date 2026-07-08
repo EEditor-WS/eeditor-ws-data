@@ -534,5 +534,46 @@
         "publishDate": "2023-03-24",
         "type": "continent",
         "hiddenScore": 2
+    },
+    {
+        "id": "euro3",
+        "author": "parkourcat",
+        "provinces": 0,
+        "publishDate": "2023-03-24",
+        "type": "continent",
+        "hiddenScore": 3
+    },
+    {
+        "id": "Europe_D",
+        "author": "shutkin",
+        "provinces": 0,
+        "publishDate": "2022-04-05",
+        "type": "continent",
+        "hiddenScore": 3
+    },
+    {
+        "id": "Europe_T",
+        "author": "deleted",
+        "provinces": 0,
+        "publishDate": "2023-12-16",
+        "type": "continent",
+        "hiddenScore": 2
+    },
+    {
+        "id": "eana",
+        "author": "shutkin",
+        "provinces": 0,
+        "publishDate": "2023-12-10",
+        "type": "continent",
+        "hiddenScore": 2
+    },
+    {
+        "id": "euro",
+        "author": "parkourcat",
+        "provinces": 0,
+        "publishDate": "2023-12-10",
+        "type": "continent",
+        "hiddenScore": 2,
+        "hidden": true
     }
 ]
