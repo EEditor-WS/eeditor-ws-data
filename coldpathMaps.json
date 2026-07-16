@@ -575,5 +575,45 @@
         "type": "continent",
         "hiddenScore": 2,
         "hidden": true
+    },
+    {
+        "id": "1 province",
+        "author": "deleted",
+        "provinces": 0,
+        "publishDate": "2023-12-23",
+        "type": "continent",
+        "hiddenScore": -1
+    },
+    {
+        "id": "Adriatia",
+        "author": "waffle",
+        "provinces": 0,
+        "publishDate": "2024-12-28",
+        "type": "region",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Antarctida",
+        "author": "catpath",
+        "provinces": 0,
+        "publishDate": "2024-08-01",
+        "type": "continent",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Equestria_at_war",
+        "author": "delteed",
+        "provinces": 0,
+        "publishDate": "2023-12-23",
+        "type": "continent",
+        "hiddenScore": 0
+    },
+    {
+        "id": "Euro +",
+        "author": "ra",
+        "provinces": 0,
+        "publishDate": "2023-12-24",
+        "type": "continent",
+        "hiddenScore": 0
     }
 ]
