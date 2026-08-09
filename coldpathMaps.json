@@ -84,7 +84,7 @@
         "author": "vatrushka",
         "provinces": 0,
         "publishDate": "2025-01-10",
-        "type": "country",
+        "type": "region",
         "hiddenScore": 0
     },
     {
@@ -204,7 +204,7 @@
         "author": "waffle",
         "provinces": 0,
         "publishDate": "2025-01-14",
-        "type": "region",
+        "type": "continent",
         "hiddenScore": 0
     },
     {
@@ -348,7 +348,7 @@
         "author": "waffle",
         "provinces": 0,
         "publishDate": "2024-11-16",
-        "type": "country",
+        "type": "oblast",
         "hiddenScore": 0
     },
     {
@@ -602,7 +602,7 @@
     },
     {
         "id": "Equestria_at_war",
-        "author": "delteed",
+        "author": "undefined",
         "provinces": 0,
         "publishDate": "2023-12-23",
         "type": "continent",
